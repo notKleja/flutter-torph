@@ -1,0 +1,177 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 40rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.callout {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 3rem;
+  border-radius: 0.75rem;
+  corner-shape: superellipse(1.25);
+  border: 1px dashed var(--border);
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  corner-shape: superellipse(1.25);
+
+  &:before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    corner-shape: inherit;
+    box-shadow: inset 0 0 0 1px var(--border);
+    transition: box-shadow 200ms ease;
+  }
+
+  &:hover:before {
+    box-shadow: inset 0 0 0 1px #262626;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1rem 0.75rem;
+}
+
+// The avatar and the two lines beside it are one target, pointed at the
+// author rather than the post — the post has its own affordance opposite.
+.author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-width: 0;
+
+  img {
+    display: block;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--body-light);
+  }
+
+  &:hover .name {
+    color: var(--primary);
+  }
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.00563rem;
+  color: #ffffff;
+  transition: color 200ms ease;
+}
+
+.byline {
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  letter-spacing: -0.00563rem;
+  color: var(--color-muted);
+  // The handle is the part worth keeping when the column gets narrow; the date
+  // can go before the name does.
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.source {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  color: var(--color-muted);
+  background: rgba(255, 255, 255, 0);
+  transition:
+    color 200ms ease,
+    background 200ms ease;
+
+  svg {
+    display: block;
+    width: 0.8125rem;
+    height: 0.8125rem;
+  }
+
+  &:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
+
+.text {
+  // `pre-wrap` is what carries the author's own line breaks over — several of
+  // these posts are written as lists and collapse into a paragraph without it.
+  white-space: pre-wrap;
+  padding: 0 1rem 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  letter-spacing: -0.00563rem;
+  color: var(--color);
+
+  a {
+    color: #ffffff;
+
+    &:before {
+      opacity: 0.25;
+    }
+  }
+}
+
+// Flush to the card's lower corners, which clip it. Sized from the capture's
+// own ratio so nothing is cropped — these are interfaces, and a crop takes off
+// the part being demonstrated.
+.frame {
+  width: 100%;
+  margin-top: auto;
+  overflow: hidden;
+  aspect-ratio: var(--aspect);
+  background: #131313;
+  box-shadow: inset 0 1px 0 0 var(--border);
+
+  video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

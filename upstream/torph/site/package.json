@@ -1,0 +1,31 @@
+{
+  "name": "site",
+  "version": "0.1.4",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "@torph/test-cases": "workspace:*",
+    "@vercel/analytics": "^2.0.1",
+    "motion": "^13.2.0",
+    "next": "16.3.4",
+    "numora": "^4.0.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "torph": "workspace:*",
+    "web-haptics": "^0.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "typescript": "^5"
+  }
+}

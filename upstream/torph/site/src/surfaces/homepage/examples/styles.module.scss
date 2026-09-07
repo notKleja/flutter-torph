@@ -1,0 +1,44 @@
+.examples {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+
+  .example {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 1.6 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #131313;
+    user-select: none;
+    scroll-snap-align: center;
+
+    svg {
+      display: block;
+    }
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: -1rem -1rem;
+    width: auto;
+    padding: 1rem;
+
+    .example {
+      width: 80%;
+    }
+  }
+}

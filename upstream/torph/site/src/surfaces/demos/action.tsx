@@ -1,0 +1,123 @@
+import styles from "./card.module.scss";
+
+import React from "react";
+import { motion, AnimatePresence } from "motion/react";
+import { TextMorph } from "torph/react";
+import { usePrefersReducedMotion } from "@/hooks/usePrefersReducedMotion";
+
+const states = [
+  {
+    label: "Processing Transaction",
+    icon: (
+      <svg
+        width="23"
+        height="23"
+        viewBox="0 0 23 23"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <AnimatePresence>
+          <motion.g
+            animate={{ rotate: 360 }}
+            transition={{ repeat: Infinity, duration: 0.5, ease: "linear" }}
+          >
+            <path
+              d="M21.313 11.4062C21.313 16.8775 16.8777 21.3128 11.4065 21.3128"
+              stroke="currentColor"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
+            <path
+              opacity="0.1"
+              d="M11.4065 21.313C16.8777 21.313 21.313 16.8777 21.313 11.4065C21.313 5.93529 16.8777 1.5 11.4065 1.5C5.93529 1.5 1.5 5.93529 1.5 11.4065C1.5 16.8777 5.93529 21.313 11.4065 21.313Z"
+              stroke="currentColor"
+              strokeWidth="3"
+            />
+          </motion.g>
+        </AnimatePresence>
+      </svg>
+    ),
+  },
+  {
+    label: "Transaction Safe",
+    icon: (
+      <svg
+        width="21"
+        height="21"
+        viewBox="0 0 21 21"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.9016 10.4508C20.9016 4.67899 16.2226 0 10.4508 0C4.67899 0 0 4.67899 0 10.4508C0 16.2226 4.67899 20.9016 10.4508 20.9016C16.2226 20.9016 20.9016 16.2226 20.9016 10.4508Z"
+          fill="currentColor"
+        />
+        <path
+          d="M6.09631 10.9828L8.83539 13.6439L14.8053 7.83789"
+          fill="currentColor"
+        />
+        <path
+          d="M6.09631 10.9828L8.83539 13.6439L14.8053 7.83789"
+          stroke="black"
+          strokeOpacity="0.85"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    ),
+  },
+];
+
+const transition = {
+  type: "spring" as const,
+  mass: 4,
+  stiffness: 800,
+  damping: 80,
+  restDelta: 0.0001,
+};
+
+export const ExampleAction = () => {
+  const [currentStateIndex, setCurrentStateIndex] = React.useState(0);
+  const reducedMotion = usePrefersReducedMotion();
+
+  React.useEffect(() => {
+    if (reducedMotion) return;
+    const interval = setInterval(() => {
+      setCurrentStateIndex((prevIndex) => (prevIndex + 1) % states.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [reducedMotion]);
+
+  return (
+    <div className={styles.action}>
+      <div className={styles.iconWrapper}>
+        <AnimatePresence initial={false}>
+          <motion.div
+            key={currentStateIndex}
+            className={styles.icon}
+            initial={{ opacity: 0, scale: 0.6 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{
+              opacity: 0,
+              scale: 0.6,
+              transition: transition,
+            }}
+            transition={{
+              delay: 0.1,
+              ...transition,
+            }}
+          >
+            {states[currentStateIndex].icon}
+          </motion.div>
+        </AnimatePresence>
+      </div>
+
+      <div className={styles.label}>
+        <TextMorph duration={600} ease={`cubic-bezier(0.41, 1.03, 0.6, 1.03)`}>
+          {states[currentStateIndex].label}
+        </TextMorph>
+      </div>
+    </div>
+  );
+};

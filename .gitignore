@@ -8,3 +8,4 @@ node_modules/
 upstream/torph/packages/torph/dist/
 upstream/torph/packages/torph/dist-svelte/
 .DS_Store
+upstream/torph-git-metadata/

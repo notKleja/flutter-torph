@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 100%;
+
+  .copy {
+    z-index: 99;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.85rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: -0.00563rem;
+    transition: color 200ms ease;
+    color: var(--color-muted);
+
+    &:hover {
+      color: var(--color);
+    }
+  }
+  pre {
+    display: block;
+    position: relative;
+    padding: 0.75rem 1rem;
+    color: #fff;
+    background: #131313;
+    border-radius: 0.75rem;
+    corner-shape: superellipse(1.25);
+    overflow: hidden;
+    font-size: 0.8125rem;
+    font-weight: 300;
+    line-height: 1.4;
+
+    max-height: 11.75rem;
+    overflow-y: scroll;
+  }
+}

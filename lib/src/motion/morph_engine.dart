@@ -458,6 +458,14 @@ class MorphEngine {
     return measures;
   }
 
+  /// Restates the current scene's geometry after a measurement input changed
+  /// (style, text scaler, direction, locale, alignment) without touching the
+  /// morph history: re-runs the item measurement at the current pinned width
+  /// and refreshes the natural size.
+  void remeasure() {
+    _measureInto(liveItems, width: _pinnedWidth, natural: true);
+  }
+
   void _splitWordSpans(Map<String, List<Segment>> splits) {
     if (splits.isEmpty) return;
     final split = <String>{};

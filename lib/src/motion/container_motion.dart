@@ -186,14 +186,13 @@ class ContainerTransition {
     void Function()? onComplete,
     void Function()? onCancel,
   }) {
-    final snapshot = previous;
     final base = parseEasing(ease);
 
     // One per axis: each carries its own momentum, so they need their own curves.
     final width = animateAxis(
       from: oldWidth,
       to: newWidth,
-      previous: snapshot?.width,
+      previous: previous?.width,
       duration: duration,
       ease: ease,
       base: base,
@@ -202,7 +201,7 @@ class ContainerTransition {
     final height = animateAxis(
       from: oldHeight,
       to: newHeight,
-      previous: snapshot?.height,
+      previous: previous?.height,
       duration: duration,
       ease: ease,
       base: base,

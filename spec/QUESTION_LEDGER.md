@@ -257,3 +257,8 @@ Evidence lives in `oracle/fixtures/runtime/`.
   Parity: INTERRUPT-003, and amends Q-005: the exiting fade runs from the *coerced*
   snapshot, so its start opacity is never 0 — it is either the true value in (0, 1]
   or 1.
+
+## Q-025 How does an RTL root lay out and morph? (A0, runtime)
+- Experiment: `oracle/runtime` page option `direction: "rtl"`; 18 traces `rtl-*`, `rtl-center-*`, `rtl-end-*` (Menlo 20px).
+- Findings: inline-block items flow from the **right** edge in **logical order** (first segment rightmost; `مرحبا` → `م` at x=48, `ا` at x=0); `text-align: start` = right, `end` = left, `center` unchanged; an overflowing line keeps its right edge on the container's right edge and extends into negative x (`بالعالم` at −93.96 under a 60 px pinned width); exits are pinned by integer `offsetLeft` exactly as in LTR; every transform/opacity/callback is identical to the LTR model. A 1/64 px `translate(0.0156px)` noise appears on persisting items (LayoutUnit, DEV-002).
+- Resolution: `Measurer` rule in RENDERER_CONTRACT.md §4 (RTL placement `x_i = left + lineWidth − Σ_{j≤i} w_j`, overflow `left = containerWidth − lineWidth`) — verified by test/parity/runtime_trace_parity_test.dart (18/18). Parity: RTL-001. Confidence: certain.

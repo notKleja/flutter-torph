@@ -25,7 +25,7 @@ Release candidate requires every row PASS with automated evidence, P0 = P1 = 0, 
 | Rapid retargeting | ENGINE PASS (storms 16 ms) / widget pending |
 | Empty state | ENGINE PASS / widget pending |
 | Explicit newlines | ENGINE PASS / widget pending |
-| RTL | pending (Q-025: RTL-root trace + widget) |
+| RTL | ENGINE PASS (18 RTL-root traces, Q-025) / widget pending |
 | Semantics | pending (M5) |
 | Reduced motion | pending (M5) |
 | Callbacks/lifecycle | ENGINE PASS (callback log in all traces) / widget pending |

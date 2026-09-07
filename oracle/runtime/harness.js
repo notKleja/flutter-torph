@@ -347,6 +347,7 @@ H.mount = async function (config) {
   wrap.style.fontSize = (page.fontSize || 20) + "px";
   wrap.style.lineHeight = page.lineHeight || "normal";
   wrap.style.textAlign = page.textAlign || "left";
+  if (page.direction) wrap.dir = page.direction;
   document.body.appendChild(wrap);
 
   const holder = document.createElement("div");
@@ -355,6 +356,7 @@ H.mount = async function (config) {
   holder.style.top = "100px";
   holder.style.width = (page.wrapWidth || 900) + "px";
   holder.style.textAlign = page.textAlign || "left";
+  if (page.direction) holder.dir = page.direction;
   wrap.appendChild(holder);
 
   const root = document.createElement("span");

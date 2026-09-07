@@ -4,6 +4,9 @@ const MENLO = { fontFamily: "Menlo", fontSize: 20, textAlign: "left" };
 const HELV = { fontFamily: "Helvetica", fontSize: 20, textAlign: "left" };
 const CENTER = { fontFamily: "Menlo", fontSize: 20, textAlign: "center" };
 const RIGHT = { fontFamily: "Menlo", fontSize: 20, textAlign: "right" };
+const RTL = { fontFamily: "Menlo", fontSize: 20, textAlign: "start", direction: "rtl" };
+const RTL_CENTER = { fontFamily: "Menlo", fontSize: 20, textAlign: "center", direction: "rtl" };
+const RTL_END = { fontFamily: "Menlo", fontSize: 20, textAlign: "end", direction: "rtl" };
 
 const DEFAULT_OPTS = {};
 const SPRING_OPTS = { ease: { stiffness: 200, damping: 20 } };
@@ -134,6 +137,20 @@ export function buildScenarios() {
   for (const [a, b] of NUMBER_PAIRS) out.push(pair(a, b));
   for (const [a, b] of NEWLINE_PAIRS) out.push(pair(a, b));
   for (const [a, b] of UNICODE_PAIRS) out.push(pair(a, b));
+
+  // RTL root direction (Q-025): inline-blocks flow from the right edge.
+  for (const [pg, tag] of [[RTL, "rtl"], [RTL_CENTER, "rtl-center"], [RTL_END, "rtl-end"]]) {
+    for (const [a, b] of [
+      ["مرحبا", "مرحبا بالعالم"],
+      ["hello world", "hello"],
+      ["abc", "abcdef"],
+      ["999", "1,000"],
+      ["a\nbb", "a\nbbbbbb"],
+      ["hello world", "world hello"],
+    ]) {
+      out.push(pair(a, b, DEFAULT_OPTS, pg, tag));
+    }
+  }
 
   // cursorIndex variant: "$120" caret after "$1" -> "$1120" caret after "$11"
   out.push({

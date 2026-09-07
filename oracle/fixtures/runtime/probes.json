@@ -1,0 +1,5568 @@
+{
+ "pausedOnfinish": {
+  "seekPastEnd": {
+   "fired": false,
+   "playState": "paused",
+   "currentTime": 250
+  },
+  "afterFinishCall": {
+   "fired": true,
+   "playState": "finished",
+   "currentTime": 100
+  },
+  "delayed": {
+   "afterFinishCurrentTime": 200,
+   "midOpacityAt150": 0.5,
+   "playState": "finished"
+  },
+  "cancelledResurrect": {
+   "beforeCancel": 0.2,
+   "afterCancel": 0,
+   "currentTimeNullAfterCancel": true,
+   "opacityAfterWritingCurrentTime": 0.2,
+   "playState": "paused"
+  }
+ },
+ "getAnimationsScope": {
+  "outerOwn": 1,
+  "outerSubtree": 2,
+  "innerOwn": 1,
+  "documentIncludesBoth": true
+ },
+ "midFlightComputedWidth": [
+  {
+   "phase": "initial",
+   "computedWidth": 24.0938,
+   "computedHeight": 24,
+   "rectWidth": 24.0938,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 24,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  {
+   "phase": "t=0",
+   "computedWidth": 24.0938,
+   "computedHeight": 24,
+   "rectWidth": 24.0938,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 24,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": "none"
+  },
+  {
+   "phase": "t=100",
+   "computedWidth": 196.781,
+   "computedHeight": 24,
+   "rectWidth": 196.7813,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 197,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": "none"
+  },
+  {
+   "phase": "t=200",
+   "computedWidth": 224.281,
+   "computedHeight": 24,
+   "rectWidth": 224.2813,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 224,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": "none"
+  },
+  {
+   "phase": "t=300",
+   "computedWidth": 228.469,
+   "computedHeight": 24,
+   "rectWidth": 228.4688,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 228,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": "none"
+  },
+  {
+   "phase": "t=400",
+   "computedWidth": 228.828,
+   "computedHeight": 24,
+   "rectWidth": 228.8281,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 229,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  {
+   "phase": "t=440",
+   "computedWidth": 228.828,
+   "computedHeight": 24,
+   "rectWidth": 228.8281,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 229,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  }
+ ],
+ "zeroOldWidth": {
+  "emptyFirstUpdate": {
+   "anims": [],
+   "callbacks": [],
+   "root": {
+    "computedWidth": 0,
+    "computedHeight": 0,
+    "rectWidth": 0,
+    "rectHeight": 0,
+    "offsetHeight": 0,
+    "offsetWidth": 0,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": []
+  },
+  "thenHello": {
+   "anims": [],
+   "callbacks": [],
+   "root": {
+    "computedWidth": 60.2344,
+    "computedHeight": 24,
+    "rectWidth": 60.2344,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "note": "no anims + no callbacks => this was the INITIAL render, not a morph"
+  },
+  "b_initialRoot": {
+   "computedWidth": 60.2344,
+   "computedHeight": 24,
+   "rectWidth": 60.2344,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 60,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "b_toEmpty": {
+   "anims": [
+    {
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     }
+    },
+    {
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     }
+    },
+    {
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     }
+    },
+    {
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     }
+    },
+    {
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     }
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  },
+  "b_toEmptyRootAt0": {
+   "computedWidth": 60.2344,
+   "computedHeight": 24,
+   "rectWidth": 60.2344,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 60,
+   "inlineWidth": "60.2344px",
+   "inlineHeight": "24px",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": "none"
+  },
+  "b_toEmptyRootAt400": {
+   "computedWidth": 0,
+   "computedHeight": 24,
+   "rectWidth": 0,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 0,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "b_toEmptyRootAt500": {
+   "computedWidth": 0,
+   "computedHeight": 24,
+   "rectWidth": 0,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 0,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "b_callbacksAfterEmpty": [
+   {
+    "name": "start",
+    "at": 0
+   },
+   {
+    "name": "complete",
+    "at": 400
+   }
+  ],
+  "b_backToHello": {
+   "anims": [
+    {
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "h",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ]
+    },
+    {
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "e",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ]
+    },
+    {
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ]
+    },
+    {
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l-3",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ]
+    },
+    {
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "o",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ]
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 500
+    },
+    {
+     "name": "cancel",
+     "at": 500
+    }
+   ]
+  },
+  "b_backRootAt500": {
+   "computedWidth": 60.2344,
+   "computedHeight": 24,
+   "rectWidth": 60.2344,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 60,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "b_backRootAt700": {
+   "computedWidth": 60.2344,
+   "computedHeight": 24,
+   "rectWidth": 60.2344,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 60,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "b_callbacks": [
+   {
+    "name": "start",
+    "at": 0
+   },
+   {
+    "name": "complete",
+    "at": 400
+   },
+   {
+    "name": "start",
+    "at": 500
+   },
+   {
+    "name": "cancel",
+    "at": 500
+   }
+  ]
+ },
+ "completeTiming": [
+  {
+   "from": "hi",
+   "to": "hello world",
+   "log": [
+    {
+     "t": 0,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 100,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399.9,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 400,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 400.1,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 401,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 500,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": "999",
+   "to": "1,000",
+   "log": [
+    {
+     "t": 0,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 100,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399.9,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 400,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 400.1,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 401,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 500,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "from": "hello",
+   "to": "",
+   "log": [
+    {
+     "t": 0,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 100,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 399.9,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      }
+     ]
+    },
+    {
+     "t": 400,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 400.1,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 401,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    },
+    {
+     "t": 500,
+     "callbacks": [
+      {
+       "name": "start",
+       "at": 0
+      },
+      {
+       "name": "complete",
+       "at": 400
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "segmenterLocales": {
+  "locales": [
+   "en",
+   "de",
+   "ja",
+   "th"
+  ],
+  "corpus": {
+   "42": {
+    "en": {
+     "word": [
+      "42"
+     ],
+     "grapheme": [
+      "4",
+      "2"
+     ]
+    },
+    "de": {
+     "word": [
+      "42"
+     ],
+     "grapheme": [
+      "4",
+      "2"
+     ]
+    },
+    "ja": {
+     "word": [
+      "42"
+     ],
+     "grapheme": [
+      "4",
+      "2"
+     ]
+    },
+    "th": {
+     "word": [
+      "42"
+     ],
+     "grapheme": [
+      "4",
+      "2"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "hello world": {
+    "en": {
+     "word": [
+      "hello",
+      " ",
+      "world"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o",
+      " ",
+      "w",
+      "o",
+      "r",
+      "l",
+      "d"
+     ]
+    },
+    "de": {
+     "word": [
+      "hello",
+      " ",
+      "world"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o",
+      " ",
+      "w",
+      "o",
+      "r",
+      "l",
+      "d"
+     ]
+    },
+    "ja": {
+     "word": [
+      "hello",
+      " ",
+      "world"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o",
+      " ",
+      "w",
+      "o",
+      "r",
+      "l",
+      "d"
+     ]
+    },
+    "th": {
+     "word": [
+      "hello",
+      " ",
+      "world"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o",
+      " ",
+      "w",
+      "o",
+      "r",
+      "l",
+      "d"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "Transaction Safe": {
+    "en": {
+     "word": [
+      "Transaction",
+      " ",
+      "Safe"
+     ],
+     "grapheme": [
+      "T",
+      "r",
+      "a",
+      "n",
+      "s",
+      "a",
+      "c",
+      "t",
+      "i",
+      "o",
+      "n",
+      " ",
+      "S",
+      "a",
+      "f",
+      "e"
+     ]
+    },
+    "de": {
+     "word": [
+      "Transaction",
+      " ",
+      "Safe"
+     ],
+     "grapheme": [
+      "T",
+      "r",
+      "a",
+      "n",
+      "s",
+      "a",
+      "c",
+      "t",
+      "i",
+      "o",
+      "n",
+      " ",
+      "S",
+      "a",
+      "f",
+      "e"
+     ]
+    },
+    "ja": {
+     "word": [
+      "Transaction",
+      " ",
+      "Safe"
+     ],
+     "grapheme": [
+      "T",
+      "r",
+      "a",
+      "n",
+      "s",
+      "a",
+      "c",
+      "t",
+      "i",
+      "o",
+      "n",
+      " ",
+      "S",
+      "a",
+      "f",
+      "e"
+     ]
+    },
+    "th": {
+     "word": [
+      "Transaction",
+      " ",
+      "Safe"
+     ],
+     "grapheme": [
+      "T",
+      "r",
+      "a",
+      "n",
+      "s",
+      "a",
+      "c",
+      "t",
+      "i",
+      "o",
+      "n",
+      " ",
+      "S",
+      "a",
+      "f",
+      "e"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "$1,000.00": {
+    "en": {
+     "word": [
+      "$",
+      "1,000.00"
+     ],
+     "grapheme": [
+      "$",
+      "1",
+      ",",
+      "0",
+      "0",
+      "0",
+      ".",
+      "0",
+      "0"
+     ]
+    },
+    "de": {
+     "word": [
+      "$",
+      "1,000.00"
+     ],
+     "grapheme": [
+      "$",
+      "1",
+      ",",
+      "0",
+      "0",
+      "0",
+      ".",
+      "0",
+      "0"
+     ]
+    },
+    "ja": {
+     "word": [
+      "$",
+      "1,000.00"
+     ],
+     "grapheme": [
+      "$",
+      "1",
+      ",",
+      "0",
+      "0",
+      "0",
+      ".",
+      "0",
+      "0"
+     ]
+    },
+    "th": {
+     "word": [
+      "$",
+      "1,000.00"
+     ],
+     "grapheme": [
+      "$",
+      "1",
+      ",",
+      "0",
+      "0",
+      "0",
+      ".",
+      "0",
+      "0"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "1,234": {
+    "en": {
+     "word": [
+      "1,234"
+     ],
+     "grapheme": [
+      "1",
+      ",",
+      "2",
+      "3",
+      "4"
+     ]
+    },
+    "de": {
+     "word": [
+      "1,234"
+     ],
+     "grapheme": [
+      "1",
+      ",",
+      "2",
+      "3",
+      "4"
+     ]
+    },
+    "ja": {
+     "word": [
+      "1,234"
+     ],
+     "grapheme": [
+      "1",
+      ",",
+      "2",
+      "3",
+      "4"
+     ]
+    },
+    "th": {
+     "word": [
+      "1,234"
+     ],
+     "grapheme": [
+      "1",
+      ",",
+      "2",
+      "3",
+      "4"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "9.99": {
+    "en": {
+     "word": [
+      "9.99"
+     ],
+     "grapheme": [
+      "9",
+      ".",
+      "9",
+      "9"
+     ]
+    },
+    "de": {
+     "word": [
+      "9.99"
+     ],
+     "grapheme": [
+      "9",
+      ".",
+      "9",
+      "9"
+     ]
+    },
+    "ja": {
+     "word": [
+      "9.99"
+     ],
+     "grapheme": [
+      "9",
+      ".",
+      "9",
+      "9"
+     ]
+    },
+    "th": {
+     "word": [
+      "9.99"
+     ],
+     "grapheme": [
+      "9",
+      ".",
+      "9",
+      "9"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "-999.50": {
+    "en": {
+     "word": [
+      "-",
+      "999.50"
+     ],
+     "grapheme": [
+      "-",
+      "9",
+      "9",
+      "9",
+      ".",
+      "5",
+      "0"
+     ]
+    },
+    "de": {
+     "word": [
+      "-",
+      "999.50"
+     ],
+     "grapheme": [
+      "-",
+      "9",
+      "9",
+      "9",
+      ".",
+      "5",
+      "0"
+     ]
+    },
+    "ja": {
+     "word": [
+      "-",
+      "999.50"
+     ],
+     "grapheme": [
+      "-",
+      "9",
+      "9",
+      "9",
+      ".",
+      "5",
+      "0"
+     ]
+    },
+    "th": {
+     "word": [
+      "-",
+      "999.50"
+     ],
+     "grapheme": [
+      "-",
+      "9",
+      "9",
+      "9",
+      ".",
+      "5",
+      "0"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "don't stop": {
+    "en": {
+     "word": [
+      "don't",
+      " ",
+      "stop"
+     ],
+     "grapheme": [
+      "d",
+      "o",
+      "n",
+      "'",
+      "t",
+      " ",
+      "s",
+      "t",
+      "o",
+      "p"
+     ]
+    },
+    "de": {
+     "word": [
+      "don't",
+      " ",
+      "stop"
+     ],
+     "grapheme": [
+      "d",
+      "o",
+      "n",
+      "'",
+      "t",
+      " ",
+      "s",
+      "t",
+      "o",
+      "p"
+     ]
+    },
+    "ja": {
+     "word": [
+      "don't",
+      " ",
+      "stop"
+     ],
+     "grapheme": [
+      "d",
+      "o",
+      "n",
+      "'",
+      "t",
+      " ",
+      "s",
+      "t",
+      "o",
+      "p"
+     ]
+    },
+    "th": {
+     "word": [
+      "don't",
+      " ",
+      "stop"
+     ],
+     "grapheme": [
+      "d",
+      "o",
+      "n",
+      "'",
+      "t",
+      " ",
+      "s",
+      "t",
+      "o",
+      "p"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "e-mail me": {
+    "en": {
+     "word": [
+      "e",
+      "-",
+      "mail",
+      " ",
+      "me"
+     ],
+     "grapheme": [
+      "e",
+      "-",
+      "m",
+      "a",
+      "i",
+      "l",
+      " ",
+      "m",
+      "e"
+     ]
+    },
+    "de": {
+     "word": [
+      "e",
+      "-",
+      "mail",
+      " ",
+      "me"
+     ],
+     "grapheme": [
+      "e",
+      "-",
+      "m",
+      "a",
+      "i",
+      "l",
+      " ",
+      "m",
+      "e"
+     ]
+    },
+    "ja": {
+     "word": [
+      "e",
+      "-",
+      "mail",
+      " ",
+      "me"
+     ],
+     "grapheme": [
+      "e",
+      "-",
+      "m",
+      "a",
+      "i",
+      "l",
+      " ",
+      "m",
+      "e"
+     ]
+    },
+    "th": {
+     "word": [
+      "e",
+      "-",
+      "mail",
+      " ",
+      "me"
+     ],
+     "grapheme": [
+      "e",
+      "-",
+      "m",
+      "a",
+      "i",
+      "l",
+      " ",
+      "m",
+      "e"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "a1b2c3": {
+    "en": {
+     "word": [
+      "a1b2c3"
+     ],
+     "grapheme": [
+      "a",
+      "1",
+      "b",
+      "2",
+      "c",
+      "3"
+     ]
+    },
+    "de": {
+     "word": [
+      "a1b2c3"
+     ],
+     "grapheme": [
+      "a",
+      "1",
+      "b",
+      "2",
+      "c",
+      "3"
+     ]
+    },
+    "ja": {
+     "word": [
+      "a1b2c3"
+     ],
+     "grapheme": [
+      "a",
+      "1",
+      "b",
+      "2",
+      "c",
+      "3"
+     ]
+    },
+    "th": {
+     "word": [
+      "a1b2c3"
+     ],
+     "grapheme": [
+      "a",
+      "1",
+      "b",
+      "2",
+      "c",
+      "3"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "3.14 pi": {
+    "en": {
+     "word": [
+      "3.14",
+      " ",
+      "pi"
+     ],
+     "grapheme": [
+      "3",
+      ".",
+      "1",
+      "4",
+      " ",
+      "p",
+      "i"
+     ]
+    },
+    "de": {
+     "word": [
+      "3.14",
+      " ",
+      "pi"
+     ],
+     "grapheme": [
+      "3",
+      ".",
+      "1",
+      "4",
+      " ",
+      "p",
+      "i"
+     ]
+    },
+    "ja": {
+     "word": [
+      "3.14",
+      " ",
+      "pi"
+     ],
+     "grapheme": [
+      "3",
+      ".",
+      "1",
+      "4",
+      " ",
+      "p",
+      "i"
+     ]
+    },
+    "th": {
+     "word": [
+      "3.14",
+      " ",
+      "pi"
+     ],
+     "grapheme": [
+      "3",
+      ".",
+      "1",
+      "4",
+      " ",
+      "p",
+      "i"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "1 of 10": {
+    "en": {
+     "word": [
+      "1",
+      " ",
+      "of",
+      " ",
+      "10"
+     ],
+     "grapheme": [
+      "1",
+      " ",
+      "o",
+      "f",
+      " ",
+      "1",
+      "0"
+     ]
+    },
+    "de": {
+     "word": [
+      "1",
+      " ",
+      "of",
+      " ",
+      "10"
+     ],
+     "grapheme": [
+      "1",
+      " ",
+      "o",
+      "f",
+      " ",
+      "1",
+      "0"
+     ]
+    },
+    "ja": {
+     "word": [
+      "1",
+      " ",
+      "of",
+      " ",
+      "10"
+     ],
+     "grapheme": [
+      "1",
+      " ",
+      "o",
+      "f",
+      " ",
+      "1",
+      "0"
+     ]
+    },
+    "th": {
+     "word": [
+      "1",
+      " ",
+      "of",
+      " ",
+      "10"
+     ],
+     "grapheme": [
+      "1",
+      " ",
+      "o",
+      "f",
+      " ",
+      "1",
+      "0"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "co-op's": {
+    "en": {
+     "word": [
+      "co",
+      "-",
+      "op's"
+     ],
+     "grapheme": [
+      "c",
+      "o",
+      "-",
+      "o",
+      "p",
+      "'",
+      "s"
+     ]
+    },
+    "de": {
+     "word": [
+      "co",
+      "-",
+      "op's"
+     ],
+     "grapheme": [
+      "c",
+      "o",
+      "-",
+      "o",
+      "p",
+      "'",
+      "s"
+     ]
+    },
+    "ja": {
+     "word": [
+      "co",
+      "-",
+      "op's"
+     ],
+     "grapheme": [
+      "c",
+      "o",
+      "-",
+      "o",
+      "p",
+      "'",
+      "s"
+     ]
+    },
+    "th": {
+     "word": [
+      "co",
+      "-",
+      "op's"
+     ],
+     "grapheme": [
+      "c",
+      "o",
+      "-",
+      "o",
+      "p",
+      "'",
+      "s"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "über straße": {
+    "en": {
+     "word": [
+      "über",
+      " ",
+      "straße"
+     ],
+     "grapheme": [
+      "ü",
+      "b",
+      "e",
+      "r",
+      " ",
+      "s",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e"
+     ]
+    },
+    "de": {
+     "word": [
+      "über",
+      " ",
+      "straße"
+     ],
+     "grapheme": [
+      "ü",
+      "b",
+      "e",
+      "r",
+      " ",
+      "s",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e"
+     ]
+    },
+    "ja": {
+     "word": [
+      "über",
+      " ",
+      "straße"
+     ],
+     "grapheme": [
+      "ü",
+      "b",
+      "e",
+      "r",
+      " ",
+      "s",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e"
+     ]
+    },
+    "th": {
+     "word": [
+      "über",
+      " ",
+      "straße"
+     ],
+     "grapheme": [
+      "ü",
+      "b",
+      "e",
+      "r",
+      " ",
+      "s",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "Straße 1a": {
+    "en": {
+     "word": [
+      "Straße",
+      " ",
+      "1a"
+     ],
+     "grapheme": [
+      "S",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e",
+      " ",
+      "1",
+      "a"
+     ]
+    },
+    "de": {
+     "word": [
+      "Straße",
+      " ",
+      "1a"
+     ],
+     "grapheme": [
+      "S",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e",
+      " ",
+      "1",
+      "a"
+     ]
+    },
+    "ja": {
+     "word": [
+      "Straße",
+      " ",
+      "1a"
+     ],
+     "grapheme": [
+      "S",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e",
+      " ",
+      "1",
+      "a"
+     ]
+    },
+    "th": {
+     "word": [
+      "Straße",
+      " ",
+      "1a"
+     ],
+     "grapheme": [
+      "S",
+      "t",
+      "r",
+      "a",
+      "ß",
+      "e",
+      " ",
+      "1",
+      "a"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "ｆｕｌｌｗｉｄｔｈ": {
+    "en": {
+     "word": [
+      "ｆｕｌｌｗｉｄｔｈ"
+     ],
+     "grapheme": [
+      "ｆ",
+      "ｕ",
+      "ｌ",
+      "ｌ",
+      "ｗ",
+      "ｉ",
+      "ｄ",
+      "ｔ",
+      "ｈ"
+     ]
+    },
+    "de": {
+     "word": [
+      "ｆｕｌｌｗｉｄｔｈ"
+     ],
+     "grapheme": [
+      "ｆ",
+      "ｕ",
+      "ｌ",
+      "ｌ",
+      "ｗ",
+      "ｉ",
+      "ｄ",
+      "ｔ",
+      "ｈ"
+     ]
+    },
+    "ja": {
+     "word": [
+      "ｆｕｌｌｗｉｄｔｈ"
+     ],
+     "grapheme": [
+      "ｆ",
+      "ｕ",
+      "ｌ",
+      "ｌ",
+      "ｗ",
+      "ｉ",
+      "ｄ",
+      "ｔ",
+      "ｈ"
+     ]
+    },
+    "th": {
+     "word": [
+      "ｆｕｌｌｗｉｄｔｈ"
+     ],
+     "grapheme": [
+      "ｆ",
+      "ｕ",
+      "ｌ",
+      "ｌ",
+      "ｗ",
+      "ｉ",
+      "ｄ",
+      "ｔ",
+      "ｈ"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "日本語のテキスト": {
+    "en": {
+     "word": [
+      "日本語",
+      "の",
+      "テキスト"
+     ],
+     "grapheme": [
+      "日",
+      "本",
+      "語",
+      "の",
+      "テ",
+      "キ",
+      "ス",
+      "ト"
+     ]
+    },
+    "de": {
+     "word": [
+      "日本語",
+      "の",
+      "テキスト"
+     ],
+     "grapheme": [
+      "日",
+      "本",
+      "語",
+      "の",
+      "テ",
+      "キ",
+      "ス",
+      "ト"
+     ]
+    },
+    "ja": {
+     "word": [
+      "日本語",
+      "の",
+      "テキスト"
+     ],
+     "grapheme": [
+      "日",
+      "本",
+      "語",
+      "の",
+      "テ",
+      "キ",
+      "ス",
+      "ト"
+     ]
+    },
+    "th": {
+     "word": [
+      "日本語",
+      "の",
+      "テキスト"
+     ],
+     "grapheme": [
+      "日",
+      "本",
+      "語",
+      "の",
+      "テ",
+      "キ",
+      "ス",
+      "ト"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "東京都に行く": {
+    "en": {
+     "word": [
+      "東京",
+      "都",
+      "に",
+      "行く"
+     ],
+     "grapheme": [
+      "東",
+      "京",
+      "都",
+      "に",
+      "行",
+      "く"
+     ]
+    },
+    "de": {
+     "word": [
+      "東京",
+      "都",
+      "に",
+      "行く"
+     ],
+     "grapheme": [
+      "東",
+      "京",
+      "都",
+      "に",
+      "行",
+      "く"
+     ]
+    },
+    "ja": {
+     "word": [
+      "東京",
+      "都",
+      "に",
+      "行く"
+     ],
+     "grapheme": [
+      "東",
+      "京",
+      "都",
+      "に",
+      "行",
+      "く"
+     ]
+    },
+    "th": {
+     "word": [
+      "東京",
+      "都",
+      "に",
+      "行く"
+     ],
+     "grapheme": [
+      "東",
+      "京",
+      "都",
+      "に",
+      "行",
+      "く"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "ภาษาไทยง่าย": {
+    "en": {
+     "word": [
+      "ภาษา",
+      "ไทย",
+      "ง่าย"
+     ],
+     "grapheme": [
+      "ภ",
+      "า",
+      "ษ",
+      "า",
+      "ไ",
+      "ท",
+      "ย",
+      "ง่",
+      "า",
+      "ย"
+     ]
+    },
+    "de": {
+     "word": [
+      "ภาษา",
+      "ไทย",
+      "ง่าย"
+     ],
+     "grapheme": [
+      "ภ",
+      "า",
+      "ษ",
+      "า",
+      "ไ",
+      "ท",
+      "ย",
+      "ง่",
+      "า",
+      "ย"
+     ]
+    },
+    "ja": {
+     "word": [
+      "ภาษา",
+      "ไทย",
+      "ง่าย"
+     ],
+     "grapheme": [
+      "ภ",
+      "า",
+      "ษ",
+      "า",
+      "ไ",
+      "ท",
+      "ย",
+      "ง่",
+      "า",
+      "ย"
+     ]
+    },
+    "th": {
+     "word": [
+      "ภาษา",
+      "ไทย",
+      "ง่าย"
+     ],
+     "grapheme": [
+      "ภ",
+      "า",
+      "ษ",
+      "า",
+      "ไ",
+      "ท",
+      "ย",
+      "ง่",
+      "า",
+      "ย"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "สวัสดีครับ": {
+    "en": {
+     "word": [
+      "สวัสดี",
+      "ครับ"
+     ],
+     "grapheme": [
+      "ส",
+      "วั",
+      "ส",
+      "ดี",
+      "ค",
+      "รั",
+      "บ"
+     ]
+    },
+    "de": {
+     "word": [
+      "สวัสดี",
+      "ครับ"
+     ],
+     "grapheme": [
+      "ส",
+      "วั",
+      "ส",
+      "ดี",
+      "ค",
+      "รั",
+      "บ"
+     ]
+    },
+    "ja": {
+     "word": [
+      "สวัสดี",
+      "ครับ"
+     ],
+     "grapheme": [
+      "ส",
+      "วั",
+      "ส",
+      "ดี",
+      "ค",
+      "รั",
+      "บ"
+     ]
+    },
+    "th": {
+     "word": [
+      "สวัสดี",
+      "ครับ"
+     ],
+     "grapheme": [
+      "ส",
+      "วั",
+      "ส",
+      "ดี",
+      "ค",
+      "รั",
+      "บ"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "مرحبا بالعالم": {
+    "en": {
+     "word": [
+      "مرحبا",
+      " ",
+      "بالعالم"
+     ],
+     "grapheme": [
+      "م",
+      "ر",
+      "ح",
+      "ب",
+      "ا",
+      " ",
+      "ب",
+      "ا",
+      "ل",
+      "ع",
+      "ا",
+      "ل",
+      "م"
+     ]
+    },
+    "de": {
+     "word": [
+      "مرحبا",
+      " ",
+      "بالعالم"
+     ],
+     "grapheme": [
+      "م",
+      "ر",
+      "ح",
+      "ب",
+      "ا",
+      " ",
+      "ب",
+      "ا",
+      "ل",
+      "ع",
+      "ا",
+      "ل",
+      "م"
+     ]
+    },
+    "ja": {
+     "word": [
+      "مرحبا",
+      " ",
+      "بالعالم"
+     ],
+     "grapheme": [
+      "م",
+      "ر",
+      "ح",
+      "ب",
+      "ا",
+      " ",
+      "ب",
+      "ا",
+      "ل",
+      "ع",
+      "ا",
+      "ل",
+      "م"
+     ]
+    },
+    "th": {
+     "word": [
+      "مرحبا",
+      " ",
+      "بالعالم"
+     ],
+     "grapheme": [
+      "م",
+      "ر",
+      "ح",
+      "ب",
+      "ا",
+      " ",
+      "ب",
+      "ا",
+      "ل",
+      "ع",
+      "ا",
+      "ل",
+      "م"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "café": {
+    "en": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "de": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "ja": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "th": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "café": {
+    "en": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "de": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "ja": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "th": {
+     "word": [
+      "café"
+     ],
+     "grapheme": [
+      "c",
+      "a",
+      "f",
+      "é"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "😀 hi": {
+    "en": {
+     "word": [
+      "😀",
+      " ",
+      "hi"
+     ],
+     "grapheme": [
+      "😀",
+      " ",
+      "h",
+      "i"
+     ]
+    },
+    "de": {
+     "word": [
+      "😀",
+      " ",
+      "hi"
+     ],
+     "grapheme": [
+      "😀",
+      " ",
+      "h",
+      "i"
+     ]
+    },
+    "ja": {
+     "word": [
+      "😀",
+      " ",
+      "hi"
+     ],
+     "grapheme": [
+      "😀",
+      " ",
+      "h",
+      "i"
+     ]
+    },
+    "th": {
+     "word": [
+      "😀",
+      " ",
+      "hi"
+     ],
+     "grapheme": [
+      "😀",
+      " ",
+      "h",
+      "i"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "👨‍👩‍👧‍👦 family": {
+    "en": {
+     "word": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "family"
+     ],
+     "grapheme": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "f",
+      "a",
+      "m",
+      "i",
+      "l",
+      "y"
+     ]
+    },
+    "de": {
+     "word": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "family"
+     ],
+     "grapheme": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "f",
+      "a",
+      "m",
+      "i",
+      "l",
+      "y"
+     ]
+    },
+    "ja": {
+     "word": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "family"
+     ],
+     "grapheme": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "f",
+      "a",
+      "m",
+      "i",
+      "l",
+      "y"
+     ]
+    },
+    "th": {
+     "word": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "family"
+     ],
+     "grapheme": [
+      "👨‍👩‍👧‍👦",
+      " ",
+      "f",
+      "a",
+      "m",
+      "i",
+      "l",
+      "y"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "a\tb": {
+    "en": {
+     "word": [
+      "a",
+      "\t",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      "\t",
+      "b"
+     ]
+    },
+    "de": {
+     "word": [
+      "a",
+      "\t",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      "\t",
+      "b"
+     ]
+    },
+    "ja": {
+     "word": [
+      "a",
+      "\t",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      "\t",
+      "b"
+     ]
+    },
+    "th": {
+     "word": [
+      "a",
+      "\t",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      "\t",
+      "b"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "a  b": {
+    "en": {
+     "word": [
+      "a",
+      "  ",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      " ",
+      " ",
+      "b"
+     ]
+    },
+    "de": {
+     "word": [
+      "a",
+      "  ",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      " ",
+      " ",
+      "b"
+     ]
+    },
+    "ja": {
+     "word": [
+      "a",
+      "  ",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      " ",
+      " ",
+      "b"
+     ]
+    },
+    "th": {
+     "word": [
+      "a",
+      "  ",
+      "b"
+     ],
+     "grapheme": [
+      "a",
+      " ",
+      " ",
+      "b"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "10:30 am": {
+    "en": {
+     "word": [
+      "10",
+      ":",
+      "30",
+      " ",
+      "am"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      ":",
+      "3",
+      "0",
+      " ",
+      "a",
+      "m"
+     ]
+    },
+    "de": {
+     "word": [
+      "10",
+      ":",
+      "30",
+      " ",
+      "am"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      ":",
+      "3",
+      "0",
+      " ",
+      "a",
+      "m"
+     ]
+    },
+    "ja": {
+     "word": [
+      "10",
+      ":",
+      "30",
+      " ",
+      "am"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      ":",
+      "3",
+      "0",
+      " ",
+      "a",
+      "m"
+     ]
+    },
+    "th": {
+     "word": [
+      "10",
+      ":",
+      "30",
+      " ",
+      "am"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      ":",
+      "3",
+      "0",
+      " ",
+      "a",
+      "m"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "1/2/2024": {
+    "en": {
+     "word": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2024"
+     ],
+     "grapheme": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2",
+      "0",
+      "2",
+      "4"
+     ]
+    },
+    "de": {
+     "word": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2024"
+     ],
+     "grapheme": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2",
+      "0",
+      "2",
+      "4"
+     ]
+    },
+    "ja": {
+     "word": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2024"
+     ],
+     "grapheme": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2",
+      "0",
+      "2",
+      "4"
+     ]
+    },
+    "th": {
+     "word": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2024"
+     ],
+     "grapheme": [
+      "1",
+      "/",
+      "2",
+      "/",
+      "2",
+      "0",
+      "2",
+      "4"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "v1.2.3-beta": {
+    "en": {
+     "word": [
+      "v1.2.3",
+      "-",
+      "beta"
+     ],
+     "grapheme": [
+      "v",
+      "1",
+      ".",
+      "2",
+      ".",
+      "3",
+      "-",
+      "b",
+      "e",
+      "t",
+      "a"
+     ]
+    },
+    "de": {
+     "word": [
+      "v1.2.3",
+      "-",
+      "beta"
+     ],
+     "grapheme": [
+      "v",
+      "1",
+      ".",
+      "2",
+      ".",
+      "3",
+      "-",
+      "b",
+      "e",
+      "t",
+      "a"
+     ]
+    },
+    "ja": {
+     "word": [
+      "v1.2.3",
+      "-",
+      "beta"
+     ],
+     "grapheme": [
+      "v",
+      "1",
+      ".",
+      "2",
+      ".",
+      "3",
+      "-",
+      "b",
+      "e",
+      "t",
+      "a"
+     ]
+    },
+    "th": {
+     "word": [
+      "v1.2.3",
+      "-",
+      "beta"
+     ],
+     "grapheme": [
+      "v",
+      "1",
+      ".",
+      "2",
+      ".",
+      "3",
+      "-",
+      "b",
+      "e",
+      "t",
+      "a"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "100%": {
+    "en": {
+     "word": [
+      "100",
+      "%"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      "0",
+      "%"
+     ]
+    },
+    "de": {
+     "word": [
+      "100",
+      "%"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      "0",
+      "%"
+     ]
+    },
+    "ja": {
+     "word": [
+      "100",
+      "%"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      "0",
+      "%"
+     ]
+    },
+    "th": {
+     "word": [
+      "100",
+      "%"
+     ],
+     "grapheme": [
+      "1",
+      "0",
+      "0",
+      "%"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "#42": {
+    "en": {
+     "word": [
+      "#",
+      "42"
+     ],
+     "grapheme": [
+      "#",
+      "4",
+      "2"
+     ]
+    },
+    "de": {
+     "word": [
+      "#",
+      "42"
+     ],
+     "grapheme": [
+      "#",
+      "4",
+      "2"
+     ]
+    },
+    "ja": {
+     "word": [
+      "#",
+      "42"
+     ],
+     "grapheme": [
+      "#",
+      "4",
+      "2"
+     ]
+    },
+    "th": {
+     "word": [
+      "#",
+      "42"
+     ],
+     "grapheme": [
+      "#",
+      "4",
+      "2"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "(999)": {
+    "en": {
+     "word": [
+      "(",
+      "999",
+      ")"
+     ],
+     "grapheme": [
+      "(",
+      "9",
+      "9",
+      "9",
+      ")"
+     ]
+    },
+    "de": {
+     "word": [
+      "(",
+      "999",
+      ")"
+     ],
+     "grapheme": [
+      "(",
+      "9",
+      "9",
+      "9",
+      ")"
+     ]
+    },
+    "ja": {
+     "word": [
+      "(",
+      "999",
+      ")"
+     ],
+     "grapheme": [
+      "(",
+      "9",
+      "9",
+      "9",
+      ")"
+     ]
+    },
+    "th": {
+     "word": [
+      "(",
+      "999",
+      ")"
+     ],
+     "grapheme": [
+      "(",
+      "9",
+      "9",
+      "9",
+      ")"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "hello": {
+    "en": {
+     "word": [
+      "hello"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o"
+     ]
+    },
+    "de": {
+     "word": [
+      "hello"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o"
+     ]
+    },
+    "ja": {
+     "word": [
+      "hello"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o"
+     ]
+    },
+    "th": {
+     "word": [
+      "hello"
+     ],
+     "grapheme": [
+      "h",
+      "e",
+      "l",
+      "l",
+      "o"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "npm": {
+    "en": {
+     "word": [
+      "npm"
+     ],
+     "grapheme": [
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "de": {
+     "word": [
+      "npm"
+     ],
+     "grapheme": [
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "ja": {
+     "word": [
+      "npm"
+     ],
+     "grapheme": [
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "th": {
+     "word": [
+      "npm"
+     ],
+     "grapheme": [
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   },
+   "pnpm": {
+    "en": {
+     "word": [
+      "pnpm"
+     ],
+     "grapheme": [
+      "p",
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "de": {
+     "word": [
+      "pnpm"
+     ],
+     "grapheme": [
+      "p",
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "ja": {
+     "word": [
+      "pnpm"
+     ],
+     "grapheme": [
+      "p",
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "th": {
+     "word": [
+      "pnpm"
+     ],
+     "grapheme": [
+      "p",
+      "n",
+      "p",
+      "m"
+     ]
+    },
+    "wordDiffers": false,
+    "graphemeDiffers": false
+   }
+  },
+  "anyWordDiffers": false,
+  "anyGraphemeDiffers": false,
+  "decimalSeparators": {
+   "en": ".",
+   "de": ",",
+   "ja": ".",
+   "th": "."
+  },
+  "icu": {
+   "navigatorLanguages": [
+    "en-US",
+    "en"
+   ]
+  }
+ },
+ "moverMidEnterThenExit": {
+  "enterAnims": [
+   {
+    "el": "mover(\u0000n11)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n11)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "delay": 0,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "mover(\u0000n12)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n12)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "delay": 0,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "mover(\u0000n13)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n13)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "delay": 0,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "mover(\u0000n14)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n14)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "delay": 0,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "mover(\u0000n15)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n15)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "delay": 0,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "\u0000n8[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n8[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n8[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "delay": 0,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n9[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n9[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n9[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "delay": 0,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n10[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n10[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n10[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "delay": 0,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "root",
+    "props": [
+     "width"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": [
+     {
+      "width": "36.1406px"
+     },
+     {
+      "width": "60.2344px"
+     }
+    ]
+   },
+   {
+    "el": "root",
+    "props": [
+     "height"
+    ],
+    "duration": 400,
+    "delay": 0,
+    "keyframes": [
+     {
+      "height": "24px"
+     },
+     {
+      "height": "24px"
+     }
+    ]
+   }
+  ],
+  "midEnterItems": [
+   {
+    "id": "\u0000n8",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n9",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n10",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n11",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n12",
+    "text": ",",
+    "kind": "symbol",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": 3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n13",
+    "text": "0",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n14",
+    "text": "0",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n15",
+    "text": "0",
+    "kind": "digit",
+    "slot": true,
+    "opacity": 1,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   }
+  ],
+  "slotScope": {
+   "id": "\u0000n8",
+   "own": 1,
+   "subtree": 3,
+   "moverOwn": 2
+  },
+  "exitAnims": [
+   {
+    "el": "mover(\u0000n16)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n16)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "mover(\u0000n17)",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, -24px)",
+     "offset": 0
+    }
+   },
+   {
+    "el": "mover(\u0000n17)",
+    "props": [
+     "opacity"
+    ],
+    "duration": 100,
+    "keyframes": [
+     {
+      "opacity": 0
+     },
+     {
+      "opacity": 1
+     }
+    ]
+   },
+   {
+    "el": "\u0000n11[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n11[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n11[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n12[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n12[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n12[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n13[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n13[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n13[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n14[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n14[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n14[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "\u0000n15[exiting]",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 0px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n15[exiting])",
+    "props": [
+     "transform"
+    ],
+    "duration": 400,
+    "keyframes": {
+     "transform": "translate(0px, 24px)",
+     "offset": 1
+    }
+   },
+   {
+    "el": "mover(\u0000n15[exiting])",
+    "props": [
+     "opacity"
+    ],
+    "duration": 180,
+    "keyframes": {
+     "opacity": 0,
+     "offset": 1
+    }
+   },
+   {
+    "el": "root",
+    "props": [
+     "width"
+    ],
+    "duration": 400,
+    "keyframes": [
+     {
+      "width": "56.4531px"
+     },
+     {
+      "width": "24.0938px"
+     }
+    ]
+   },
+   {
+    "el": "root",
+    "props": [
+     "height"
+    ],
+    "duration": 400,
+    "keyframes": [
+     {
+      "height": "24px"
+     },
+     {
+      "height": "24px"
+     }
+    ]
+   }
+  ],
+  "rightAfterExit": [
+   {
+    "id": "\u0000n8",
+    "text": "9",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n9",
+    "text": "9",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n10",
+    "text": "9",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0.4444,
+     "translate": {
+      "tx": 0,
+      "ty": 20.2443
+     }
+    }
+   },
+   {
+    "id": "\u0000n11",
+    "text": "1",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n12",
+    "text": ",",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": 3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n13",
+    "text": "0",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n14",
+    "text": "0",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n15",
+    "text": "0",
+    "exiting": true,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": "1",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 1,
+     "translate": {
+      "tx": 0,
+      "ty": -3.7557
+     }
+    }
+   },
+   {
+    "id": "\u0000n16",
+    "text": "4",
+    "exiting": false,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": null,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0,
+     "translate": {
+      "tx": 0,
+      "ty": -24
+     }
+    }
+   },
+   {
+    "id": "\u0000n17",
+    "text": "2",
+    "exiting": false,
+    "slot": true,
+    "opacity": 1,
+    "inlineOpacity": null,
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "mover": {
+     "opacity": 0,
+     "translate": {
+      "tx": 0,
+      "ty": -24
+     }
+    }
+   }
+  ],
+  "after": [
+   {
+    "t": 104,
+    "items": [
+     {
+      "id": "\u0000n8",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4222,
+       "translate": {
+        "tx": 0,
+        "ty": 20.5278
+       }
+      }
+     },
+     {
+      "id": "\u0000n9",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4222,
+       "translate": {
+        "tx": 0,
+        "ty": 20.5278
+       }
+      }
+     },
+     {
+      "id": "\u0000n10",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4222,
+       "translate": {
+        "tx": 0,
+        "ty": 20.5278
+       }
+      }
+     },
+     {
+      "id": "\u0000n11",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9778,
+       "translate": {
+        "tx": 0,
+        "ty": -2.031
+       }
+      }
+     },
+     {
+      "id": "\u0000n12",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9778,
+       "translate": {
+        "tx": 0,
+        "ty": 4.5491
+       }
+      }
+     },
+     {
+      "id": "\u0000n13",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9778,
+       "translate": {
+        "tx": 0,
+        "ty": -2.031
+       }
+      }
+     },
+     {
+      "id": "\u0000n14",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9778,
+       "translate": {
+        "tx": 0,
+        "ty": -2.031
+       }
+      }
+     },
+     {
+      "id": "\u0000n15",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9778,
+       "translate": {
+        "tx": 0,
+        "ty": -2.031
+       }
+      }
+     },
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.04,
+       "translate": {
+        "tx": 0,
+        "ty": -22.741
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.04,
+       "translate": {
+        "tx": 0,
+        "ty": -22.741
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 116,
+    "items": [
+     {
+      "id": "\u0000n8",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.3556,
+       "translate": {
+        "tx": 0,
+        "ty": 21.2505
+       }
+      }
+     },
+     {
+      "id": "\u0000n9",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.3556,
+       "translate": {
+        "tx": 0,
+        "ty": 21.2505
+       }
+      }
+     },
+     {
+      "id": "\u0000n10",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.3556,
+       "translate": {
+        "tx": 0,
+        "ty": 21.2505
+       }
+      }
+     },
+     {
+      "id": "\u0000n11",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9111,
+       "translate": {
+        "tx": 0,
+        "ty": 2.771
+       }
+      }
+     },
+     {
+      "id": "\u0000n12",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9111,
+       "translate": {
+        "tx": 0,
+        "ty": 7.1351
+       }
+      }
+     },
+     {
+      "id": "\u0000n13",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9111,
+       "translate": {
+        "tx": 0,
+        "ty": 2.771
+       }
+      }
+     },
+     {
+      "id": "\u0000n14",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9111,
+       "translate": {
+        "tx": 0,
+        "ty": 2.771
+       }
+      }
+     },
+     {
+      "id": "\u0000n15",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.9111,
+       "translate": {
+        "tx": 0,
+        "ty": 2.771
+       }
+      }
+     },
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.16,
+       "translate": {
+        "tx": 0,
+        "ty": -19.047
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.16,
+       "translate": {
+        "tx": 0,
+        "ty": -19.047
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 132,
+    "items": [
+     {
+      "id": "\u0000n8",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.2667,
+       "translate": {
+        "tx": 0,
+        "ty": 21.9792
+       }
+      }
+     },
+     {
+      "id": "\u0000n9",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.2667,
+       "translate": {
+        "tx": 0,
+        "ty": 21.9792
+       }
+      }
+     },
+     {
+      "id": "\u0000n10",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.2667,
+       "translate": {
+        "tx": 0,
+        "ty": 21.9792
+       }
+      }
+     },
+     {
+      "id": "\u0000n11",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.8222,
+       "translate": {
+        "tx": 0,
+        "ty": 8.2767
+       }
+      }
+     },
+     {
+      "id": "\u0000n12",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.8222,
+       "translate": {
+        "tx": 0,
+        "ty": 10.7188
+       }
+      }
+     },
+     {
+      "id": "\u0000n13",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.8222,
+       "translate": {
+        "tx": 0,
+        "ty": 8.2767
+       }
+      }
+     },
+     {
+      "id": "\u0000n14",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.8222,
+       "translate": {
+        "tx": 0,
+        "ty": 8.2767
+       }
+      }
+     },
+     {
+      "id": "\u0000n15",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.8222,
+       "translate": {
+        "tx": 0,
+        "ty": 8.2767
+       }
+      }
+     },
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.32,
+       "translate": {
+        "tx": 0,
+        "ty": -14.5023
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.32,
+       "translate": {
+        "tx": 0,
+        "ty": -14.5023
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 150,
+    "items": [
+     {
+      "id": "\u0000n8",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.1667,
+       "translate": {
+        "tx": 0,
+        "ty": 22.5693
+       }
+      }
+     },
+     {
+      "id": "\u0000n9",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.1667,
+       "translate": {
+        "tx": 0,
+        "ty": 22.5693
+       }
+      }
+     },
+     {
+      "id": "\u0000n10",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.1667,
+       "translate": {
+        "tx": 0,
+        "ty": 22.5693
+       }
+      }
+     },
+     {
+      "id": "\u0000n11",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.7222,
+       "translate": {
+        "tx": 0,
+        "ty": 13.1232
+       }
+      }
+     },
+     {
+      "id": "\u0000n12",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.7222,
+       "translate": {
+        "tx": 0,
+        "ty": 14.3471
+       }
+      }
+     },
+     {
+      "id": "\u0000n13",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.7222,
+       "translate": {
+        "tx": 0,
+        "ty": 13.1232
+       }
+      }
+     },
+     {
+      "id": "\u0000n14",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.7222,
+       "translate": {
+        "tx": 0,
+        "ty": 13.1232
+       }
+      }
+     },
+     {
+      "id": "\u0000n15",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.7222,
+       "translate": {
+        "tx": 0,
+        "ty": 13.1232
+       }
+      }
+     },
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.5,
+       "translate": {
+        "tx": 0,
+        "ty": -10.2649
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.5,
+       "translate": {
+        "tx": 0,
+        "ty": -10.2649
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 200,
+    "items": [
+     {
+      "id": "\u0000n11",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4444,
+       "translate": {
+        "tx": 0,
+        "ty": 20.1611
+       }
+      }
+     },
+     {
+      "id": "\u0000n12",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4444,
+       "translate": {
+        "tx": 0,
+        "ty": 20.3276
+       }
+      }
+     },
+     {
+      "id": "\u0000n13",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4444,
+       "translate": {
+        "tx": 0,
+        "ty": 20.1611
+       }
+      }
+     },
+     {
+      "id": "\u0000n14",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4444,
+       "translate": {
+        "tx": 0,
+        "ty": 20.1611
+       }
+      }
+     },
+     {
+      "id": "\u0000n15",
+      "exiting": true,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 0.4444,
+       "translate": {
+        "tx": 0,
+        "ty": 20.1611
+       }
+      }
+     },
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": -3.7557
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": -3.7557
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 280,
+    "items": [
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": -0.7976
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": -0.7976
+       }
+      }
+     }
+    ]
+   },
+   {
+    "t": 500,
+    "items": [
+     {
+      "id": "\u0000n16",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       }
+      }
+     },
+     {
+      "id": "\u0000n17",
+      "exiting": false,
+      "opacity": 1,
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "mover": {
+       "opacity": 1,
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       }
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "alignDeltas": [
+  {
+   "align": "left",
+   "from": "hi",
+   "to": "hello world",
+   "oldWidth": 24.0938,
+   "newWidth": 132.484,
+   "itemKeyframes": [
+    {
+     "el": "hello",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "h[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "i[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "left",
+   "from": "hello world",
+   "to": "hi",
+   "oldWidth": 132.484,
+   "newWidth": 24.0938,
+   "itemKeyframes": [
+    {
+     "el": "hi",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "hello[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "space-5[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "world[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "left",
+   "from": "hello",
+   "to": "hello world",
+   "oldWidth": 60.2344,
+   "newWidth": 132.5,
+   "itemKeyframes": [
+    {
+     "el": "h",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "e",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l-3",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "o",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "align": "center",
+   "from": "hi",
+   "to": "hello world",
+   "oldWidth": 24.0938,
+   "newWidth": 132.484,
+   "itemKeyframes": [
+    {
+     "el": "hello",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "h[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "i[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "center",
+   "from": "hello world",
+   "to": "hi",
+   "oldWidth": 132.484,
+   "newWidth": 24.0938,
+   "itemKeyframes": [
+    {
+     "el": "hi",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "hello[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "space-5[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "world[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "center",
+   "from": "hello",
+   "to": "hello world",
+   "oldWidth": 60.2344,
+   "newWidth": 132.5,
+   "itemKeyframes": [
+    {
+     "el": "h",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "e",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l-3",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "o",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "align": "right",
+   "from": "hi",
+   "to": "hello world",
+   "oldWidth": 24.0938,
+   "newWidth": 132.484,
+   "itemKeyframes": [
+    {
+     "el": "hello",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "h[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "i[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "right",
+   "from": "hello world",
+   "to": "hi",
+   "oldWidth": 132.484,
+   "newWidth": 24.0938,
+   "itemKeyframes": [
+    {
+     "el": "hi",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "hello[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "space-5[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    },
+    {
+     "el": "world[exiting]",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     }
+    }
+   ]
+  },
+  {
+   "align": "right",
+   "from": "hello",
+   "to": "hello world",
+   "oldWidth": 60.2344,
+   "newWidth": 132.5,
+   "itemKeyframes": [
+    {
+     "el": "h",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "e",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "l-3",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "o",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "space-5",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    },
+    {
+     "el": "world",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "env": {
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/152.0.0.0 Safari/537.36",
+  "chromeVersion": "152.0.0.0"
+ }
+}

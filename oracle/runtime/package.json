@@ -1,0 +1,12 @@
+{
+  "name": "torph-runtime-oracle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "trace": "node trace.mjs",
+    "probe": "node trace.mjs --probes-only"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

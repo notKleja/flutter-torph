@@ -117,12 +117,16 @@ List<TextSegment> segmentWords(String s) {
 
   final out = <TextSegment>[];
   var segmentStart = 0; // index into the code point arrays
-  var segmentWordLike = (values[0] & flagWordLike) != 0;
   var prevBase = -1; // last non-ignorable code point index
   var prevPrevBase = -1;
+  // Last base of the segment being built, and the base before it inside that
+  // same segment: together they decide the ICU rule status (isWordLike).
+  var segLastBase = -1;
+  var segPrevBase = -1;
   var riRun = 0;
   if (!_isIgnorable(values[0] & catMask)) {
     prevBase = 0;
+    segLastBase = 0;
     riRun = (values[0] & catMask) == catRegionalIndicator ? 1 : 0;
   }
 
@@ -151,21 +155,59 @@ List<TextSegment> segmentWords(String s) {
       out.add(TextSegment(
         offsets[segmentStart],
         s.substring(offsets[segmentStart], offsets[k]),
-        isWordLike: segmentWordLike,
+        isWordLike: _wordLike(values, segLastBase, segPrevBase, k - 1),
       ));
       segmentStart = k;
-      segmentWordLike = (curValue & flagWordLike) != 0;
-    } else if ((curValue & flagWordLike) != 0) {
-      segmentWordLike = true;
+      segLastBase = _isIgnorable(curCat) ? -1 : k;
+      segPrevBase = -1;
+    } else if (!_isIgnorable(curCat)) {
+      segPrevBase = segLastBase;
+      segLastBase = k;
     }
   }
 
   out.add(TextSegment(
     offsets[segmentStart],
     s.substring(offsets[segmentStart], length),
-    isWordLike: segmentWordLike,
+    isWordLike: _wordLike(values, segLastBase, segPrevBase, count - 1),
   ));
   return out;
+}
+
+/// ICU sets a segment's rule status from the last rule that matched, so the
+/// answer hangs off the segment's final base character (trailing Extend, Format
+/// and ZWJ keep the status of what they attach to, per rule 4):
+///
+///   * `$Numeric $ExFm* {100}`, `$ALetterPlus $ExFm* {200}`,
+///     `$HangulSyllable {200}`, `$Hebrew_Letter $ExFm* {200}`,
+///     `$Katakana/$Hiragana/$Ideographic $ExFm* {400}` -- word-like.
+///   * `... $ExtendNumLet {100|200|400}` (13a) -- word-like, but only when the
+///     ExtendNumLet actually chained onto something, so a lone "_" is not.
+///   * `$Hebrew_Letter $ExFm* $Single_Quote {200}` (7a) -- word-like.
+///   * everything else, including `$CR $LF`, `$ZWJ $Extended_Pict`,
+///     `$WSegSpace $WSegSpace` and the regional-indicator pair, has no status,
+///     which is why "x‍\u{1f600}" is *not* word-like even though it starts
+///     with a letter.
+bool _wordLike(
+    Int32List values, int segLastBase, int segPrevBase, int segLastCp) {
+  if (segLastBase < 0) return false;
+  final value = values[segLastBase];
+  // Only the single-character status rules carry a trailing `$ExFm*`, so those
+  // keep their status through attached Extend/Format/ZWJ ("1\u20e3" is
+  // word-like) while `$HangulSyllable {200}`, the 13a ExtendNumLet rules and
+  // rule 7a do not: with anything attached, rule 4 (status-less) is the last
+  // match and the segment stops being word-like.
+  final endsInBase = segLastBase == segLastCp;
+  if ((value & flagHangulSyllable) != 0) return endsInBase;
+  if ((value & flagWordLike) != 0) return true;
+  final cat = value & catMask;
+  if (cat == catExtendNumLet) return endsInBase && segPrevBase >= 0;
+  if (cat == catSingleQuote) {
+    return endsInBase &&
+        segPrevBase >= 0 &&
+        (values[segPrevBase] & catMask) == catHebrewLetter;
+  }
+  return false;
 }
 
 /// The next non-ignorable category after code point [k], or -1 at end of text.
@@ -275,13 +317,19 @@ bool _breakBefore(
       riRun.isOdd) {
     return false;
   }
-  // ICU extras: chain CJK runs for the dictionary breaker.
-  if ((prevValue & flagHangulSyllable) != 0 &&
-      (curValue & flagHangulSyllable) != 0) {
-    return false;
-  }
-  if ((prevValue & flagKanaKanji) != 0 && (curValue & flagKanaKanji) != 0) {
-    return false;
+  // ICU extras: chain CJK runs for the dictionary breaker. Unlike every rule
+  // above, `$HangulSyllable $HangulSyllable` and `$KanaKanji $KanaKanji` carry
+  // no `$ExFm*`, so they need real adjacency: ICU breaks "\uac00\u0301\uac01"
+  // and "\u4e00\u0301\u4e00" even though it joins "\u30ab\u0301\u30ab"
+  // through rule 13.
+  if (prevBase == k - 1) {
+    if ((prevValue & flagHangulSyllable) != 0 &&
+        (curValue & flagHangulSyllable) != 0) {
+      return false;
+    }
+    if ((prevValue & flagKanaKanji) != 0 && (curValue & flagKanaKanji) != 0) {
+      return false;
+    }
   }
   // Rule 999.
   return true;

@@ -1,0 +1,6540 @@
+{
+ "slug": "hello-42-7d79a7",
+ "label": "\"hello\" -> \"42\"",
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "page": {
+  "fontFamily": "Menlo",
+  "fontSize": 20,
+  "textAlign": "left"
+ },
+ "options": {},
+ "resolvedDuration": 400,
+ "initial": "hello",
+ "initialCursorIndex": null,
+ "steps": [
+  {
+   "at": 0,
+   "value": "42",
+   "cursorIndex": null
+  }
+ ],
+ "sampleTimes": [
+  0,
+  4,
+  16,
+  20,
+  32,
+  40,
+  48,
+  64,
+  80,
+  96,
+  100,
+  148,
+  200,
+  292,
+  360,
+  400,
+  440
+ ],
+ "updates": [
+  {
+   "at": 0,
+   "kind": "initial",
+   "value": "hello",
+   "cursorIndex": null,
+   "animsCreated": [],
+   "callbacks": []
+  },
+  {
+   "at": 0,
+   "kind": "morph",
+   "value": "42",
+   "cursorIndex": null,
+   "animsCreated": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, -24px)",
+      "offset": 0
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, -24px)",
+      "offset": 0
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 100,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "width": "60.2344px"
+      },
+      {
+       "width": "24.0938px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "height": "24px"
+      },
+      {
+       "height": "24px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  }
+ ],
+ "samples": [
+  {
+   "t": 0,
+   "now": 0,
+   "root": {
+    "computedWidth": 60.2344,
+    "computedHeight": 24,
+    "rectWidth": 60.2344,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -24)",
+      "translate": {
+       "tx": 0,
+       "ty": -24
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0,
+      "rect": {
+       "x": 0,
+       "y": -24,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -24)",
+      "translate": {
+       "tx": 0,
+       "ty": -24
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0,
+      "rect": {
+       "x": 12.0469,
+       "y": -24,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 4,
+   "now": 4,
+   "root": {
+    "computedWidth": 58.3281,
+    "computedHeight": 24,
+    "rectWidth": 58.3281,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.0158,
+      "y": 0.0315,
+      "w": 12.0153,
+      "h": 23.937
+     },
+     "transform": "matrix(0.997377, 0, 0, 0.997377, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9974,
+      "sy": 0.9974
+     },
+     "opacity": 0.96,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.0158,
+      "y": 0.0315,
+      "w": 12.0153,
+      "h": 23.937
+     },
+     "transform": "matrix(0.997377, 0, 0, 0.997377, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9974,
+      "sy": 0.9974
+     },
+     "opacity": 0.96,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.0158,
+      "y": 0.0315,
+      "w": 12.0153,
+      "h": 23.937
+     },
+     "transform": "matrix(0.997377, 0, 0, 0.997377, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9974,
+      "sy": 0.9974
+     },
+     "opacity": 0.96,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.0158,
+      "y": 0.0315,
+      "w": 12.0153,
+      "h": 23.937
+     },
+     "transform": "matrix(0.997377, 0, 0, 0.997377, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9974,
+      "sy": 0.9974
+     },
+     "opacity": 0.96,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.0158,
+      "y": 0.0315,
+      "w": 12.0153,
+      "h": 23.937
+     },
+     "transform": "matrix(0.997377, 0, 0, 0.997377, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9974,
+      "sy": 0.9974
+     },
+     "opacity": 0.96,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -22.741)",
+      "translate": {
+       "tx": 0,
+       "ty": -22.741
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.04,
+      "rect": {
+       "x": 0,
+       "y": -22.741,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -22.741)",
+      "translate": {
+       "tx": 0,
+       "ty": -22.741
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.04,
+      "rect": {
+       "x": 12.0469,
+       "y": -22.741,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 16,
+   "now": 16,
+   "root": {
+    "computedWidth": 52.7656,
+    "computedHeight": 24,
+    "rectWidth": 52.7656,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 53,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.0622,
+      "y": 0.1238,
+      "w": 11.9226,
+      "h": 23.7523
+     },
+     "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9897,
+      "sy": 0.9897
+     },
+     "opacity": 0.84,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.0622,
+      "y": 0.1238,
+      "w": 11.9226,
+      "h": 23.7523
+     },
+     "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9897,
+      "sy": 0.9897
+     },
+     "opacity": 0.84,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.0622,
+      "y": 0.1238,
+      "w": 11.9226,
+      "h": 23.7523
+     },
+     "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9897,
+      "sy": 0.9897
+     },
+     "opacity": 0.84,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.0622,
+      "y": 0.1238,
+      "w": 11.9226,
+      "h": 23.7523
+     },
+     "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9897,
+      "sy": 0.9897
+     },
+     "opacity": 0.84,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.0622,
+      "y": 0.1238,
+      "w": 11.9226,
+      "h": 23.7523
+     },
+     "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9897,
+      "sy": 0.9897
+     },
+     "opacity": 0.84,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -19.047)",
+      "translate": {
+       "tx": 0,
+       "ty": -19.047
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.16,
+      "rect": {
+       "x": 0,
+       "y": -19.047,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -19.047)",
+      "translate": {
+       "tx": 0,
+       "ty": -19.047
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.16,
+      "rect": {
+       "x": 12.0469,
+       "y": -19.047,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 20,
+   "now": 20,
+   "root": {
+    "computedWidth": 50.9844,
+    "computedHeight": 24,
+    "rectWidth": 50.9844,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 51,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.0771,
+      "y": 0.1535,
+      "w": 11.8928,
+      "h": 23.693
+     },
+     "transform": "matrix(0.987207, 0, 0, 0.987207, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9872,
+      "sy": 0.9872
+     },
+     "opacity": 0.8,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.0771,
+      "y": 0.1535,
+      "w": 11.8928,
+      "h": 23.693
+     },
+     "transform": "matrix(0.987207, 0, 0, 0.987207, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9872,
+      "sy": 0.9872
+     },
+     "opacity": 0.8,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.0771,
+      "y": 0.1535,
+      "w": 11.8928,
+      "h": 23.693
+     },
+     "transform": "matrix(0.987207, 0, 0, 0.987207, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9872,
+      "sy": 0.9872
+     },
+     "opacity": 0.8,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.0771,
+      "y": 0.1535,
+      "w": 11.8928,
+      "h": 23.693
+     },
+     "transform": "matrix(0.987207, 0, 0, 0.987207, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9872,
+      "sy": 0.9872
+     },
+     "opacity": 0.8,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.0771,
+      "y": 0.1535,
+      "w": 11.8928,
+      "h": 23.693
+     },
+     "transform": "matrix(0.987207, 0, 0, 0.987207, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9872,
+      "sy": 0.9872
+     },
+     "opacity": 0.8,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -17.8594)",
+      "translate": {
+       "tx": 0,
+       "ty": -17.8594
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.2,
+      "rect": {
+       "x": 0,
+       "y": -17.8594,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -17.8594)",
+      "translate": {
+       "tx": 0,
+       "ty": -17.8594
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.2,
+      "rect": {
+       "x": 12.0469,
+       "y": -17.8594,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 32,
+   "now": 32,
+   "root": {
+    "computedWidth": 45.9219,
+    "computedHeight": 24,
+    "rectWidth": 45.9219,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 46,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.1192,
+      "y": 0.2374,
+      "w": 11.8085,
+      "h": 23.5251
+     },
+     "transform": "matrix(0.980213, 0, 0, 0.980213, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9802,
+      "sy": 0.9802
+     },
+     "opacity": 0.68,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.1192,
+      "y": 0.2374,
+      "w": 11.8085,
+      "h": 23.5251
+     },
+     "transform": "matrix(0.980213, 0, 0, 0.980213, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9802,
+      "sy": 0.9802
+     },
+     "opacity": 0.68,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.1192,
+      "y": 0.2374,
+      "w": 11.8085,
+      "h": 23.5251
+     },
+     "transform": "matrix(0.980213, 0, 0, 0.980213, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9802,
+      "sy": 0.9802
+     },
+     "opacity": 0.68,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.1192,
+      "y": 0.2374,
+      "w": 11.8085,
+      "h": 23.5251
+     },
+     "transform": "matrix(0.980213, 0, 0, 0.980213, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9802,
+      "sy": 0.9802
+     },
+     "opacity": 0.68,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.1192,
+      "y": 0.2374,
+      "w": 11.8085,
+      "h": 23.5251
+     },
+     "transform": "matrix(0.980213, 0, 0, 0.980213, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9802,
+      "sy": 0.9802
+     },
+     "opacity": 0.68,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -14.5023)",
+      "translate": {
+       "tx": 0,
+       "ty": -14.5023
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.32,
+      "rect": {
+       "x": 0,
+       "y": -14.5023,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -14.5023)",
+      "translate": {
+       "tx": 0,
+       "ty": -14.5023
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.32,
+      "rect": {
+       "x": 12.0469,
+       "y": -14.5023,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 40,
+   "now": 40,
+   "root": {
+    "computedWidth": 42.8906,
+    "computedHeight": 24,
+    "rectWidth": 42.8906,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 43,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.1445,
+      "y": 0.2878,
+      "w": 11.7579,
+      "h": 23.4243
+     },
+     "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.976,
+      "sy": 0.976
+     },
+     "opacity": 0.6,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.1445,
+      "y": 0.2878,
+      "w": 11.7579,
+      "h": 23.4243
+     },
+     "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.976,
+      "sy": 0.976
+     },
+     "opacity": 0.6,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.1445,
+      "y": 0.2878,
+      "w": 11.7579,
+      "h": 23.4243
+     },
+     "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.976,
+      "sy": 0.976
+     },
+     "opacity": 0.6,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.1445,
+      "y": 0.2878,
+      "w": 11.7579,
+      "h": 23.4243
+     },
+     "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.976,
+      "sy": 0.976
+     },
+     "opacity": 0.6,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.1445,
+      "y": 0.2878,
+      "w": 11.7579,
+      "h": 23.4243
+     },
+     "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.976,
+      "sy": 0.976
+     },
+     "opacity": 0.6,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -12.4859)",
+      "translate": {
+       "tx": 0,
+       "ty": -12.4859
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.4,
+      "rect": {
+       "x": 0,
+       "y": -12.4859,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -12.4859)",
+      "translate": {
+       "tx": 0,
+       "ty": -12.4859
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.4,
+      "rect": {
+       "x": 12.0469,
+       "y": -12.4859,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 48,
+   "now": 48,
+   "root": {
+    "computedWidth": 40.1719,
+    "computedHeight": 24,
+    "rectWidth": 40.1719,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 40,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.1671,
+      "y": 0.333,
+      "w": 11.7126,
+      "h": 23.3341
+     },
+     "transform": "matrix(0.972253, 0, 0, 0.972253, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9723,
+      "sy": 0.9723
+     },
+     "opacity": 0.52,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.1671,
+      "y": 0.333,
+      "w": 11.7126,
+      "h": 23.3341
+     },
+     "transform": "matrix(0.972253, 0, 0, 0.972253, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9723,
+      "sy": 0.9723
+     },
+     "opacity": 0.52,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.1671,
+      "y": 0.333,
+      "w": 11.7126,
+      "h": 23.3341
+     },
+     "transform": "matrix(0.972253, 0, 0, 0.972253, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9723,
+      "sy": 0.9723
+     },
+     "opacity": 0.52,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.1671,
+      "y": 0.333,
+      "w": 11.7126,
+      "h": 23.3341
+     },
+     "transform": "matrix(0.972253, 0, 0, 0.972253, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9723,
+      "sy": 0.9723
+     },
+     "opacity": 0.52,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.1671,
+      "y": 0.333,
+      "w": 11.7126,
+      "h": 23.3341
+     },
+     "transform": "matrix(0.972253, 0, 0, 0.972253, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9723,
+      "sy": 0.9723
+     },
+     "opacity": 0.52,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -10.6812)",
+      "translate": {
+       "tx": 0,
+       "ty": -10.6812
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.48,
+      "rect": {
+       "x": 0,
+       "y": -10.6812,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -10.6812)",
+      "translate": {
+       "tx": 0,
+       "ty": -10.6812
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.48,
+      "rect": {
+       "x": 12.0469,
+       "y": -10.6812,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 64,
+   "now": 64,
+   "root": {
+    "computedWidth": 35.7344,
+    "computedHeight": 24,
+    "rectWidth": 35.7344,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 36,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.2041,
+      "y": 0.4066,
+      "w": 11.6387,
+      "h": 23.1868
+     },
+     "transform": "matrix(0.966119, 0, 0, 0.966119, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9661,
+      "sy": 0.9661
+     },
+     "opacity": 0.36,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.2041,
+      "y": 0.4066,
+      "w": 11.6387,
+      "h": 23.1868
+     },
+     "transform": "matrix(0.966119, 0, 0, 0.966119, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9661,
+      "sy": 0.9661
+     },
+     "opacity": 0.36,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.2041,
+      "y": 0.4066,
+      "w": 11.6387,
+      "h": 23.1868
+     },
+     "transform": "matrix(0.966119, 0, 0, 0.966119, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9661,
+      "sy": 0.9661
+     },
+     "opacity": 0.36,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.2041,
+      "y": 0.4066,
+      "w": 11.6387,
+      "h": 23.1868
+     },
+     "transform": "matrix(0.966119, 0, 0, 0.966119, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9661,
+      "sy": 0.9661
+     },
+     "opacity": 0.36,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.2041,
+      "y": 0.4066,
+      "w": 11.6387,
+      "h": 23.1868
+     },
+     "transform": "matrix(0.966119, 0, 0, 0.966119, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9661,
+      "sy": 0.9661
+     },
+     "opacity": 0.36,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -7.73698)",
+      "translate": {
+       "tx": 0,
+       "ty": -7.737
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.64,
+      "rect": {
+       "x": 0,
+       "y": -7.737,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -7.73698)",
+      "translate": {
+       "tx": 0,
+       "ty": -7.737
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.64,
+      "rect": {
+       "x": 12.0469,
+       "y": -7.737,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 80,
+   "now": 80,
+   "root": {
+    "computedWidth": 32.5156,
+    "computedHeight": 24,
+    "rectWidth": 32.5156,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 33,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.231,
+      "y": 0.4602,
+      "w": 11.5849,
+      "h": 23.0797
+     },
+     "transform": "matrix(0.961652, 0, 0, 0.961652, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9617,
+      "sy": 0.9617
+     },
+     "opacity": 0.2,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.231,
+      "y": 0.4602,
+      "w": 11.5849,
+      "h": 23.0797
+     },
+     "transform": "matrix(0.961652, 0, 0, 0.961652, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9617,
+      "sy": 0.9617
+     },
+     "opacity": 0.2,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.231,
+      "y": 0.4602,
+      "w": 11.5849,
+      "h": 23.0797
+     },
+     "transform": "matrix(0.961652, 0, 0, 0.961652, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9617,
+      "sy": 0.9617
+     },
+     "opacity": 0.2,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.231,
+      "y": 0.4602,
+      "w": 11.5849,
+      "h": 23.0797
+     },
+     "transform": "matrix(0.961652, 0, 0, 0.961652, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9617,
+      "sy": 0.9617
+     },
+     "opacity": 0.2,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.231,
+      "y": 0.4602,
+      "w": 11.5849,
+      "h": 23.0797
+     },
+     "transform": "matrix(0.961652, 0, 0, 0.961652, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9617,
+      "sy": 0.9617
+     },
+     "opacity": 0.2,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59308)",
+      "translate": {
+       "tx": 0,
+       "ty": -5.5931
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.8,
+      "rect": {
+       "x": 0,
+       "y": -5.5931,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -5.59308)",
+      "translate": {
+       "tx": 0,
+       "ty": -5.5931
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.8,
+      "rect": {
+       "x": 12.0469,
+       "y": -5.5931,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 96,
+   "now": 96,
+   "root": {
+    "computedWidth": 30.2031,
+    "computedHeight": 24,
+    "rectWidth": 30.2031,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 30,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.2502,
+      "y": 0.4984,
+      "w": 11.5465,
+      "h": 23.0032
+     },
+     "transform": "matrix(0.958466, 0, 0, 0.958466, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9585,
+      "sy": 0.9585
+     },
+     "opacity": 0.04,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 12.2502,
+      "y": 0.4984,
+      "w": 11.5465,
+      "h": 23.0032
+     },
+     "transform": "matrix(0.958466, 0, 0, 0.958466, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9585,
+      "sy": 0.9585
+     },
+     "opacity": 0.04,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "12px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 24.2502,
+      "y": 0.4984,
+      "w": 11.5465,
+      "h": 23.0032
+     },
+     "transform": "matrix(0.958466, 0, 0, 0.958466, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9585,
+      "sy": 0.9585
+     },
+     "opacity": 0.04,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "24px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 36.2502,
+      "y": 0.4984,
+      "w": 11.5465,
+      "h": 23.0032
+     },
+     "transform": "matrix(0.958466, 0, 0, 0.958466, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9585,
+      "sy": 0.9585
+     },
+     "opacity": 0.04,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "36px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 48.2502,
+      "y": 0.4984,
+      "w": 11.5465,
+      "h": 23.0032
+     },
+     "transform": "matrix(0.958466, 0, 0, 0.958466, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9585,
+      "sy": 0.9585
+     },
+     "opacity": 0.04,
+     "transformOrigin": "6.02344px 12px",
+     "position": "absolute",
+     "inlineLeft": "48px",
+     "inlineTop": "0px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 6,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -4.06377)",
+      "translate": {
+       "tx": 0,
+       "ty": -4.0638
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.96,
+      "rect": {
+       "x": 0,
+       "y": -4.0638,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 7,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -4.06377)",
+      "translate": {
+       "tx": 0,
+       "ty": -4.0638
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 0.96,
+      "rect": {
+       "x": 12.0469,
+       "y": -4.0638,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 100,
+   "now": 100,
+   "root": {
+    "computedWidth": 29.7344,
+    "computedHeight": 24,
+    "rectWidth": 29.7344,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 30,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -3.75566)",
+      "translate": {
+       "tx": 0,
+       "ty": -3.7557
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": -3.7557,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -3.75566)",
+      "translate": {
+       "tx": 0,
+       "ty": -3.7557
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": -3.7557,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 148,
+   "now": 148,
+   "root": {
+    "computedWidth": 26.3281,
+    "computedHeight": 24,
+    "rectWidth": 26.3281,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 26,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -1.48679)",
+      "translate": {
+       "tx": 0,
+       "ty": -1.4868
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": -1.4868,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -1.48679)",
+      "translate": {
+       "tx": 0,
+       "ty": -1.4868
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": -1.4868,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 200,
+   "now": 200,
+   "root": {
+    "computedWidth": 24.8906,
+    "computedHeight": 24,
+    "rectWidth": 24.8906,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 25,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.53221)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.5322
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": -0.5322,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.53221)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.5322
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": -0.5322,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 292,
+   "now": 292,
+   "root": {
+    "computedWidth": 24.1719,
+    "computedHeight": 24,
+    "rectWidth": 24.1719,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 24,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.0539724)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.054
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": -0.054,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.0539724)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.054
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": -0.054,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 360,
+   "now": 360,
+   "root": {
+    "computedWidth": 24.0938,
+    "computedHeight": 24,
+    "rectWidth": 24.0938,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 24,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.00213126)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.0021
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": -0.0021,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, -0.00213126)",
+      "translate": {
+       "tx": 0,
+       "ty": -0.0021
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": -0.0021,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 400,
+   "now": 400,
+   "root": {
+    "computedWidth": 24.0938,
+    "computedHeight": 24,
+    "rectWidth": 24.0938,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 24,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": 0,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  },
+  {
+   "t": 440,
+   "now": 440,
+   "root": {
+    "computedWidth": 24.0938,
+    "computedHeight": 24,
+    "rectWidth": 24.0938,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 24,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "\u0000n100",
+     "tag": "span",
+     "text": "4",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    },
+    {
+     "index": 2,
+     "id": "\u0000n101",
+     "tag": "span",
+     "text": "2",
+     "kind": "digit",
+     "exiting": false,
+     "slot": true,
+     "rect": {
+      "x": 12.0469,
+      "y": 0,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null,
+     "mover": {
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "translate": {
+       "tx": 0,
+       "ty": 0
+      },
+      "scale": {
+       "sx": 1,
+       "sy": 1
+      },
+      "opacity": 1,
+      "rect": {
+       "x": 12.0469,
+       "y": 0,
+       "w": 12.0469,
+       "h": 24
+      }
+     }
+    }
+   ],
+   "sr": "42",
+   "anims": [
+    {
+     "i": 0,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "mover(\u0000n100)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "mover(\u0000n101)",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "h[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 5,
+     "el": "h[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "e[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 7,
+     "el": "e[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "l[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 9,
+     "el": "l[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "l-3[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 11,
+     "el": "l-3[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 12,
+     "el": "o[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 13,
+     "el": "o[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 100
+    },
+    {
+     "i": 14,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 15,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  }
+ ],
+ "callbacks": [
+  {
+   "name": "start",
+   "at": 0
+  },
+  {
+   "name": "complete",
+   "at": 400
+  }
+ ],
+ "initialSample": {
+  "t": 0,
+  "now": 0,
+  "root": {
+   "computedWidth": 60.2344,
+   "computedHeight": 24,
+   "rectWidth": 60.2344,
+   "rectHeight": 24,
+   "offsetHeight": 24,
+   "offsetWidth": 60,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "items": [
+   {
+    "index": 1,
+    "id": "h",
+    "tag": "span",
+    "text": "h",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 2,
+    "id": "e",
+    "tag": "span",
+    "text": "e",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 12.0469,
+     "y": 0,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 3,
+    "id": "l",
+    "tag": "span",
+    "text": "l",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 24.0938,
+     "y": 0,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 4,
+    "id": "l-3",
+    "tag": "span",
+    "text": "l",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 36.1406,
+     "y": 0,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 5,
+    "id": "o",
+    "tag": "span",
+    "text": "o",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 48.1875,
+     "y": 0,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   }
+  ],
+  "sr": "hello",
+  "anims": []
+ }
+}

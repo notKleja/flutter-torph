@@ -431,3 +431,35 @@ H.axisDurations = function () {
     .filter((a) => a.props.includes("width") || a.props.includes("height"))
     .map((a) => ({ props: a.props, duration: a.duration, easing: a.easing }));
 };
+
+/** Pure measurement: item x/y (relative to the root) with the root width pinned. */
+H.measureAt = function (width) {
+  const root = H.root;
+  const prev = root.style.width;
+  if (width !== null && width !== undefined) root.style.width = width + "px";
+  void root.offsetWidth;
+  const rootRect = root.getBoundingClientRect();
+  const out = [];
+  for (const child of root.children) {
+    if (child.hasAttribute(ATTR.SR)) continue;
+    if (child.tagName === "BR") {
+      out.push({ id: child.getAttribute(ATTR.ID), br: true });
+      continue;
+    }
+    const rect = child.getBoundingClientRect();
+    out.push({
+      id: child.getAttribute(ATTR.ID),
+      x: r4(rect.left - rootRect.left),
+      y: r4(rect.top - rootRect.top),
+    });
+  }
+  const cs = getComputedStyle(root);
+  const res = {
+    pinnedWidth: width ?? null,
+    rootComputedWidth: r4(parseFloat(cs.width)),
+    items: out,
+  };
+  root.style.width = prev;
+  void root.offsetWidth;
+  return res;
+};

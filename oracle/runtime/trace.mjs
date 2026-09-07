@@ -39,6 +39,10 @@ function startServer() {
     const file = rel.startsWith("/dist/")
       ? path.join(DIST, rel.slice("/dist/".length))
       : path.join(HERE, rel);
+    if (rel === "/favicon.ico") {
+      res.writeHead(204).end();
+      return;
+    }
     if (!fs.existsSync(file) || fs.statSync(file).isDirectory()) {
       res.writeHead(404).end("not found");
       return;
@@ -523,35 +527,120 @@ async function runProbes(page) {
     return out;
   });
 
-  // P8: Q-004 — deltas persisting items receive under each text-align.
-  probes.alignDeltas = await page.evaluate(async () => {
+  // P7b: the same interrupt at t=40, while the mover's ENTER FADE is still running
+  // (enter fade = duration * 0.25 = 100 ms), so the exit fade's implicit 0% keyframe
+  // has a partially-transparent underlying value to composite over.
+  probes.moverMidFadeThenExit = await page.evaluate(async () => {
+    const out = {};
+    await window.__H.mount({
+      page: { fontFamily: "Menlo", fontSize: 20 },
+      options: {},
+    });
+    await window.__H.applyUpdate("999");
+    await window.__H.applyUpdate("1,000");
+    await window.__H.seek(40);
+    const pick = (t) =>
+      window.__H
+        .sample(t)
+        .items.map((i) => ({
+          id: i.id,
+          text: i.text,
+          exiting: i.exiting,
+          opacity: i.opacity,
+          mover: i.mover
+            ? { opacity: i.mover.opacity, translate: i.mover.translate }
+            : null,
+        }));
+    out.at40BeforeInterrupt = pick(40);
+    const u = await window.__H.applyUpdate("42");
+    out.exitAnims = u.animsCreated.map((a) => ({
+      el: a.el,
+      props: a.props,
+      duration: a.duration,
+      keyframes: a.keyframes,
+    }));
+    out.at40AfterInterrupt = pick(40);
+    out.after = [];
+    for (const t of [44, 56, 72, 90, 130, 220, 500]) {
+      await window.__H.seek(t);
+      out.after.push({ t, items: pick(t) });
+    }
+    return out;
+  });
+
+  // P8a: does text-align shift the line at all? Overflowing vs under-full pin.
+  probes.alignPinBehaviour = await page.evaluate(async () => {
     const runs = [];
     for (const align of ["left", "center", "right"]) {
-      for (const [a, b] of [
-        ["hi", "hello world"],
-        ["hello world", "hi"],
-        ["hello", "hello world"],
-      ]) {
+      for (const value of ["hello", "aaaa\nbb", "aa\nbbbbbbbb"]) {
+        await window.__H.mount({
+          page: { fontFamily: "Menlo", fontSize: 20, textAlign: align },
+          options: {},
+        });
+        await window.__H.applyUpdate(value);
+        const natural = window.__H.measureAt(null);
+        runs.push({
+          align,
+          value,
+          natural,
+          pinnedNarrow: window.__H.measureAt(30),
+          pinnedWide: window.__H.measureAt(300),
+        });
+      }
+    }
+    return runs;
+  });
+
+  // P8b: Q-004 — the delta a PERSISTING item is given under each text-align.
+  // The pinned first-frame measurement only shifts a line that is narrower than the
+  // pin, so the interesting direction is a SHRINK with survivors.
+  probes.alignDeltas = await page.evaluate(async () => {
+    const runs = [];
+    const PAIRS = [
+      ["hello world", "hello"], // shrink, 5 survivors
+      ["hello world foo", "hello world"], // shrink, whole words survive
+      ["hello", "hello world"], // grow, survivors, line overflows the pin
+      ["a\nbbbbbbbb", "a\nbb"], // multi-line shrink
+      ["a\nbb", "a\nbbbbbbbb"], // multi-line grow
+      // Root width is fixed by line 1, so the container never moves, yet the
+      // survivors on line 2 still pick up a per-line alignment delta.
+      ["aaaaaaaaaaaaaaaaaaaa\nhello world", "aaaaaaaaaaaaaaaaaaaa\nhello"],
+      ["aaaaaaaaaaaaaaaaaaaa\nhello", "aaaaaaaaaaaaaaaaaaaa\nhello world"],
+    ];
+    for (const align of ["left", "center", "right"]) {
+      for (const [a, b] of PAIRS) {
         await window.__H.mount({
           page: { fontFamily: "Menlo", fontSize: 20, textAlign: align },
           options: {},
         });
         await window.__H.applyUpdate(a);
-        const before = window.__H.sample(0);
+        const oldWidth = window.__H.sample(0).root.computedWidth;
+        const prevMeasuresNatural = window.__H.measureAt(null);
         const u = await window.__H.applyUpdate(b);
-        // The transform keyframe of each item encodes the delta it was given.
+        await window.__H.seek(2000);
+        const settled = window.__H.sample(2000);
         runs.push({
           align,
           from: a,
           to: b,
-          oldWidth: before.root.computedWidth,
-          newWidth: (await (async () => {
-            await window.__H.seek(1000);
-            return window.__H.sample(1000).root.computedWidth;
-          })()),
+          oldWidth,
+          newNaturalWidth: settled.root.computedWidth,
+          prevMeasuresNatural,
+          // what measure() would have returned with the root pinned to oldWidth,
+          // i.e. `firstFrameMeasures`, recomputed on the settled new DOM
+          firstFramePin: window.__H.measureAt(oldWidth),
+          currentMeasuresNatural: window.__H.measureAt(null),
           itemKeyframes: u.animsCreated
             .filter((x) => x.el !== "root" && x.props.includes("transform"))
             .map((x) => ({ el: x.el, keyframes: x.keyframes })),
+          containerKeyframes: u.animsCreated
+            .filter((x) => x.el === "root")
+            .map((x) => ({
+              props: x.props,
+              keyframes: x.keyframes,
+              easing: x.easing,
+              duration: x.duration,
+            })),
         });
       }
     }

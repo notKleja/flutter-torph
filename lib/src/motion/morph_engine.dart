@@ -438,7 +438,6 @@ class MorphEngine {
       final p = result.offsets[item.id];
       final s = result.sizes[item.id];
       if (p == null || s == null) continue;
-      measures[item.id] = p;
       if (apply) {
         item
           ..x = p.x
@@ -446,6 +445,11 @@ class MorphEngine {
           ..width = s.width
           ..height = s.height;
       }
+      // `getBoundingClientRect` is the visual box: a running scale about the
+      // current transform-origin shifts it, and only the translate is subtracted.
+      final t = item.box.transformAt(now);
+      final o = item.transformOrigin ?? (x: s.width / 2, y: s.height / 2);
+      measures[item.id] = (x: p.x + o.x * (1 - t.sx), y: p.y + o.y * (1 - t.sy));
     }
     if (natural) {
       _naturalWidth = result.naturalWidth;
@@ -607,7 +611,7 @@ class MorphEngine {
     final duration = config.duration;
     child.lifecycle = Lifecycle.exiting;
     child.box.animateTransform(
-      from: child.box.underlyingTransform,
+      from: null,
       to: config.scale
           ? Transform2(tx: dx, ty: dy, sx: _itemScale, sy: _itemScale)
           : Transform2(tx: dx, ty: dy),
@@ -615,7 +619,7 @@ class MorphEngine {
       easing: config.easeFn,
     );
     child.removeWhen = child.box.animateOpacity(
-      from: child.box.underlyingOpacity,
+      from: null,
       to: 0,
       duration: fadeDuration(duration, _textExitFade),
     );
@@ -664,14 +668,14 @@ class MorphEngine {
     final mover = slot.moverBox;
 
     slot.box.animateTransform(
-      from: slot.box.underlyingTransform,
+      from: null,
       to: Transform2(tx: dx, ty: dy),
       duration: duration,
       easing: config.easeFn,
     );
 
     mover.animateTransform(
-      from: mover.underlyingTransform,
+      from: null,
       to: Transform2(tx: 0, ty: slideDistance),
       duration: duration,
       easing: config.easeFn,
@@ -679,7 +683,7 @@ class MorphEngine {
 
     // The slot goes, not just its contents.
     slot.removeWhen = mover.animateOpacity(
-      from: mover.underlyingOpacity,
+      from: null,
       to: 0,
       duration: duration * _numberExitFade,
     );
@@ -698,7 +702,7 @@ class MorphEngine {
 
     mover.animateTransform(
       from: Transform2(tx: 0, ty: prev.ty + from),
-      to: mover.underlyingTransform,
+      to: null,
       duration: duration,
       easing: config.easeFn,
     );
@@ -726,7 +730,7 @@ class MorphEngine {
 
     slot.box.animateTransform(
       from: Transform2(tx: startX, ty: startY),
-      to: slot.box.underlyingTransform,
+      to: null,
       duration: duration,
       easing: config.easeFn,
     );
@@ -774,14 +778,14 @@ class MorphEngine {
       element.lifecycle = Lifecycle.groupExiting;
 
       element.box.animateTransform(
-        from: element.box.underlyingTransform,
+        from: null,
         to: const Transform2(sx: groupScale, sy: groupScale),
         duration: duration,
         easing: config.easeFn,
       );
 
       element.removeWhen = element.box.animateOpacity(
-        from: element.box.underlyingOpacity,
+        from: null,
         to: 0,
         duration: duration * _groupExitFade,
       );
@@ -801,7 +805,7 @@ class MorphEngine {
 
       element.box.animateTransform(
         from: const Transform2(sx: groupScale, sy: groupScale),
-        to: element.box.underlyingTransform,
+        to: null,
         duration: duration,
         easing: config.easeFn,
       );
@@ -838,7 +842,8 @@ class MorphEngine {
   void _transitionContainerSize(double oldWidth, double oldHeight) {
     // Read before the abort, off the curves the box is still riding.
     final previous = _container;
-    final previousSnapshot = previous != null && !previous.stopped ? previous : null;
+    final previousSnapshot =
+        previous != null && !previous.stopped ? previous.snapshot(now) : null;
     _abortContainerTransition();
 
     if (oldWidth == 0 || oldHeight == 0) {
@@ -895,6 +900,12 @@ class MorphEngine {
       c.stop();
       c.onComplete?.call();
     }
+
+    // Lines are aligned within whatever width the root has this frame, so a
+    // centred or right-aligned line moves with the animated container while
+    // its items' transforms stay untouched.
+    final pinned = _pinnedWidth;
+    if (pinned != null) _measureInto(liveItems, width: pinned);
 
     items.removeWhere((item) {
       final fade = item.removeWhen;

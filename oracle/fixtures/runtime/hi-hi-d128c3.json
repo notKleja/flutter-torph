@@ -1,0 +1,3001 @@
+{
+ "slug": "hi-hi-d128c3",
+ "label": "\"😀 hi\" -> \"hi 😀\"",
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "page": {
+  "fontFamily": "Menlo",
+  "fontSize": 20,
+  "textAlign": "left"
+ },
+ "options": {},
+ "resolvedDuration": 400,
+ "initial": "😀 hi",
+ "initialCursorIndex": null,
+ "steps": [
+  {
+   "at": 0,
+   "value": "hi 😀",
+   "cursorIndex": null
+  }
+ ],
+ "sampleTimes": [
+  0,
+  4,
+  16,
+  20,
+  32,
+  40,
+  48,
+  64,
+  80,
+  96,
+  100,
+  148,
+  200,
+  292,
+  360,
+  400,
+  440
+ ],
+ "updates": [
+  {
+   "at": 0,
+   "kind": "initial",
+   "value": "😀 hi",
+   "cursorIndex": null,
+   "animsCreated": [],
+   "callbacks": []
+  },
+  {
+   "at": 0,
+   "kind": "morph",
+   "value": "hi 😀",
+   "cursorIndex": null,
+   "animsCreated": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(34.046875px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(-2.09375px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(-36.140625px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "width": "58.1406px"
+      },
+      {
+       "width": "58.1406px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "height": "29px"
+      },
+      {
+       "height": "29px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  }
+ ],
+ "samples": [
+  {
+   "t": 0,
+   "now": 0,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 34.0469,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 34.0469, 0)",
+     "translate": {
+      "tx": 34.0469,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -2.09375, 0)",
+     "translate": {
+      "tx": -2.0937,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -36.1406, 0)",
+     "translate": {
+      "tx": -36.1406,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 4,
+   "now": 4,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 32.2608,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 32.2608, 0)",
+     "translate": {
+      "tx": 32.2608,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.1098,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.98391, 0)",
+     "translate": {
+      "tx": -1.9839,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 1.8959,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -34.2447, 0)",
+     "translate": {
+      "tx": -34.2447,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 16,
+   "now": 16,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 27.0204,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 27.0204, 0)",
+     "translate": {
+      "tx": 27.0204,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.4321,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.66165, 0)",
+     "translate": {
+      "tx": -1.6616,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 7.4586,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -28.6821, 0)",
+     "translate": {
+      "tx": -28.6821,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 20,
+   "now": 20,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 25.3356,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 25.3356, 0)",
+     "translate": {
+      "tx": 25.3356,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.5357,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.55804, 0)",
+     "translate": {
+      "tx": -1.558,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 9.2469,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -26.8937, 0)",
+     "translate": {
+      "tx": -26.8937,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 32,
+   "now": 32,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 20.5732,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 20.5732, 0)",
+     "translate": {
+      "tx": 20.5732,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.8286,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.26517, 0)",
+     "translate": {
+      "tx": -1.2652,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 14.3022,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -21.8384, 0)",
+     "translate": {
+      "tx": -21.8384,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 40,
+   "now": 40,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 17.7127,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 17.7127, 0)",
+     "translate": {
+      "tx": 17.7127,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.0045,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.08926, 0)",
+     "translate": {
+      "tx": -1.0893,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 17.3386,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -18.802, 0)",
+     "translate": {
+      "tx": -18.802,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 48,
+   "now": 48,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 15.1526,
+      "y": 3,
+      "w": 24.0937,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 15.1526, 0)",
+     "translate": {
+      "tx": 15.1526,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.1619,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.931826, 0)",
+     "translate": {
+      "tx": -0.9318,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 20.0562,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -16.0844, 0)",
+     "translate": {
+      "tx": -16.0844,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 64,
+   "now": 64,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 10.9758,
+      "y": 3,
+      "w": 24.0937,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 10.9758, 0)",
+     "translate": {
+      "tx": 10.9758,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.4188,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.674971, 0)",
+     "translate": {
+      "tx": -0.675,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.4898,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -11.6508, 0)",
+     "translate": {
+      "tx": -11.6508,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 80,
+   "now": 80,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 7.9345,
+      "y": 3,
+      "w": 24.0937,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 7.93446, 0)",
+     "translate": {
+      "tx": 7.9345,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.6058,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.487938, 0)",
+     "translate": {
+      "tx": -0.4879,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 27.7182,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -8.42239, 0)",
+     "translate": {
+      "tx": -8.4224,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 96,
+   "now": 96,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 5.7649,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 5.76494, 0)",
+     "translate": {
+      "tx": 5.7649,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.7392,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.354521, 0)",
+     "translate": {
+      "tx": -0.3545,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 30.0212,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -6.11946, 0)",
+     "translate": {
+      "tx": -6.1195,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 100,
+   "now": 100,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 5.3279,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 5.32785, 0)",
+     "translate": {
+      "tx": 5.3279,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.7661,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.327642, 0)",
+     "translate": {
+      "tx": -0.3276,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 30.4851,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -5.65549, 0)",
+     "translate": {
+      "tx": -5.6555,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 148,
+   "now": 148,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 2.1092,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 2.10918, 0)",
+     "translate": {
+      "tx": 2.1092,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 23.964,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.129707, 0)",
+     "translate": {
+      "tx": -0.1297,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 33.9017,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -2.23889, 0)",
+     "translate": {
+      "tx": -2.2389,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 200,
+   "now": 200,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0.755,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0.755003, 0)",
+     "translate": {
+      "tx": 0.755,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.0473,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.0464298, 0)",
+     "translate": {
+      "tx": -0.0464,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 35.3392,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.801433, 0)",
+     "translate": {
+      "tx": -0.8014,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 292,
+   "now": 292,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0.0766,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0.0765663, 0)",
+     "translate": {
+      "tx": 0.0766,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.089,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.00470853, 0)",
+     "translate": {
+      "tx": -0.0047,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 36.0594,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.0812748, 0)",
+     "translate": {
+      "tx": -0.0813,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 360,
+   "now": 360,
+   "root": {
+    "computedWidth": 58.125,
+    "computedHeight": 29,
+    "rectWidth": 58.125,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0.003,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0.00302345, 0)",
+     "translate": {
+      "tx": 0.003,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.0936,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.00018593, 0)",
+     "translate": {
+      "tx": -0.0002,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 36.1374,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.00320938, 0)",
+     "translate": {
+      "tx": -0.0032,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 400,
+   "now": 400,
+   "root": {
+    "computedWidth": 58.1406,
+    "computedHeight": 29,
+    "rectWidth": 58.1406,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.0938,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 36.1406,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  },
+  {
+   "t": 440,
+   "now": 440,
+   "root": {
+    "computedWidth": 58.1406,
+    "computedHeight": 29,
+    "rectWidth": 58.1406,
+    "rectHeight": 29,
+    "offsetHeight": 29,
+    "offsetWidth": 58,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "hi",
+     "tag": "span",
+     "text": "hi",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 3,
+      "w": 24.0938,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "12.0469px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-2",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.0938,
+      "y": 3,
+      "w": 12.0469,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "6.02344px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "😀",
+     "tag": "span",
+     "text": "😀",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 36.1406,
+      "y": 0,
+      "w": 22,
+      "h": 29
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "11px 14.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hi 😀",
+   "anims": [
+    {
+     "i": 0,
+     "el": "hi",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "space-2",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "😀",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  }
+ ],
+ "callbacks": [
+  {
+   "name": "start",
+   "at": 0
+  },
+  {
+   "name": "complete",
+   "at": 400
+  }
+ ],
+ "initialSample": {
+  "t": 0,
+  "now": 0,
+  "root": {
+   "computedWidth": 58.1406,
+   "computedHeight": 29,
+   "rectWidth": 58.1406,
+   "rectHeight": 29,
+   "offsetHeight": 29,
+   "offsetWidth": 58,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "items": [
+   {
+    "index": 1,
+    "id": "😀",
+    "tag": "span",
+    "text": "😀",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 22,
+     "h": 29
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "11px 14.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 2,
+    "id": "space-2",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 22,
+     "y": 3,
+     "w": 12.0469,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "6.02344px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 3,
+    "id": "hi",
+    "tag": "span",
+    "text": "hi",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 34.0469,
+     "y": 3,
+     "w": 24.0938,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "12.0469px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   }
+  ],
+  "sr": "😀 hi",
+  "anims": []
+ }
+}

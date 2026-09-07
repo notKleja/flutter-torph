@@ -1,0 +1,6151 @@
+{
+ "slug": "helvetica-hello-hello-world-553a02",
+ "label": "helvetica \"hello\" -> \"hello world\"",
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "page": {
+  "fontFamily": "Helvetica",
+  "fontSize": 20,
+  "textAlign": "left"
+ },
+ "options": {},
+ "resolvedDuration": 400,
+ "initial": "hello",
+ "initialCursorIndex": null,
+ "steps": [
+  {
+   "at": 0,
+   "value": "hello world",
+   "cursorIndex": null
+  }
+ ],
+ "sampleTimes": [
+  0,
+  4,
+  16,
+  20,
+  32,
+  40,
+  48,
+  64,
+  80,
+  96,
+  100,
+  148,
+  200,
+  292,
+  360,
+  400,
+  440
+ ],
+ "updates": [
+  {
+   "at": 0,
+   "kind": "initial",
+   "value": "hello",
+   "cursorIndex": null,
+   "animsCreated": [],
+   "callbacks": []
+  },
+  {
+   "at": 0,
+   "kind": "morph",
+   "value": "hello world",
+   "cursorIndex": null,
+   "animsCreated": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(0.95)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "duration": 200,
+     "delay": 100,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": [
+      {
+       "opacity": 0
+      },
+      {
+       "opacity": 1
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "width": "42.2812px"
+      },
+      {
+       "width": "95.6406px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "height": "23px"
+      },
+      {
+       "height": "23px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  }
+ ],
+ "samples": [
+  {
+   "t": 0,
+   "now": 0,
+   "root": {
+    "computedWidth": 42.2656,
+    "computedHeight": 23,
+    "rectWidth": 42.2656,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 42,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.4203,
+      "y": 0.575,
+      "w": 5.2844,
+      "h": 21.85
+     },
+     "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.95,
+      "sy": 0.95
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 49.0387,
+      "y": 0.575,
+      "w": 45.407,
+      "h": 21.85
+     },
+     "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.95,
+      "sy": 0.95
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 4,
+   "now": 4,
+   "root": {
+    "computedWidth": 45.0781,
+    "computedHeight": 23,
+    "rectWidth": 45.0781,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 45,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.413,
+      "y": 0.5448,
+      "w": 5.299,
+      "h": 21.9103
+     },
+     "transform": "matrix(0.952623, 0, 0, 0.952623, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9526,
+      "sy": 0.9526
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.976,
+      "y": 0.5448,
+      "w": 45.5324,
+      "h": 21.9103
+     },
+     "transform": "matrix(0.952623, 0, 0, 0.952623, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9526,
+      "sy": 0.9526
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 16,
+   "now": 16,
+   "root": {
+    "computedWidth": 53.2812,
+    "computedHeight": 23,
+    "rectWidth": 53.2813,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 53,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3916,
+      "y": 0.4563,
+      "w": 5.3418,
+      "h": 22.0873
+     },
+     "transform": "matrix(0.960319, 0, 0, 0.960319, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9603,
+      "sy": 0.9603
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.7921,
+      "y": 0.4563,
+      "w": 45.9002,
+      "h": 22.0873
+     },
+     "transform": "matrix(0.960319, 0, 0, 0.960319, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9603,
+      "sy": 0.9603
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 20,
+   "now": 20,
+   "root": {
+    "computedWidth": 55.9219,
+    "computedHeight": 23,
+    "rectWidth": 55.9219,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 56,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3847,
+      "y": 0.4279,
+      "w": 5.3555,
+      "h": 22.1442
+     },
+     "transform": "matrix(0.962793, 0, 0, 0.962793, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9628,
+      "sy": 0.9628
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.7329,
+      "y": 0.4279,
+      "w": 46.0185,
+      "h": 22.1442
+     },
+     "transform": "matrix(0.962793, 0, 0, 0.962793, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9628,
+      "sy": 0.9628
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 32,
+   "now": 32,
+   "root": {
+    "computedWidth": 63.3906,
+    "computedHeight": 23,
+    "rectWidth": 63.3906,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 63,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3653,
+      "y": 0.3475,
+      "w": 5.3944,
+      "h": 22.3051
+     },
+     "transform": "matrix(0.969787, 0, 0, 0.969787, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9698,
+      "sy": 0.9698
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.5658,
+      "y": 0.3475,
+      "w": 46.3528,
+      "h": 22.3051
+     },
+     "transform": "matrix(0.969787, 0, 0, 0.969787, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9698,
+      "sy": 0.9698
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 40,
+   "now": 40,
+   "root": {
+    "computedWidth": 67.875,
+    "computedHeight": 23,
+    "rectWidth": 67.875,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 68,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3536,
+      "y": 0.2991,
+      "w": 5.4178,
+      "h": 22.4017
+     },
+     "transform": "matrix(0.973988, 0, 0, 0.973988, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.974,
+      "sy": 0.974
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.4654,
+      "y": 0.2991,
+      "w": 46.5536,
+      "h": 22.4017
+     },
+     "transform": "matrix(0.973988, 0, 0, 0.973988, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.974,
+      "sy": 0.974
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 48,
+   "now": 48,
+   "root": {
+    "computedWidth": 71.8906,
+    "computedHeight": 23,
+    "rectWidth": 71.8906,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 72,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3431,
+      "y": 0.2559,
+      "w": 5.4387,
+      "h": 22.4882
+     },
+     "transform": "matrix(0.977747, 0, 0, 0.977747, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9777,
+      "sy": 0.9777
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.3755,
+      "y": 0.2559,
+      "w": 46.7333,
+      "h": 22.4882
+     },
+     "transform": "matrix(0.977747, 0, 0, 0.977747, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9777,
+      "sy": 0.9777
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 64,
+   "now": 64,
+   "root": {
+    "computedWidth": 78.4375,
+    "computedHeight": 23,
+    "rectWidth": 78.4375,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 78,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3261,
+      "y": 0.1854,
+      "w": 5.4728,
+      "h": 22.6293
+     },
+     "transform": "matrix(0.983881, 0, 0, 0.983881, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9839,
+      "sy": 0.9839
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.229,
+      "y": 0.1854,
+      "w": 47.0265,
+      "h": 22.6293
+     },
+     "transform": "matrix(0.983881, 0, 0, 0.983881, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9839,
+      "sy": 0.9839
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 80,
+   "now": 80,
+   "root": {
+    "computedWidth": 83.2031,
+    "computedHeight": 23,
+    "rectWidth": 83.2031,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 83,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3137,
+      "y": 0.134,
+      "w": 5.4977,
+      "h": 22.732
+     },
+     "transform": "matrix(0.988348, 0, 0, 0.988348, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9883,
+      "sy": 0.9883
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.1222,
+      "y": 0.134,
+      "w": 47.2399,
+      "h": 22.732
+     },
+     "transform": "matrix(0.988348, 0, 0, 0.988348, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9883,
+      "sy": 0.9883
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 96,
+   "now": 96,
+   "root": {
+    "computedWidth": 86.5938,
+    "computedHeight": 23,
+    "rectWidth": 86.5938,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 87,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.3048,
+      "y": 0.0974,
+      "w": 5.5154,
+      "h": 22.8053
+     },
+     "transform": "matrix(0.991534, 0, 0, 0.991534, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9915,
+      "sy": 0.9915
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.0461,
+      "y": 0.0974,
+      "w": 47.3922,
+      "h": 22.8053
+     },
+     "transform": "matrix(0.991534, 0, 0, 0.991534, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9915,
+      "sy": 0.9915
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 100,
+   "now": 100,
+   "root": {
+    "computedWidth": 87.2812,
+    "computedHeight": 23,
+    "rectWidth": 87.2813,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 87,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.303,
+      "y": 0.09,
+      "w": 5.519,
+      "h": 22.82
+     },
+     "transform": "matrix(0.992176, 0, 0, 0.992176, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9922,
+      "sy": 0.9922
+     },
+     "opacity": 0,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 48.0307,
+      "y": 0.09,
+      "w": 47.4229,
+      "h": 22.82
+     },
+     "transform": "matrix(0.992176, 0, 0, 0.992176, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9922,
+      "sy": 0.9922
+     },
+     "opacity": 0,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 148,
+   "now": 148,
+   "root": {
+    "computedWidth": 92.3281,
+    "computedHeight": 23,
+    "rectWidth": 92.3281,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 92,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2899,
+      "y": 0.0356,
+      "w": 5.5453,
+      "h": 22.9288
+     },
+     "transform": "matrix(0.996903, 0, 0, 0.996903, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9969,
+      "sy": 0.9969
+     },
+     "opacity": 0.24,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.9178,
+      "y": 0.0356,
+      "w": 47.6488,
+      "h": 22.9288
+     },
+     "transform": "matrix(0.996903, 0, 0, 0.996903, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9969,
+      "sy": 0.9969
+     },
+     "opacity": 0.24,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 200,
+   "now": 200,
+   "root": {
+    "computedWidth": 94.4531,
+    "computedHeight": 23,
+    "rectWidth": 94.4531,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 94,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2843,
+      "y": 0.0127,
+      "w": 5.5563,
+      "h": 22.9745
+     },
+     "transform": "matrix(0.998891, 0, 0, 0.998891, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9989,
+      "sy": 0.9989
+     },
+     "opacity": 0.5,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8702,
+      "y": 0.0127,
+      "w": 47.7439,
+      "h": 22.9745
+     },
+     "transform": "matrix(0.998891, 0, 0, 0.998891, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9989,
+      "sy": 0.9989
+     },
+     "opacity": 0.5,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 292,
+   "now": 292,
+   "root": {
+    "computedWidth": 95.5156,
+    "computedHeight": 23,
+    "rectWidth": 95.5156,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2816,
+      "y": 0.0013,
+      "w": 5.5619,
+      "h": 22.9974
+     },
+     "transform": "matrix(0.999888, 0, 0, 0.999888, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9999,
+      "sy": 0.9999
+     },
+     "opacity": 0.96,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8464,
+      "y": 0.0013,
+      "w": 47.7915,
+      "h": 22.9974
+     },
+     "transform": "matrix(0.999888, 0, 0, 0.999888, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9999,
+      "sy": 0.9999
+     },
+     "opacity": 0.96,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 360,
+   "now": 360,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2813,
+      "y": 0.0001,
+      "w": 5.5625,
+      "h": 22.9999
+     },
+     "transform": "matrix(0.999996, 0, 0, 0.999996, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8439,
+      "y": 0.0001,
+      "w": 47.7967,
+      "h": 22.9999
+     },
+     "transform": "matrix(0.999996, 0, 0, 0.999996, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 400,
+   "now": 400,
+   "root": {
+    "computedWidth": 95.6406,
+    "computedHeight": 23,
+    "rectWidth": 95.6406,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2813,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8438,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  },
+  {
+   "t": 440,
+   "now": 440,
+   "root": {
+    "computedWidth": 95.6406,
+    "computedHeight": 23,
+    "rectWidth": 95.6406,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "h",
+     "tag": "span",
+     "text": "h",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "e",
+     "tag": "span",
+     "text": "e",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "l",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 4,
+     "id": "l-3",
+     "tag": "span",
+     "text": "l",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 26.7031,
+      "y": 0,
+      "w": 4.4531,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.22656px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 5,
+     "id": "o",
+     "tag": "span",
+     "text": "o",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 31.1563,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "5.5625px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 6,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2813,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 7,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8438,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "hello world",
+   "anims": [
+    {
+     "i": 0,
+     "el": "h",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "e",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "l",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "l-3",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 4,
+     "el": "o",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 5,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 6,
+     "el": "space-5",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 7,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 8,
+     "el": "world",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 300
+    },
+    {
+     "i": 9,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 10,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  }
+ ],
+ "callbacks": [
+  {
+   "name": "start",
+   "at": 0
+  },
+  {
+   "name": "complete",
+   "at": 400
+  }
+ ],
+ "initialSample": {
+  "t": 0,
+  "now": 0,
+  "root": {
+   "computedWidth": 42.2812,
+   "computedHeight": 23,
+   "rectWidth": 42.2813,
+   "rectHeight": 23,
+   "offsetHeight": 23,
+   "offsetWidth": 42,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "items": [
+   {
+    "index": 1,
+    "id": "h",
+    "tag": "span",
+    "text": "h",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "5.5625px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 2,
+    "id": "e",
+    "tag": "span",
+    "text": "e",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 11.125,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "5.5625px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 3,
+    "id": "l",
+    "tag": "span",
+    "text": "l",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 22.25,
+     "y": 0,
+     "w": 4.4531,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "2.22656px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 4,
+    "id": "l-3",
+    "tag": "span",
+    "text": "l",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 26.7031,
+     "y": 0,
+     "w": 4.4531,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "2.22656px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 5,
+    "id": "o",
+    "tag": "span",
+    "text": "o",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 31.1563,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "5.5625px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   }
+  ],
+  "sr": "hello",
+  "anims": []
+ }
+}

@@ -25,6 +25,11 @@ class Transform2 {
 
 /// One `element.animate(...)` call on one property, with `fill: "both"`.
 ///
+/// A keyframe left null is *neutral*: WAAPI fills it from the underlying
+/// value, which for a stacked animation is the output of every animation
+/// below it — so a single-keyframe exit started over a still-running enter
+/// departs from wherever the enter has got to, frame by frame.
+///
 /// A track is pending until the first frame after its creation, which is when
 /// WAAPI resolves a play-pending animation's start time — so the first painted
 /// frame shows progress 0.
@@ -38,8 +43,8 @@ class Track<T> {
     required this.lerp,
   });
 
-  final T from;
-  final T to;
+  final T? from;
+  final T? to;
   final double duration;
   final double delay;
   final EasingFn easing;
@@ -65,7 +70,8 @@ class Track<T> {
     return start != null && now - start >= delay + duration;
   }
 
-  T valueAt(double now) => lerp(from, to, progress(now));
+  /// The value with [below] as the underlying value.
+  T valueAt(double now, T below) => lerp(from ?? below, to ?? below, progress(now));
 }
 
 Transform2 lerpTransform(Transform2 a, Transform2 b, double p) => a.lerp(b, p);
@@ -84,14 +90,23 @@ class AnimatedBox {
   Transform2 underlyingTransform = Transform2.none;
   double underlyingOpacity = 1;
 
-  Track<Transform2>? get _transform =>
-      transformTracks.isEmpty ? null : transformTracks.last;
-  Track<double>? get _opacity => opacityTracks.isEmpty ? null : opacityTracks.last;
+  /// The animation stack: each track composites (replace) over the ones
+  /// created before it, neutral keyframes reading the value beneath.
+  Transform2 transformAt(double now) {
+    var value = underlyingTransform;
+    for (final t in transformTracks) {
+      value = t.valueAt(now, value);
+    }
+    return value;
+  }
 
-  Transform2 transformAt(double now) =>
-      _transform?.valueAt(now) ?? underlyingTransform;
-
-  double opacityAt(double now) => _opacity?.valueAt(now) ?? underlyingOpacity;
+  double opacityAt(double now) {
+    var value = underlyingOpacity;
+    for (final t in opacityTracks) {
+      value = t.valueAt(now, value);
+    }
+    return value;
+  }
 
   bool get hasAnimations => transformTracks.isNotEmpty || opacityTracks.isNotEmpty;
 
@@ -121,8 +136,8 @@ class AnimatedBox {
       opacityTracks.every((t) => t.finished(now));
 
   Track<Transform2> animateTransform({
-    required Transform2 from,
-    required Transform2 to,
+    required Transform2? from,
+    required Transform2? to,
     required double duration,
     required EasingFn easing,
   }) {
@@ -138,8 +153,8 @@ class AnimatedBox {
   }
 
   Track<double> animateOpacity({
-    required double from,
-    required double to,
+    required double? from,
+    required double? to,
     required double duration,
     double delay = 0,
   }) {

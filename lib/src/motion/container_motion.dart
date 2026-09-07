@@ -179,14 +179,14 @@ class ContainerTransition {
     required double oldHeight,
     required double newWidth,
     required double newHeight,
-    required ContainerTransition? previous,
+    required ({AxisState width, AxisState height})? previous,
     required double duration,
     required String ease,
     required double now,
     void Function()? onComplete,
     void Function()? onCancel,
   }) {
-    final snapshot = previous?.snapshot(now);
+    final snapshot = previous;
     final base = parseEasing(ease);
 
     // One per axis: each carries its own momentum, so they need their own curves.

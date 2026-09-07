@@ -1,0 +1,3001 @@
+{
+ "slug": "helvetica-hello-world-world-hello-90e537",
+ "label": "helvetica \"hello world\" -> \"world hello\"",
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "page": {
+  "fontFamily": "Helvetica",
+  "fontSize": 20,
+  "textAlign": "left"
+ },
+ "options": {},
+ "resolvedDuration": 400,
+ "initial": "hello world",
+ "initialCursorIndex": null,
+ "steps": [
+  {
+   "at": 0,
+   "value": "world hello",
+   "cursorIndex": null
+  }
+ ],
+ "sampleTimes": [
+  0,
+  4,
+  16,
+  20,
+  32,
+  40,
+  48,
+  64,
+  80,
+  96,
+  100,
+  148,
+  200,
+  292,
+  360,
+  400,
+  440
+ ],
+ "updates": [
+  {
+   "at": 0,
+   "kind": "initial",
+   "value": "hello world",
+   "cursorIndex": null,
+   "animsCreated": [],
+   "callbacks": []
+  },
+  {
+   "at": 0,
+   "kind": "morph",
+   "value": "world hello",
+   "cursorIndex": null,
+   "animsCreated": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(47.828125px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(-5.53125px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(-53.359375px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "width": "95.625px"
+      },
+      {
+       "width": "95.625px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "duration": 400,
+     "delay": 0,
+     "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "height": "23px"
+      },
+      {
+       "height": "23px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  }
+ ],
+ "samples": [
+  {
+   "t": 0,
+   "now": 0,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.8281,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 47.8281, 0)",
+     "translate": {
+      "tx": 47.8281,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.2656,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -5.53125, 0)",
+     "translate": {
+      "tx": -5.5312,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -53.3594, 0)",
+     "translate": {
+      "tx": -53.3594,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 4,
+   "now": 4,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 45.3191,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 45.3191, 0)",
+     "translate": {
+      "tx": 45.3191,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 42.5558,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -5.24108, 0)",
+     "translate": {
+      "tx": -5.2411,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 2.7992,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -50.5601, 0)",
+     "translate": {
+      "tx": -50.5601,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 4
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 16,
+   "now": 16,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 37.9575,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 37.9575, 0)",
+     "translate": {
+      "tx": 37.9575,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 43.4071,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -4.38973, 0)",
+     "translate": {
+      "tx": -4.3897,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.0121,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -42.3473, 0)",
+     "translate": {
+      "tx": -42.3473,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 20,
+   "now": 20,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 35.5908,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 35.5908, 0)",
+     "translate": {
+      "tx": 35.5908,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 43.6808,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -4.11602, 0)",
+     "translate": {
+      "tx": -4.116,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 13.6525,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -39.7068, 0)",
+     "translate": {
+      "tx": -39.7068,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 20
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 32,
+   "now": 32,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 28.9007,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 28.9007, 0)",
+     "translate": {
+      "tx": 28.9007,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 44.4546,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -3.34232, 0)",
+     "translate": {
+      "tx": -3.3423,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 21.1164,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -32.243, 0)",
+     "translate": {
+      "tx": -32.243,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 40,
+   "now": 40,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 24.8824,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 24.8824, 0)",
+     "translate": {
+      "tx": 24.8824,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 44.9193,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -2.87761, 0)",
+     "translate": {
+      "tx": -2.8776,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 25.5994,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -27.76, 0)",
+     "translate": {
+      "tx": -27.76,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 40
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 48,
+   "now": 48,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 21.286,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 21.286, 0)",
+     "translate": {
+      "tx": 21.286,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 45.3352,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -2.46169, 0)",
+     "translate": {
+      "tx": -2.4617,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 29.6117,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -23.7476, 0)",
+     "translate": {
+      "tx": -23.7476,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 64,
+   "now": 64,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 15.4186,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 15.4186, 0)",
+     "translate": {
+      "tx": 15.4186,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 46.0137,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.78313, 0)",
+     "translate": {
+      "tx": -1.7831,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 36.1577,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -17.2017, 0)",
+     "translate": {
+      "tx": -17.2017,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 80,
+   "now": 80,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 11.1461,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 11.1461, 0)",
+     "translate": {
+      "tx": 11.1461,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 46.5078,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.28903, 0)",
+     "translate": {
+      "tx": -1.289,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 40.9242,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -12.4351, 0)",
+     "translate": {
+      "tx": -12.4351,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 96,
+   "now": 96,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 8.0984,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 8.09843, 0)",
+     "translate": {
+      "tx": 8.0984,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 46.8603,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.936572, 0)",
+     "translate": {
+      "tx": -0.9366,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 44.3244,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -9.03501, 0)",
+     "translate": {
+      "tx": -9.035,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 100,
+   "now": 100,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 7.4844,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 7.48442, 0)",
+     "translate": {
+      "tx": 7.4844,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 46.9313,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.865561, 0)",
+     "translate": {
+      "tx": -0.8656,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 45.0094,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -8.34998, 0)",
+     "translate": {
+      "tx": -8.35,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 100
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 148,
+   "now": 148,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 2.9629,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 2.96292, 0)",
+     "translate": {
+      "tx": 2.9629,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.4542,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.342658, 0)",
+     "translate": {
+      "tx": -0.3427,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 50.0538,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -3.30558, 0)",
+     "translate": {
+      "tx": -3.3056,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 148
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 200,
+   "now": 200,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 1.0606,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 1.06061, 0)",
+     "translate": {
+      "tx": 1.0606,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.6742,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.122658, 0)",
+     "translate": {
+      "tx": -0.1227,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 52.1761,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -1.18327, 0)",
+     "translate": {
+      "tx": -1.1833,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 200
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 292,
+   "now": 292,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0.1076,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0.107558, 0)",
+     "translate": {
+      "tx": 0.1076,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.7844,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.012439, 0)",
+     "translate": {
+      "tx": -0.0124,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 53.2394,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.119997, 0)",
+     "translate": {
+      "tx": -0.12,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 292
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 360,
+   "now": 360,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0.0042,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0.00424726, 0)",
+     "translate": {
+      "tx": 0.0042,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.7964,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.000491189, 0)",
+     "translate": {
+      "tx": -0.0005,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 53.3546,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, -0.00473844, 0)",
+     "translate": {
+      "tx": -0.0047,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 360
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 400,
+   "now": 400,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.7969,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 53.3594,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  },
+  {
+   "t": 440,
+   "now": 440,
+   "root": {
+    "computedWidth": 95.625,
+    "computedHeight": 23,
+    "rectWidth": 95.625,
+    "rectHeight": 23,
+    "offsetHeight": 23,
+    "offsetWidth": 96,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "world",
+     "tag": "span",
+     "text": "world",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 47.7969,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "23.8984px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 2,
+     "id": "space-5",
+     "tag": "span",
+     "text": " ",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 47.7969,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "2.78125px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    },
+    {
+     "index": 3,
+     "id": "hello",
+     "tag": "span",
+     "text": "hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 53.3594,
+      "y": 0,
+      "w": 42.2656,
+      "h": 23
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "21.1328px 11.5px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "world hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "world",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 1,
+     "el": "space-5",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 2,
+     "el": "hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 400
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  }
+ ],
+ "callbacks": [
+  {
+   "name": "start",
+   "at": 0
+  },
+  {
+   "name": "complete",
+   "at": 400
+  }
+ ],
+ "initialSample": {
+  "t": 0,
+  "now": 0,
+  "root": {
+   "computedWidth": 95.625,
+   "computedHeight": 23,
+   "rectWidth": 95.625,
+   "rectHeight": 23,
+   "offsetHeight": 23,
+   "offsetWidth": 96,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "items": [
+   {
+    "index": 1,
+    "id": "hello",
+    "tag": "span",
+    "text": "hello",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 42.2656,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "21.1328px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 2,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 42.2656,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "2.78125px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 3,
+    "id": "world",
+    "tag": "span",
+    "text": "world",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 47.8281,
+     "y": 0,
+     "w": 47.7969,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "23.8984px 11.5px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   }
+  ],
+  "sr": "hello world",
+  "anims": []
+ }
+}

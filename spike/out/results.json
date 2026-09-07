@@ -1,0 +1,1810 @@
+{
+  "results": [
+    {
+      "bucket": "testfont",
+      "case": "AVAWAY To",
+      "value": "AVAWAY To",
+      "family": "FlutterTest(default)",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "AVAWAY",
+        " ",
+        "To"
+      ],
+      "advanceA": 288.0,
+      "widthB": 288.0,
+      "widthC": 288.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          192.0,
+          192.0
+        ],
+        [
+          224.0,
+          224.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 2.7027027027027026,
+      "diffBC_pctInked": 3.7296037296037294,
+      "layoutA_us": 68.5,
+      "layoutB_us": 23.866666666666667,
+      "paintA_us": 10.183333333333334,
+      "paintB_us": 9.366666666666667,
+      "rasterA_us": 101.8,
+      "rasterB_us": 80.15,
+      "canvas": [
+        296.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "testfont",
+      "case": "office fine(lig)",
+      "value": "office ﬁne",
+      "family": "FlutterTest(default)",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "office",
+        " ",
+        "ﬁne"
+      ],
+      "advanceA": 320.0,
+      "widthB": 320.0,
+      "widthC": 320.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          192.0,
+          192.0
+        ],
+        [
+          224.0,
+          224.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 2.6219512195121952,
+      "diffBC_pctInked": 3.813747228381375,
+      "layoutA_us": 62.03333333333333,
+      "layoutB_us": 26.933333333333334,
+      "paintA_us": 6.133333333333334,
+      "paintB_us": 13.783333333333333,
+      "rasterA_us": 53.9,
+      "rasterB_us": 60.95,
+      "canvas": [
+        328.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "testfont",
+      "case": "hello world",
+      "value": "hello world",
+      "family": "FlutterTest(default)",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "hello",
+        " ",
+        "world"
+      ],
+      "advanceA": 352.0,
+      "widthB": 352.0,
+      "widthC": 352.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          160.0
+        ],
+        [
+          192.0,
+          192.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 2.6666666666666665,
+      "diffBC_pctInked": 3.591470258136925,
+      "layoutA_us": 57.86666666666667,
+      "layoutB_us": 23.633333333333333,
+      "paintA_us": 6.016666666666667,
+      "paintB_us": 9.333333333333334,
+      "rasterA_us": 50.5,
+      "rasterB_us": 59.5,
+      "canvas": [
+        360.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "testfont",
+      "case": "cafe combining",
+      "value": "café café",
+      "family": "FlutterTest(default)",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "café",
+        " ",
+        "café"
+      ],
+      "advanceA": 288.0,
+      "widthB": 288.0,
+      "widthC": 288.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          128.0,
+          128.0
+        ],
+        [
+          160.0,
+          160.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 2.7027027027027026,
+      "diffBC_pctInked": 3.7296037296037294,
+      "layoutA_us": 65.63333333333334,
+      "layoutB_us": 21.933333333333334,
+      "paintA_us": 4.5,
+      "paintB_us": 6.933333333333334,
+      "rasterA_us": 47.0,
+      "rasterB_us": 51.6,
+      "canvas": [
+        296.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "testfont",
+      "case": "digits",
+      "value": "$1,234.56",
+      "family": "FlutterTest(default)",
+      "dir": "ltr",
+      "segments": 9,
+      "segStrings": [
+        "$",
+        "1",
+        ",",
+        "2",
+        "3",
+        "4",
+        ".",
+        "5",
+        "6"
+      ],
+      "advanceA": 288.0,
+      "widthB": 288.0,
+      "widthC": 288.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          32.0,
+          32.0
+        ],
+        [
+          64.0,
+          64.0
+        ],
+        [
+          96.0,
+          96.0
+        ],
+        [
+          128.0,
+          128.0
+        ],
+        [
+          160.0,
+          160.0
+        ],
+        [
+          192.0,
+          192.0
+        ],
+        [
+          224.0,
+          224.0
+        ],
+        [
+          256.0,
+          256.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 2.972972972972973,
+      "diffBC_pctInked": 3.67816091954023,
+      "layoutA_us": 182.8,
+      "layoutB_us": 33.6,
+      "paintA_us": 10.083333333333334,
+      "paintB_us": 16.183333333333334,
+      "rasterA_us": 57.65,
+      "rasterB_us": 98.6,
+      "canvas": [
+        296.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "AVAWAY To",
+      "value": "AVAWAY To",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "AVAWAY",
+        " ",
+        "To"
+      ],
+      "advanceA": 168.5625,
+      "widthB": 168.5625,
+      "widthC": 168.5625,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          124.84375,
+          124.84375
+        ],
+        [
+          132.765625,
+          132.765625
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.011299435028248588,
+      "diffBC_pctInked": 0.05546311702717693,
+      "layoutA_us": 53.9,
+      "layoutB_us": 21.866666666666667,
+      "paintA_us": 3.8333333333333335,
+      "paintB_us": 7.4,
+      "rasterA_us": 55.45,
+      "rasterB_us": 43.9,
+      "canvas": [
+        176.5625,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "office fine(lig)",
+      "value": "office ﬁne",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "office",
+        " ",
+        "ﬁne"
+      ],
+      "advanceA": 141.03125,
+      "widthB": 141.03125,
+      "widthC": 141.03125,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          80.78125,
+          80.78125
+        ],
+        [
+          88.703125,
+          88.703125
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 54.96666666666667,
+      "layoutB_us": 24.1,
+      "paintA_us": 3.5,
+      "paintB_us": 11.1,
+      "rasterA_us": 40.2,
+      "rasterB_us": 33.85,
+      "canvas": [
+        149.03125,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "office fi(2char)",
+      "value": "office fine",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "office",
+        " ",
+        "fine"
+      ],
+      "advanceA": 141.03125,
+      "widthB": 141.03125,
+      "widthC": 141.03125,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          80.78125,
+          80.78125
+        ],
+        [
+          88.703125,
+          88.703125
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 57.8,
+      "layoutB_us": 20.766666666666666,
+      "paintA_us": 3.6666666666666665,
+      "paintB_us": 6.083333333333333,
+      "rasterA_us": 25.5,
+      "rasterB_us": 32.2,
+      "canvas": [
+        149.03125,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "hello world",
+      "value": "hello world",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "hello",
+        " ",
+        "world"
+      ],
+      "advanceA": 155.21875,
+      "widthB": 155.21875,
+      "widthC": 155.21875,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          68.359375,
+          68.359375
+        ],
+        [
+          76.28125,
+          76.28125
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 52.96666666666667,
+      "layoutB_us": 29.766666666666666,
+      "paintA_us": 3.4,
+      "paintB_us": 7.0,
+      "rasterA_us": 44.45,
+      "rasterB_us": 40.95,
+      "canvas": [
+        163.21875,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "arabic",
+      "value": "مرحبا بالعالم",
+      "family": "NotoSansArabic",
+      "dir": "rtl",
+      "segments": 3,
+      "segStrings": [
+        "مرحبا",
+        " ",
+        "بالعالم"
+      ],
+      "advanceA": 154.17601013183594,
+      "widthB": 154.17601013183594,
+      "widthC": 154.17601013183594,
+      "advanceDelta": 0.0,
+      "maxXDelta": 86.84800720214844,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          86.84800720214844
+        ],
+        [
+          67.3280029296875,
+          78.52799987792969
+        ],
+        [
+          75.64801025390625,
+          0.0
+        ]
+      ],
+      "diffAC_pctTotal": 16.063932838230546,
+      "diffAC_pctInked": 85.8128503665373,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 57.4,
+      "layoutB_us": 21.566666666666666,
+      "paintA_us": 3.8833333333333333,
+      "paintB_us": 5.466666666666667,
+      "rasterA_us": 51.1,
+      "rasterB_us": 39.85,
+      "canvas": [
+        162.17601013183594,
+        76.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "persian",
+      "value": "سلام دنیا",
+      "family": "NotoSansArabic",
+      "dir": "rtl",
+      "segments": 3,
+      "segStrings": [
+        "سلام",
+        " ",
+        "دنیا"
+      ],
+      "advanceA": 113.18402099609375,
+      "widthB": 113.18402099609375,
+      "widthC": 113.18402099609375,
+      "advanceDelta": 0.0,
+      "maxXDelta": 68.06401062011719,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          53.44001770019531
+        ],
+        [
+          59.74400329589844,
+          45.12001037597656
+        ],
+        [
+          68.06401062011719,
+          0.0
+        ]
+      ],
+      "diffAC_pctTotal": 13.503019844693702,
+      "diffAC_pctInked": 81.35152696556206,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 55.43333333333333,
+      "layoutB_us": 21.333333333333332,
+      "paintA_us": 8.5,
+      "paintB_us": 4.8,
+      "rasterA_us": 43.9,
+      "rasterB_us": 30.2,
+      "canvas": [
+        121.18402099609375,
+        76.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "devanagari",
+      "value": "नमस्ते दुनिया",
+      "family": "NotoSansDevanagari",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "नमस्ते",
+        " ",
+        "दुनिया"
+      ],
+      "advanceA": 145.4399871826172,
+      "widthB": 145.4399871826172,
+      "widthC": 145.4399871826172,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          67.58399963378906,
+          67.58399963378906
+        ],
+        [
+          75.90400695800781,
+          75.90400695800781
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.3246753246753247,
+      "diffBC_pctInked": 1.2913223140495869,
+      "layoutA_us": 51.5,
+      "layoutB_us": 21.066666666666666,
+      "paintA_us": 3.2666666666666666,
+      "paintB_us": 4.5,
+      "rasterA_us": 57.95,
+      "rasterB_us": 35.4,
+      "canvas": [
+        153.4399871826172,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "cafe combining",
+      "value": "café café",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "café",
+        " ",
+        "café"
+      ],
+      "advanceA": 132.359375,
+      "widthB": 132.359375,
+      "widthC": 132.359375,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          62.21875,
+          62.21875
+        ],
+        [
+          70.140625,
+          70.140625
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 51.8,
+      "layoutB_us": 22.466666666666665,
+      "paintA_us": 4.883333333333334,
+      "paintB_us": 9.333333333333334,
+      "rasterA_us": 31.55,
+      "rasterB_us": 30.9,
+      "canvas": [
+        140.359375,
+        50.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "emoji zwj",
+      "value": "👨‍👩‍👧‍👦 family 🏳️‍🌈",
+      "family": "NotoColorEmoji",
+      "dir": "ltr",
+      "segments": 5,
+      "segStrings": [
+        "👨‍👩‍👧‍👦",
+        " ",
+        "family",
+        " ",
+        "🏳️‍🌈"
+      ],
+      "advanceA": 448.0,
+      "widthB": 448.0,
+      "widthC": 448.0,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          128.0,
+          128.0
+        ],
+        [
+          160.0,
+          160.0
+        ],
+        [
+          352.0,
+          352.0
+        ],
+        [
+          384.0,
+          384.0
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 1.8421052631578947,
+      "diffBC_pctInked": 3.7159920371599204,
+      "layoutA_us": 89.7,
+      "layoutB_us": 28.033333333333335,
+      "paintA_us": 5.066666666666666,
+      "paintB_us": 7.616666666666666,
+      "rasterA_us": 56.35,
+      "rasterB_us": 63.15,
+      "canvas": [
+        456.0,
+        40.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "bidi mix",
+      "value": "abc مرحبا 123",
+      "family": "NotoSansArabic",
+      "dir": "ltr",
+      "segments": 7,
+      "segStrings": [
+        "abc",
+        " ",
+        "مرحبا",
+        " ",
+        "1",
+        "2",
+        "3"
+      ],
+      "advanceA": 196.48001098632812,
+      "widthB": 196.48001098632812,
+      "widthC": 196.48001098632812,
+      "advanceDelta": 0.0,
+      "maxXDelta": 75.64801025390625,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          57.59999084472656,
+          57.59999084472656
+        ],
+        [
+          65.91999816894531,
+          129.15200805664062
+        ],
+        [
+          133.2480010986328,
+          120.83200073242188
+        ],
+        [
+          141.56800842285156,
+          65.91999816894531
+        ],
+        [
+          159.87200927734375,
+          84.2239990234375
+        ],
+        [
+          178.17601013183594,
+          102.52799987792969
+        ]
+      ],
+      "diffAC_pctTotal": 11.001283697047496,
+      "diffAC_pctInked": 68.53258696521391,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 126.83333333333333,
+      "layoutB_us": 30.4,
+      "paintA_us": 4.566666666666666,
+      "paintB_us": 9.866666666666667,
+      "rasterA_us": 47.1,
+      "rasterB_us": 54.05,
+      "canvas": [
+        204.48001098632812,
+        76.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "cjk fallback",
+      "value": "日本語 text",
+      "family": "NotoSansJP",
+      "dir": "ltr",
+      "segments": 3,
+      "segStrings": [
+        "日本語",
+        " ",
+        "text"
+      ],
+      "advanceA": 159.36000061035156,
+      "widthB": 159.36000061035156,
+      "widthC": 159.36000061035156,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          96.0,
+          96.0
+        ],
+        [
+          103.16799926757812,
+          103.16799926757812
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 55.53333333333333,
+      "layoutB_us": 35.2,
+      "paintA_us": 3.3333333333333335,
+      "paintB_us": 4.9,
+      "rasterA_us": 52.7,
+      "rasterB_us": 38.95,
+      "canvas": [
+        167.36000061035156,
+        54.0
+      ]
+    },
+    {
+      "bucket": "realfont",
+      "case": "digits",
+      "value": "$1,234.56",
+      "family": "Roboto",
+      "dir": "ltr",
+      "segments": 9,
+      "segStrings": [
+        "$",
+        "1",
+        ",",
+        "2",
+        "3",
+        "4",
+        ".",
+        "5",
+        "6"
+      ],
+      "advanceA": 140.484375,
+      "widthB": 140.484375,
+      "widthC": 140.484375,
+      "advanceDelta": 0.0,
+      "maxXDelta": 0.0,
+      "missingBoxes": 0,
+      "xPairs": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          17.96875,
+          17.96875
+        ],
+        [
+          35.9375,
+          35.9375
+        ],
+        [
+          42.21875,
+          42.21875
+        ],
+        [
+          60.1875,
+          60.1875
+        ],
+        [
+          78.15625,
+          78.15625
+        ],
+        [
+          96.125,
+          96.125
+        ],
+        [
+          104.546875,
+          104.546875
+        ],
+        [
+          122.515625,
+          122.515625
+        ]
+      ],
+      "diffAC_pctTotal": 0.0,
+      "diffAC_pctInked": 0.0,
+      "diffBC_pctTotal": 0.0,
+      "diffBC_pctInked": 0.0,
+      "layoutA_us": 150.86666666666667,
+      "layoutB_us": 32.86666666666667,
+      "paintA_us": 10.316666666666666,
+      "paintB_us": 10.0,
+      "rasterA_us": 63.8,
+      "rasterB_us": 50.65,
+      "canvas": [
+        148.484375,
+        50.0
+      ]
+    },
+    {
+      "bucket": "memory",
+      "case": "500 painters",
+      "rssBefore": 219414528,
+      "rssAfter": 225165312,
+      "rssDelta": 5750784,
+      "perPainter": 11501.568,
+      "oneParagraphRssDelta": 229376,
+      "keepAlive": 65015
+    },
+    {
+      "bucket": "scaling",
+      "case": "n words",
+      "rows": [
+        {
+          "rasterA_us": 71.5,
+          "rasterB_us": 88.5,
+          "fragments": 15,
+          "layoutA_us": 232.13333333333333,
+          "layoutB_us": 45.96666666666667,
+          "paintA_us": 8.05,
+          "paintB_us": 15.05
+        },
+        {
+          "rasterA_us": 81.0,
+          "rasterB_us": 149.6,
+          "fragments": 31,
+          "layoutA_us": 489.56666666666666,
+          "layoutB_us": 46.266666666666666,
+          "paintA_us": 31.6,
+          "paintB_us": 30.466666666666665
+        },
+        {
+          "rasterA_us": 136.5,
+          "rasterB_us": 315.9,
+          "fragments": 63,
+          "layoutA_us": 773.8333333333334,
+          "layoutB_us": 62.06666666666667,
+          "paintA_us": 18.516666666666666,
+          "paintB_us": 55.06666666666667
+        },
+        {
+          "rasterA_us": 248.6,
+          "rasterB_us": 785.1,
+          "fragments": 127,
+          "layoutA_us": 1412.4,
+          "layoutB_us": 220.5,
+          "paintA_us": 26.866666666666667,
+          "paintB_us": 90.0
+        },
+        {
+          "rasterA_us": 489.8,
+          "rasterB_us": 1863.7,
+          "fragments": 255,
+          "layoutA_us": 2703.8333333333335,
+          "layoutB_us": 219.73333333333332,
+          "paintA_us": 56.88333333333333,
+          "paintB_us": 185.13333333333333
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "label": "char-split \"office\" (Roboto)",
+      "joined": "office",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 80.78125,
+      "sumAWidths": 81.9375,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+006F",
+          "aWidth": 18.25,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 18.25
+        },
+        {
+          "i": 1,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 18.25,
+          "bBoxCount": 1,
+          "bLeft": 18.25,
+          "bWidth": 11.109375
+        },
+        {
+          "i": 2,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 29.359375,
+          "bBoxCount": 1,
+          "bLeft": 29.359375,
+          "bWidth": 8.859375
+        },
+        {
+          "i": 3,
+          "part": "U+0069",
+          "aWidth": 7.765625,
+          "aX": 40.46875,
+          "bBoxCount": 1,
+          "bLeft": 38.21875,
+          "bWidth": 8.859375
+        },
+        {
+          "i": 4,
+          "part": "U+0063",
+          "aWidth": 16.75,
+          "aX": 48.234375,
+          "bBoxCount": 1,
+          "bLeft": 47.078125,
+          "bWidth": 16.75
+        },
+        {
+          "i": 5,
+          "part": "U+0065",
+          "aWidth": 16.953125,
+          "aX": 64.984375,
+          "bBoxCount": 1,
+          "bLeft": 63.828125,
+          "bWidth": 16.953125
+        }
+      ]
+    },
+    {
+      "label": "char-split \"ﬁne\" precomposed (Roboto)",
+      "joined": "ﬁne",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 52.328125,
+      "sumAWidths": 52.328125,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+FB01",
+          "aWidth": 17.71875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 17.71875
+        },
+        {
+          "i": 1,
+          "part": "U+006E",
+          "aWidth": 17.65625,
+          "aX": 17.71875,
+          "bBoxCount": 1,
+          "bLeft": 17.71875,
+          "bWidth": 17.65625
+        },
+        {
+          "i": 2,
+          "part": "U+0065",
+          "aWidth": 16.953125,
+          "aX": 35.375,
+          "bBoxCount": 1,
+          "bLeft": 35.375,
+          "bWidth": 16.953125
+        }
+      ]
+    },
+    {
+      "label": "char-split \"مرحبا\" (NotoSansArabic)",
+      "joined": "مرحبا",
+      "family": "NotoSansArabic",
+      "aError": null,
+      "paragraphWidth": 67.3280029296875,
+      "sumAWidths": 87.07200622558594,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0645",
+          "aWidth": 15.488006591796875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 50.52799987792969,
+          "bWidth": 16.800003051757812
+        },
+        {
+          "i": 1,
+          "part": "U+0631",
+          "aWidth": 11.744003295898438,
+          "aX": 15.488006591796875,
+          "bBoxCount": 1,
+          "bLeft": 37.85600280761719,
+          "bWidth": 12.6719970703125
+        },
+        {
+          "i": 2,
+          "part": "U+062D",
+          "aWidth": 20.447998046875,
+          "aX": 27.232009887695312,
+          "bBoxCount": 1,
+          "bLeft": 20.287994384765625,
+          "bWidth": 17.568008422851562
+        },
+        {
+          "i": 3,
+          "part": "U+0628",
+          "aWidth": 31.7760009765625,
+          "aX": 47.68000793457031,
+          "bBoxCount": 1,
+          "bLeft": 9.311996459960938,
+          "bWidth": 10.975997924804688
+        },
+        {
+          "i": 4,
+          "part": "U+0627",
+          "aWidth": 7.615997314453125,
+          "aX": 79.45600891113281,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 9.311996459960938
+        }
+      ]
+    },
+    {
+      "label": "char-split \"مرحبة\" (NotoSansArabic)",
+      "joined": "مرحبة",
+      "family": "NotoSansArabic",
+      "aError": null,
+      "paragraphWidth": 73.56800842285156,
+      "sumAWidths": 92.416015625,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0645",
+          "aWidth": 15.488006591796875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 56.76800537109375,
+          "bWidth": 16.800003051757812
+        },
+        {
+          "i": 1,
+          "part": "U+0631",
+          "aWidth": 11.744003295898438,
+          "aX": 15.488006591796875,
+          "bBoxCount": 1,
+          "bLeft": 44.09600830078125,
+          "bWidth": 12.6719970703125
+        },
+        {
+          "i": 2,
+          "part": "U+062D",
+          "aWidth": 20.447998046875,
+          "aX": 27.232009887695312,
+          "bBoxCount": 1,
+          "bLeft": 26.527999877929688,
+          "bWidth": 17.568008422851562
+        },
+        {
+          "i": 3,
+          "part": "U+0628",
+          "aWidth": 31.7760009765625,
+          "aX": 47.68000793457031,
+          "bBoxCount": 1,
+          "bLeft": 15.552001953125,
+          "bWidth": 10.975997924804688
+        },
+        {
+          "i": 4,
+          "part": "U+0629",
+          "aWidth": 12.960006713867188,
+          "aX": 79.45600891113281,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 15.552001953125
+        }
+      ]
+    },
+    {
+      "label": "char-split \"नमस्ते\" (NotoSansDevanagari)",
+      "joined": "नमस्ते",
+      "family": "NotoSansDevanagari",
+      "aError": null,
+      "paragraphWidth": 67.58399963378906,
+      "sumAWidths": 109.40802001953125,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0928",
+          "aWidth": 17.759994506835938,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 17.759994506835938
+        },
+        {
+          "i": 1,
+          "part": "U+092E",
+          "aWidth": 19.136001586914062,
+          "aX": 17.759994506835938,
+          "bBoxCount": 1,
+          "bLeft": 17.759994506835938,
+          "bWidth": 19.136001586914062
+        },
+        {
+          "i": 2,
+          "part": "U+0938",
+          "aWidth": 21.632003784179688,
+          "aX": 36.89599609375,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 3,
+          "part": "U+094D",
+          "aWidth": 16.32000732421875,
+          "aX": 58.52799987792969,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 4,
+          "part": "U+0924",
+          "aWidth": 18.240005493164062,
+          "aX": 74.84800720214844,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 5,
+          "part": "U+0947",
+          "aWidth": 16.32000732421875,
+          "aX": 93.0880126953125,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        }
+      ]
+    },
+    {
+      "label": "code-unit split \"a😀b\" (NotoColorEmoji)",
+      "joined": "a😀b",
+      "family": "NotoColorEmoji",
+      "aError": null,
+      "paragraphWidth": 96.0,
+      "sumAWidths": 128.0,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0061",
+          "aWidth": 32.0,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 32.0
+        },
+        {
+          "i": 1,
+          "part": "U+D83D",
+          "aWidth": 32.0,
+          "aX": 32.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 2,
+          "part": "U+DE00",
+          "aWidth": 32.0,
+          "aX": 64.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 3,
+          "part": "U+0062",
+          "aWidth": 32.0,
+          "aX": 96.0,
+          "bBoxCount": 1,
+          "bLeft": 64.0,
+          "bWidth": 32.0
+        }
+      ]
+    },
+    {
+      "label": "code-unit split \"👨‍👩‍👧‍👦\" (NotoColorEmoji)",
+      "joined": "👨‍👩‍👧‍👦",
+      "family": "NotoColorEmoji",
+      "aError": null,
+      "paragraphWidth": 128.0,
+      "sumAWidths": 256.0,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+D83D",
+          "aWidth": 32.0,
+          "aX": 0.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 1,
+          "part": "U+DC68",
+          "aWidth": 32.0,
+          "aX": 32.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 2,
+          "part": "U+200D",
+          "aWidth": 0.0,
+          "aX": 64.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 3,
+          "part": "U+D83D",
+          "aWidth": 32.0,
+          "aX": 64.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 4,
+          "part": "U+DC69",
+          "aWidth": 32.0,
+          "aX": 96.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 5,
+          "part": "U+200D",
+          "aWidth": 0.0,
+          "aX": 128.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 6,
+          "part": "U+D83D",
+          "aWidth": 32.0,
+          "aX": 128.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 7,
+          "part": "U+DC67",
+          "aWidth": 32.0,
+          "aX": 160.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 8,
+          "part": "U+200D",
+          "aWidth": 0.0,
+          "aX": 192.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 9,
+          "part": "U+D83D",
+          "aWidth": 32.0,
+          "aX": 192.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 10,
+          "part": "U+DC66",
+          "aWidth": 32.0,
+          "aX": 224.0,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        }
+      ]
+    },
+    {
+      "label": "segmentText grapheme split \"👨‍👩‍👧‍👦\"",
+      "joined": "👨‍👩‍👧‍👦",
+      "family": "NotoColorEmoji",
+      "aError": null,
+      "paragraphWidth": 128.0,
+      "sumAWidths": 128.0,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+D83D U+DC68 U+200D U+D83D U+DC69 U+200D U+D83D U+DC67 U+200D U+D83D U+DC66",
+          "aWidth": 128.0,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 128.0
+        }
+      ]
+    },
+    {
+      "label": "char-split \"café\" NFD (Roboto)",
+      "joined": "café",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 62.21875,
+      "sumAWidths": 62.21875,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0063",
+          "aWidth": 16.75,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 16.75
+        },
+        {
+          "i": 1,
+          "part": "U+0061",
+          "aWidth": 17.40625,
+          "aX": 16.75,
+          "bBoxCount": 1,
+          "bLeft": 16.75,
+          "bWidth": 17.40625
+        },
+        {
+          "i": 2,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 34.15625,
+          "bBoxCount": 1,
+          "bLeft": 34.15625,
+          "bWidth": 11.109375
+        },
+        {
+          "i": 3,
+          "part": "U+0065",
+          "aWidth": 16.953125,
+          "aX": 45.265625,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        },
+        {
+          "i": 4,
+          "part": "U+0301",
+          "aWidth": 0.0,
+          "aX": 62.21875,
+          "bBoxCount": 0,
+          "bLeft": null,
+          "bWidth": 0.0
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (office) n=6",
+      "joined": "office",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 80.78125,
+      "sumAWidths": 81.9375,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+006F",
+          "aWidth": 18.25,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 18.25
+        },
+        {
+          "i": 1,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 18.25,
+          "bBoxCount": 1,
+          "bLeft": 18.25,
+          "bWidth": 11.109375
+        },
+        {
+          "i": 2,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 29.359375,
+          "bBoxCount": 1,
+          "bLeft": 29.359375,
+          "bWidth": 8.859375
+        },
+        {
+          "i": 3,
+          "part": "U+0069",
+          "aWidth": 7.765625,
+          "aX": 40.46875,
+          "bBoxCount": 1,
+          "bLeft": 38.21875,
+          "bWidth": 8.859375
+        },
+        {
+          "i": 4,
+          "part": "U+0063",
+          "aWidth": 16.75,
+          "aX": 48.234375,
+          "bBoxCount": 1,
+          "bLeft": 47.078125,
+          "bWidth": 16.75
+        },
+        {
+          "i": 5,
+          "part": "U+0065",
+          "aWidth": 16.953125,
+          "aX": 64.984375,
+          "bBoxCount": 1,
+          "bLeft": 63.828125,
+          "bWidth": 16.953125
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (ﬁne) n=3",
+      "joined": "ﬁne",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 52.328125,
+      "sumAWidths": 52.328125,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+FB01",
+          "aWidth": 17.71875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 17.71875
+        },
+        {
+          "i": 1,
+          "part": "U+006E",
+          "aWidth": 17.65625,
+          "aX": 17.71875,
+          "bBoxCount": 1,
+          "bLeft": 17.71875,
+          "bWidth": 17.65625
+        },
+        {
+          "i": 2,
+          "part": "U+0065",
+          "aWidth": 16.953125,
+          "aX": 35.375,
+          "bBoxCount": 1,
+          "bLeft": 35.375,
+          "bWidth": 16.953125
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (مرحبا) n=5",
+      "joined": "مرحبا",
+      "family": "NotoSansArabic",
+      "aError": null,
+      "paragraphWidth": 67.3280029296875,
+      "sumAWidths": 87.07200622558594,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0645",
+          "aWidth": 15.488006591796875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 50.52799987792969,
+          "bWidth": 16.800003051757812
+        },
+        {
+          "i": 1,
+          "part": "U+0631",
+          "aWidth": 11.744003295898438,
+          "aX": 15.488006591796875,
+          "bBoxCount": 1,
+          "bLeft": 37.85600280761719,
+          "bWidth": 12.6719970703125
+        },
+        {
+          "i": 2,
+          "part": "U+062D",
+          "aWidth": 20.447998046875,
+          "aX": 27.232009887695312,
+          "bBoxCount": 1,
+          "bLeft": 20.287994384765625,
+          "bWidth": 17.568008422851562
+        },
+        {
+          "i": 3,
+          "part": "U+0628",
+          "aWidth": 31.7760009765625,
+          "aX": 47.68000793457031,
+          "bBoxCount": 1,
+          "bLeft": 9.311996459960938,
+          "bWidth": 10.975997924804688
+        },
+        {
+          "i": 4,
+          "part": "U+0627",
+          "aWidth": 7.615997314453125,
+          "aX": 79.45600891113281,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 9.311996459960938
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (مرحبة) n=5",
+      "joined": "مرحبة",
+      "family": "NotoSansArabic",
+      "aError": null,
+      "paragraphWidth": 73.56800842285156,
+      "sumAWidths": 92.416015625,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0645",
+          "aWidth": 15.488006591796875,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 56.76800537109375,
+          "bWidth": 16.800003051757812
+        },
+        {
+          "i": 1,
+          "part": "U+0631",
+          "aWidth": 11.744003295898438,
+          "aX": 15.488006591796875,
+          "bBoxCount": 1,
+          "bLeft": 44.09600830078125,
+          "bWidth": 12.6719970703125
+        },
+        {
+          "i": 2,
+          "part": "U+062D",
+          "aWidth": 20.447998046875,
+          "aX": 27.232009887695312,
+          "bBoxCount": 1,
+          "bLeft": 26.527999877929688,
+          "bWidth": 17.568008422851562
+        },
+        {
+          "i": 3,
+          "part": "U+0628",
+          "aWidth": 31.7760009765625,
+          "aX": 47.68000793457031,
+          "bBoxCount": 1,
+          "bLeft": 15.552001953125,
+          "bWidth": 10.975997924804688
+        },
+        {
+          "i": 4,
+          "part": "U+0629",
+          "aWidth": 12.960006713867188,
+          "aX": 79.45600891113281,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 15.552001953125
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (नमस्ते) n=3",
+      "joined": "नमस्ते",
+      "family": "NotoSansDevanagari",
+      "aError": null,
+      "paragraphWidth": 67.58399963378906,
+      "sumAWidths": 67.58399963378906,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0928",
+          "aWidth": 17.759994506835938,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 17.759994506835938
+        },
+        {
+          "i": 1,
+          "part": "U+092E",
+          "aWidth": 19.136001586914062,
+          "aX": 17.759994506835938,
+          "bBoxCount": 1,
+          "bLeft": 17.759994506835938,
+          "bWidth": 19.136001586914062
+        },
+        {
+          "i": 2,
+          "part": "U+0938 U+094D U+0924 U+0947",
+          "aWidth": 30.688003540039062,
+          "aX": 36.89599609375,
+          "bBoxCount": 1,
+          "bLeft": 36.89599609375,
+          "bWidth": 30.688003540039062
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (café) n=4",
+      "joined": "café",
+      "family": "Roboto",
+      "aError": null,
+      "paragraphWidth": 62.21875,
+      "sumAWidths": 62.21875,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0063",
+          "aWidth": 16.75,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 16.75
+        },
+        {
+          "i": 1,
+          "part": "U+0061",
+          "aWidth": 17.40625,
+          "aX": 16.75,
+          "bBoxCount": 1,
+          "bLeft": 16.75,
+          "bWidth": 17.40625
+        },
+        {
+          "i": 2,
+          "part": "U+0066",
+          "aWidth": 11.109375,
+          "aX": 34.15625,
+          "bBoxCount": 1,
+          "bLeft": 34.15625,
+          "bWidth": 11.109375
+        },
+        {
+          "i": 3,
+          "part": "U+0065 U+0301",
+          "aWidth": 16.953125,
+          "aX": 45.265625,
+          "bBoxCount": 1,
+          "bLeft": 45.265625,
+          "bWidth": 16.953125
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (a😀b) n=3",
+      "joined": "a😀b",
+      "family": "NotoColorEmoji",
+      "aError": null,
+      "paragraphWidth": 96.0,
+      "sumAWidths": 96.0,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+0061",
+          "aWidth": 32.0,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 32.0
+        },
+        {
+          "i": 1,
+          "part": "U+D83D U+DE00",
+          "aWidth": 32.0,
+          "aX": 32.0,
+          "bBoxCount": 1,
+          "bLeft": 32.0,
+          "bWidth": 32.0
+        },
+        {
+          "i": 2,
+          "part": "U+0062",
+          "aWidth": 32.0,
+          "aX": 64.0,
+          "bBoxCount": 1,
+          "bLeft": 64.0,
+          "bWidth": 32.0
+        }
+      ]
+    },
+    {
+      "label": "segmentText graphemes (🏳️‍🌈) n=1",
+      "joined": "🏳️‍🌈",
+      "family": "NotoColorEmoji",
+      "aError": null,
+      "paragraphWidth": 64.0,
+      "sumAWidths": 64.0,
+      "rows": [
+        {
+          "i": 0,
+          "part": "U+D83C U+DFF3 U+FE0F U+200D U+D83C U+DF08",
+          "aWidth": 64.0,
+          "aX": 0.0,
+          "bBoxCount": 1,
+          "bLeft": 0.0,
+          "bWidth": 64.0
+        }
+      ]
+    }
+  ]
+}

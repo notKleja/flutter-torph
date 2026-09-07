@@ -9,3 +9,7 @@ upstream/torph/packages/torph/dist/
 upstream/torph/packages/torph/dist-svelte/
 .DS_Store
 upstream/torph-git-metadata/
+spike/build/
+spike/fonts/
+spike/pubspec.lock
+spike/.dart_tool/

@@ -1,0 +1,2278 @@
+{
+ "slug": "spring-hello-nworld-hello-39466e",
+ "label": "spring \"Hello\\nWorld\" -> \"Hello\"",
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "page": {
+  "fontFamily": "Menlo",
+  "fontSize": 20,
+  "textAlign": "left"
+ },
+ "options": {
+  "ease": {
+   "stiffness": 200,
+   "damping": 20
+  }
+ },
+ "resolvedDuration": 725,
+ "initial": "Hello\nWorld",
+ "initialCursorIndex": null,
+ "steps": [
+  {
+   "at": 0,
+   "value": "Hello",
+   "cursorIndex": null
+  }
+ ],
+ "sampleTimes": [
+  0,
+  7.25,
+  16,
+  32,
+  36.25,
+  48,
+  64,
+  72.5,
+  80,
+  96,
+  181.25,
+  268.25,
+  362.5,
+  529.25,
+  652.5,
+  725,
+  797.5
+ ],
+ "updates": [
+  {
+   "at": 0,
+   "kind": "initial",
+   "value": "Hello\nWorld",
+   "cursorIndex": null,
+   "animsCreated": [],
+   "callbacks": []
+  },
+  {
+   "at": 0,
+   "kind": "morph",
+   "value": "Hello",
+   "cursorIndex": null,
+   "animsCreated": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "duration": 725,
+     "delay": 0,
+     "easing": "linear(0, 0.0214, 0.0771, 0.1556, 0.2478, 0.3461, 0.445, 0.5403, 0.629, 0.7094, 0.7802, 0.8412, 0.8925, 0.9346, 0.9681, 0.9941, 1.0134, 1.027, 1.0359, 1.041, 1.0431, 1.0428, 1.0409, 1.0378, 1.034, 1.0298, 1.0255, 1.0213, 1.0174, 1.0138, 1.0106, 1.0078, 1.0054, 1.0034, 1.0019, 1.0006, 0.9997, 0.999, 0.9986, 0.9983, 0.9982, 0.9981, 0.9982, 0.9983, 0.9985, 0.9986, 0.9988, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "transform": "translate(0px, 0px) scale(1)"
+      },
+      {
+       "transform": "none"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "duration": 725,
+     "delay": 0,
+     "easing": "linear(0, 0.0214, 0.0771, 0.1556, 0.2478, 0.3461, 0.445, 0.5403, 0.629, 0.7094, 0.7802, 0.8412, 0.8925, 0.9346, 0.9681, 0.9941, 1.0134, 1.027, 1.0359, 1.041, 1.0431, 1.0428, 1.0409, 1.0378, 1.034, 1.0298, 1.0255, 1.0213, 1.0174, 1.0138, 1.0106, 1.0078, 1.0054, 1.0034, 1.0019, 1.0006, 0.9997, 0.999, 0.9986, 0.9983, 0.9982, 0.9981, 0.9982, 0.9983, 0.9985, 0.9986, 0.9988, 1)",
+     "fill": "both",
+     "keyframes": {
+      "transform": "translate(0px, 0px) scale(0.95)",
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "duration": 181.25,
+     "delay": 0,
+     "easing": "linear",
+     "fill": "both",
+     "keyframes": {
+      "opacity": 0,
+      "offset": 1
+     },
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "duration": 725,
+     "delay": 0,
+     "easing": "linear(0, 0.0214, 0.0771, 0.1556, 0.2478, 0.3461, 0.445, 0.5403, 0.629, 0.7094, 0.7802, 0.8412, 0.8925, 0.9346, 0.9681, 0.9941, 1.0134, 1.027, 1.0359, 1.041, 1.0431, 1.0428, 1.0409, 1.0378, 1.034, 1.0298, 1.0255, 1.0213, 1.0174, 1.0138, 1.0106, 1.0078, 1.0054, 1.0034, 1.0019, 1.0006, 0.9997, 0.999, 0.9986, 0.9983, 0.9982, 0.9981, 0.9982, 0.9983, 0.9985, 0.9986, 0.9988, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "width": "60.2188px"
+      },
+      {
+       "width": "60.2188px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "duration": 725,
+     "delay": 0,
+     "easing": "linear(0, 0.0214, 0.0771, 0.1556, 0.2478, 0.3461, 0.445, 0.5403, 0.629, 0.7094, 0.7802, 0.8412, 0.8925, 0.9346, 0.9681, 0.9941, 1.0134, 1.027, 1.0359, 1.041, 1.0431, 1.0428, 1.0409, 1.0378, 1.034, 1.0298, 1.0255, 1.0213, 1.0174, 1.0138, 1.0106, 1.0078, 1.0054, 1.0034, 1.0019, 1.0006, 0.9997, 0.999, 0.9986, 0.9983, 0.9982, 0.9981, 0.9982, 0.9983, 0.9985, 0.9986, 0.9988, 1)",
+     "fill": "both",
+     "keyframes": [
+      {
+       "height": "48px"
+      },
+      {
+       "height": "24px"
+      }
+     ],
+     "createdAt": 0,
+     "seek0": 0,
+     "playState": "paused"
+    }
+   ],
+   "callbacks": [
+    {
+     "name": "start",
+     "at": 0
+    }
+   ]
+  }
+ ],
+ "samples": [
+  {
+   "t": 0,
+   "now": 0,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 48,
+    "rectWidth": 60.2188,
+    "rectHeight": 48,
+    "offsetHeight": 48,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 24,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 0
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 7.25,
+   "now": 7.25,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 47.75,
+    "rectWidth": 60.2188,
+    "rectHeight": 47.75,
+    "offsetHeight": 48,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.0151,
+      "y": 24.006,
+      "w": 60.1885,
+      "h": 23.9879
+     },
+     "transform": "matrix(0.999497, 0, 0, 0.999497, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9995,
+      "sy": 0.9995
+     },
+     "opacity": 0.96,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 7.25
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 7.25
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 7.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 7.25
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 7.25
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 16,
+   "now": 16,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 47.4219,
+    "rectWidth": 60.2188,
+    "rectHeight": 47.4219,
+    "offsetHeight": 47,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.0353,
+      "y": 24.0141,
+      "w": 60.1481,
+      "h": 23.9718
+     },
+     "transform": "matrix(0.998826, 0, 0, 0.998826, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9988,
+      "sy": 0.9988
+     },
+     "opacity": 0.9117,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 16
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 32,
+   "now": 32,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 46,
+    "rectWidth": 60.2188,
+    "rectHeight": 46,
+    "offsetHeight": 46,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.1249,
+      "y": 24.0498,
+      "w": 59.969,
+      "h": 23.9005
+     },
+     "transform": "matrix(0.995853, 0, 0, 0.995853, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9959,
+      "sy": 0.9959
+     },
+     "opacity": 0.8234,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 32
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 36.25,
+   "now": 36.25,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 45.4844,
+    "rectWidth": 60.2188,
+    "rectHeight": 45.4844,
+    "offsetHeight": 45,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.1574,
+      "y": 24.0627,
+      "w": 59.9039,
+      "h": 23.8745
+     },
+     "transform": "matrix(0.994771, 0, 0, 0.994771, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9948,
+      "sy": 0.9948
+     },
+     "opacity": 0.8,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 36.25
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 36.25
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 36.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 36.25
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 36.25
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 48,
+   "now": 48,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 44.0156,
+    "rectWidth": 60.2188,
+    "rectHeight": 44.0156,
+    "offsetHeight": 44,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.2498,
+      "y": 24.0995,
+      "w": 59.7192,
+      "h": 23.8009
+     },
+     "transform": "matrix(0.991705, 0, 0, 0.991705, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9917,
+      "sy": 0.9917
+     },
+     "opacity": 0.7352,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 48
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 64,
+   "now": 64,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 41.6875,
+    "rectWidth": 60.2188,
+    "rectHeight": 41.6875,
+    "offsetHeight": 42,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.3951,
+      "y": 24.1575,
+      "w": 59.4286,
+      "h": 23.6851
+     },
+     "transform": "matrix(0.986878, 0, 0, 0.986878, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9869,
+      "sy": 0.9869
+     },
+     "opacity": 0.6469,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 64
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 72.5,
+   "now": 72.5,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 40.3906,
+    "rectWidth": 60.2188,
+    "rectHeight": 40.3906,
+    "offsetHeight": 40,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.4766,
+      "y": 24.19,
+      "w": 59.2654,
+      "h": 23.6201
+     },
+     "transform": "matrix(0.984169, 0, 0, 0.984169, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9842,
+      "sy": 0.9842
+     },
+     "opacity": 0.6,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 72.5
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 72.5
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 72.5
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 72.5
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 72.5
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 80,
+   "now": 80,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 39.25,
+    "rectWidth": 60.2188,
+    "rectHeight": 39.25,
+    "offsetHeight": 39,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.5488,
+      "y": 24.2187,
+      "w": 59.1212,
+      "h": 23.5626
+     },
+     "transform": "matrix(0.981774, 0, 0, 0.981774, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9818,
+      "sy": 0.9818
+     },
+     "opacity": 0.5586,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 80
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 96,
+   "now": 96,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 36.7969,
+    "rectWidth": 60.2188,
+    "rectHeight": 36.7969,
+    "offsetHeight": 37,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "World",
+     "tag": "span",
+     "text": "World",
+     "kind": null,
+     "exiting": true,
+     "slot": false,
+     "rect": {
+      "x": 0.702,
+      "y": 24.2798,
+      "w": 58.8148,
+      "h": 23.4404
+     },
+     "transform": "matrix(0.976685, 0, 0, 0.976685, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 0.9767,
+      "sy": 0.9767
+     },
+     "opacity": 0.4703,
+     "transformOrigin": "30.1094px 12px",
+     "position": "absolute",
+     "inlineLeft": "0px",
+     "inlineTop": "24px",
+     "inlineOpacity": "1"
+    },
+    {
+     "index": 2,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 96
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 181.25,
+   "now": 181.25,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 26.875,
+    "rectWidth": 60.2188,
+    "rectHeight": 26.875,
+    "offsetHeight": 27,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 181.25
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 181.25
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 181.25
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 181.25
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 268.25,
+   "now": 268.25,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 23.2656,
+    "rectWidth": 60.2188,
+    "rectHeight": 23.2656,
+    "offsetHeight": 23,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 268.25
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 268.25
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 268.25
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 268.25
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 362.5,
+   "now": 362.5,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 23.125,
+    "rectWidth": 60.2188,
+    "rectHeight": 23.125,
+    "offsetHeight": 23,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 362.5
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 362.5
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 362.5
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 362.5
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 529.25,
+   "now": 529.25,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 23.9531,
+    "rectWidth": 60.2188,
+    "rectHeight": 23.9531,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 529.25
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 529.25
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 529.25
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 529.25
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 652.5,
+   "now": 652.5,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 24.0312,
+    "rectWidth": 60.2188,
+    "rectHeight": 24.0313,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": "none"
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 652.5
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "paused",
+     "currentTime": 652.5
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "paused",
+     "currentTime": 652.5
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "paused",
+     "currentTime": 652.5
+    }
+   ],
+   "cbCount": 1
+  },
+  {
+   "t": 725,
+   "now": 725,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 24,
+    "rectWidth": 60.2188,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 725
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 725
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  },
+  {
+   "t": 797.5,
+   "now": 797.5,
+   "root": {
+    "computedWidth": 60.2188,
+    "computedHeight": 24,
+    "rectWidth": 60.2188,
+    "rectHeight": 24,
+    "offsetHeight": 24,
+    "offsetWidth": 60,
+    "inlineWidth": "",
+    "inlineHeight": "",
+    "transformNone": true,
+    "display": "inline-block",
+    "textAlign": "left",
+    "transitionProperty": ""
+   },
+   "items": [
+    {
+     "index": 1,
+     "id": "Hello",
+     "tag": "span",
+     "text": "Hello",
+     "kind": null,
+     "exiting": false,
+     "slot": false,
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 60.2188,
+      "h": 24
+     },
+     "transform": "matrix(1, 0, 0, 1, 0, 0)",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "transformOrigin": "30.1094px 12px",
+     "position": "relative",
+     "inlineLeft": null,
+     "inlineTop": null,
+     "inlineOpacity": null
+    }
+   ],
+   "sr": "Hello",
+   "anims": [
+    {
+     "i": 0,
+     "el": "Hello",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 725
+    },
+    {
+     "i": 1,
+     "el": "World[exiting]",
+     "props": [
+      "transform"
+     ],
+     "playState": "finished",
+     "currentTime": 725
+    },
+    {
+     "i": 2,
+     "el": "World[exiting]",
+     "props": [
+      "opacity"
+     ],
+     "playState": "finished",
+     "currentTime": 181.25
+    },
+    {
+     "i": 3,
+     "el": "root",
+     "props": [
+      "width"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    },
+    {
+     "i": 4,
+     "el": "root",
+     "props": [
+      "height"
+     ],
+     "playState": "idle",
+     "currentTime": null
+    }
+   ],
+   "cbCount": 2
+  }
+ ],
+ "callbacks": [
+  {
+   "name": "start",
+   "at": 0
+  },
+  {
+   "name": "complete",
+   "at": 725
+  }
+ ],
+ "initialSample": {
+  "t": 0,
+  "now": 0,
+  "root": {
+   "computedWidth": 60.2188,
+   "computedHeight": 48,
+   "rectWidth": 60.2188,
+   "rectHeight": 48,
+   "offsetHeight": 48,
+   "offsetWidth": 60,
+   "inlineWidth": "",
+   "inlineHeight": "",
+   "transformNone": true,
+   "display": "inline-block",
+   "textAlign": "left",
+   "transitionProperty": ""
+  },
+  "items": [
+   {
+    "index": 1,
+    "id": "Hello",
+    "tag": "span",
+    "text": "Hello",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 60.2188,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "30.1094px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 2,
+    "id": "newline-5",
+    "tag": "br",
+    "text": "",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 60.2188,
+     "y": 0,
+     "w": 0,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "0px 0px",
+    "position": "static",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   },
+   {
+    "index": 3,
+    "id": "World",
+    "tag": "span",
+    "text": "World",
+    "kind": null,
+    "exiting": false,
+    "slot": false,
+    "rect": {
+     "x": 0,
+     "y": 24,
+     "w": 60.2188,
+     "h": 24
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "transformOrigin": "30.1094px 12px",
+    "position": "relative",
+    "inlineLeft": null,
+    "inlineTop": null,
+    "inlineOpacity": null
+   }
+  ],
+  "sr": "Hello\nWorld",
+  "anims": []
+ }
+}

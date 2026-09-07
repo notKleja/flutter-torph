@@ -1,0 +1,3162 @@
+{
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "generatedBy": "oracle/runtime/trace.mjs",
+ "chrome": "152.0.0.0",
+ "resolvedDurations": {
+  "{}": 400,
+  "{\"ease\":{\"stiffness\":200,\"damping\":20}}": 725,
+  "{\"scale\":false}": 400,
+  "{\"ease\":\"ease-in\"}": 400,
+  "{\"ease\":\"linear\"}": 400
+ },
+ "scenarios": [
+  {
+   "slug": "hello-hello-world-9b995c",
+   "label": "\"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "hello-world-hello-ae30a8",
+   "label": "\"hello world\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "hello-world-world-hello-42f1be",
+   "label": "\"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "transaction-safe-processing-transaction-51a321",
+   "label": "\"Transaction Safe\" -> \"Processing Transaction\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "Transaction Safe",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Processing Transaction"
+    }
+   ]
+  },
+  {
+   "slug": "npm-pnpm-d00022",
+   "label": "\"npm\" -> \"pnpm\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "npm",
+   "steps": [
+    {
+     "at": 0,
+     "value": "pnpm"
+    }
+   ]
+  },
+  {
+   "slug": "cat-and-dog-fish-and-bird-330e28",
+   "label": "\"cat and dog\" -> \"fish and bird\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "cat and dog",
+   "steps": [
+    {
+     "at": 0,
+     "value": "fish and bird"
+    }
+   ]
+  },
+  {
+   "slug": "copy-address-address-copied-1e13bd",
+   "label": "\"Copy Address\" -> \"Address Copied\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "Copy Address",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Address Copied"
+    }
+   ]
+  },
+  {
+   "slug": "the-cat-the-the-dog-the-6a5431",
+   "label": "\"the cat the\" -> \"the dog the\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "the cat the",
+   "steps": [
+    {
+     "at": 0,
+     "value": "the dog the"
+    }
+   ]
+  },
+  {
+   "slug": "foo-foo-foo-foo-bar-foo-032b3d",
+   "label": "\"foo foo foo\" -> \"foo bar foo\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "foo foo foo",
+   "steps": [
+    {
+     "at": 0,
+     "value": "foo bar foo"
+    }
+   ]
+  },
+  {
+   "slug": "one-two-three-three-two-one-674adb",
+   "label": "\"one two three\" -> \"three two one\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "one two three",
+   "steps": [
+    {
+     "at": 0,
+     "value": "three two one"
+    }
+   ]
+  },
+  {
+   "slug": "aaaa-aaab-d90700",
+   "label": "\"AAAA\" -> \"AAAB\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "AAAA",
+   "steps": [
+    {
+     "at": 0,
+     "value": "AAAB"
+    }
+   ]
+  },
+  {
+   "slug": "abcdef-qwerty-f70516",
+   "label": "\"abcdef\" -> \"qwerty\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    }
+   ]
+  },
+  {
+   "slug": "abcdefghijklmnop-abcmnopqrstuvwx-c99935",
+   "label": "\"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "9-10-bdf671",
+   "label": "\"9\" -> \"10\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "9",
+   "steps": [
+    {
+     "at": 0,
+     "value": "10"
+    }
+   ]
+  },
+  {
+   "slug": "99-100-a20ef4",
+   "label": "\"99\" -> \"100\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "99",
+   "steps": [
+    {
+     "at": 0,
+     "value": "100"
+    }
+   ]
+  },
+  {
+   "slug": "999-1-000-f74009",
+   "label": "\"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "9-99-10-00-6cece7",
+   "label": "\"9.99\" -> \"10.00\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "9.99",
+   "steps": [
+    {
+     "at": 0,
+     "value": "10.00"
+    }
+   ]
+  },
+  {
+   "slug": "999-50-1-000-00-f33b01",
+   "label": "\"-999.50\" -> \"-1,000.00\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "-999.50",
+   "steps": [
+    {
+     "at": 0,
+     "value": "-1,000.00"
+    }
+   ]
+  },
+  {
+   "slug": "999-1-000-670ebb",
+   "label": "\"$999\" -> \"$1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "$999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "$1,000"
+    }
+   ]
+  },
+  {
+   "slug": "1234-1-234-a2af6b",
+   "label": "\"1234\" -> \"1,234\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "1234",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,234"
+    }
+   ]
+  },
+  {
+   "slug": "999-50-1-000-000-00-bc913b",
+   "label": "\"$999.50\" -> \"$1,000,000.00\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "$999.50",
+   "steps": [
+    {
+     "at": 0,
+     "value": "$1,000,000.00"
+    }
+   ]
+  },
+  {
+   "slug": "42-hello-b3265b",
+   "label": "\"42\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "42",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "hello-42-7d79a7",
+   "label": "\"hello\" -> \"42\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "42"
+    }
+   ]
+  },
+  {
+   "slug": "1-of-10-2-of-10-eb9b4e",
+   "label": "\"1 of 10\" -> \"2 of 10\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "1 of 10",
+   "steps": [
+    {
+     "at": 0,
+     "value": "2 of 10"
+    }
+   ]
+  },
+  {
+   "slug": "hello-nworld-hello-261ee1",
+   "label": "\"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "a-n1-234-nb-a-n5-678-nb-15e1be",
+   "label": "\"a\\n1,234\\nb\" -> \"a\\n5,678\\nb\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a\n1,234\nb",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\n5,678\nb"
+    }
+   ]
+  },
+  {
+   "slug": "hello-world-hello-nworld-09effe",
+   "label": "\"hello world\" -> \"hello\\nworld\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello\nworld"
+    }
+   ]
+  },
+  {
+   "slug": "scenario-6eac9d",
+   "label": "\"مرحبا\" -> \"مرحبا بالعالم\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "مرحبا",
+   "steps": [
+    {
+     "at": 0,
+     "value": "مرحبا بالعالم"
+    }
+   ]
+  },
+  {
+   "slug": "hi-hi-d128c3",
+   "label": "\"😀 hi\" -> \"hi 😀\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "😀 hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hi 😀"
+    }
+   ]
+  },
+  {
+   "slug": "caf-cafe-3ccb34",
+   "label": "\"café\" -> \"cafe\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "café",
+   "steps": [
+    {
+     "at": 0,
+     "value": "cafe"
+    }
+   ]
+  },
+  {
+   "slug": "cursor-120-2-1120-3-ef853d",
+   "label": "cursor \"$120\"@2 -> \"$1120\"@3",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "$120",
+   "steps": [
+    {
+     "at": 0,
+     "value": "$1120",
+     "cursorIndex": 3
+    }
+   ]
+  },
+  {
+   "slug": "empty-hello-hello-ca8e55",
+   "label": "empty \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": 600,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "fromempty-hello-b11d68",
+   "label": "fromEmpty \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "noop-hello-world-same-same-ab6156",
+   "label": "noop \"hello world\" -> same -> same",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    },
+    {
+     "at": 100,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "noop-number-1234-1-234-1-234-9e707b",
+   "label": "noop number 1234 -> \"1,234\" -> \"1,234\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "1,234",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,234"
+    },
+    {
+     "at": 200,
+     "value": "1,234"
+    }
+   ]
+  },
+  {
+   "slug": "spring-hello-hello-world-c2bd13",
+   "label": "spring \"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "noscale-hello-hello-world-0740b9",
+   "label": "noscale \"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "scale": false
+   },
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "center-hello-hello-world-8bda8e",
+   "label": "center \"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "right-hello-hello-world-603e35",
+   "label": "right \"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "helvetica-hello-hello-world-553a02",
+   "label": "helvetica \"hello\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Helvetica",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "spring-hello-world-world-hello-5577cb",
+   "label": "spring \"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "noscale-hello-world-world-hello-037510",
+   "label": "noscale \"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "scale": false
+   },
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "center-hello-world-world-hello-ed26cf",
+   "label": "center \"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "right-hello-world-world-hello-767898",
+   "label": "right \"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "helvetica-hello-world-world-hello-90e537",
+   "label": "helvetica \"hello world\" -> \"world hello\"",
+   "page": {
+    "fontFamily": "Helvetica",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "world hello"
+    }
+   ]
+  },
+  {
+   "slug": "spring-999-1-000-8415e1",
+   "label": "spring \"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "noscale-999-1-000-1a3a55",
+   "label": "noscale \"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "scale": false
+   },
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "center-999-1-000-3a7c46",
+   "label": "center \"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "right-999-1-000-cbf074",
+   "label": "right \"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "helvetica-999-1-000-76dc59",
+   "label": "helvetica \"999\" -> \"1,000\"",
+   "page": {
+    "fontFamily": "Helvetica",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    }
+   ]
+  },
+  {
+   "slug": "spring-abcdefghijklmnop-abcmnopqrstuvwx-251a8a",
+   "label": "spring \"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "noscale-abcdefghijklmnop-abcmnopqrstuvwx-b2f260",
+   "label": "noscale \"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "scale": false
+   },
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "center-abcdefghijklmnop-abcmnopqrstuvwx-b826b2",
+   "label": "center \"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "right-abcdefghijklmnop-abcmnopqrstuvwx-bcb6da",
+   "label": "right \"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "helvetica-abcdefghijklmnop-abcmnopqrstuvwx-cd6daf",
+   "label": "helvetica \"abcdefghijklmnop\" -> \"abcmnopqrstuvwx\"",
+   "page": {
+    "fontFamily": "Helvetica",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdefghijklmnop",
+   "steps": [
+    {
+     "at": 0,
+     "value": "abcmnopqrstuvwx"
+    }
+   ]
+  },
+  {
+   "slug": "spring-hello-nworld-hello-39466e",
+   "label": "spring \"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "noscale-hello-nworld-hello-ca2217",
+   "label": "noscale \"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "scale": false
+   },
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "center-hello-nworld-hello-6fd03e",
+   "label": "center \"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "right-hello-nworld-hello-ac2f3f",
+   "label": "right \"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "helvetica-hello-nworld-hello-4c6d75",
+   "label": "helvetica \"Hello\\nWorld\" -> \"Hello\"",
+   "page": {
+    "fontFamily": "Helvetica",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "Hello\nWorld",
+   "steps": [
+    {
+     "at": 0,
+     "value": "Hello"
+    }
+   ]
+  },
+  {
+   "slug": "align-grow-hi-hello-world-3718e5",
+   "label": "align-grow \"hi\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "align-shrink-hello-world-hi-61583b",
+   "label": "align-shrink \"hello world\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "align-multiline-a-nbb-a-nbbbbbb-ff97d8",
+   "label": "align-multiline \"a\\nbb\" -> \"a\\nbbbbbb\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "a\nbb",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nbbbbbb"
+    }
+   ]
+  },
+  {
+   "slug": "align-fixedwidth-shrink-aaaaaaaaaaaaaaaaaaaa-nhello-world-aaaaaaaaaaaaaaaaaaaa-nhello-7570ff",
+   "label": "align-fixedwidth-shrink \"aaaaaaaaaaaaaaaaaaaa\\nhello world\" -> \"aaaaaaaaaaaaaaaaaaaa\\nhello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "aaaaaaaaaaaaaaaaaaaa\nhello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aaaaaaaaaaaaaaaaaaaa\nhello"
+    }
+   ]
+  },
+  {
+   "slug": "align-fixedwidth-grow-aaaaaaaaaaaaaaaaaaaa-nhello-aaaaaaaaaaaaaaaaaaaa-nhello-world-866353",
+   "label": "align-fixedwidth-grow \"aaaaaaaaaaaaaaaaaaaa\\nhello\" -> \"aaaaaaaaaaaaaaaaaaaa\\nhello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "aaaaaaaaaaaaaaaaaaaa\nhello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aaaaaaaaaaaaaaaaaaaa\nhello world"
+    }
+   ]
+  },
+  {
+   "slug": "align-shrink-survivors-hello-world-hello-c72b36",
+   "label": "align-shrink-survivors \"hello world\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "center"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "align-grow-hi-hello-world-3718e5--2",
+   "label": "align-grow \"hi\" -> \"hello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    }
+   ]
+  },
+  {
+   "slug": "align-shrink-hello-world-hi-61583b--2",
+   "label": "align-shrink \"hello world\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "align-multiline-a-nbb-a-nbbbbbb-ff97d8--2",
+   "label": "align-multiline \"a\\nbb\" -> \"a\\nbbbbbb\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "a\nbb",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nbbbbbb"
+    }
+   ]
+  },
+  {
+   "slug": "align-fixedwidth-shrink-aaaaaaaaaaaaaaaaaaaa-nhello-world-aaaaaaaaaaaaaaaaaaaa-nhello-7570ff--2",
+   "label": "align-fixedwidth-shrink \"aaaaaaaaaaaaaaaaaaaa\\nhello world\" -> \"aaaaaaaaaaaaaaaaaaaa\\nhello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "aaaaaaaaaaaaaaaaaaaa\nhello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aaaaaaaaaaaaaaaaaaaa\nhello"
+    }
+   ]
+  },
+  {
+   "slug": "align-fixedwidth-grow-aaaaaaaaaaaaaaaaaaaa-nhello-aaaaaaaaaaaaaaaaaaaa-nhello-world-866353--2",
+   "label": "align-fixedwidth-grow \"aaaaaaaaaaaaaaaaaaaa\\nhello\" -> \"aaaaaaaaaaaaaaaaaaaa\\nhello world\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "aaaaaaaaaaaaaaaaaaaa\nhello",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aaaaaaaaaaaaaaaaaaaa\nhello world"
+    }
+   ]
+  },
+  {
+   "slug": "align-shrink-survivors-hello-world-hello-c72b36--2",
+   "label": "align-shrink-survivors \"hello world\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "right"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-hello-world-hello-there-hello-friend-44dee0",
+   "label": "interrupt@1% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-hello-world-hello-there-hello-friend-faf829",
+   "label": "interrupt@5% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-hello-world-hello-there-hello-friend-7619a3",
+   "label": "interrupt@10% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-hello-world-hello-there-hello-friend-7d18ea",
+   "label": "interrupt@25% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-hello-world-hello-there-hello-friend-c983fd",
+   "label": "interrupt@37% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-hello-world-hello-there-hello-friend-c372dc",
+   "label": "interrupt@50% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-hello-world-hello-there-hello-friend-e9249c",
+   "label": "interrupt@73% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-hello-world-hello-there-hello-friend-e95899",
+   "label": "interrupt@90% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-hello-world-hello-there-hello-friend-b58adb",
+   "label": "interrupt@99% \"hello world\" -> \"hello there\" -> \"hello friend\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello world",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello there"
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "hello friend"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-999-1-000-999-bb65c3",
+   "label": "interrupt@1% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-999-1-000-999-f551f3",
+   "label": "interrupt@5% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-999-1-000-999-ee8135",
+   "label": "interrupt@10% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-999-1-000-999-2f3ffe",
+   "label": "interrupt@25% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-999-1-000-999-7967cd",
+   "label": "interrupt@37% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-999-1-000-999-e81a28",
+   "label": "interrupt@50% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-999-1-000-999-30370b",
+   "label": "interrupt@73% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-999-1-000-999-492d5f",
+   "label": "interrupt@90% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-999-1-000-999-525626",
+   "label": "interrupt@99% \"999\" -> \"1,000\" -> \"999\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "999"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-abcdef-qwerty-abcdef-70da5c",
+   "label": "interrupt@1% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-abcdef-qwerty-abcdef-7e01c8",
+   "label": "interrupt@5% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-abcdef-qwerty-abcdef-308da3",
+   "label": "interrupt@10% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-abcdef-qwerty-abcdef-82bba2",
+   "label": "interrupt@25% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-abcdef-qwerty-abcdef-ddfdba",
+   "label": "interrupt@37% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-abcdef-qwerty-abcdef-da8514",
+   "label": "interrupt@50% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-abcdef-qwerty-abcdef-6361ff",
+   "label": "interrupt@73% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-abcdef-qwerty-abcdef-fbca28",
+   "label": "interrupt@90% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-abcdef-qwerty-abcdef-cee6b3",
+   "label": "interrupt@99% \"abcdef\" -> \"qwerty\" -> \"abcdef\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "abcdef",
+   "steps": [
+    {
+     "at": 0,
+     "value": "qwerty"
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "abcdef"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-hello-hello-668d1a",
+   "label": "interrupt@1% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-hello-hello-73e974",
+   "label": "interrupt@5% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-hello-hello-56d28f",
+   "label": "interrupt@10% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-hello-hello-6a0b28",
+   "label": "interrupt@25% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-hello-hello-3c2fc6",
+   "label": "interrupt@37% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-hello-hello-4c7044",
+   "label": "interrupt@50% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-hello-hello-3f79ee",
+   "label": "interrupt@73% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-hello-hello-abc4a1",
+   "label": "interrupt@90% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-hello-hello-c3a498",
+   "label": "interrupt@99% \"hello\" -> \"\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hello",
+   "steps": [
+    {
+     "at": 0,
+     "value": ""
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-a-a-nb-a-3afe31",
+   "label": "interrupt@1% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-a-a-nb-a-bcab99",
+   "label": "interrupt@5% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-a-a-nb-a-d34c49",
+   "label": "interrupt@10% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-a-a-nb-a-2e3973",
+   "label": "interrupt@25% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-a-a-nb-a-29f873",
+   "label": "interrupt@37% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-a-a-nb-a-fd0125",
+   "label": "interrupt@50% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-a-a-nb-a-8ed57c",
+   "label": "interrupt@73% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-a-a-nb-a-424f5f",
+   "label": "interrupt@90% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-a-a-nb-a-3bb311",
+   "label": "interrupt@99% \"a\" -> \"a\\nb\" -> \"a\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "a\nb"
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "a"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-1-hi-hello-world-foo-bar-hi-b2caa6",
+   "label": "interrupt@1% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.01
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-5-hi-hello-world-foo-bar-hi-375420",
+   "label": "interrupt@5% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.05
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-10-hi-hello-world-foo-bar-hi-62e5c0",
+   "label": "interrupt@10% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-25-hi-hello-world-foo-bar-hi-8c3a3e",
+   "label": "interrupt@25% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-37-hi-hello-world-foo-bar-hi-bec57b",
+   "label": "interrupt@37% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.37
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-50-hi-hello-world-foo-bar-hi-0ba23f",
+   "label": "interrupt@50% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-73-hi-hello-world-foo-bar-hi-76486f",
+   "label": "interrupt@73% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.73
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-90-hi-hello-world-foo-bar-hi-ee0e88",
+   "label": "interrupt@90% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "interrupt-99-hi-hello-world-foo-bar-hi-4fce88",
+   "label": "interrupt@99% \"hi\" -> \"hello world foo bar\" -> \"hi\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.99
+     },
+     "value": "hi"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-10-hi-hello-world-foo-bar-hello-6ccce5",
+   "label": "carry-easein@10% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-25-hi-hello-world-foo-bar-hello-0b0c6a",
+   "label": "carry-easein@25% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-50-hi-hello-world-foo-bar-hello-ce8f43",
+   "label": "carry-easein@50% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-90-hi-hello-world-foo-bar-hello-ac109f",
+   "label": "carry-easein@90% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-same-target-storm-1-2-3-4-686dd3",
+   "label": "carry-easein same-target storm \"1\" -> \"2\" -> \"3\" -> \"4\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "1",
+   "steps": [
+    {
+     "at": 0,
+     "value": "2"
+    },
+    {
+     "at": 16,
+     "value": "3"
+    },
+    {
+     "at": 32,
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "slug": "carry-easein-growth-storm-a-aa-aaaa-aaaaaaaa-909ab3",
+   "label": "carry-easein growth storm \"a\" -> \"aa\" -> \"aaaa\" -> \"aaaaaaaa\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "ease-in"
+   },
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aa"
+    },
+    {
+     "at": 16,
+     "value": "aaaa"
+    },
+    {
+     "at": 32,
+     "value": "aaaaaaaa"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-10-hi-hello-world-foo-bar-hello-af2ea7",
+   "label": "carry-linear@10% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-25-hi-hello-world-foo-bar-hello-19402e",
+   "label": "carry-linear@25% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-50-hi-hello-world-foo-bar-hello-9e354a",
+   "label": "carry-linear@50% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-90-hi-hello-world-foo-bar-hello-4a273a",
+   "label": "carry-linear@90% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-same-target-storm-1-2-3-4-b734e3",
+   "label": "carry-linear same-target storm \"1\" -> \"2\" -> \"3\" -> \"4\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "1",
+   "steps": [
+    {
+     "at": 0,
+     "value": "2"
+    },
+    {
+     "at": 16,
+     "value": "3"
+    },
+    {
+     "at": 32,
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "slug": "carry-linear-growth-storm-a-aa-aaaa-aaaaaaaa-b82385",
+   "label": "carry-linear growth storm \"a\" -> \"aa\" -> \"aaaa\" -> \"aaaaaaaa\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": "linear"
+   },
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aa"
+    },
+    {
+     "at": 16,
+     "value": "aaaa"
+    },
+    {
+     "at": 32,
+     "value": "aaaaaaaa"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-10-hi-hello-world-foo-bar-hello-75cf87",
+   "label": "carry-spring@10% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.1
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-25-hi-hello-world-foo-bar-hello-81d55b",
+   "label": "carry-spring@25% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-50-hi-hello-world-foo-bar-hello-455834",
+   "label": "carry-spring@50% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-90-hi-hello-world-foo-bar-hello-5e1a63",
+   "label": "carry-spring@90% \"hi\" -> \"hello world foo bar\" -> \"hello\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world foo bar"
+    },
+    {
+     "at": {
+      "frac": 0.9
+     },
+     "value": "hello"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-same-target-storm-1-2-3-4-2f296b",
+   "label": "carry-spring same-target storm \"1\" -> \"2\" -> \"3\" -> \"4\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "1",
+   "steps": [
+    {
+     "at": 0,
+     "value": "2"
+    },
+    {
+     "at": 16,
+     "value": "3"
+    },
+    {
+     "at": 32,
+     "value": "4"
+    }
+   ]
+  },
+  {
+   "slug": "carry-spring-growth-storm-a-aa-aaaa-aaaaaaaa-a3ef8f",
+   "label": "carry-spring growth storm \"a\" -> \"aa\" -> \"aaaa\" -> \"aaaaaaaa\"",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {
+    "ease": {
+     "stiffness": 200,
+     "damping": 20
+    }
+   },
+   "initial": "a",
+   "steps": [
+    {
+     "at": 0,
+     "value": "aa"
+    },
+    {
+     "at": 16,
+     "value": "aaaa"
+    },
+    {
+     "at": 32,
+     "value": "aaaaaaaa"
+    }
+   ]
+  },
+  {
+   "slug": "storm-words-a-e-07c15e",
+   "label": "storm words A..E",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "A",
+   "steps": [
+    {
+     "at": 0,
+     "value": "B"
+    },
+    {
+     "at": 16,
+     "value": "C"
+    },
+    {
+     "at": 32,
+     "value": "D"
+    },
+    {
+     "at": 48,
+     "value": "E"
+    }
+   ]
+  },
+  {
+   "slug": "storm-digits-1-5-27e73d",
+   "label": "storm digits 1..5",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "1",
+   "steps": [
+    {
+     "at": 0,
+     "value": "2"
+    },
+    {
+     "at": 16,
+     "value": "3"
+    },
+    {
+     "at": 32,
+     "value": "4"
+    },
+    {
+     "at": 48,
+     "value": "5"
+    }
+   ]
+  },
+  {
+   "slug": "storm-tabular-100-103-38ce7b",
+   "label": "storm tabular $100..$103",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "$100",
+   "steps": [
+    {
+     "at": 0,
+     "value": "$101"
+    },
+    {
+     "at": 16,
+     "value": "$102"
+    },
+    {
+     "at": 32,
+     "value": "$103"
+    }
+   ]
+  },
+  {
+   "slug": "storm-grow-hi-hello-hello-world-hello-world-foo-a64399",
+   "label": "storm grow hi->hello->hello world->hello world foo",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello"
+    },
+    {
+     "at": 16,
+     "value": "hello world"
+    },
+    {
+     "at": 32,
+     "value": "hello world foo"
+    }
+   ]
+  },
+  {
+   "slug": "q012-mover-mid-enter-then-exiting-999-1-000-42-0f6bcf",
+   "label": "Q012 mover mid-enter then exiting 999 -> 1,000 -> 42",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "999",
+   "steps": [
+    {
+     "at": 0,
+     "value": "1,000"
+    },
+    {
+     "at": {
+      "frac": 0.25
+     },
+     "value": "999.5"
+    }
+   ]
+  },
+  {
+   "slug": "container-oldwidth-mid-flight-hi-hello-world-hi-c9fae0",
+   "label": "container oldWidth mid-flight hi -> hello world -> hi",
+   "page": {
+    "fontFamily": "Menlo",
+    "fontSize": 20,
+    "textAlign": "left"
+   },
+   "options": {},
+   "initial": "hi",
+   "steps": [
+    {
+     "at": 0,
+     "value": "hello world"
+    },
+    {
+     "at": {
+      "frac": 0.5
+     },
+     "value": "hi"
+    }
+   ]
+  }
+ ]
+}

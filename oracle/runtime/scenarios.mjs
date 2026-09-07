@@ -9,14 +9,27 @@ const DEFAULT_OPTS = {};
 const SPRING_OPTS = { ease: { stiffness: 200, damping: 20 } };
 const NOSCALE_OPTS = { scale: false };
 
+/** Short stable digest, so a non-ASCII or colliding label still gets a unique file. */
+function hash6(s) {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193) >>> 0;
+  }
+  return h.toString(16).padStart(8, "0").slice(0, 6);
+}
+
 export function slugify(label) {
-  return label
-    .replace(/\\n/g, "-nl-")
-    .replace(/\n/g, "-nl-")
-    .replace(/[^a-zA-Z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .toLowerCase()
-    .slice(0, 110);
+  const base =
+    label
+      .replace(/\n/g, "-nl-")
+      .replace(/[^a-zA-Z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .toLowerCase()
+      .slice(0, 100) || "scenario";
+  // Labels differing only in punctuation ("999"/"$999") or in non-ASCII text collapse
+  // to the same base, so every slug carries the label digest.
+  return `${base}-${hash6(label)}`;
 }
 
 /** A simple two-step morph: render `a`, then morph to `b` at t=0. */
@@ -182,11 +195,80 @@ export function buildScenarios() {
     out.push(pair("hi", "hello world", DEFAULT_OPTS, page, "align-grow"));
     out.push(pair("hello world", "hi", DEFAULT_OPTS, page, "align-shrink"));
     out.push(pair("a\nbb", "a\nbbbbbb", DEFAULT_OPTS, page, "align-multiline"));
+    // The root width is fixed by line 1, so the container never resizes, yet the
+    // survivors on line 2 still get a per-line alignment delta.
+    out.push(
+      pair(
+        "aaaaaaaaaaaaaaaaaaaa\nhello world",
+        "aaaaaaaaaaaaaaaaaaaa\nhello",
+        DEFAULT_OPTS,
+        page,
+        "align-fixedwidth-shrink",
+      ),
+    );
+    out.push(
+      pair(
+        "aaaaaaaaaaaaaaaaaaaa\nhello",
+        "aaaaaaaaaaaaaaaaaaaa\nhello world",
+        DEFAULT_OPTS,
+        page,
+        "align-fixedwidth-grow",
+      ),
+    );
+    out.push(
+      pair("hello world", "hello", DEFAULT_OPTS, page, "align-shrink-survivors"),
+    );
   }
 
   // interruptions
   for (const [a, b, c] of INTERRUPT_TRIPLES) {
     for (const f of INTERRUPT_FRACS) out.push(interrupt(a, b, c, f));
+  }
+
+  // CARRY coverage. The default ease has slopeAt(0) = 1/0.19 = 5.263, so
+  // `carry()` computes k <= 0 and never engages. Only a gentler base easing
+  // produces the carried `linear(...)` curve, so exercise those explicitly.
+  const CARRY_EASES = [
+    ["easein", { ease: "ease-in" }],
+    ["linear", { ease: "linear" }],
+    ["spring", SPRING_OPTS],
+  ];
+  for (const [tag, opts] of CARRY_EASES) {
+    for (const f of [0.1, 0.25, 0.5, 0.9]) {
+      out.push({
+        label: `carry-${tag}@${Math.round(f * 100)}% "hi" -> "hello world foo bar" -> "hello"`,
+        page: MENLO,
+        options: opts,
+        initial: "hi",
+        steps: [
+          { at: 0, value: "hello world foo bar" },
+          { at: { frac: f }, value: "hello" },
+        ],
+      });
+    }
+    // Same-target resume path (|previous.to - to| < 0.5) under a gentle ease.
+    out.push({
+      label: `carry-${tag} same-target storm "1" -> "2" -> "3" -> "4"`,
+      page: MENLO,
+      options: opts,
+      initial: "1",
+      steps: [
+        { at: 0, value: "2" },
+        { at: 16, value: "3" },
+        { at: 32, value: "4" },
+      ],
+    });
+    out.push({
+      label: `carry-${tag} growth storm "a" -> "aa" -> "aaaa" -> "aaaaaaaa"`,
+      page: MENLO,
+      options: opts,
+      initial: "a",
+      steps: [
+        { at: 0, value: "aa" },
+        { at: 16, value: "aaaa" },
+        { at: 32, value: "aaaaaaaa" },
+      ],
+    });
   }
 
   // storms

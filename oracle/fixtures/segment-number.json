@@ -1,0 +1,3073 @@
+[
+ {
+  "label": "Counter tick",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "100",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "101",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "102",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "2",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "103",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "3",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Integer grows left",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "99",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "199",
+    "segments": [
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,199",
+    "segments": [
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Mismatched digit mid-number",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1,234",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,834",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Every digit changes",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1234",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "5678",
+    "segments": [
+     {
+      "id": "\u0000n#4",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "8",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Separator slides up a magnitude",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "999,999",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,000,000",
+    "segments": [
+     {
+      "id": "\u0000n#7",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#12",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#14",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Separator slides back down",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "12,345",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,234",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Separator survives a round trip",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "9,999",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "10,000",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Currency to millions",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "$999.50",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$1,000,000.00",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#12",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#14",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#15",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#16",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#17",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#18",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Trailing unit held",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1.25 MB",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "M",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "B",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "1.5 MB",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "M",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "B",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "999 MB",
+    "segments": [
+     {
+      "id": "\u0000n#8",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "M",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "B",
+      "kind": "symbol"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Percent sign held",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "0%",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "50%",
+    "segments": [
+     {
+      "id": "\u0000n#2",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "100%",
+    "segments": [
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Negative sign enters",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "5",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "-5",
+    "segments": [
+     {
+      "id": "\u0000n#1",
+      "string": "-",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Fraction grows right",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1.5",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1.55",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1.555",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Fixed decimals",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "3.14",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "2.72",
+    "segments": [
+     {
+      "id": "\u0000n#4",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "2",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1.41",
+    "segments": [
+     {
+      "id": "\u0000n#7",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Fixed-width clock",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "09:59",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ":",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "10:00",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ":",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "10:01",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ":",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "German separators",
+  "decimalChar": ",",
+  "steps": [
+   {
+    "value": "1.234,56",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "6",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "12.345,67",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "7",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Locale formatting",
+  "decimalChar": ",",
+  "steps": [
+   {
+    "value": "1.234.567,89",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "9.876.543,21",
+    "segments": [
+     {
+      "id": "\u0000n#12",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#14",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#15",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#16",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#17",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#18",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#19",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "French narrow spaces",
+  "decimalChar": ",",
+  "steps": [
+   {
+    "value": "1 234,56",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "6",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "12 345,67",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "7",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1 234 567,89",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#12",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#14",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#15",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#16",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#17",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Cursor insert",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1234",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "12934",
+    "cursorIndex": 3,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Cursor delete",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "$4.20",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$4.2",
+    "cursorIndex": 4,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "2",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Typing a currency field",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "$",
+    "cursorIndex": 1,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "$2",
+    "cursorIndex": 2,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$20",
+    "cursorIndex": 3,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$420",
+    "cursorIndex": 2,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$4,020",
+    "cursorIndex": 4,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$4.20",
+    "cursorIndex": 3,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Cursor grows a separator",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "123",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,234",
+    "cursorIndex": 5,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "12,345",
+    "cursorIndex": 6,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Cursor insert beside the same digit",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1,111",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "11,111",
+    "cursorIndex": 2,
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Currency symbol swaps",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "$99.00",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "€99.00",
+    "segments": [
+     {
+      "id": "\u0000n#6",
+      "string": "€",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "£99.00",
+    "segments": [
+     {
+      "id": "\u0000n#7",
+      "string": "£",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "¥99.00",
+    "segments": [
+     {
+      "id": "\u0000n#8",
+      "string": "¥",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Delta badge",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "+2.4%",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "+",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "−0.8%",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "−",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "+11.2%",
+    "segments": [
+     {
+      "id": "\u0000n#8",
+      "string": "+",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "0.0%",
+    "segments": [
+     {
+      "id": "\u0000n#12",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "%",
+      "kind": "symbol"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Compact suffix",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "999K",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "K",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "1.2K",
+    "segments": [
+     {
+      "id": "\u0000n#4",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "K",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "12.4M",
+    "segments": [
+     {
+      "id": "\u0000n#4",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "M",
+      "kind": "symbol"
+     }
+    ]
+   },
+   {
+    "value": "1.1B",
+    "segments": [
+     {
+      "id": "\u0000n#4",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "B",
+      "kind": "symbol"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Scoreline",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "0 - 0",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "-",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1 - 0",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "-",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1 - 1",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "-",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "2 - 1",
+    "segments": [
+     {
+      "id": "\u0000n#7",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "-",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": " ",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Tabular digits hold their column",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1,234",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "4",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "9,876",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "6",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "5,555",
+    "segments": [
+     {
+      "id": "\u0000n#9",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#12",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Tabular currency counter",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "$1,234.50",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "2",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "3",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#5",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$9,876.50",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#10",
+      "string": "8",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#11",
+      "string": "7",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#12",
+      "string": "6",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "$5,555.55",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "$",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#13",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#14",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#15",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#16",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ".",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "5",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#17",
+      "string": "5",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Tabular width change",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "9,999",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "9",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": "9",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "10,000",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#8",
+      "string": "0",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#9",
+      "string": "0",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Repeated digit shrinks",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1111",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "111",
+    "segments": [
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "11",
+    "segments": [
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1",
+    "segments": [
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "label": "Empty and back",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "",
+    "segments": []
+   },
+   {
+    "value": "42",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "4",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "2",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "",
+    "segments": []
+   }
+  ]
+ },
+ {
+  "label": "IDs stay unique",
+  "decimalChar": ".",
+  "steps": [
+   {
+    "value": "1",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "11",
+    "segments": [
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "111",
+    "segments": [
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,111",
+    "segments": [
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#4",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "11,111",
+    "segments": [
+     {
+      "id": "\u0000n#5",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#6",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1,111",
+    "segments": [
+     {
+      "id": "\u0000n#3",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#7",
+      "string": ",",
+      "kind": "symbol"
+     },
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "111",
+    "segments": [
+     {
+      "id": "\u0000n#2",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "11",
+    "segments": [
+     {
+      "id": "\u0000n#1",
+      "string": "1",
+      "kind": "digit"
+     },
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   },
+   {
+    "value": "1",
+    "segments": [
+     {
+      "id": "\u0000n#0",
+      "string": "1",
+      "kind": "digit"
+     }
+    ]
+   }
+  ]
+ }
+]

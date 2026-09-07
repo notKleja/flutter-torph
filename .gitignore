@@ -1,0 +1,10 @@
+.dart_tool/
+build/
+.packages
+pubspec.lock
+*.iml
+.idea/
+node_modules/
+upstream/torph/packages/torph/dist/
+upstream/torph/packages/torph/dist-svelte/
+.DS_Store

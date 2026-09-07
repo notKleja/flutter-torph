@@ -1,0 +1,1452 @@
+[
+ {
+  "word": "Transaction",
+  "isNumeric": false,
+  "skeleton": "Transaction"
+ },
+ {
+  "word": "Safe",
+  "isNumeric": false,
+  "skeleton": "Safe"
+ },
+ {
+  "word": "Processing",
+  "isNumeric": false,
+  "skeleton": "Processing"
+ },
+ {
+  "word": "hello",
+  "isNumeric": false,
+  "skeleton": "hello"
+ },
+ {
+  "word": "world",
+  "isNumeric": false,
+  "skeleton": "world"
+ },
+ {
+  "word": "cat",
+  "isNumeric": false,
+  "skeleton": "cat"
+ },
+ {
+  "word": "and",
+  "isNumeric": false,
+  "skeleton": "and"
+ },
+ {
+  "word": "dog",
+  "isNumeric": false,
+  "skeleton": "dog"
+ },
+ {
+  "word": "fish",
+  "isNumeric": false,
+  "skeleton": "fish"
+ },
+ {
+  "word": "bird",
+  "isNumeric": false,
+  "skeleton": "bird"
+ },
+ {
+  "word": "Copy",
+  "isNumeric": false,
+  "skeleton": "Copy"
+ },
+ {
+  "word": "Address",
+  "isNumeric": false,
+  "skeleton": "Address"
+ },
+ {
+  "word": "Copied",
+  "isNumeric": false,
+  "skeleton": "Copied"
+ },
+ {
+  "word": "the",
+  "isNumeric": false,
+  "skeleton": "the"
+ },
+ {
+  "word": "quick",
+  "isNumeric": false,
+  "skeleton": "quick"
+ },
+ {
+  "word": "brown",
+  "isNumeric": false,
+  "skeleton": "brown"
+ },
+ {
+  "word": "fox",
+  "isNumeric": false,
+  "skeleton": "fox"
+ },
+ {
+  "word": "slow",
+  "isNumeric": false,
+  "skeleton": "slow"
+ },
+ {
+  "word": "a",
+  "isNumeric": false,
+  "skeleton": "a"
+ },
+ {
+  "word": "jumps",
+  "isNumeric": false,
+  "skeleton": "jumps"
+ },
+ {
+  "word": "big",
+  "isNumeric": false,
+  "skeleton": "big"
+ },
+ {
+  "word": "small",
+  "isNumeric": false,
+  "skeleton": "small"
+ },
+ {
+  "word": "npm",
+  "isNumeric": false,
+  "skeleton": "npm"
+ },
+ {
+  "word": "i",
+  "isNumeric": false,
+  "skeleton": "i"
+ },
+ {
+  "word": "torph",
+  "isNumeric": false,
+  "skeleton": "torph"
+ },
+ {
+  "word": "pnpm",
+  "isNumeric": false,
+  "skeleton": "pnpm"
+ },
+ {
+  "word": "add",
+  "isNumeric": false,
+  "skeleton": "add"
+ },
+ {
+  "word": "cart",
+  "isNumeric": false,
+  "skeleton": "cart"
+ },
+ {
+  "word": "card",
+  "isNumeric": false,
+  "skeleton": "card"
+ },
+ {
+  "word": "Hello",
+  "isNumeric": false,
+  "skeleton": "Hello"
+ },
+ {
+  "word": "World",
+  "isNumeric": false,
+  "skeleton": "World"
+ },
+ {
+  "word": "Hello,",
+  "isNumeric": false,
+  "skeleton": "Hello"
+ },
+ {
+  "word": "world!",
+  "isNumeric": false,
+  "skeleton": "world!"
+ },
+ {
+  "word": "$1,234",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$12,345,678",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$99",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "3",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "unread",
+  "isNumeric": false,
+  "skeleton": "unread"
+ },
+ {
+  "word": "messages",
+  "isNumeric": false,
+  "skeleton": "messages"
+ },
+ {
+  "word": "13",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "9",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$5,678",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "v1.2.3",
+  "isNumeric": false,
+  "skeleton": "v"
+ },
+ {
+  "word": "v1.3.0",
+  "isNumeric": false,
+  "skeleton": "v"
+ },
+ {
+  "word": "v2.0.0",
+  "isNumeric": false,
+  "skeleton": "v"
+ },
+ {
+  "word": "2",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "of",
+  "isNumeric": false,
+  "skeleton": "of"
+ },
+ {
+  "word": "10",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "done",
+  "isNumeric": false,
+  "skeleton": "done"
+ },
+ {
+  "word": "15",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "7",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$4",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$",
+  "isNumeric": false,
+  "skeleton": "$"
+ },
+ {
+  "word": "$420",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "5",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "items",
+  "isNumeric": false,
+  "skeleton": "items"
+ },
+ {
+  "word": "five",
+  "isNumeric": false,
+  "skeleton": "five"
+ },
+ {
+  "word": "(1,234)",
+  "isNumeric": true,
+  "skeleton": "()"
+ },
+ {
+  "word": "(5,678)",
+  "isNumeric": true,
+  "skeleton": "()"
+ },
+ {
+  "word": "12%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "97%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "123,456",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,234,576",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,234",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "Total",
+  "isNumeric": false,
+  "skeleton": "Total"
+ },
+ {
+  "word": "5,678",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "b",
+  "isNumeric": false,
+  "skeleton": "b"
+ },
+ {
+  "word": "text",
+  "isNumeric": false,
+  "skeleton": "text"
+ },
+ {
+  "word": "2024-01-01",
+  "isNumeric": false,
+  "skeleton": "--"
+ },
+ {
+  "word": "2024-02-01",
+  "isNumeric": false,
+  "skeleton": "--"
+ },
+ {
+  "word": "abcdefghijklmnop",
+  "isNumeric": false,
+  "skeleton": "abcdefghijklmnop"
+ },
+ {
+  "word": "abcmnopqrstuvwx",
+  "isNumeric": false,
+  "skeleton": "abcmnopqrstuvwx"
+ },
+ {
+  "word": "universe",
+  "isNumeric": false,
+  "skeleton": "universe"
+ },
+ {
+  "word": "goodbye",
+  "isNumeric": false,
+  "skeleton": "goodbye"
+ },
+ {
+  "word": "farewell",
+  "isNumeric": false,
+  "skeleton": "farewell"
+ },
+ {
+  "word": "foo",
+  "isNumeric": false,
+  "skeleton": "foo"
+ },
+ {
+  "word": "bar",
+  "isNumeric": false,
+  "skeleton": "bar"
+ },
+ {
+  "word": "moon",
+  "isNumeric": false,
+  "skeleton": "moon"
+ },
+ {
+  "word": "alpha",
+  "isNumeric": false,
+  "skeleton": "alpha"
+ },
+ {
+  "word": "bravo",
+  "isNumeric": false,
+  "skeleton": "bravo"
+ },
+ {
+  "word": "charlie",
+  "isNumeric": false,
+  "skeleton": "charlie"
+ },
+ {
+  "word": "delta",
+  "isNumeric": false,
+  "skeleton": "delta"
+ },
+ {
+  "word": "over",
+  "isNumeric": false,
+  "skeleton": "over"
+ },
+ {
+  "word": "lazy",
+  "isNumeric": false,
+  "skeleton": "lazy"
+ },
+ {
+  "word": "red",
+  "isNumeric": false,
+  "skeleton": "red"
+ },
+ {
+  "word": "leaps",
+  "isNumeric": false,
+  "skeleton": "leaps"
+ },
+ {
+  "word": "happy",
+  "isNumeric": false,
+  "skeleton": "happy"
+ },
+ {
+  "word": "c",
+  "isNumeric": false,
+  "skeleton": "c"
+ },
+ {
+  "word": "abcdef",
+  "isNumeric": false,
+  "skeleton": "abcdef"
+ },
+ {
+  "word": "xyz",
+  "isNumeric": false,
+  "skeleton": "xyz"
+ },
+ {
+  "word": "👋",
+  "isNumeric": false,
+  "skeleton": "👋"
+ },
+ {
+  "word": "Goodbye",
+  "isNumeric": false,
+  "skeleton": "Goodbye"
+ },
+ {
+  "word": "👨‍👩‍👧‍👦",
+  "isNumeric": false,
+  "skeleton": "👨‍👩‍👧‍👦"
+ },
+ {
+  "word": "café",
+  "isNumeric": false,
+  "skeleton": "café"
+ },
+ {
+  "word": "cafe",
+  "isNumeric": false,
+  "skeleton": "cafe"
+ },
+ {
+  "word": "مرحبا",
+  "isNumeric": false,
+  "skeleton": "مرحبا"
+ },
+ {
+  "word": "بالعالم",
+  "isNumeric": false,
+  "skeleton": "بالعالم"
+ },
+ {
+  "word": "يا",
+  "isNumeric": false,
+  "skeleton": "يا"
+ },
+ {
+  "word": "صديقي",
+  "isNumeric": false,
+  "skeleton": "صديقي"
+ },
+ {
+  "word": "שלום",
+  "isNumeric": false,
+  "skeleton": "שלום"
+ },
+ {
+  "word": "עולם",
+  "isNumeric": false,
+  "skeleton": "עולם"
+ },
+ {
+  "word": "חברים",
+  "isNumeric": false,
+  "skeleton": "חברים"
+ },
+ {
+  "word": "The",
+  "isNumeric": false,
+  "skeleton": "The"
+ },
+ {
+  "word": "while",
+  "isNumeric": false,
+  "skeleton": "while"
+ },
+ {
+  "word": "sun",
+  "isNumeric": false,
+  "skeleton": "sun"
+ },
+ {
+  "word": "sets",
+  "isNumeric": false,
+  "skeleton": "sets"
+ },
+ {
+  "word": "behind",
+  "isNumeric": false,
+  "skeleton": "behind"
+ },
+ {
+  "word": "distant",
+  "isNumeric": false,
+  "skeleton": "distant"
+ },
+ {
+  "word": "mountains",
+  "isNumeric": false,
+  "skeleton": "mountains"
+ },
+ {
+  "word": "gray",
+  "isNumeric": false,
+  "skeleton": "gray"
+ },
+ {
+  "word": "wolf",
+  "isNumeric": false,
+  "skeleton": "wolf"
+ },
+ {
+  "word": "runs",
+  "isNumeric": false,
+  "skeleton": "runs"
+ },
+ {
+  "word": "under",
+  "isNumeric": false,
+  "skeleton": "under"
+ },
+ {
+  "word": "bright",
+  "isNumeric": false,
+  "skeleton": "bright"
+ },
+ {
+  "word": "rain",
+  "isNumeric": false,
+  "skeleton": "rain"
+ },
+ {
+  "word": "falls",
+  "isNumeric": false,
+  "skeleton": "falls"
+ },
+ {
+  "word": "across",
+  "isNumeric": false,
+  "skeleton": "across"
+ },
+ {
+  "word": "nearby",
+  "isNumeric": false,
+  "skeleton": "nearby"
+ },
+ {
+  "word": "valleys",
+  "isNumeric": false,
+  "skeleton": "valleys"
+ },
+ {
+  "word": "100",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "101",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "102",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "103",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "99",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "199",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,199",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,834",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1234",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "5678",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "999,999",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,000,000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "12,345",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "9,999",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "10,000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$999.50",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$1,000,000.00",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "1.25",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "MB",
+  "isNumeric": false,
+  "skeleton": "MB"
+ },
+ {
+  "word": "1.5",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "999",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "0%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "50%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "100%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "-5",
+  "isNumeric": true,
+  "skeleton": "-"
+ },
+ {
+  "word": "1.55",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1.555",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "3.14159",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "2.71828",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1.41421",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "09:59",
+  "isNumeric": false,
+  "skeleton": ":"
+ },
+ {
+  "word": "10:00",
+  "isNumeric": false,
+  "skeleton": ":"
+ },
+ {
+  "word": "10:01",
+  "isNumeric": false,
+  "skeleton": ":"
+ },
+ {
+  "word": "1.234,56",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "12.345,67",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1234567.891",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "9876543.21",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1 234,56",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "12 345,67",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1 234 567,89",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "12934",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$4.20",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$4.2",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$2",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$20",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$4,020",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "123",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,111",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "11,111",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$99.00",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "€99.00",
+  "isNumeric": true,
+  "skeleton": "€"
+ },
+ {
+  "word": "£99.00",
+  "isNumeric": true,
+  "skeleton": "£"
+ },
+ {
+  "word": "¥99.00",
+  "isNumeric": true,
+  "skeleton": "¥"
+ },
+ {
+  "word": "+2.4%",
+  "isNumeric": true,
+  "skeleton": "+%"
+ },
+ {
+  "word": "−0.8%",
+  "isNumeric": true,
+  "skeleton": "−%"
+ },
+ {
+  "word": "+11.2%",
+  "isNumeric": true,
+  "skeleton": "+%"
+ },
+ {
+  "word": "0.0%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "999K",
+  "isNumeric": false,
+  "skeleton": "K"
+ },
+ {
+  "word": "1.2K",
+  "isNumeric": false,
+  "skeleton": "K"
+ },
+ {
+  "word": "12.4M",
+  "isNumeric": false,
+  "skeleton": "M"
+ },
+ {
+  "word": "1.1B",
+  "isNumeric": false,
+  "skeleton": "B"
+ },
+ {
+  "word": "0",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "-",
+  "isNumeric": false,
+  "skeleton": "-"
+ },
+ {
+  "word": "1",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "9,876",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "5,555",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "$1,234.50",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$9,876.50",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "$5,555.55",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "1111",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "111",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "11",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "42",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "hello,",
+  "isNumeric": false,
+  "skeleton": "hello"
+ },
+ {
+  "word": "don't",
+  "isNumeric": false,
+  "skeleton": "dont"
+ },
+ {
+  "word": "stop",
+  "isNumeric": false,
+  "skeleton": "stop"
+ },
+ {
+  "word": "can't",
+  "isNumeric": false,
+  "skeleton": "cant"
+ },
+ {
+  "word": "won't",
+  "isNumeric": false,
+  "skeleton": "wont"
+ },
+ {
+  "word": "isn't",
+  "isNumeric": false,
+  "skeleton": "isnt"
+ },
+ {
+  "word": "e-mail",
+  "isNumeric": false,
+  "skeleton": "e-mail"
+ },
+ {
+  "word": "re-enter",
+  "isNumeric": false,
+  "skeleton": "re-enter"
+ },
+ {
+  "word": "COVID-19",
+  "isNumeric": false,
+  "skeleton": "COVID-"
+ },
+ {
+  "word": "$1,234.56",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "€1.234,56",
+  "isNumeric": true,
+  "skeleton": "€"
+ },
+ {
+  "word": "total",
+  "isNumeric": false,
+  "skeleton": "total"
+ },
+ {
+  "word": "-42",
+  "isNumeric": true,
+  "skeleton": "-"
+ },
+ {
+  "word": "+7",
+  "isNumeric": true,
+  "skeleton": "+"
+ },
+ {
+  "word": "(555)",
+  "isNumeric": true,
+  "skeleton": "()"
+ },
+ {
+  "word": "123-4567",
+  "isNumeric": false,
+  "skeleton": "-"
+ },
+ {
+  "word": "→",
+  "isNumeric": false,
+  "skeleton": "→"
+ },
+ {
+  "word": "2.5",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "naïve",
+  "isNumeric": false,
+  "skeleton": "naïve"
+ },
+ {
+  "word": "é",
+  "isNumeric": false,
+  "skeleton": "é"
+ },
+ {
+  "word": "😀",
+  "isNumeric": false,
+  "skeleton": "😀"
+ },
+ {
+  "word": "😀😀",
+  "isNumeric": false,
+  "skeleton": "😀😀"
+ },
+ {
+  "word": "hi",
+  "isNumeric": false,
+  "skeleton": "hi"
+ },
+ {
+  "word": "👋🏽",
+  "isNumeric": false,
+  "skeleton": "👋🏽"
+ },
+ {
+  "word": "there",
+  "isNumeric": false,
+  "skeleton": "there"
+ },
+ {
+  "word": "family",
+  "isNumeric": false,
+  "skeleton": "family"
+ },
+ {
+  "word": "🇬🇧",
+  "isNumeric": false,
+  "skeleton": "🇬🇧"
+ },
+ {
+  "word": "flag",
+  "isNumeric": false,
+  "skeleton": "flag"
+ },
+ {
+  "word": "🇺🇸",
+  "isNumeric": false,
+  "skeleton": "🇺🇸"
+ },
+ {
+  "word": "नमस्ते",
+  "isNumeric": false,
+  "skeleton": "नमस्ते"
+ },
+ {
+  "word": "दुनिया",
+  "isNumeric": false,
+  "skeleton": "दुनिया"
+ },
+ {
+  "word": "こんにちは",
+  "isNumeric": false,
+  "skeleton": "こんにちは"
+ },
+ {
+  "word": "世界",
+  "isNumeric": false,
+  "skeleton": "世界"
+ },
+ {
+  "word": "你好世界",
+  "isNumeric": false,
+  "skeleton": "你好世界"
+ },
+ {
+  "word": "สวัสดี",
+  "isNumeric": false,
+  "skeleton": "สวัสดี"
+ },
+ {
+  "word": "ชาวโลก",
+  "isNumeric": false,
+  "skeleton": "ชาวโลก"
+ },
+ {
+  "word": "leading",
+  "isNumeric": false,
+  "skeleton": "leading"
+ },
+ {
+  "word": "trailing",
+  "isNumeric": false,
+  "skeleton": "trailing"
+ },
+ {
+  "word": "line",
+  "isNumeric": false,
+  "skeleton": "line"
+ },
+ {
+  "word": "one",
+  "isNumeric": false,
+  "skeleton": "one"
+ },
+ {
+  "word": "two",
+  "isNumeric": false,
+  "skeleton": "two"
+ },
+ {
+  "word": "hello world",
+  "isNumeric": false,
+  "skeleton": "helloworld"
+ },
+ {
+  "word": "tab\tsep",
+  "isNumeric": false,
+  "skeleton": "tab\tsep"
+ },
+ {
+  "word": "aaa",
+  "isNumeric": false,
+  "skeleton": "aaa"
+ },
+ {
+  "word": "abc-def_ghi",
+  "isNumeric": false,
+  "skeleton": "abc-def_ghi"
+ },
+ {
+  "word": "user@example.com",
+  "isNumeric": false,
+  "skeleton": "user@examplecom"
+ },
+ {
+  "word": "https://example.com/path?q=1",
+  "isNumeric": false,
+  "skeleton": "https://examplecom/path?q="
+ },
+ {
+  "word": "1st",
+  "isNumeric": false,
+  "skeleton": "st"
+ },
+ {
+  "word": "2nd",
+  "isNumeric": false,
+  "skeleton": "nd"
+ },
+ {
+  "word": "3rd",
+  "isNumeric": false,
+  "skeleton": "rd"
+ },
+ {
+  "word": "1'000'000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "-0.5",
+  "isNumeric": true,
+  "skeleton": "-"
+ },
+ {
+  "word": "$-5",
+  "isNumeric": true,
+  "skeleton": "$-"
+ },
+ {
+  "word": "5%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "Total:",
+  "isNumeric": false,
+  "skeleton": "Total:"
+ },
+ {
+  "word": "$12.50",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "x²+y²",
+  "isNumeric": false,
+  "skeleton": "x²+y²"
+ },
+ {
+  "word": "A.B.C.",
+  "isNumeric": false,
+  "skeleton": "ABC"
+ },
+ {
+  "word": "…",
+  "isNumeric": false,
+  "skeleton": "…"
+ },
+ {
+  "word": "​",
+  "isNumeric": false,
+  "skeleton": "​"
+ },
+ {
+  "word": "ｈｅｌｌｏ",
+  "isNumeric": false,
+  "skeleton": "ｈｅｌｌｏ"
+ },
+ {
+  "word": "İstanbul",
+  "isNumeric": false,
+  "skeleton": "İstanbul"
+ },
+ {
+  "word": "straße",
+  "isNumeric": false,
+  "skeleton": "straße"
+ },
+ {
+  "word": "ﬁne",
+  "isNumeric": false,
+  "skeleton": "ﬁne"
+ },
+ {
+  "word": "a‍b",
+  "isNumeric": false,
+  "skeleton": "a‍b"
+ },
+ {
+  "word": "🏳️‍🌈",
+  "isNumeric": false,
+  "skeleton": "🏳️‍🌈"
+ },
+ {
+  "word": "pride",
+  "isNumeric": false,
+  "skeleton": "pride"
+ },
+ {
+  "word": "word,word",
+  "isNumeric": false,
+  "skeleton": "wordword"
+ },
+ {
+  "word": "one,two",
+  "isNumeric": false,
+  "skeleton": "onetwo"
+ },
+ {
+  "word": "three",
+  "isNumeric": false,
+  "skeleton": "three"
+ },
+ {
+  "word": "-1",
+  "isNumeric": true,
+  "skeleton": "-"
+ },
+ {
+  "word": "$1",
+  "isNumeric": true,
+  "skeleton": "$"
+ },
+ {
+  "word": "1%",
+  "isNumeric": true,
+  "skeleton": "%"
+ },
+ {
+  "word": "(1)",
+  "isNumeric": true,
+  "skeleton": "()"
+ },
+ {
+  "word": "1.",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": ".5",
+  "isNumeric": false,
+  "skeleton": ""
+ },
+ {
+  "word": "5.",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "a1",
+  "isNumeric": false,
+  "skeleton": "a"
+ },
+ {
+  "word": "1a",
+  "isNumeric": false,
+  "skeleton": "a"
+ },
+ {
+  "word": "1'000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1 000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1 000",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "€1,5",
+  "isNumeric": true,
+  "skeleton": "€"
+ },
+ {
+  "word": "1e5",
+  "isNumeric": false,
+  "skeleton": "e"
+ },
+ {
+  "word": "#1",
+  "isNumeric": true,
+  "skeleton": "#"
+ },
+ {
+  "word": "+1",
+  "isNumeric": true,
+  "skeleton": "+"
+ },
+ {
+  "word": "−1",
+  "isNumeric": true,
+  "skeleton": "−"
+ },
+ {
+  "word": "1)",
+  "isNumeric": true,
+  "skeleton": ")"
+ },
+ {
+  "word": "1\"",
+  "isNumeric": true,
+  "skeleton": "\""
+ },
+ {
+  "word": "1’",
+  "isNumeric": true,
+  "skeleton": "’"
+ },
+ {
+  "word": "",
+  "isNumeric": false,
+  "skeleton": ""
+ },
+ {
+  "word": "--",
+  "isNumeric": false,
+  "skeleton": "--"
+ },
+ {
+  "word": "1..2",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "1,,2",
+  "isNumeric": true,
+  "skeleton": ""
+ },
+ {
+  "word": "١٢٣",
+  "isNumeric": false,
+  "skeleton": "١٢٣"
+ },
+ {
+  "word": "１２３",
+  "isNumeric": false,
+  "skeleton": "１２３"
+ }
+]

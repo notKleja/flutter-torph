@@ -1,0 +1,52 @@
+[
+ {
+  "value": 100,
+  "locale": "en",
+  "formatted": "100"
+ },
+ {
+  "value": 101,
+  "locale": "en",
+  "formatted": "101"
+ },
+ {
+  "value": 102,
+  "locale": "en",
+  "formatted": "102"
+ },
+ {
+  "value": 103,
+  "locale": "en",
+  "formatted": "103"
+ },
+ {
+  "value": 3.14159,
+  "locale": "en",
+  "decimals": 2,
+  "formatted": "3.14"
+ },
+ {
+  "value": 2.71828,
+  "locale": "en",
+  "decimals": 2,
+  "formatted": "2.72"
+ },
+ {
+  "value": 1.41421,
+  "locale": "en",
+  "decimals": 2,
+  "formatted": "1.41"
+ },
+ {
+  "value": 1234567.891,
+  "locale": "de-DE",
+  "decimals": 2,
+  "formatted": "1.234.567,89"
+ },
+ {
+  "value": 9876543.21,
+  "locale": "de-DE",
+  "decimals": 2,
+  "formatted": "9.876.543,21"
+ }
+]

@@ -1,0 +1,82 @@
+[
+ {
+  "locale": "en",
+  "separator": "."
+ },
+ {
+  "locale": "en-US",
+  "separator": "."
+ },
+ {
+  "locale": "de",
+  "separator": ","
+ },
+ {
+  "locale": "de-DE",
+  "separator": ","
+ },
+ {
+  "locale": "fr",
+  "separator": ","
+ },
+ {
+  "locale": "fr-FR",
+  "separator": ","
+ },
+ {
+  "locale": "es",
+  "separator": ","
+ },
+ {
+  "locale": "it",
+  "separator": ","
+ },
+ {
+  "locale": "pt-BR",
+  "separator": ","
+ },
+ {
+  "locale": "ru",
+  "separator": ","
+ },
+ {
+  "locale": "ar",
+  "separator": "."
+ },
+ {
+  "locale": "hi",
+  "separator": "."
+ },
+ {
+  "locale": "ja",
+  "separator": "."
+ },
+ {
+  "locale": "zh",
+  "separator": "."
+ },
+ {
+  "locale": "en-IN",
+  "separator": "."
+ },
+ {
+  "locale": "de-CH",
+  "separator": "."
+ },
+ {
+  "locale": "fr-CH",
+  "separator": ","
+ },
+ {
+  "locale": "sv",
+  "separator": ","
+ },
+ {
+  "locale": "nl",
+  "separator": ","
+ },
+ {
+  "locale": "pl",
+  "separator": ","
+ }
+]

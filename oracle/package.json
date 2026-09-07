@@ -1,0 +1,11 @@
+{
+  "name": "torph-oracle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "tsx gen-semantic.ts && tsx gen-segmenter.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

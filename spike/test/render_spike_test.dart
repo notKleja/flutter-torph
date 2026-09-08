@@ -17,13 +17,11 @@ library;
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math' as math;
-import 'dart:typed_data';
 import 'dart:ui' as ui;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:torph/src/core/segment.dart';
 import 'package:torph/src/core/segmenter.dart';
 
 const double kFontSize = 32;
@@ -426,9 +424,7 @@ void _failureMode(String label, List<String> parts, String? family,
     'family': family ?? 'FlutterTest(default)',
     'aError': aError?.toString(),
     'paragraphWidth': b.tp.width,
-    'sumAWidths': a == null
-        ? null
-        : a.painters.fold<double>(0, (s, p) => s + p.width),
+    'sumAWidths': a?.painters.fold<double>(0, (s, p) => s + p.width),
     'rows': rows,
   });
 }

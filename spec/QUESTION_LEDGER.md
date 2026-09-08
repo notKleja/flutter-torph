@@ -262,3 +262,114 @@ Evidence lives in `oracle/fixtures/runtime/`.
 - Experiment: `oracle/runtime` page option `direction: "rtl"`; 18 traces `rtl-*`, `rtl-center-*`, `rtl-end-*` (Menlo 20px).
 - Findings: inline-block items flow from the **right** edge in **logical order** (first segment rightmost; `مرحبا` → `م` at x=48, `ا` at x=0); `text-align: start` = right, `end` = left, `center` unchanged; an overflowing line keeps its right edge on the container's right edge and extends into negative x (`بالعالم` at −93.96 under a 60 px pinned width); exits are pinned by integer `offsetLeft` exactly as in LTR; every transform/opacity/callback is identical to the LTR model. A 1/64 px `translate(0.0156px)` noise appears on persisting items (LayoutUnit, DEV-002).
 - Resolution: `Measurer` rule in RENDERER_CONTRACT.md §4 (RTL placement `x_i = left + lineWidth − Σ_{j≤i} w_j`, overflow `left = containerWidth − lineWidth`) — verified by test/parity/runtime_trace_parity_test.dart (18/18). Parity: RTL-001. Confidence: certain.
+
+## Q-026 In what unit is an exiting box's pinned position quantised? (A2, widget)
+- Files: `utils/dom.ts:18-29` (`layoutOffset` sums `offsetLeft`/`offsetTop`), `dom.ts:82-83`
+  (written back as `style.left`/`style.top`). Port: `morph_engine.dart:498-499` (`jsRound`).
+- Question: `offsetLeft` is an **integer** in Chrome, so a departing box is pinned at
+  the whole-CSS-pixel rounding of its layout position, not at the position itself.
+  The port replicates the rounding — but in *Flutter* logical pixels, whose size
+  relative to a glyph advance is a property of the font, not of upstream.
+- Evidence (runtime): `oracle/fixtures/runtime/one-two-three-three-two-one-674adb.json`.
+  The exact layout puts `space-7` at 7 × 12.046875 = **84.328125**; every sampled frame
+  is consistent with a pin at **84.0** (t=64: x 18.9191, tx −65.2850, sx 0.9661 ⇒
+  84.0 − 65.2850 + 12.046875 × (1 − 0.9661)/2 = 18.9191). The same computation in the
+  test font pins the same box at 140.0, which rounds to itself.
+- Conclusion: the *semantics* (round the pinned offset) are ported correctly and must
+  stay; the *value* cannot agree across metrics. Consequence: an exiting box may sit up
+  to half a logical pixel from its exact layout position, and no scale-normalised
+  comparison against the browser can be tighter than 0.5 × S + 0.5 px for an exiting
+  box's absolute position. `test/parity/widget_trace_parity_test.dart` allows exactly
+  that (and keeps `tx` strict — it agreed to 0.04 px). Confidence: certain.
+- Parity: amends FLIP-001/EXIT-001 with a documented quantisation; no new requirement.
+
+## Q-027 Is `slideDistance` quantised too? (A2, widget)
+- Files: `text-morph/index.ts:242` — `(element.offsetHeight || 20 * lineCount) / lineCount`.
+  `offsetHeight` is an integer; `layoutSize()` (used for `oldWidth`/`oldHeight`) is
+  `parseFloat(getComputedStyle(...))` and is **not**. Port: `morph_engine.dart:373`
+  (`jsRound(blockHeight)`), which matches.
+- Question: with a fractional line box the two sides round different fractions away, so
+  a mover's travel can differ by up to 1 px ÷ lineCount even when both implementations
+  are correct. Menlo 20 px hides it (line box exactly 24), and so does the test font
+  (exactly 20).
+- Conclusion: keep `jsRound`; never compare a mover's `ty` in absolute pixels across
+  metrics. `widget_trace_parity_test.dart` normalises it by each side's own line box.
+  Untested corner: a *fractional* line box (a real font at a real `textScaler`), where
+  `jsRound` also decides whether `offsetHeight` is 0 and the `20 * lineCount` fallback
+  kicks in. Confidence: high (read from both sources, no runtime probe for a fractional
+  line box — worth one if A0 regenerates traces at, say, 17 px).
+- Parity: NUM-MOTION-003 gains the note "the divisor is the *rounded* block height".
+
+## Q-028 Does the frame that completes a container transition re-lay-out the flow? (A2, widget)
+- Files upstream: `utils/animate.ts:313-318` — `width.anim.onfinish = () => { pending.delete;
+  stop(); restoreSize(element); onComplete?.(); }`. `restoreSize` clears the inline
+  width/height, so the spans are back in normal flow **before** the callback and any
+  subsequent layout read sees natural offsets.
+- Port: `morph_engine.dart:906-916` clears `_container`, fires `onComplete`, and then
+  re-measures only `if (pinned != null)` — which is now `null`. The completing frame is
+  therefore the one frame of the whole transition that does **not** re-measure, and the
+  live items keep the alignment offset of the width the root has just given up.
+- Evidence (widget): `test/parity/widget_adversarial_test.dart` group
+  `F-1 (open finding)`. (a) centre-aligned `"hello world"` → `"hello"`, `textScaler`
+  halved at t=100: the root settles at 50 × 10, the single 50 px item rests at
+  **x = 25.00013**, i.e. 25 px outside its own box. (b) `"hello"` → `""`: the hold
+  releases, the root width becomes 0, the zero-width stand-in rests at **x = 50**.
+  `test/fuzz/morph_fuzz_test.dart` hits (b) in 13 of 320 seeded sequences.
+- Resolution: re-measure at the natural width when the container is cleared (upstream's
+  `restoreSize`, in upstream's order — before `onComplete`). Confidence: certain
+  (upstream source + two deterministic widget repros).
+- Parity: new requirement **CONTAINER-008** — completing a container transition restores
+  natural sizing *and* natural per-line alignment in the same frame.
+
+## Q-029 What happens to engine time while the ticker is stopped? (A2, widget)
+- Files: `text_morph.dart:_startTicker/_stopTicker/_onTick` — `engineTime = _base + ticker.elapsed`,
+  and `_base` is only advanced when the ticker stops. Upstream reads `performance.now()`,
+  which never stops.
+- Consequence: an idle gap costs the port that much engine time. An update at wall-clock
+  t = 500 after settling at t = 400 is registered at engine time 400. Nothing observable
+  follows from it *today*: every track is relative to its own start, and the scene was
+  settled, so all output is identical — only absolute timestamps (`FrameState.now`, and
+  therefore any test that compares callback instants to a wall clock) differ.
+- Evidence (measured): `'hello'` → `'hello world'`, settle at 400, idle 100 ms, then
+  update to `'goodbye'`. `snapshot.now` reads 400.0 while settled, **still 400.0 after
+  the 100 ms idle pump**, and 400.0 at the update — the new morph is timed from 400, not
+  500 — then 450.0 fifty ms later. Upstream would have registered that update at 500.
+  Consequence for testing: `widget_trace_parity_test.dart` timestamps callbacks with the
+  trace instant it drove, not with `snapshot.now`, because the two differ by the
+  accumulated idle time.
+- Conclusion: acceptable and probably desirable (a stopped `Ticker` is the whole point of
+  not burning frames). Logged so that any future time-dependent feature — a delay, a
+  debounce, a stagger, a timestamp in a callback — is known to need a real clock.
+  Confidence: certain. Parity: none; documentation only.
+
+## Q-030 When a callback fires, is the widget's frame already the new one? (A2, widget)
+- Upstream: `restoreSize` runs before `onComplete`, so a DOM read inside the callback
+  sees the final box.
+- Port: `TextMorphState._onTick` does `final frame = engine.frame(_engineTime);` and the
+  engine fires `onComplete`/`onCancel` *inside* that call — before `_frame = frame` and
+  before `_render.frame = frame`. A callback that reads `debugSnapshot()`, the render
+  object's `size`, or anything derived from the painted frame therefore sees the
+  **previous** frame. (The DEV-003 deferral path is fine: a callback raised during build
+  flushes post-frame, by which time the frame is stored.)
+- Evidence: `widget_adversarial_test.dart` group 5 first measured `complete` at 384 and
+  416 instead of 400 and 432 — one 16 ms frame stale — precisely because it read
+  `debugSnapshot()!.now` from inside `onAnimationComplete`. It now uses the driver's own
+  clock; the staleness is the port's, not the test's.
+- Resolution: store the frame (and hand it to the render object) before letting the
+  engine's callbacks run — i.e. drain them after the assignment — or document that a
+  callback observes the pre-completion frame. Confidence: certain. Severity: low.
+  Parity: CALLBACK-002 gains an ordering note.
+
+## Q-031 What should `TickerMode(enabled: false)` do to a running morph? (A2, widget)
+- There is no upstream analogue: a WAAPI animation on an off-screen element keeps
+  playing, and only the *painting* stops.
+- Port behaviour (measured): a muted `Ticker` keeps its start time, so no frames are
+  delivered while muted (`snapshot.now` frozen, `animating` still true), and the first
+  tick after unmuting reports the *whole* elapsed time — the morph jumps forward to
+  where WAAPI would have been. Verified by `widget_adversarial_test.dart`
+  → `TickerMode off freezes the clock and on catches it up` (100 ms in, 200 ms muted,
+  `now > 300` on the next tick, settled 400 ms later).
+- Conclusion: this is the faithful choice (time passes for an off-screen animation) and
+  is now pinned by a test. The alternative — resuming where it froze — would make an
+  off-screen morph slower than an on-screen one. Confidence: certain (measured).
+  Parity: none; documents the widget's only genuine Flutter-only degree of freedom.

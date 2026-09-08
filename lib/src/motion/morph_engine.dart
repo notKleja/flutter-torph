@@ -903,17 +903,20 @@ class MorphEngine {
     }
 
     final c = _container;
-    if (c != null && !c.stopped && c.finished(t)) {
+    final released = c != null && !c.stopped && c.finished(t);
+    if (released) {
       _container = null;
       c.stop();
-      c.onComplete?.call();
     }
 
     // Lines are aligned within whatever width the root has this frame, so a
     // centred or right-aligned line moves with the animated container while
     // its items' transforms stay untouched.
     final pinned = _pinnedWidth;
-    if (pinned != null) _measureInto(liveItems, width: pinned);
+    if (pinned != null || released) _measureInto(liveItems, width: pinned);
+
+    // `restoreSize` runs before `onComplete` upstream: the callback sees the reflow.
+    if (released) c.onComplete?.call();
 
     items.removeWhere((item) {
       final fade = item.removeWhen;

@@ -1,10 +1,12 @@
 # Status
 
-- Milestone: M0–M3 complete (semantic parity green); M4 decided (Strategy A); M5–M7 engine kinematics verified against 150 browser traces; M5 rendering + widget next
-- Integrated commit: see `git log` (master)
-- Passing: segmentation (348/352 word, dictionary gaps DEV-001), identity, diff chains (250 chains / 824 steps), numbers, spring/easing/carry, anchors, runs, engine kinematics vs runtime oracle (150/150 traces: enter/exit/persist/number/group/interruption/storms/container/carry/alignment/empty/newlines)
-- Failing: none
-- P0/P1: none open
-- Open questions: Q-025 RTL root direction trace (A2 to add), Q-026 disabled-mode wrapping (DEV-004)
-- Agents: A0 Fable (architecture, engine, integration); Opus delegate #1 (engine test port, in flight); Opus delegate #2 (renderer + widget per RENDERER_CONTRACT.md, next); A2 Questioner (idle, re-armed for M5/M6 verification)
-- Next automatic action: delegate M5 renderer/widget; integrate engine tests; then widget-level kinematic parity + goldens + platform hardening
+- Milestone: M9 audit complete — release candidate 0.1.3 (Torph d79a5aa)
+- Integrated commit: master HEAD (see `git log`)
+- Passing parity categories: all 25 rows of DONE.md
+- Failing: none. P0/P1: none open
+- Test suite: 2426 pass, 4 skipped (ICU dictionary scripts, DEV-001); analyze clean
+- Oracle: semantic fixtures (15 files, reproducible) + 168 browser traces (150 + 18 RTL) matched by the engine (runtime_trace_parity) and the widget (widget_trace_parity)
+- Known P2 (documented): DEV-001..DEV-005; update cost ~26 ms for a 700-char/100-word morph inside the build phase (spec/PERFORMANCE.md) — optimisation candidate, not a parity item
+- Open questions: none blocking (Q-029 engine time freezes while idle, harmless; Q-031 TickerMode ageing pinned by test)
+- Agents: all finished
+- Next automatic action: none — see spec/RELEASE_CANDIDATE.md

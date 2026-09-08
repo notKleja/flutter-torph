@@ -14,18 +14,18 @@ Release candidate requires every row PASS with automated evidence, P0 = P1 = 0, 
 | Number matching | PASS (segment-number 32 chains, runtime 999→1,000 etc.) |
 | Replacement groups | PASS (replaced-runs 100, runtime group traces) |
 | Spring/easing | PASS (easing 39×101, spring 15, carry 65) |
-| FLIP | ENGINE PASS (150 runtime traces) / widget pending |
-| Persistent motion | ENGINE PASS / widget pending |
-| Enter motion | ENGINE PASS / widget pending |
-| Exit motion | ENGINE PASS / widget pending |
-| Number motion | ENGINE PASS (slot/mover, stack composition Q-013) / widget pending |
-| Container width | ENGINE PASS (resume, carry, hold, zero) / widget pending |
-| Container height | ENGINE PASS / widget pending |
-| Interruption | ENGINE PASS (1–99 % × 6 scenarios) / widget pending |
-| Rapid retargeting | ENGINE PASS (storms 16 ms) / widget pending |
-| Empty state | ENGINE PASS / widget pending |
-| Explicit newlines | ENGINE PASS / widget pending |
-| RTL | ENGINE PASS (18 RTL-root traces, Q-025) / widget pending |
-| Semantics | pending (M5) |
-| Reduced motion | pending (M5) |
-| Callbacks/lifecycle | ENGINE PASS (callback log in all traces) / widget pending |
+| FLIP | PASS (150 runtime traces) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Persistent motion | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Enter motion | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Exit motion | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Number motion | PASS (slot/mover, stack composition Q-013) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Container width | PASS (resume, carry, hold, zero) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Container height | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Interruption | PASS (1–99 % × 6 scenarios) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Rapid retargeting | PASS (storms 16 ms) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Empty state | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Explicit newlines | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| RTL | PASS (18 RTL-root traces, Q-025) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| Semantics | PASS (test/widget/semantics_test, fuzz label invariant) |
+| Reduced motion | PASS (test/widget/reduced_motion_test, adversarial disabled mid-morph) |
+| Callbacks/lifecycle | PASS (callback log in all traces) + widget: widget_trace_parity 169 traces, adversarial, fuzz |

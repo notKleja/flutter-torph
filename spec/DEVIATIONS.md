@@ -28,6 +28,9 @@ Upstream fires `onAnimationStart`/`onAnimationCancel` synchronously inside `upda
 ## DEV-004 Disabled mode never soft-wraps (approved A0)
 Upstream: an instance constructed disabled has no `[torph-root]` styles and wraps like any span; one disabled later keeps `white-space: nowrap`. Flutter: plain text is always laid out with `\n` as the only line break, matching the animated model.
 
+## DEV-005 Integer pinning quantum (approved A0, P2)
+Upstream pins exiting boxes at integer CSS-px `offsetLeft/offsetTop` and divides integer `offsetHeight` for the digit slide; the port rounds the same way in logical Flutter pixels (Q-026/Q-027). Same rule, different pixel grid; ≤0.5 px.
+
 Candidates under investigation (not yet deviations):
 - CJK/Thai dictionary word segmentation in ICU (only reachable when such text also contains a space or newline).
 - Font metrics: browser vs Flutter line height / advances differ; kinematic parity is compared in normalised units (per-item deltas relative to that platform own layout).

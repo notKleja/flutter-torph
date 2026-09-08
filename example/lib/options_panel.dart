@@ -8,6 +8,7 @@ class DemoOptions {
     this.scale = true,
     this.numbers = true,
     this.easeLabel = 'cubic-bezier(0.19, 1, 0.22, 1)',
+    this.blur = defaultBlur,
     this.disabled = false,
   });
 
@@ -16,6 +17,7 @@ class DemoOptions {
   final bool scale;
   final bool numbers;
   final String easeLabel;
+  final double blur;
   final bool disabled;
 
   Object get ease => easeChoices[easeLabel]!;
@@ -26,6 +28,7 @@ class DemoOptions {
     bool? scale,
     bool? numbers,
     String? easeLabel,
+    double? blur,
     bool? disabled,
   }) {
     return DemoOptions(
@@ -34,6 +37,7 @@ class DemoOptions {
       scale: scale ?? this.scale,
       numbers: numbers ?? this.numbers,
       easeLabel: easeLabel ?? this.easeLabel,
+      blur: blur ?? this.blur,
       disabled: disabled ?? this.disabled,
     );
   }
@@ -113,6 +117,23 @@ class OptionsPanel extends StatelessWidget {
                   label: 'numbers',
                   value: options.numbers,
                   onChanged: (bool v) => onChanged(options.copyWith(numbers: v)),
+                ),
+                SizedBox(
+                  width: 220,
+                  child: Row(
+                    children: [
+                      Text('blur ${options.blur.toStringAsFixed(1)}'),
+                      Expanded(
+                        child: Slider(
+                          value: options.blur,
+                          max: 6,
+                          divisions: 24,
+                          onChanged: (double v) =>
+                              onChanged(options.copyWith(blur: v)),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
                 _Toggle(
                   label: 'disabled',

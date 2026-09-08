@@ -13,6 +13,10 @@ const Duration defaultDuration = Duration(milliseconds: 400);
 /// Upstream `DEFAULT_TEXT_MORPH_OPTIONS.locale`.
 const String defaultLocaleTag = 'en';
 
+/// Blur sigma, in logical pixels, that entering items start from and exiting
+/// items fade into. Zero disables it.
+const double defaultBlur = 1.5;
+
 /// The option defaults, exactly upstream's `DEFAULT_TEXT_MORPH_OPTIONS`
 /// (`BASE_DEFAULTS` plus `debug`, `scale`, `numbers`).
 @immutable
@@ -27,6 +31,7 @@ class TextMorphOptions {
     this.scale = true,
     this.numbers = true,
     this.decimals,
+    this.blur = defaultBlur,
   });
 
   final String locale;
@@ -40,6 +45,7 @@ class TextMorphOptions {
   final bool scale;
   final bool numbers;
   final int? decimals;
+  final double blur;
 
   @override
   bool operator ==(Object other) =>
@@ -52,11 +58,12 @@ class TextMorphOptions {
       other.debug == debug &&
       other.scale == scale &&
       other.numbers == numbers &&
-      other.decimals == decimals;
+      other.decimals == decimals &&
+      other.blur == blur;
 
   @override
   int get hashCode => Object.hash(locale, duration, ease, disabled,
-      respectReducedMotion, debug, scale, numbers, decimals);
+      respectReducedMotion, debug, scale, numbers, decimals, blur);
 }
 
 /// Upstream `DEFAULT_TEXT_MORPH_OPTIONS`.
@@ -78,6 +85,13 @@ Object validateEase(Object ease) {
   throw ArgumentError.value(ease, 'ease', 'must be a CSS easing String or SpringParams');
 }
 
+double validateBlur(double blur) {
+  if (!blur.isFinite || blur < 0) {
+    throw ArgumentError.value(blur, 'blur', 'must be a finite, non-negative number');
+  }
+  return blur;
+}
+
 /// Upstream `MorphController.serializeConfig`: the options whose change
 /// recreates the instance (`LIFECYCLE-001`). Callbacks are deliberately absent,
 /// so changing one never tears a morph down.
@@ -90,6 +104,7 @@ class MorphConfigKey {
     required this.scale,
     required this.numbers,
     required this.decimals,
+    required this.blur,
     required this.debug,
     required this.disabled,
     required this.respectReducedMotion,
@@ -101,6 +116,7 @@ class MorphConfigKey {
   final bool scale;
   final bool numbers;
   final int? decimals;
+  final double blur;
   final bool debug;
   final bool disabled;
   final bool respectReducedMotion;
@@ -114,18 +130,19 @@ class MorphConfigKey {
       other.scale == scale &&
       other.numbers == numbers &&
       other.decimals == decimals &&
+      other.blur == blur &&
       other.debug == debug &&
       other.disabled == disabled &&
       other.respectReducedMotion == respectReducedMotion;
 
   @override
   int get hashCode => Object.hash(ease, duration, locale, scale, numbers,
-      decimals, debug, disabled, respectReducedMotion);
+      decimals, blur, debug, disabled, respectReducedMotion);
 
   @override
   String toString() => 'MorphConfigKey(ease: $ease, duration: $duration, '
       'locale: $locale, scale: $scale, numbers: $numbers, decimals: $decimals, '
-      'debug: $debug, disabled: $disabled, '
+      'blur: $blur, debug: $debug, disabled: $disabled, '
       'respectReducedMotion: $respectReducedMotion)';
 }
 
@@ -139,6 +156,7 @@ MorphConfig buildMorphConfig({
   required bool numbers,
   required int? decimals,
   required bool debug,
+  double blur = defaultBlur,
   VoidCallback? onAnimationStart,
   VoidCallback? onAnimationComplete,
   VoidCallback? onAnimationCancel,
@@ -151,6 +169,7 @@ MorphConfig buildMorphConfig({
     scale: scale,
     numbers: numbers,
     decimals: decimals,
+    blur: validateBlur(blur),
     debug: debug,
     onAnimationStart: onAnimationStart,
     onAnimationComplete: onAnimationComplete,

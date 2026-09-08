@@ -152,6 +152,7 @@ TextMorph(value: 'Total\n1,234')
 | `ease`                 | `Object` (`String`/`SpringParams`) | `'cubic-bezier(0.19, 1, 0.22, 1)'` | CSS easing function or spring parameters |
 | `scale`                | `bool`                     | `true`                             | Scale animation on entering and exiting segments |
 | `numbers`              | `bool`                     | `true`                             | Morph numeric words by place value, sliding digits along the block axis. Off falls back to the character-level text morph |
+| `blur`                 | `double`                   | `1.5`                              | Blur sigma (logical px) entering segments start from and exiting segments fade into, riding the same fade. `0` turns it off. Not in upstream |
 | `decimals`             | `int?`                     | `null`                             | Fraction digits to format a numeric value to. Applies when `value` is a `num`; ignored for strings |
 | `locale`               | `Locale?`                  | `Localizations`, then `Locale('en')` | Locale for text segmentation, and for formatting a numeric value |
 | `cursorIndex`          | `int?`                     | `null`                             | Caret position; switches a single-number value from place matching to caret matching |

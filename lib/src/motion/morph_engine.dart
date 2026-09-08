@@ -22,6 +22,7 @@ class MorphConfig {
     this.scale = true,
     this.numbers = true,
     this.decimals,
+    this.blur = 0,
     this.debug = false,
     this.onAnimationStart,
     this.onAnimationComplete,
@@ -30,6 +31,9 @@ class MorphConfig {
             (throw ArgumentError.value(ease, 'ease', 'unsupported CSS easing')) {
     if (!(duration >= 0)) {
       throw ArgumentError.value(duration, 'duration', 'must be a finite, non-negative number');
+    }
+    if (!blur.isFinite || blur < 0) {
+      throw ArgumentError.value(blur, 'blur', 'must be a finite, non-negative number');
     }
   }
 
@@ -45,6 +49,9 @@ class MorphConfig {
   final bool scale;
   final bool numbers;
   final int? decimals;
+
+  /// Blur sigma in logical pixels; zero adds no blur tracks at all.
+  final double blur;
   final bool debug;
   final void Function()? onAnimationStart;
   final void Function()? onAnimationComplete;
@@ -145,8 +152,10 @@ class ItemFrame {
     required this.originX,
     required this.originY,
     required this.opacity,
+    required this.blur,
     required this.moverTransform,
     required this.moverOpacity,
+    required this.moverBlur,
   });
 
   final String id;
@@ -163,10 +172,12 @@ class ItemFrame {
   final double originX;
   final double originY;
   final double opacity;
+  final double blur;
 
   /// Present for numeric slots only.
   final Transform2? moverTransform;
   final double? moverOpacity;
+  final double? moverBlur;
 
   /// The box after its transform, in root coordinates.
   ({double left, double top, double right, double bottom}) get visualRect {
@@ -485,7 +496,7 @@ class MorphEngine {
 
   /// `detachFromFlow`: pins departing boxes where they are on screen.
   void _detachFromFlow(List<MorphItem> elements) {
-    final snapshots = <MorphItem, ({double left, double top, double width, double height, double opacity})>{};
+    final snapshots = <MorphItem, ({double left, double top, double width, double height, double opacity, double blur})>{};
     for (final child in elements) {
       if (child.isBreak) continue;
       // offsetLeft/offsetTop are integers; the translate keeps the subpixel part.
@@ -493,6 +504,7 @@ class MorphEngine {
       final tx = transform.tx;
       final ty = transform.ty;
       final opacity = _opacityOrOne(child.box.opacityAt(now));
+      final blur = child.box.blurAt(now);
       child.box.cancelAll();
       snapshots[child] = (
         left: jsRound(child.x) + tx,
@@ -500,6 +512,7 @@ class MorphEngine {
         width: child.width,
         height: child.height,
         opacity: opacity,
+        blur: blur,
       );
     }
 
@@ -521,6 +534,7 @@ class MorphEngine {
         ..width = snap.width
         ..height = snap.height;
       child.box.underlyingOpacity = snap.opacity;
+      child.box.underlyingBlur = snap.blur;
     }
   }
 
@@ -631,6 +645,22 @@ class MorphEngine {
       to: 0,
       duration: fadeDuration(duration, _textExitFade),
     );
+    _blurOut(child.box, fadeDuration(duration, _textExitFade));
+  }
+
+  void _blurOut(AnimatedBox box, double duration) {
+    if (config.blur == 0) return;
+    box.animateBlur(from: null, to: config.blur, duration: duration);
+  }
+
+  void _blurIn(AnimatedBox box, double prevBlur, double duration, {double delay = 0}) {
+    if (config.blur == 0) return;
+    box.animateBlur(
+      from: prevBlur > 0 ? prevBlur : config.blur,
+      to: 0,
+      duration: duration,
+      delay: delay,
+    );
   }
 
   void _animateEnterOrPersist(MorphItem child, double deltaX, double deltaY, bool isNew) {
@@ -657,14 +687,23 @@ class MorphEngine {
         delay: isNew ? fadeDuration(duration, _textEnterDelay) : 0,
       );
     }
+    if (isNew || prev.blur > 0) {
+      _blurIn(
+        child.box,
+        prev.blur,
+        fadeDuration(duration, isNew ? _textEnterFade : _textPersistFade),
+        delay: isNew ? fadeDuration(duration, _textEnterDelay) : 0,
+      );
+    }
   }
 
   /// `cancelAnimations(element)`: read the running translate and opacity, then cancel.
-  ({double tx, double ty, double opacity}) _cancelAnimations(AnimatedBox box) {
+  ({double tx, double ty, double opacity, double blur}) _cancelAnimations(AnimatedBox box) {
     final t = box.transformAt(now);
     final opacity = _opacityOrOne(box.opacityAt(now));
+    final blur = box.blurAt(now);
     box.cancelAll();
-    return (tx: t.tx, ty: t.ty, opacity: opacity);
+    return (tx: t.tx, ty: t.ty, opacity: opacity, blur: blur);
   }
 
   // ─── number animations (text-morph/utils/number-animate.ts) ───
@@ -695,6 +734,7 @@ class MorphEngine {
       to: 0,
       duration: duration * _numberExitFade,
     );
+    _blurOut(mover, duration * _numberExitFade);
   }
 
   void _animateNumberEnter(MorphItem slot, double deltaX, double deltaY, double slideDistance, SegmentKind kind) {
@@ -723,6 +763,7 @@ class MorphEngine {
         duration: duration * _numberEnterFade,
       );
     }
+    _blurIn(mover, prev.blur, duration * _numberEnterFade);
   }
 
   void _animateNumberPersist(MorphItem slot, double deltaX, double deltaY) {
@@ -797,6 +838,7 @@ class MorphEngine {
         to: 0,
         duration: duration * _groupExitFade,
       );
+      _blurOut(element.box, duration * _groupExitFade);
     }
   }
 
@@ -824,6 +866,7 @@ class MorphEngine {
         to: 1,
         duration: duration * _groupEnterFade,
       );
+      _blurIn(element.box, prev.blur, duration * _groupEnterFade);
     }
   }
 
@@ -957,8 +1000,10 @@ class MorphEngine {
         originX: o.x,
         originY: o.y,
         opacity: item.box.opacityAt(now),
+        blur: item.box.blurAt(now),
         moverTransform: mover?.transformAt(now),
         moverOpacity: mover?.opacityAt(now),
+        moverBlur: mover?.blurAt(now),
       ));
     }
     return FrameState(

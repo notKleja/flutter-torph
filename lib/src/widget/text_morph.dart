@@ -27,6 +27,7 @@ class TextMorph extends StatefulWidget {
     this.scale = true,
     this.numbers = true,
     this.decimals,
+    this.blur = defaultBlur,
     this.disabled = false,
     this.respectReducedMotion = true,
     this.debug = false,
@@ -39,6 +40,7 @@ class TextMorph extends StatefulWidget {
     }
     // Fails here rather than on the first frame, so the stack names the caller.
     validateEase(ease);
+    validateBlur(blur);
     if (duration < Duration.zero) {
       throw ArgumentError.value(duration, 'duration', 'must not be negative');
     }
@@ -79,6 +81,10 @@ class TextMorph extends StatefulWidget {
 
   /// Fraction digits for a `num` value.
   final int? decimals;
+
+  /// Blur sigma (logical pixels) entering items start from and exiting items
+  /// fade into. Zero disables it.
+  final double blur;
 
   /// Renders plain text, with no motion.
   final bool disabled;
@@ -201,6 +207,7 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
       scale: widget.scale,
       numbers: widget.numbers,
       decimals: widget.decimals,
+      blur: widget.blur,
       debug: widget.debug,
       disabled: widget.disabled,
       respectReducedMotion: widget.respectReducedMotion,
@@ -291,6 +298,7 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
         scale: widget.scale,
         numbers: widget.numbers,
         decimals: widget.decimals,
+        blur: widget.blur,
         debug: widget.debug,
         // Read through the latest widget, never captured.
         onAnimationStart: () => _fire(widget.onAnimationStart),

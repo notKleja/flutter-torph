@@ -17,6 +17,7 @@ export 'src/rendering/text_measurer.dart' show TextMeasurer;
 export 'src/widget/options.dart'
     show
         TextMorphOptions,
+        defaultBlur,
         defaultDuration,
         defaultEase,
         defaultLocaleTag,

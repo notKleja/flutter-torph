@@ -85,10 +85,12 @@ double linearEasing(double t) => t;
 class AnimatedBox {
   final List<Track<Transform2>> transformTracks = [];
   final List<Track<double>> opacityTracks = [];
+  final List<Track<double>> blurTracks = [];
 
   /// The value in effect when no animation targets the property.
   Transform2 underlyingTransform = Transform2.none;
   double underlyingOpacity = 1;
+  double underlyingBlur = 0;
 
   /// The animation stack: each track composites (replace) over the ones
   /// created before it, neutral keyframes reading the value beneath.
@@ -108,7 +110,16 @@ class AnimatedBox {
     return value;
   }
 
-  bool get hasAnimations => transformTracks.isNotEmpty || opacityTracks.isNotEmpty;
+  double blurAt(double now) {
+    var value = underlyingBlur;
+    for (final t in blurTracks) {
+      value = t.valueAt(now, value);
+    }
+    return value;
+  }
+
+  bool get hasAnimations =>
+      transformTracks.isNotEmpty || opacityTracks.isNotEmpty || blurTracks.isNotEmpty;
 
   /// `element.getAnimations().forEach((a) => a.cancel())`.
   void cancelAll() {
@@ -118,8 +129,12 @@ class AnimatedBox {
     for (final t in opacityTracks) {
       t.cancelled = true;
     }
+    for (final t in blurTracks) {
+      t.cancelled = true;
+    }
     transformTracks.clear();
     opacityTracks.clear();
+    blurTracks.clear();
   }
 
   void start(double now) {
@@ -129,11 +144,15 @@ class AnimatedBox {
     for (final t in opacityTracks) {
       t.start(now);
     }
+    for (final t in blurTracks) {
+      t.start(now);
+    }
   }
 
   bool settled(double now) =>
       transformTracks.every((t) => t.finished(now)) &&
-      opacityTracks.every((t) => t.finished(now));
+      opacityTracks.every((t) => t.finished(now)) &&
+      blurTracks.every((t) => t.finished(now));
 
   Track<Transform2> animateTransform({
     required Transform2? from,
@@ -167,6 +186,24 @@ class AnimatedBox {
       lerp: lerpDouble,
     );
     opacityTracks.add(track);
+    return track;
+  }
+
+  Track<double> animateBlur({
+    required double? from,
+    required double? to,
+    required double duration,
+    double delay = 0,
+  }) {
+    final track = Track<double>(
+      from: from,
+      to: to,
+      duration: duration,
+      delay: delay,
+      easing: linearEasing,
+      lerp: lerpDouble,
+    );
+    blurTracks.add(track);
     return track;
   }
 }

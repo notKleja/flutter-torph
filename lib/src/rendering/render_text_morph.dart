@@ -1,3 +1,5 @@
+import 'dart:ui' show ImageFilter;
+
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
@@ -177,11 +179,11 @@ class RenderTextMorph extends RenderBox {
 
     final bounds = Rect.fromLTWH(0, 0, item.width, item.height);
     final opacity = item.opacity;
-    final grouped = opacity < 1;
+    final grouped = opacity < 1 || item.blur > 0;
     if (grouped) {
       // Glyphs of one item can overlap; a layer is the CSS group-opacity
       // semantic, not per-glyph alpha.
-      canvas.saveLayer(bounds.inflate(item.height), Paint()..color = Color.fromRGBO(0, 0, 0, opacity));
+      canvas.saveLayer(bounds.inflate(item.height), _layerPaint(opacity, item.blur));
     }
 
     if (item.kind != null) {
@@ -222,13 +224,14 @@ class RenderTextMorph extends RenderBox {
 
     final moverTy = item.moverTransform?.ty ?? 0;
     final moverOpacity = item.moverOpacity ?? 1;
+    final moverBlur = item.moverBlur ?? 0;
     canvas.save();
     // The slide is block-axis only: tx is always 0 upstream.
     canvas.translate(item.moverTransform?.tx ?? 0, moverTy);
     final bounds = Rect.fromLTWH(0, 0, item.width, item.height);
-    final fade = moverOpacity < 1;
+    final fade = moverOpacity < 1 || moverBlur > 0;
     if (fade) {
-      canvas.saveLayer(bounds.inflate(item.height), Paint()..color = Color.fromRGBO(0, 0, 0, moverOpacity));
+      canvas.saveLayer(bounds.inflate(item.height), _layerPaint(moverOpacity, moverBlur));
     }
     _measurer.painterFor(item.text).paint(canvas, Offset.zero);
     if (fade) canvas.restore();
@@ -258,6 +261,14 @@ class RenderTextMorph extends RenderBox {
       colors: const [transparent, black, black, transparent],
       stops: [0, ratio, 1 - ratio, 1],
     ).createShader(rect);
+  }
+
+  static Paint _layerPaint(double opacity, double blur) {
+    final paint = Paint()..color = Color.fromRGBO(0, 0, 0, opacity);
+    if (blur > 0) {
+      paint.imageFilter = ImageFilter.blur(sigmaX: blur, sigmaY: blur, tileMode: TileMode.decal);
+    }
+    return paint;
   }
 
   void _paintDebugRoot(Canvas canvas, Offset offset) {

@@ -1,0 +1,489 @@
+{
+ "id": "RTLC-054",
+ "category": "bidi-controls",
+ "text": "مرحبا ⁦1234⁩",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "مرحبا ⁦1234⁩",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 87.7813,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "rect": {
+     "x": 79.8906,
+     "y": 0,
+     "w": 7.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "rect": {
+     "x": 70.125,
+     "y": 0,
+     "w": 9.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "rect": {
+     "x": 59.5156,
+     "y": 0,
+     "w": 10.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "rect": {
+     "x": 54.6406,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "rect": {
+     "x": 50.0469,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "⁦",
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 0,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "1",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "2",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "3",
+    "rect": {
+     "x": 22.2344,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "4",
+    "rect": {
+     "x": 33.3594,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "⁩",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 7,
+    "grapheme": "1",
+    "x": 0
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "⁩",
+    "x": 0
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "2",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "3",
+    "x": 22.2344
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "4",
+    "x": 33.3594
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 44.5
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "⁦",
+    "x": 44.5
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "x": 50.0469
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "x": 54.6406
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "x": 59.5156
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "x": 70.125
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "x": 79.8906
+   }
+  ],
+  "plainVisualOrderString": "1⁩234 ⁦ابحرم"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 82.2344,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": " ⁦",
+    "text": " ⁦",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "1234⁩",
+    "text": "1234⁩",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "tag": "span",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 37.7344,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "م",
+      "rect": {
+       "x": 74.3438,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ر",
+      "rect": {
+       "x": 64.5625,
+       "y": 0,
+       "w": 9.7813,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ح",
+      "rect": {
+       "x": 53.9688,
+       "y": 0,
+       "w": 10.6094,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ب",
+      "rect": {
+       "x": 49.0781,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ا",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": " ⁦",
+    "tag": "span",
+    "text": " ⁦",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 0,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 0,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "⁦",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 0,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "1234⁩",
+    "tag": "span",
+    "text": "1234⁩",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 44.5,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "1",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "2",
+      "rect": {
+       "x": 11.1094,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "3",
+      "rect": {
+       "x": 22.2344,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "4",
+      "rect": {
+       "x": 33.3594,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "⁩",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 0,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 2,
+    "id": "1234⁩",
+    "text": "1234⁩",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "x": 44.5
+   },
+   {
+    "index": 1,
+    "id": " ⁦",
+    "text": " ⁦",
+    "kind": null,
+    "x": 44.5
+   }
+  ],
+  "torphVisualGlyphOrderString": "1⁩234ابحرم ⁦"
+ }
+}

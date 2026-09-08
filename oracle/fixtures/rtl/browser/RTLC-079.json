@@ -1,0 +1,414 @@
+{
+ "id": "RTLC-079",
+ "category": "pure-rtl",
+ "text": "سلام دنیا",
+ "direction": "rtl",
+ "locale": "fa",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "سلام دنیا",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 56.0469,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "س",
+    "rect": {
+     "x": 45.4219,
+     "y": 0,
+     "w": 10.625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "rect": {
+     "x": 39.4219,
+     "y": 0,
+     "w": 6.0156,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ا",
+    "rect": {
+     "x": 33.4063,
+     "y": 0,
+     "w": 6.0313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "م",
+    "rect": {
+     "x": 26.6563,
+     "y": 0,
+     "w": 6.7656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "rect": {
+     "x": 21.0938,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "د",
+    "rect": {
+     "x": 14.3438,
+     "y": 0,
+     "w": 6.7656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ن",
+    "rect": {
+     "x": 9.4688,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ی",
+    "rect": {
+     "x": 4.5781,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "ا",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 4.5938,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 8,
+    "grapheme": "ا",
+    "x": 0
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ی",
+    "x": 4.5781
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ن",
+    "x": 9.4688
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "د",
+    "x": 14.3438
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "x": 21.0938
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "م",
+    "x": 26.6563
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ا",
+    "x": 33.4063
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "x": 39.4219
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "س",
+    "x": 45.4219
+   }
+  ],
+  "plainVisualOrderString": "ایند مالس"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 56.0625,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "سلام",
+    "text": "سلام",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "دنیا",
+    "text": "دنیا",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "سلام",
+    "tag": "span",
+    "text": "سلام",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 26.6719,
+     "y": 0,
+     "w": 29.3906,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "س",
+      "rect": {
+       "x": 45.4375,
+       "y": 0,
+       "w": 10.625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 39.4219,
+       "y": 0,
+       "w": 6.0313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ا",
+      "rect": {
+       "x": 33.4219,
+       "y": 0,
+       "w": 6.0156,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "م",
+      "rect": {
+       "x": 26.6719,
+       "y": 0,
+       "w": 6.7656,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 21.1094,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 21.1094,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "دنیا",
+    "tag": "span",
+    "text": "دنیا",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 21.1094,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "د",
+      "rect": {
+       "x": 14.3438,
+       "y": 0,
+       "w": 6.7656,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ن",
+      "rect": {
+       "x": 9.4688,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ی",
+      "rect": {
+       "x": 4.5781,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 2,
+    "id": "دنیا",
+    "text": "دنیا",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "x": 21.1094
+   },
+   {
+    "index": 0,
+    "id": "سلام",
+    "text": "سلام",
+    "kind": null,
+    "x": 26.6719
+   }
+  ],
+  "torphVisualGlyphOrderString": "ایند مالس"
+ }
+}

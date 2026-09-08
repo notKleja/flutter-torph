@@ -406,17 +406,20 @@ void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
             'right' => free,
             _ => 0.0,
           };
-    final deltas = <double>[];
-    var run = 0.0;
     for (final item in line) {
-      final expected = direction == TextDirection.rtl
-          ? left + lineWidth - run - item.width
-          : left + run;
-      deltas.add(item.x - expected);
       if (item.transform.tx != 0 || item.transform.ty != 0) {
         problems.add('INV-9: ${_j(item.text)} rests with a translate '
             '(${item.transform.tx}, ${item.transform.ty})');
       }
+    }
+    // Packed contiguously from `left`, in *visual* order — under bidi an RTL
+    // line's visual order can diverge from its logical (item-index) order, so
+    // sort by the resting x rather than assuming logical order reverses onto it.
+    final byVisualX = [...line]..sort((a, b) => a.x.compareTo(b.x));
+    final deltas = <double>[];
+    var run = left;
+    for (final item in byVisualX) {
+      deltas.add(item.x - run);
       run += item.width;
     }
     final uniform = deltas.every((d) => (d - deltas.first).abs() <= 0.01);
@@ -429,10 +432,10 @@ void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
           '${implied.toStringAsFixed(3)} wide)');
       continue;
     }
-    for (var i = 0; i < line.length; i++) {
+    for (var i = 0; i < byVisualX.length; i++) {
       if (deltas[i].abs() > 0.01) {
-        problems.add('INV-9: ${_j(line[i].text)} rests at x ${line[i].x}, '
-            'measured layout says ${line[i].x - deltas[i]}');
+        problems.add('INV-9: ${_j(byVisualX[i].text)} rests at x ${byVisualX[i].x}, '
+            'measured layout says ${byVisualX[i].x - deltas[i]}');
       }
     }
   }

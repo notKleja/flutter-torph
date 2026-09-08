@@ -1,0 +1,5214 @@
+{
+ "id": "RTLC-128",
+ "category": "mixed-latin",
+ "text": "مرحبا -99",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "مرحبا -99",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 72.2031,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "rect": {
+     "x": 64.2969,
+     "y": 0,
+     "w": 7.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "rect": {
+     "x": 54.5313,
+     "y": 0,
+     "w": 9.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "rect": {
+     "x": 43.9375,
+     "y": 0,
+     "w": 10.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "rect": {
+     "x": 39.0469,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "rect": {
+     "x": 34.4531,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 28.9063,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "-",
+    "rect": {
+     "x": 22.25,
+     "y": 0,
+     "w": 6.6719,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "9",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "9",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 7,
+    "grapheme": "9",
+    "x": 0
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "9",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "-",
+    "x": 22.25
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 28.9063
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "x": 34.4531
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "x": 39.0469
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "x": 43.9375
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "x": 54.5313
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "x": 64.2969
+   }
+  ],
+  "plainVisualOrderString": "99- ابحرم"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 72.2188,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "\u0000n569",
+    "text": "-",
+    "kind": "symbol",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "\u0000n570",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "\u0000n571",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "tag": "span",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 34.4844,
+     "y": 0,
+     "w": 37.7344,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "م",
+      "rect": {
+       "x": 64.3281,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ر",
+      "rect": {
+       "x": 54.5469,
+       "y": 0,
+       "w": 9.7813,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ح",
+      "rect": {
+       "x": 43.9531,
+       "y": 0,
+       "w": 10.6094,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ب",
+      "rect": {
+       "x": 39.0625,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ا",
+      "rect": {
+       "x": 34.4844,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 28.9219,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 28.9219,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "\u0000n569",
+    "tag": "span",
+    "text": "-",
+    "kind": "symbol",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 22.25,
+     "y": 0,
+     "w": 6.6719,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 6.6719,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "-",
+      "rect": {
+       "x": 22.25,
+       "y": 0,
+       "w": 6.6719,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "\u0000n570",
+    "tag": "span",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 11.125,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "9",
+      "rect": {
+       "x": 11.125,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "\u0000n571",
+    "tag": "span",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "9",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 4,
+    "id": "\u0000n571",
+    "text": "9",
+    "kind": "digit",
+    "x": 0
+   },
+   {
+    "index": 3,
+    "id": "\u0000n570",
+    "text": "9",
+    "kind": "digit",
+    "x": 11.125
+   },
+   {
+    "index": 2,
+    "id": "\u0000n569",
+    "text": "-",
+    "kind": "symbol",
+    "x": 22.25
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "x": 28.9219
+   },
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "x": 34.4844
+   }
+  ],
+  "torphVisualGlyphOrderString": "99- ابحرم"
+ },
+ "morph": {
+  "to": "مرحبا -100",
+  "resolvedDuration": 400,
+  "samples": [
+   {
+    "frac": 0,
+    "t": 0,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 72.2188,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 11,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 11,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 34.4844,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 64.3281,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 54.5469,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 43.9531,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 39.0625,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 34.4844,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 28.9219,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 28.9219,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.25,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.25,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 22.25,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.125,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 11.125,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 0,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -11.125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -11.125,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -11.125,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -11.125
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "x": 11
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 11.125
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 22.25
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 28.9219
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 34.4844
+      }
+     ],
+     "torphVisualGlyphOrderString": "09091- ابحرم"
+    }
+   },
+   {
+    "frac": 0.1,
+    "t": 40,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 77.5469,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 16.3373,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.33727, 0)",
+       "translate": {
+        "tx": 5.3373,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 16.3373,
+         "y": 11.0344,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 11.0344)",
+        "translate": {
+         "tx": 0,
+         "ty": 11.0344
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.7778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 16.3373,
+          "y": 11.0344,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 5.3373,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.33727, 0)",
+       "translate": {
+        "tx": 5.3373,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 5.3373,
+         "y": 11.0344,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 11.0344)",
+        "translate": {
+         "tx": 0,
+         "ty": 11.0344
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.7778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 5.3373,
+          "y": 11.0344,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 39.8125,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 69.6563,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 59.875,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 49.2813,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 44.3906,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 39.8125,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 34.25,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 34.25,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.5781,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.5781,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 27.5781,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 16.4531,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 16.4531,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 16.4531,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 5.3281,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 5.3281,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 5.3281,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -5.7969,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -5.7969,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -5.7969,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -5.7969
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 5.3281
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "x": 5.3373
+      },
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "x": 16.3373
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 16.4531
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 27.5781
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 34.25
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 39.8125
+      }
+     ],
+     "torphVisualGlyphOrderString": "00991- ابحرم"
+    }
+   },
+   {
+    "frac": 0.25,
+    "t": 100,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 81.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 20.3841,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 9.3841, 0)",
+       "translate": {
+        "tx": 9.3841,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 20.3841,
+         "y": 19.4008,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 19.4008)",
+        "translate": {
+         "tx": 0,
+         "ty": 19.4008
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4444,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 20.3841,
+          "y": 19.4008,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 9.3841,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 9.3841, 0)",
+       "translate": {
+        "tx": 9.3841,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 9.3841,
+         "y": 19.4008,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 19.4008)",
+        "translate": {
+         "tx": 0,
+         "ty": 19.4008
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4444,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 9.3841,
+          "y": 19.4008,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 43.8594,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 73.7031,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 63.9219,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 53.3281,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 48.4375,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 43.8594,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 38.2969,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 38.2969,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 31.625,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 31.625,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 31.625,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 20.5,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 20.5,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 20.5,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 9.375,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 9.375,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 9.375,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -1.75,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -1.75,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -1.75,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -1.75
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 9.375
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "x": 9.3841
+      },
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "x": 20.3841
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 20.5
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 31.625
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 38.2969
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 43.8594
+      }
+     ],
+     "torphVisualGlyphOrderString": "00991- ابحرم"
+    }
+   },
+   {
+    "frac": 0.37,
+    "t": 148,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 82.6406,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 21.4358,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 10.4358, 0)",
+       "translate": {
+        "tx": 10.4358,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 21.4358,
+         "y": 21.5752,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 21.5752)",
+        "translate": {
+         "tx": 0,
+         "ty": 21.5752
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.1778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 21.4358,
+          "y": 21.5752,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 10.4358,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 10.4358, 0)",
+       "translate": {
+        "tx": 10.4358,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 10.4358,
+         "y": 21.5752,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 21.5752)",
+        "translate": {
+         "tx": 0,
+         "ty": 21.5752
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.1778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 10.4358,
+          "y": 21.5752,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 44.9063,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 74.75,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 64.9688,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 54.375,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 49.4844,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 44.9063,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 39.3438,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 39.3438,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 32.6719,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 32.6719,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 32.6719,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 21.5469,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 21.5469,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 21.5469,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 10.4219,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 10.4219,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 10.4219,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.7031,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.7031,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.7031,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.7031
+      },
+      {
+       "index": 6,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 10.4219
+      },
+      {
+       "index": 1,
+       "id": "\u0000n574",
+       "text": "9",
+       "kind": "digit",
+       "x": 10.4358
+      },
+      {
+       "index": 0,
+       "id": "\u0000n573",
+       "text": "9",
+       "kind": "digit",
+       "x": 21.4358
+      },
+      {
+       "index": 5,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 21.5469
+      },
+      {
+       "index": 4,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 32.6719
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 39.3438
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 44.9063
+      }
+     ],
+     "torphVisualGlyphOrderString": "00991- ابحرم"
+    }
+   },
+   {
+    "frac": 0.5,
+    "t": 200,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 83.0938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 45.3594,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 75.2031,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 65.4219,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 54.8281,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 49.9375,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 45.3594,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 39.7969,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 39.7969,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 33.125,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 33.125,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 33.125,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 22,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 10.875,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 10.875,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 10.875,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.25,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.25,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.25,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.25
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 10.875
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 22
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 33.125
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 39.7969
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 45.3594
+      }
+     ],
+     "torphVisualGlyphOrderString": "001- ابحرم"
+    }
+   },
+   {
+    "frac": 0.73,
+    "t": 292,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 83.3125,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 45.5781,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 75.4219,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 65.6406,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 55.0469,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 50.1563,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 45.5781,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 40.0156,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 40.0156,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 33.3438,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 33.3438,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 33.3438,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2188,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2188,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 22.2188,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.0938,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.0938,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.0938,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0312,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0312,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0312,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0312
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.0938
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 22.2188
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 33.3438
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 40.0156
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 45.5781
+      }
+     ],
+     "torphVisualGlyphOrderString": "001- ابحرم"
+    }
+   },
+   {
+    "frac": 0.9,
+    "t": 360,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 83.3281,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 45.5938,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 75.4375,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 65.6563,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 55.0625,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 50.1719,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 45.5938,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 40.0313,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 40.0313,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 33.3594,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 33.3594,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 33.3594,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2344,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2344,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 22.2344,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1094,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1094,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1094,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0156,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0156,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0156,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0156
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1094
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 22.2344
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 33.3594
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 40.0313
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 45.5938
+      }
+     ],
+     "torphVisualGlyphOrderString": "001- ابحرم"
+    }
+   },
+   {
+    "frac": 1,
+    "t": 400,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 83.3438,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 45.6094,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 75.4531,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 65.6719,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 55.0781,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 50.1875,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 45.6094,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 40.0469,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 40.0469,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "tag": "span",
+       "text": "-",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 33.375,
+        "y": 0,
+        "w": 6.6719,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 33.375,
+         "y": 0,
+         "w": 6.6719,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "-",
+         "rect": {
+          "x": 33.375,
+          "y": 0,
+          "w": 6.6719,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.25,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.25,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 22.25,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.125,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.125,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "none",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 5,
+       "id": "\u0000n577",
+       "text": "0",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 4,
+       "id": "\u0000n576",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.125
+      },
+      {
+       "index": 3,
+       "id": "\u0000n575",
+       "text": "1",
+       "kind": "digit",
+       "x": 22.25
+      },
+      {
+       "index": 2,
+       "id": "\u0000n572",
+       "text": "-",
+       "kind": "symbol",
+       "x": 33.375
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 40.0469
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 45.6094
+      }
+     ],
+     "torphVisualGlyphOrderString": "001- ابحرم"
+    }
+   }
+  ]
+ }
+}

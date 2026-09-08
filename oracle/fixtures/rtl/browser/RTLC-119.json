@@ -1,0 +1,4775 @@
+{
+ "id": "RTLC-119",
+ "category": "pure-number",
+ "text": "9.99",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "9.99",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 38.9375,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "9",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": ".",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "9",
+    "rect": {
+     "x": 16.6719,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "9",
+    "rect": {
+     "x": 27.7969,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "9",
+    "x": 0
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": ".",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "9",
+    "x": 16.6719
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "9",
+    "x": 27.7969
+   }
+  ],
+  "plainVisualOrderString": "9.99"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 38.9375,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "\u0000n482",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "\u0000n483",
+    "text": ".",
+    "kind": "symbol",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "\u0000n484",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "\u0000n485",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "\u0000n482",
+    "tag": "span",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 27.8125,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 27.8125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "9",
+      "rect": {
+       "x": 27.8125,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "\u0000n483",
+    "tag": "span",
+    "text": ".",
+    "kind": "symbol",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 22.25,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 5.5625,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": ".",
+      "rect": {
+       "x": 22.25,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "\u0000n484",
+    "tag": "span",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 11.125,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "9",
+      "rect": {
+       "x": 11.125,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "\u0000n485",
+    "tag": "span",
+    "text": "9",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "9",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 3,
+    "id": "\u0000n485",
+    "text": "9",
+    "kind": "digit",
+    "x": 0
+   },
+   {
+    "index": 2,
+    "id": "\u0000n484",
+    "text": "9",
+    "kind": "digit",
+    "x": 11.125
+   },
+   {
+    "index": 1,
+    "id": "\u0000n483",
+    "text": ".",
+    "kind": "symbol",
+    "x": 22.25
+   },
+   {
+    "index": 0,
+    "id": "\u0000n482",
+    "text": "9",
+    "kind": "digit",
+    "x": 27.8125
+   }
+  ],
+  "torphVisualGlyphOrderString": "99.9"
+ },
+ "morph": {
+  "to": "10.00",
+  "resolvedDuration": 400,
+  "samples": [
+   {
+    "frac": 0,
+    "t": 0,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 38.9375,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 28,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 28,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 28,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 11,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 11,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9375,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 11.125, 0)",
+       "translate": {
+        "tx": 11.125,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9375,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9375,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 11.125, 0)",
+       "translate": {
+        "tx": 11.125,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8125,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8125,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.25,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 11.125, 0)",
+       "translate": {
+        "tx": 11.125,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.25,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.25,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 11.125, 0)",
+       "translate": {
+        "tx": 11.125,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.125,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.125,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 11.125, 0)",
+       "translate": {
+        "tx": 11.125,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": -23,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -23)",
+        "translate": {
+         "tx": 0,
+         "ty": -23
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 0,
+          "y": -23,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "x": 11
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.125
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.25
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8125
+      },
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "x": 28
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9375
+      }
+     ],
+     "torphVisualGlyphOrderString": "9090.091"
+    }
+   },
+   {
+    "frac": 0.1,
+    "t": 40,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 44.2656,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 28,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 28,
+         "y": 11.0344,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 11.0344)",
+        "translate": {
+         "tx": 0,
+         "ty": 11.0344
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.7778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 28,
+          "y": 11.0344,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 11,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11,
+         "y": 11.0344,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 11.0344)",
+        "translate": {
+         "tx": 0,
+         "ty": 11.0344
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.7778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 11,
+          "y": 11.0344,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 11.0344,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 11.0344)",
+        "translate": {
+         "tx": 0,
+         "ty": 11.0344
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.7778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 0,
+          "y": 11.0344,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9283,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.78773, 0)",
+       "translate": {
+        "tx": 5.7877,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9283,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9283,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8033,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.78773, 0)",
+       "translate": {
+        "tx": 5.7877,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8033,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8033,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2408,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.78773, 0)",
+       "translate": {
+        "tx": 5.7877,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2408,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2408,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1158,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.78773, 0)",
+       "translate": {
+        "tx": 5.7877,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1158,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1158,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0092,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 5.78773, 0)",
+       "translate": {
+        "tx": 5.7877,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0092,
+         "y": -11.9656,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -11.9656)",
+        "translate": {
+         "tx": 0,
+         "ty": -11.9656
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0092,
+          "y": -11.9656,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0092
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "x": 11
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1158
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2408
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8033
+      },
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "x": 28
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9283
+      }
+     ],
+     "torphVisualGlyphOrderString": "0990.091"
+    }
+   },
+   {
+    "frac": 0.25,
+    "t": 100,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 48.3125,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 28,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 28,
+         "y": 19.4008,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 19.4008)",
+        "translate": {
+         "tx": 0,
+         "ty": 19.4008
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4444,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 28,
+          "y": 19.4008,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 11,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11,
+         "y": 19.4008,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 19.4008)",
+        "translate": {
+         "tx": 0,
+         "ty": 19.4008
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4444,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 11,
+          "y": 19.4008,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 19.4008,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 19.4008)",
+        "translate": {
+         "tx": 0,
+         "ty": 19.4008
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.4444,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 0,
+          "y": 19.4008,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9284,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.7409, 0)",
+       "translate": {
+        "tx": 1.7409,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9284,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9284,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8034,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.7409, 0)",
+       "translate": {
+        "tx": 1.7409,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8034,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8034,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2409,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.7409, 0)",
+       "translate": {
+        "tx": 1.7409,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2409,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2409,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1159,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.7409, 0)",
+       "translate": {
+        "tx": 1.7409,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1159,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1159,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0091,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.7409, 0)",
+       "translate": {
+        "tx": 1.7409,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0091,
+         "y": -3.5992,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -3.59917)",
+        "translate": {
+         "tx": 0,
+         "ty": -3.5992
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0091,
+          "y": -3.5992,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0091
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "x": 11
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1159
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2409
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8034
+      },
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "x": 28
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9284
+      }
+     ],
+     "torphVisualGlyphOrderString": "0990.091"
+    }
+   },
+   {
+    "frac": 0.37,
+    "t": 148,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 49.3594,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 28,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 28,
+         "y": 21.5752,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 21.5752)",
+        "translate": {
+         "tx": 0,
+         "ty": 21.5752
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.1778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 28,
+          "y": 21.5752,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 11,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11,
+         "y": 21.5752,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 21.5752)",
+        "translate": {
+         "tx": 0,
+         "ty": 21.5752
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.1778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 11,
+          "y": 21.5752,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "tag": "span",
+       "text": "9",
+       "kind": "digit",
+       "slot": true,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 21.5752,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 21.5752)",
+        "translate": {
+         "tx": 0,
+         "ty": 21.5752
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 0.1778,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "9",
+         "rect": {
+          "x": 0,
+          "y": 21.5752,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9236,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.689187, 0)",
+       "translate": {
+        "tx": 0.6892,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9236,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9236,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.7986,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.689187, 0)",
+       "translate": {
+        "tx": 0.6892,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.7986,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.7986,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2361,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.689187, 0)",
+       "translate": {
+        "tx": 0.6892,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2361,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2361,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1111,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.689187, 0)",
+       "translate": {
+        "tx": 0.6892,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1111,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1111,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0139,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.689187, 0)",
+       "translate": {
+        "tx": 0.6892,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0139,
+         "y": -1.4248,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -1.42484)",
+        "translate": {
+         "tx": 0,
+         "ty": -1.4248
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0139,
+          "y": -1.4248,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0139
+      },
+      {
+       "index": 2,
+       "id": "\u0000n489",
+       "text": "9",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "\u0000n488",
+       "text": "9",
+       "kind": "digit",
+       "x": 11
+      },
+      {
+       "index": 6,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1111
+      },
+      {
+       "index": 5,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2361
+      },
+      {
+       "index": 4,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.7986
+      },
+      {
+       "index": 0,
+       "id": "\u0000n486",
+       "text": "9",
+       "kind": "digit",
+       "x": 28
+      },
+      {
+       "index": 3,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9236
+      }
+     ],
+     "torphVisualGlyphOrderString": "0990.091"
+    }
+   },
+   {
+    "frac": 0.5,
+    "t": 200,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 49.8125,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9342,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.246701, 0)",
+       "translate": {
+        "tx": 0.2467,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9342,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9342,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8092,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.246701, 0)",
+       "translate": {
+        "tx": 0.2467,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8092,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8092,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2467,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.246701, 0)",
+       "translate": {
+        "tx": 0.2467,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2467,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2467,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1217,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.246701, 0)",
+       "translate": {
+        "tx": 0.2467,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1217,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1217,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0033,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.246701, 0)",
+       "translate": {
+        "tx": 0.2467,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0033,
+         "y": -0.51,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.510034)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.51
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0033,
+          "y": -0.51,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0033
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1217
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2467
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8092
+      },
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9342
+      }
+     ],
+     "torphVisualGlyphOrderString": "00.01"
+    }
+   },
+   {
+    "frac": 0.73,
+    "t": 292,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 50.0313,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9313,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0250185, 0)",
+       "translate": {
+        "tx": 0.025,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9313,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9313,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8063,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0250185, 0)",
+       "translate": {
+        "tx": 0.025,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8063,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8063,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2438,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0250185, 0)",
+       "translate": {
+        "tx": 0.025,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2438,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2438,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1188,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0250185, 0)",
+       "translate": {
+        "tx": 0.025,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1188,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1188,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0062,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0250185, 0)",
+       "translate": {
+        "tx": 0.025,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0062,
+         "y": -0.0517,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.0517235)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.0517
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0062,
+          "y": -0.0517,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0062
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1188
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2438
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8063
+      },
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9313
+      }
+     ],
+     "torphVisualGlyphOrderString": "00.01"
+    }
+   },
+   {
+    "frac": 0.9,
+    "t": 360,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 50.0469,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9229,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000987928, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9229,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9229,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.7979,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000987928, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.7979,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.7979,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.2354,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000987928, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.2354,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.2354,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.1104,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000987928, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.1104,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.1104,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": -0.0146,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000987928, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": -0.0146,
+         "y": -0.002,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, -0.00204246)",
+        "translate": {
+         "tx": 0,
+         "ty": -0.002
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": -0.0146,
+          "y": -0.002,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": -0.0146
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.1104
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.2354
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.7979
+      },
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9229
+      }
+     ],
+     "torphVisualGlyphOrderString": "00.01"
+    }
+   },
+   {
+    "frac": 1,
+    "t": 400,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 50.0625,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "tag": "span",
+       "text": "1",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 38.9375,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 38.9375,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "1",
+         "rect": {
+          "x": 38.9375,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 27.8125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 27.8125,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 27.8125,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "tag": "span",
+       "text": ".",
+       "kind": "symbol",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 22.25,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 22.25,
+         "y": 0,
+         "w": 5.5625,
+         "h": 23
+        },
+        "transform": "none",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": ".",
+         "rect": {
+          "x": 22.25,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 11.125,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 11.125,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 11.125,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "tag": "span",
+       "text": "0",
+       "kind": "digit",
+       "slot": true,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 11.125,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": {
+        "rect": {
+         "x": 0,
+         "y": 0,
+         "w": 11.125,
+         "h": 23
+        },
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "translate": {
+         "tx": 0,
+         "ty": 0
+        },
+        "scale": {
+         "sx": 1,
+         "sy": 1
+        },
+        "opacity": 1,
+        "computed": {
+         "direction": "rtl",
+         "unicodeBidi": "normal",
+         "display": "inline-block"
+        }
+       },
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "0",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 11.125,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "\u0000n493",
+       "text": "0",
+       "kind": "digit",
+       "x": 0
+      },
+      {
+       "index": 3,
+       "id": "\u0000n492",
+       "text": "0",
+       "kind": "digit",
+       "x": 11.125
+      },
+      {
+       "index": 2,
+       "id": "\u0000n487",
+       "text": ".",
+       "kind": "symbol",
+       "x": 22.25
+      },
+      {
+       "index": 1,
+       "id": "\u0000n491",
+       "text": "0",
+       "kind": "digit",
+       "x": 27.8125
+      },
+      {
+       "index": 0,
+       "id": "\u0000n490",
+       "text": "1",
+       "kind": "digit",
+       "x": 38.9375
+      }
+     ],
+     "torphVisualGlyphOrderString": "00.01"
+    }
+   }
+  ]
+ }
+}

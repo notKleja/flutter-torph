@@ -1,0 +1,1962 @@
+{
+ "id": "RTLC-138",
+ "category": "arabic-indic",
+ "text": "١٢٣",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "١٢٣",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 31.5625,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "١",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "٢",
+    "rect": {
+     "x": 10.5156,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "٣",
+    "rect": {
+     "x": 21.0313,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "١",
+    "x": 0
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "٢",
+    "x": 10.5156
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "٣",
+    "x": 21.0313
+   }
+  ],
+  "plainVisualOrderString": "١٢٣"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 31.5938,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "١",
+    "text": "١",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "٢",
+    "text": "٢",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "٣",
+    "text": "٣",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "١",
+    "tag": "span",
+    "text": "١",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 21.0625,
+     "y": 0,
+     "w": 10.5313,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "١",
+      "rect": {
+       "x": 21.0625,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "٢",
+    "tag": "span",
+    "text": "٢",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 10.5313,
+     "y": 0,
+     "w": 10.5313,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "٢",
+      "rect": {
+       "x": 10.5313,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "٣",
+    "tag": "span",
+    "text": "٣",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.5313,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "٣",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 2,
+    "id": "٣",
+    "text": "٣",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 1,
+    "id": "٢",
+    "text": "٢",
+    "kind": null,
+    "x": 10.5313
+   },
+   {
+    "index": 0,
+    "id": "١",
+    "text": "١",
+    "kind": null,
+    "x": 21.0625
+   }
+  ],
+  "torphVisualGlyphOrderString": "٣٢١"
+ },
+ "morph": {
+  "to": "١٢٤",
+  "resolvedDuration": 400,
+  "samples": [
+   {
+    "frac": 0,
+    "t": 0,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "٣",
+       "text": "٣",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "٣",
+       "tag": "span",
+       "text": "٣",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 10.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٣",
+         "rect": {
+          "x": -0.0156,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.2633,
+        "y": 0.575,
+        "w": 10.0046,
+        "h": 21.85
+       },
+       "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.95,
+        "sy": 0.95
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.2633,
+          "y": 0.575,
+          "w": 10.0046,
+          "h": 20.9
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 0,
+       "id": "٣",
+       "text": "٣",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.2633
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٣٤٢١"
+    }
+   },
+   {
+    "frac": 0.1,
+    "t": 40,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "٣",
+       "text": "٣",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "٣",
+       "tag": "span",
+       "text": "٣",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 0.1261,
+        "y": 0.2759,
+        "w": 10.2634,
+        "h": 22.4483
+       },
+       "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.976,
+        "sy": 0.976
+       },
+       "opacity": 0.6,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٣",
+         "rect": {
+          "x": 0.1109,
+          "y": 0.2759,
+          "w": 10.2786,
+          "h": 21.4723
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.137,
+        "y": 0.2991,
+        "w": 10.2573,
+        "h": 22.4017
+       },
+       "transform": "matrix(0.973988, 0, 0, 0.973988, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.974,
+        "sy": 0.974
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.137,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 0,
+       "id": "٣",
+       "text": "٣",
+       "kind": null,
+       "x": 0.1261
+      },
+      {
+       "index": 3,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.137
+      },
+      {
+       "index": 2,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 1,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٣٤٢١"
+    }
+   },
+   {
+    "frac": 0.25,
+    "t": 100,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.0412,
+        "y": 0.09,
+        "w": 10.4489,
+        "h": 22.82
+       },
+       "transform": "matrix(0.992176, 0, 0, 0.992176, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9922,
+        "sy": 0.9922
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.0412,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.0412
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   },
+   {
+    "frac": 0.37,
+    "t": 148,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.0163,
+        "y": 0.0356,
+        "w": 10.4987,
+        "h": 22.9288
+       },
+       "transform": "matrix(0.996903, 0, 0, 0.996903, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9969,
+        "sy": 0.9969
+       },
+       "opacity": 0.24,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.0163,
+          "y": 0.0356,
+          "w": 10.4987,
+          "h": 21.9319
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.0163
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   },
+   {
+    "frac": 0.5,
+    "t": 200,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.0059,
+        "y": 0.0127,
+        "w": 10.5195,
+        "h": 22.9745
+       },
+       "transform": "matrix(0.998891, 0, 0, 0.998891, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9989,
+        "sy": 0.9989
+       },
+       "opacity": 0.5,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.0059,
+          "y": 0.0127,
+          "w": 10.5195,
+          "h": 21.9756
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.0059
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   },
+   {
+    "frac": 0.73,
+    "t": 292,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.0006,
+        "y": 0.0013,
+        "w": 10.53,
+        "h": 22.9974
+       },
+       "transform": "matrix(0.999888, 0, 0, 0.999888, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9999,
+        "sy": 0.9999
+       },
+       "opacity": 0.96,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0.0006,
+          "y": 0.0013,
+          "w": 10.53,
+          "h": 21.9975
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0.0006
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   },
+   {
+    "frac": 0.9,
+    "t": 360,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0.0001,
+        "w": 10.5313,
+        "h": 22.9999
+       },
+       "transform": "matrix(0.999996, 0, 0, 0.999996, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0,
+          "y": 0.0001,
+          "w": 10.5313,
+          "h": 21.9999
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   },
+   {
+    "frac": 1,
+    "t": 400,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 31.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "١",
+       "tag": "span",
+       "text": "١",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 21.0625,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 21.0625,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "tag": "span",
+       "text": "٢",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 10.5313,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٢",
+         "rect": {
+          "x": 10.5313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "٤",
+       "tag": "span",
+       "text": "٤",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٤",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 2,
+       "id": "٤",
+       "text": "٤",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 1,
+       "id": "٢",
+       "text": "٢",
+       "kind": null,
+       "x": 10.5313
+      },
+      {
+       "index": 0,
+       "id": "١",
+       "text": "١",
+       "kind": null,
+       "x": 21.0625
+      }
+     ],
+     "torphVisualGlyphOrderString": "٤٢١"
+    }
+   }
+  ]
+ }
+}

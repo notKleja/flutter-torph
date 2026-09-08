@@ -1,0 +1,4749 @@
+{
+ "id": "RTLC-141",
+ "category": "persian-digits",
+ "text": "قیمت ۱۲۳ تومان",
+ "direction": "rtl",
+ "locale": "fa",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "قیمت ۱۲۳ تومان",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 111.5938,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "ق",
+    "rect": {
+     "x": 106.2188,
+     "y": 0,
+     "w": 5.375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "rect": {
+     "x": 101.3438,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "م",
+    "rect": {
+     "x": 93.4531,
+     "y": 0,
+     "w": 7.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ت",
+    "rect": {
+     "x": 79.1875,
+     "y": 0,
+     "w": 14.2813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "rect": {
+     "x": 73.6406,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "۱",
+    "rect": {
+     "x": 42.0781,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "۲",
+    "rect": {
+     "x": 52.5938,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "۳",
+    "rect": {
+     "x": 63.1094,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": " ",
+    "rect": {
+     "x": 36.5,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "ت",
+    "rect": {
+     "x": 31.625,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "و",
+    "rect": {
+     "x": 22.9844,
+     "y": 0,
+     "w": 8.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "م",
+    "rect": {
+     "x": 15.0938,
+     "y": 0,
+     "w": 7.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ا",
+    "rect": {
+     "x": 10.5156,
+     "y": 0,
+     "w": 4.5938,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ن",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 13,
+    "grapheme": "ن",
+    "x": 0
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ا",
+    "x": 10.5156
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "م",
+    "x": 15.0938
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "و",
+    "x": 22.9844
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "ت",
+    "x": 31.625
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": " ",
+    "x": 36.5
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "۱",
+    "x": 42.0781
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "۲",
+    "x": 52.5938
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "۳",
+    "x": 63.1094
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "x": 73.6406
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ت",
+    "x": 79.1875
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "م",
+    "x": 93.4531
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "x": 101.3438
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "ق",
+    "x": 106.2188
+   }
+  ],
+  "plainVisualOrderString": "ناموت ۱۲۳ تمیق"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 111.5938,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "قیمت",
+    "text": "قیمت",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳",
+    "text": "۱۲۳",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "تومان",
+    "text": "تومان",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "قیمت",
+    "tag": "span",
+    "text": "قیمت",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 79.2031,
+     "y": 0,
+     "w": 32.3906,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ق",
+      "rect": {
+       "x": 106.2344,
+       "y": 0,
+       "w": 5.3594,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ی",
+      "rect": {
+       "x": 101.3438,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "م",
+      "rect": {
+       "x": 93.4688,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ت",
+      "rect": {
+       "x": 79.2031,
+       "y": 0,
+       "w": 14.2813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 73.6406,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 73.6406,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳",
+    "tag": "span",
+    "text": "۱۲۳",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 42.0781,
+     "y": 0,
+     "w": 31.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "۱",
+      "rect": {
+       "x": 42.0781,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "۲",
+      "rect": {
+       "x": 52.5938,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "۳",
+      "rect": {
+       "x": 63.1094,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 36.5156,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 36.5156,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "تومان",
+    "tag": "span",
+    "text": "تومان",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 36.5156,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ت",
+      "rect": {
+       "x": 31.625,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "و",
+      "rect": {
+       "x": 22.9844,
+       "y": 0,
+       "w": 8.6563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "م",
+      "rect": {
+       "x": 15.0938,
+       "y": 0,
+       "w": 7.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 10.5156,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ن",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 4,
+    "id": "تومان",
+    "text": "تومان",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "text": " ",
+    "kind": null,
+    "x": 36.5156
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳",
+    "text": "۱۲۳",
+    "kind": null,
+    "x": 42.0781
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "x": 73.6406
+   },
+   {
+    "index": 0,
+    "id": "قیمت",
+    "text": "قیمت",
+    "kind": null,
+    "x": 79.2031
+   }
+  ],
+  "torphVisualGlyphOrderString": "ناموت ۱۲۳ تمیق"
+ },
+ "morph": {
+  "to": "قیمت ۱۲۴ تومان",
+  "resolvedDuration": 400,
+  "samples": [
+   {
+    "frac": 0,
+    "t": 0,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "text": "۳",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "tag": "span",
+       "text": "۳",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 42,
+        "y": 0,
+        "w": 10.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۳",
+         "rect": {
+          "x": 41.9844,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2344,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2656,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.375,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.5,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2344,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6719,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6719,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1406,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1406,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.6094,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.6094,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.3414,
+        "y": 0.575,
+        "w": 10.0046,
+        "h": 21.85
+       },
+       "transform": "matrix(0.95, 0, 0, 0.95, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.95,
+        "sy": 0.95
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.3414,
+          "y": 0.575,
+          "w": 10.0046,
+          "h": 20.9
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5156,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5156,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.03125, 0)",
+       "translate": {
+        "tx": 0.0313,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.625,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9844,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0938,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5156,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5156
+      },
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "text": "۳",
+       "kind": null,
+       "x": 42
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.3414
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.6094
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1406
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6719
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2344
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۳۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.1,
+    "t": 40,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.5938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "text": "۳",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 7,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "tag": "span",
+       "text": "۳",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 42.1261,
+        "y": 0.2759,
+        "w": 10.2634,
+        "h": 22.4483
+       },
+       "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.976,
+        "sy": 0.976
+       },
+       "opacity": 0.6,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۳",
+         "rect": {
+          "x": 42.1108,
+          "y": 0.2759,
+          "w": 10.2787,
+          "h": 21.4723
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2194,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2506,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.36,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.485,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2194,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6569,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6569,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1256,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1256,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.5944,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.5944,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.2001,
+        "y": 0.2991,
+        "w": 10.2573,
+        "h": 22.4017
+       },
+       "transform": "matrix(0.973988, 0, 0, 0.973988, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.974,
+        "sy": 0.974
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.2001,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5006,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5006,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 7,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.015,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0162577, 0)",
+       "translate": {
+        "tx": 0.0163,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.61,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9694,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0787,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5006,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": -0.015,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 7,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": -0.015
+      },
+      {
+       "index": 6,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5006
+      },
+      {
+       "index": 0,
+       "id": "۱۲۳:2",
+       "text": "۳",
+       "kind": null,
+       "x": 42.1261
+      },
+      {
+       "index": 5,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.2001
+      },
+      {
+       "index": 4,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.5944
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1256
+      },
+      {
+       "index": 2,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6569
+      },
+      {
+       "index": 1,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2194
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۳۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.25,
+    "t": 100,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.6094,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2236,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2549,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.3643,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.4893,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2236,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6611,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6611,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1299,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1299,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.5986,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.5986,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.1086,
+        "y": 0.09,
+        "w": 10.4489,
+        "h": 22.82
+       },
+       "transform": "matrix(0.992176, 0, 0, 0.992176, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9922,
+        "sy": 0.9922
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.1086,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5049,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5049,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0107,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00489018, 0)",
+       "translate": {
+        "tx": 0.0049,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.6143,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9736,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.083,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5049,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": -0.0107,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": -0.0107
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5049
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.1086
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.5986
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1299
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6611
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2236
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.37,
+    "t": 148,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.6094,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2207,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.252,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.3613,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.4863,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2207,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6582,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6582,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.127,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.127,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.5957,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.5957,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.0807,
+        "y": 0.0356,
+        "w": 10.4986,
+        "h": 22.9288
+       },
+       "transform": "matrix(0.996903, 0, 0, 0.996903, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9969,
+        "sy": 0.9969
+       },
+       "opacity": 0.24,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.0807,
+          "y": 0.0356,
+          "w": 10.4986,
+          "h": 21.9319
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.502,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.502,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0137,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00193592, 0)",
+       "translate": {
+        "tx": 0.0019,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.6113,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9707,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0801,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.502,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": -0.0137,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": -0.0137
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.502
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.0807
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.5957
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.127
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6582
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2207
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.5,
+    "t": 200,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.6094,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2194,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2507,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.36,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.485,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2194,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6569,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6569,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1257,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1257,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.5944,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.5944,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.069,
+        "y": 0.0127,
+        "w": 10.5196,
+        "h": 22.9745
+       },
+       "transform": "matrix(0.998891, 0, 0, 0.998891, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9989,
+        "sy": 0.9989
+       },
+       "opacity": 0.5,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.069,
+          "y": 0.0127,
+          "w": 10.5196,
+          "h": 21.9756
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5007,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5007,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.015,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000692982, 0)",
+       "translate": {
+        "tx": 0.0007,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.61,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9694,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0788,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5007,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": -0.015,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": -0.015
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5007
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.069
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.5944
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1257
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6569
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2194
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.73,
+    "t": 292,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.6094,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2188,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2501,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.3594,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.4844,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2188,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6563,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6563,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1251,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1251,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.5938,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.5938,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.0632,
+        "y": 0.0013,
+        "w": 10.5301,
+        "h": 22.9974
+       },
+       "transform": "matrix(0.999888, 0, 0, 0.999888, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9999,
+        "sy": 0.9999
+       },
+       "opacity": 0.96,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.0632,
+          "y": 0.0013,
+          "w": 10.5301,
+          "h": 21.9975
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5001,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5001,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0156,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 7.02766e-05, 0)",
+       "translate": {
+        "tx": 0.0001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.6094,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9688,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0782,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5001,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": -0.0156,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": -0.0156
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5001
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.0632
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.5938
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1251
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6563
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2188
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 0.9,
+    "t": 360,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.625,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2344,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2656,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.375,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.5,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2344,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6719,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6719,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1406,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1406,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.6094,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.6094,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.0781,
+        "y": 0.0001,
+        "w": 10.5313,
+        "h": 22.9999
+       },
+       "transform": "matrix(0.999996, 0, 0, 0.999996, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.0781,
+          "y": 0.0001,
+          "w": 10.5313,
+          "h": 21.9999
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5156,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5156,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.77508e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.625,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9844,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0938,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5156,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5156
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.0781
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.6094
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1406
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6719
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2344
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   },
+   {
+    "frac": 1,
+    "t": 400,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 111.625,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "قیمت",
+       "tag": "span",
+       "text": "قیمت",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.2344,
+        "y": 0,
+        "w": 32.3906,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ق",
+         "rect": {
+          "x": 106.2656,
+          "y": 0,
+          "w": 5.3594,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ی",
+         "rect": {
+          "x": 101.375,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 93.5,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ت",
+         "rect": {
+          "x": 79.2344,
+          "y": 0,
+          "w": 14.2813,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 73.6719,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 73.6719,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "tag": "span",
+       "text": "۱",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 63.1406,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۱",
+         "rect": {
+          "x": 63.1406,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "tag": "span",
+       "text": "۲",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 52.6094,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۲",
+         "rect": {
+          "x": 52.6094,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "tag": "span",
+       "text": "۴",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 42.0781,
+        "y": 0,
+        "w": 10.5313,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "۴",
+         "rect": {
+          "x": 42.0781,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 36.5156,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 36.5156,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "تومان",
+       "tag": "span",
+       "text": "تومان",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 36.5156,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "ت",
+         "rect": {
+          "x": 31.625,
+          "y": 0,
+          "w": 4.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "و",
+         "rect": {
+          "x": 22.9844,
+          "y": 0,
+          "w": 8.6563,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "م",
+         "rect": {
+          "x": 15.0938,
+          "y": 0,
+          "w": 7.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 10.5156,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ن",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "تومان",
+       "text": "تومان",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 5,
+       "id": "space-8",
+       "text": " ",
+       "kind": null,
+       "x": 36.5156
+      },
+      {
+       "index": 4,
+       "id": "۱۲۴~2",
+       "text": "۴",
+       "kind": null,
+       "x": 42.0781
+      },
+      {
+       "index": 3,
+       "id": "۱۲۳:1",
+       "text": "۲",
+       "kind": null,
+       "x": 52.6094
+      },
+      {
+       "index": 2,
+       "id": "۱۲۳:0",
+       "text": "۱",
+       "kind": null,
+       "x": 63.1406
+      },
+      {
+       "index": 1,
+       "id": "space-4",
+       "text": " ",
+       "kind": null,
+       "x": 73.6719
+      },
+      {
+       "index": 0,
+       "id": "قیمت",
+       "text": "قیمت",
+       "kind": null,
+       "x": 79.2344
+      }
+     ],
+     "torphVisualGlyphOrderString": "ناموت ۴۲۱ تمیق"
+    }
+   }
+  ]
+ }
+}

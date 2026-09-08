@@ -28,6 +28,7 @@ class TextMorph extends StatefulWidget {
     this.numbers = true,
     this.decimals,
     this.blur = defaultBlur,
+    this.bidi = true,
     this.disabled = false,
     this.respectReducedMotion = true,
     this.debug = false,
@@ -86,6 +87,10 @@ class TextMorph extends StatefulWidget {
   /// fade into. Zero disables it.
   final double blur;
 
+  /// Place each item where the Unicode Bidirectional Algorithm puts its text
+  /// in the line, so numbers and mixed scripts read correctly under RTL.
+  final bool bidi;
+
   /// Renders plain text, with no motion.
   final bool disabled;
 
@@ -118,6 +123,7 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
   TextStyle _style = const TextStyle();
   TextScaler _textScaler = TextScaler.noScaling;
   TextDirection _direction = TextDirection.ltr;
+  bool _bidi = true;
   Locale _locale = const Locale(defaultLocaleTag);
   TextAlign _align = TextAlign.start;
   TextHeightBehavior? _textHeightBehavior;
@@ -191,7 +197,8 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
         direction != _direction ||
         locale != _locale ||
         align != _align ||
-        textHeightBehavior != _textHeightBehavior;
+        textHeightBehavior != _textHeightBehavior ||
+        widget.bidi != _bidi;
 
     _style = style;
     _textScaler = textScaler;
@@ -199,6 +206,7 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
     _locale = locale;
     _align = align;
     _textHeightBehavior = textHeightBehavior;
+    _bidi = widget.bidi;
 
     final configKey = MorphConfigKey(
       ease: widget.ease,
@@ -221,6 +229,7 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
         textAlign: align,
         locale: locale,
         textHeightBehavior: textHeightBehavior,
+        bidi: widget.bidi,
       );
       final ref = _measurerRef;
       if (ref == null) {

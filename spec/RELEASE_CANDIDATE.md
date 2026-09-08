@@ -10,9 +10,10 @@ Upstream: torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026. Candidate: `to
 5. Upstream unit tests ported: engine.test, options.test, container-size.test, easing.test (test/motion), diff/number/unique-id semantics via fixtures.
 6. Fuzz: 320 seeded sequences with interrupts and storms, INV-1..15 at every pump; adversarial corpus (A2_CHALLENGE_REPORT items 1–10, TextScaler/style/direction/disabled/TickerMode/dispose mid-morph, 1000-update storm).
 7. Questioner findings: Q-001..Q-031 resolved; F-1 (reflow on container release) fixed at 795f398 and covered by adversarial + fuzz tests.
-8. Performance (spec/PERFORMANCE.md, macOS profile): build ≤1.3 ms avg under per-frame updates; update cost for very long values is the known P2 hotspot.
+8. RTL/bidi audit (spec/RTL_AUDIT.md, reports/RTL_AUDIT_REPORT.md): 162-case Arabic/Persian/Urdu/Hebrew + digit corpus, plain-browser and plain-Flutter references, 156/162 order + 162/162 segmentation + 148/148 kinematic parity, macOS and iOS runs order-identical; reversed digit runs in RTL roots are upstream's atomic-inline layout (RTL-002, documented; DEV-006 candidate not approved).
+9. Performance (spec/PERFORMANCE.md, macOS profile): build ≤1.3 ms avg under per-frame updates; update cost for very long values is the known P2 hotspot.
 
 ## Criteria
 P0 = 0, P1 = 0, unexplained oracle mismatches = 0, unapproved deviations = 0 (DEV-001..005 approved, all P2, none masks motion or reconciliation).
 
-Verdict: APPROVED as release candidate. Not published (per policy).
+Verdict: APPROVED as release candidate; RTL audit PASS on parity, RTL-002 documented as a known upstream limitation. Not published (per policy).

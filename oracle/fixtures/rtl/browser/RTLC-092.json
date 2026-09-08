@@ -1,0 +1,1024 @@
+{
+ "id": "RTLC-092",
+ "category": "mixed-latin",
+ "text": "میرے پاس 5 کتابیں ہیں",
+ "direction": "rtl",
+ "locale": "ur",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "میرے پاس 5 کتابیں ہیں",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 155.9688,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "rect": {
+     "x": 148.0781,
+     "y": 0,
+     "w": 7.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "rect": {
+     "x": 143.1875,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ر",
+    "rect": {
+     "x": 133.4219,
+     "y": 0,
+     "w": 9.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ے",
+    "rect": {
+     "x": 117.1719,
+     "y": 0,
+     "w": 16.2656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "rect": {
+     "x": 111.625,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "پ",
+    "rect": {
+     "x": 106.7344,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ا",
+    "rect": {
+     "x": 102.1406,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "س",
+    "rect": {
+     "x": 85.7188,
+     "y": 0,
+     "w": 16.4375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": " ",
+    "rect": {
+     "x": 80.1719,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "5",
+    "rect": {
+     "x": 69.0469,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": " ",
+    "rect": {
+     "x": 63.4688,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "ک",
+    "rect": {
+     "x": 55.5938,
+     "y": 0,
+     "w": 7.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ت",
+    "rect": {
+     "x": 50.7031,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "rect": {
+     "x": 46.1094,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "ب",
+    "rect": {
+     "x": 41.2344,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "ی",
+    "rect": {
+     "x": 36.3438,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 16,
+    "grapheme": "ں",
+    "rect": {
+     "x": 25.8281,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": " ",
+    "rect": {
+     "x": 20.2813,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "ہ",
+    "rect": {
+     "x": 15.3906,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "ی",
+    "rect": {
+     "x": 10.5156,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 20,
+    "grapheme": "ں",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 20,
+    "grapheme": "ں",
+    "x": 0
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "ی",
+    "x": 10.5156
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "ہ",
+    "x": 15.3906
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": " ",
+    "x": 20.2813
+   },
+   {
+    "logicalIndex": 16,
+    "grapheme": "ں",
+    "x": 25.8281
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "ی",
+    "x": 36.3438
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "ب",
+    "x": 41.2344
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "x": 46.1094
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ت",
+    "x": 50.7031
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "ک",
+    "x": 55.5938
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": " ",
+    "x": 63.4688
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "5",
+    "x": 69.0469
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": " ",
+    "x": 80.1719
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "س",
+    "x": 85.7188
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ا",
+    "x": 102.1406
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "پ",
+    "x": 106.7344
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "x": 111.625
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ے",
+    "x": 117.1719
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ر",
+    "x": 133.4219
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "x": 143.1875
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "x": 148.0781
+   }
+  ],
+  "plainVisualOrderString": "ںیہ ںیباتک 5 ساپ ےریم"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 156,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "میرے",
+    "text": "میرے",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "پاس",
+    "text": "پاس",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "\u0000n268",
+    "text": "5",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "space-10",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "کتابیں",
+    "text": "کتابیں",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 7,
+    "id": "space-17",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 8,
+    "id": "ہیں",
+    "text": "ہیں",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "میرے",
+    "tag": "span",
+    "text": "میرے",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 117.2188,
+     "y": 0,
+     "w": 38.7813,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "م",
+      "rect": {
+       "x": 148.1094,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ی",
+      "rect": {
+       "x": 143.2344,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ر",
+      "rect": {
+       "x": 133.4531,
+       "y": 0,
+       "w": 9.7813,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ے",
+      "rect": {
+       "x": 117.2188,
+       "y": 0,
+       "w": 16.25,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 111.6563,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 111.6563,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "پاس",
+    "tag": "span",
+    "text": "پاس",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 85.75,
+     "y": 0,
+     "w": 25.9063,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "پ",
+      "rect": {
+       "x": 106.7656,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ا",
+      "rect": {
+       "x": 102.1719,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "س",
+      "rect": {
+       "x": 85.75,
+       "y": 0,
+       "w": 16.4375,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 80.1875,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 80.1875,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "\u0000n268",
+    "tag": "span",
+    "text": "5",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 69.0625,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 69.0625,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "5",
+      "rect": {
+       "x": 69.0625,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "space-10",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 63.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 63.5,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "کتابیں",
+    "tag": "span",
+    "text": "کتابیں",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 25.8594,
+     "y": 0,
+     "w": 37.6406,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ک",
+      "rect": {
+       "x": 55.6094,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ت",
+      "rect": {
+       "x": 50.7188,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ا",
+      "rect": {
+       "x": 46.1406,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ب",
+      "rect": {
+       "x": 41.25,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ی",
+      "rect": {
+       "x": 36.375,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 5,
+      "grapheme": "ں",
+      "rect": {
+       "x": 25.8594,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 7,
+    "id": "space-17",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 20.2969,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 20.2969,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 8,
+    "id": "ہیں",
+    "tag": "span",
+    "text": "ہیں",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 20.2969,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ہ",
+      "rect": {
+       "x": 15.3906,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ی",
+      "rect": {
+       "x": 10.5156,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ں",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 8,
+    "id": "ہیں",
+    "text": "ہیں",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 7,
+    "id": "space-17",
+    "text": " ",
+    "kind": null,
+    "x": 20.2969
+   },
+   {
+    "index": 6,
+    "id": "کتابیں",
+    "text": "کتابیں",
+    "kind": null,
+    "x": 25.8594
+   },
+   {
+    "index": 5,
+    "id": "space-10",
+    "text": " ",
+    "kind": null,
+    "x": 63.5
+   },
+   {
+    "index": 4,
+    "id": "\u0000n268",
+    "text": "5",
+    "kind": "digit",
+    "x": 69.0625
+   },
+   {
+    "index": 3,
+    "id": "space-8",
+    "text": " ",
+    "kind": null,
+    "x": 80.1875
+   },
+   {
+    "index": 2,
+    "id": "پاس",
+    "text": "پاس",
+    "kind": null,
+    "x": 85.75
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "x": 111.6563
+   },
+   {
+    "index": 0,
+    "id": "میرے",
+    "text": "میرے",
+    "kind": null,
+    "x": 117.2188
+   }
+  ],
+  "torphVisualGlyphOrderString": "ںیہ ںیباتک 5 ساپ ےریم"
+ }
+}

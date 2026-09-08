@@ -153,6 +153,7 @@ TextMorph(value: 'Total\n1,234')
 | `scale`                | `bool`                     | `true`                             | Scale animation on entering and exiting segments |
 | `numbers`              | `bool`                     | `true`                             | Morph numeric words by place value, sliding digits along the block axis. Off falls back to the character-level text morph |
 | `blur`                 | `double`                   | `1.5`                              | Blur sigma (logical px) entering segments start from and exiting segments fade into, riding the same fade. `0` turns it off. Not in upstream |
+| `bidi`                 | `bool`                     | `true`                             | Place each segment where the Unicode Bidirectional Algorithm puts its text. `false` restores upstream's logical-order placement. Not in upstream |
 | `decimals`             | `int?`                     | `null`                             | Fraction digits to format a numeric value to. Applies when `value` is a `num`; ignored for strings |
 | `locale`               | `Locale?`                  | `Localizations`, then `Locale('en')` | Locale for text segmentation, and for formatting a numeric value |
 | `cursorIndex`          | `int?`                     | `null`                             | Caret position; switches a single-number value from place matching to caret matching |
@@ -193,6 +194,14 @@ never reads as a pile of characters. When the platform asks for reduced motion
 (`MediaQuery.disableAnimationsOf`), values swap without motion; pass
 `respectReducedMotion: false` to animate anyway, or `disabled: true` to render
 plain text always.
+
+## Deviations from upstream
+
+Right-to-left roots follow the Unicode Bidirectional Algorithm: numbers, Latin
+words and RTL words land where a plain paragraph puts them. Upstream instead
+lays every segment out as an atomic box in logical order, which reverses digit
+runs and word order; pass `bidi: false` for that behaviour (DEV-006, see
+[`spec/RTL_KNOWN_LIMITATIONS.md`](spec/RTL_KNOWN_LIMITATIONS.md)).
 
 ## Deviations from upstream
 

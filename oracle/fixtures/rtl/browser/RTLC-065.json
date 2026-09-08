@@ -1,0 +1,781 @@
+{
+ "id": "RTLC-065",
+ "category": "datetime",
+ "text": "اليوم 08/09/2026",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "اليوم 08/09/2026",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 134.2344,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "ا",
+    "rect": {
+     "x": 130.0781,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "rect": {
+     "x": 125.9375,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ي",
+    "rect": {
+     "x": 121.0625,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "و",
+    "rect": {
+     "x": 112.4219,
+     "y": 0,
+     "w": 8.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "م",
+    "rect": {
+     "x": 105.6563,
+     "y": 0,
+     "w": 6.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 100.1094,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "0",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "8",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "/",
+    "rect": {
+     "x": 22.2344,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "0",
+    "rect": {
+     "x": 27.7969,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "9",
+    "rect": {
+     "x": 38.9219,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "/",
+    "rect": {
+     "x": 50.0469,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "2",
+    "rect": {
+     "x": 55.5938,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "0",
+    "rect": {
+     "x": 66.7188,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "2",
+    "rect": {
+     "x": 77.8438,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "6",
+    "rect": {
+     "x": 88.9688,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 6,
+    "grapheme": "0",
+    "x": 0
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "8",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "/",
+    "x": 22.2344
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "0",
+    "x": 27.7969
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "9",
+    "x": 38.9219
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "/",
+    "x": 50.0469
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "2",
+    "x": 55.5938
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "0",
+    "x": 66.7188
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "2",
+    "x": 77.8438
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "6",
+    "x": 88.9688
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 100.1094
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "م",
+    "x": 105.6563
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "و",
+    "x": 112.4219
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ي",
+    "x": 121.0625
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "x": 125.9375
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "ا",
+    "x": 130.0781
+   }
+  ],
+  "plainVisualOrderString": "08/09/2026 مويلا"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 134.2656,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "اليوم",
+    "text": "اليوم",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "08",
+    "text": "08",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "/",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "09",
+    "text": "09",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "/-11",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "2026",
+    "text": "2026",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "اليوم",
+    "tag": "span",
+    "text": "اليوم",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 105.6875,
+     "y": 0,
+     "w": 28.5781,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 130.1094,
+       "y": 0,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 125.9688,
+       "y": 0,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ي",
+      "rect": {
+       "x": 121.0781,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "و",
+      "rect": {
+       "x": 112.4375,
+       "y": 0,
+       "w": 8.6563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "م",
+      "rect": {
+       "x": 105.6875,
+       "y": 0,
+       "w": 6.7656,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 100.125,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 100.125,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "08",
+    "tag": "span",
+    "text": "08",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 77.875,
+     "y": 0,
+     "w": 22.25,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "0",
+      "rect": {
+       "x": 77.875,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "8",
+      "rect": {
+       "x": 88.9844,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "/",
+    "tag": "span",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 72.3125,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "/",
+      "rect": {
+       "x": 72.3125,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "09",
+    "tag": "span",
+    "text": "09",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 50.0625,
+     "y": 0,
+     "w": 22.25,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "0",
+      "rect": {
+       "x": 50.0625,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "9",
+      "rect": {
+       "x": 61.1719,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "/-11",
+    "tag": "span",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "/",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "2026",
+    "tag": "span",
+    "text": "2026",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 44.5,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "0",
+      "rect": {
+       "x": 11.1094,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "2",
+      "rect": {
+       "x": 22.2344,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "6",
+      "rect": {
+       "x": 33.3594,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 6,
+    "id": "2026",
+    "text": "2026",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 5,
+    "id": "/-11",
+    "text": "/",
+    "kind": null,
+    "x": 44.5
+   },
+   {
+    "index": 4,
+    "id": "09",
+    "text": "09",
+    "kind": null,
+    "x": 50.0625
+   },
+   {
+    "index": 3,
+    "id": "/",
+    "text": "/",
+    "kind": null,
+    "x": 72.3125
+   },
+   {
+    "index": 2,
+    "id": "08",
+    "text": "08",
+    "kind": null,
+    "x": 77.875
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "x": 100.125
+   },
+   {
+    "index": 0,
+    "id": "اليوم",
+    "text": "اليوم",
+    "kind": null,
+    "x": 105.6875
+   }
+  ],
+  "torphVisualGlyphOrderString": "2026/09/08 مويلا"
+ }
+}

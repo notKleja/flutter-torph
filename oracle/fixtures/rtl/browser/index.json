@@ -1,0 +1,980 @@
+{
+ "upstream": "torph 0.1.3 @ d79a5aa63226acf97d49c3e34fafb2e85c07b026",
+ "generatedBy": "oracle/runtime/trace-rtl.mjs",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "cases": [
+  {
+   "id": "RTLC-001",
+   "file": "RTLC-001.json",
+   "category": "arabic-ascii-digits",
+   "text": "السعر 1234 ريال"
+  },
+  {
+   "id": "RTLC-002",
+   "file": "RTLC-002.json",
+   "category": "arabic-ascii-digits",
+   "text": "السعر $1,234.56 اليوم"
+  },
+  {
+   "id": "RTLC-003",
+   "file": "RTLC-003.json",
+   "category": "arabic-ascii-digits",
+   "text": "لدي 123 تفاحة"
+  },
+  {
+   "id": "RTLC-004",
+   "file": "RTLC-004.json",
+   "category": "arabic-ascii-digits",
+   "text": "الوقت 10:45 مساءً"
+  },
+  {
+   "id": "RTLC-005",
+   "file": "RTLC-005.json",
+   "category": "arabic-ascii-digits",
+   "text": "السعر 1234 ريال"
+  },
+  {
+   "id": "RTLC-006",
+   "file": "RTLC-006.json",
+   "category": "arabic-ascii-digits",
+   "text": "لدي 5 كتب و 10 أقلام"
+  },
+  {
+   "id": "RTLC-007",
+   "file": "RTLC-007.json",
+   "category": "arabic-ascii-digits",
+   "text": "رقم الهاتف 0501234567"
+  },
+  {
+   "id": "RTLC-008",
+   "file": "RTLC-008.json",
+   "category": "arabic-ascii-digits",
+   "text": "الفصل 12 من 30"
+  },
+  {
+   "id": "RTLC-009",
+   "file": "RTLC-009.json",
+   "category": "persian-ascii-digits",
+   "text": "قیمت 1234 تومان"
+  },
+  {
+   "id": "RTLC-010",
+   "file": "RTLC-010.json",
+   "category": "persian-ascii-digits",
+   "text": "قیمت 1,234.50 دلار"
+  },
+  {
+   "id": "RTLC-011",
+   "file": "RTLC-011.json",
+   "category": "persian-ascii-digits",
+   "text": "قیمت 1234 تومان"
+  },
+  {
+   "id": "RTLC-012",
+   "file": "RTLC-012.json",
+   "category": "persian-ascii-digits",
+   "text": "من 3 برادر دارم"
+  },
+  {
+   "id": "RTLC-013",
+   "file": "RTLC-013.json",
+   "category": "arabic-indic",
+   "text": "السعر ١٢٣٤ ريال"
+  },
+  {
+   "id": "RTLC-014",
+   "file": "RTLC-014.json",
+   "category": "arabic-indic",
+   "text": "السعر ١٬٢٣٤٫٥٦ ريال"
+  },
+  {
+   "id": "RTLC-015",
+   "file": "RTLC-015.json",
+   "category": "arabic-indic",
+   "text": "السعر ١٢٣٤ ريال"
+  },
+  {
+   "id": "RTLC-016",
+   "file": "RTLC-016.json",
+   "category": "arabic-indic",
+   "text": "لدي ٥ أقلام"
+  },
+  {
+   "id": "RTLC-017",
+   "file": "RTLC-017.json",
+   "category": "arabic-indic",
+   "text": "١٢٣ و ٤٥٦"
+  },
+  {
+   "id": "RTLC-018",
+   "file": "RTLC-018.json",
+   "category": "persian-digits",
+   "text": "قیمت ۱۲۳۴ تومان"
+  },
+  {
+   "id": "RTLC-019",
+   "file": "RTLC-019.json",
+   "category": "persian-digits",
+   "text": "قیمت ۱٬۲۳۴٫۵۶ تومان"
+  },
+  {
+   "id": "RTLC-020",
+   "file": "RTLC-020.json",
+   "category": "persian-digits",
+   "text": "قیمت ۱۲۳۴ تومان"
+  },
+  {
+   "id": "RTLC-021",
+   "file": "RTLC-021.json",
+   "category": "persian-digits",
+   "text": "من ۳ کتاب دارم"
+  },
+  {
+   "id": "RTLC-022",
+   "file": "RTLC-022.json",
+   "category": "hebrew",
+   "text": "מחיר 1234 ₪"
+  },
+  {
+   "id": "RTLC-023",
+   "file": "RTLC-023.json",
+   "category": "hebrew",
+   "text": "מחיר $1,234.56 היום"
+  },
+  {
+   "id": "RTLC-024",
+   "file": "RTLC-024.json",
+   "category": "hebrew",
+   "text": "מחיר 1234 ₪"
+  },
+  {
+   "id": "RTLC-025",
+   "file": "RTLC-025.json",
+   "category": "hebrew",
+   "text": "יש לי 7 ספרים"
+  },
+  {
+   "id": "RTLC-026",
+   "file": "RTLC-026.json",
+   "category": "hebrew",
+   "text": "מספר הטלפון 050-1234567"
+  },
+  {
+   "id": "RTLC-027",
+   "file": "RTLC-027.json",
+   "category": "mixed-latin",
+   "text": "مرحبا ABC 123 DEF"
+  },
+  {
+   "id": "RTLC-028",
+   "file": "RTLC-028.json",
+   "category": "mixed-latin",
+   "text": "ABC مرحبا 123 عالم DEF"
+  },
+  {
+   "id": "RTLC-029",
+   "file": "RTLC-029.json",
+   "category": "mixed-latin",
+   "text": "123 مرحبا"
+  },
+  {
+   "id": "RTLC-030",
+   "file": "RTLC-030.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123"
+  },
+  {
+   "id": "RTLC-031",
+   "file": "RTLC-031.json",
+   "category": "mixed-latin",
+   "text": "مرحبا (123)"
+  },
+  {
+   "id": "RTLC-032",
+   "file": "RTLC-032.json",
+   "category": "mixed-latin",
+   "text": "مرحبا -123"
+  },
+  {
+   "id": "RTLC-033",
+   "file": "RTLC-033.json",
+   "category": "mixed-latin",
+   "text": "مرحبا +123"
+  },
+  {
+   "id": "RTLC-034",
+   "file": "RTLC-034.json",
+   "category": "mixed-latin",
+   "text": "مرحبا $123"
+  },
+  {
+   "id": "RTLC-035",
+   "file": "RTLC-035.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123%"
+  },
+  {
+   "id": "RTLC-036",
+   "file": "RTLC-036.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 1/2"
+  },
+  {
+   "id": "RTLC-037",
+   "file": "RTLC-037.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 12:34"
+  },
+  {
+   "id": "RTLC-038",
+   "file": "RTLC-038.json",
+   "category": "mixed-latin",
+   "text": "مرحبا ABC 123 DEF"
+  },
+  {
+   "id": "RTLC-039",
+   "file": "RTLC-039.json",
+   "category": "mixed-latin",
+   "text": "123 مرحبا"
+  },
+  {
+   "id": "RTLC-040",
+   "file": "RTLC-040.json",
+   "category": "mixed-latin",
+   "text": "بين مرحبا و ABC يوجد 123 عنصر"
+  },
+  {
+   "id": "RTLC-041",
+   "file": "RTLC-041.json",
+   "category": "mixed-latin",
+   "text": "Hello 123 مرحبا 456 World"
+  },
+  {
+   "id": "RTLC-042",
+   "file": "RTLC-042.json",
+   "category": "punctuation",
+   "text": "السعر: 1234!"
+  },
+  {
+   "id": "RTLC-043",
+   "file": "RTLC-043.json",
+   "category": "punctuation",
+   "text": "السعر، 1234، شكرا"
+  },
+  {
+   "id": "RTLC-044",
+   "file": "RTLC-044.json",
+   "category": "punctuation",
+   "text": "“مرحبا 123”"
+  },
+  {
+   "id": "RTLC-045",
+   "file": "RTLC-045.json",
+   "category": "punctuation",
+   "text": "مرحبا؟ 123."
+  },
+  {
+   "id": "RTLC-046",
+   "file": "RTLC-046.json",
+   "category": "punctuation",
+   "text": "(مرحبا) 123"
+  },
+  {
+   "id": "RTLC-047",
+   "file": "RTLC-047.json",
+   "category": "punctuation",
+   "text": "مرحبا; 123: أهلا"
+  },
+  {
+   "id": "RTLC-048",
+   "file": "RTLC-048.json",
+   "category": "bidi-controls",
+   "text": "السعر ‎1234‎ ريال"
+  },
+  {
+   "id": "RTLC-049",
+   "file": "RTLC-049.json",
+   "category": "bidi-controls",
+   "text": "السعر ‏1234‏ ريال"
+  },
+  {
+   "id": "RTLC-050",
+   "file": "RTLC-050.json",
+   "category": "bidi-controls",
+   "text": "السعر ⁦1234⁩ ريال"
+  },
+  {
+   "id": "RTLC-051",
+   "file": "RTLC-051.json",
+   "category": "bidi-controls",
+   "text": "السعر ⁧1234⁩ ريال"
+  },
+  {
+   "id": "RTLC-052",
+   "file": "RTLC-052.json",
+   "category": "bidi-controls",
+   "text": "السعر ⁨1234⁩ ريال"
+  },
+  {
+   "id": "RTLC-053",
+   "file": "RTLC-053.json",
+   "category": "bidi-controls",
+   "text": "⁦1234⁩ مرحبا"
+  },
+  {
+   "id": "RTLC-054",
+   "file": "RTLC-054.json",
+   "category": "bidi-controls",
+   "text": "مرحبا ⁦1234⁩"
+  },
+  {
+   "id": "RTLC-055",
+   "file": "RTLC-055.json",
+   "category": "bidi-controls",
+   "text": "‏مرحبا $123‏"
+  },
+  {
+   "id": "RTLC-056",
+   "file": "RTLC-056.json",
+   "category": "bidi-controls",
+   "text": "السعر ‎1234‎ ريال"
+  },
+  {
+   "id": "RTLC-057",
+   "file": "RTLC-057.json",
+   "category": "phone",
+   "text": "+971 50 123 4567"
+  },
+  {
+   "id": "RTLC-058",
+   "file": "RTLC-058.json",
+   "category": "phone",
+   "text": "اتصل بي على +971 50 123 4567"
+  },
+  {
+   "id": "RTLC-059",
+   "file": "RTLC-059.json",
+   "category": "phone",
+   "text": "هاتفي: +971-50-123-4567"
+  },
+  {
+   "id": "RTLC-060",
+   "file": "RTLC-060.json",
+   "category": "phone",
+   "text": "+98 21 1234 5678"
+  },
+  {
+   "id": "RTLC-061",
+   "file": "RTLC-061.json",
+   "category": "phone",
+   "text": "تماس بگیرید +98 21 1234 5678"
+  },
+  {
+   "id": "RTLC-062",
+   "file": "RTLC-062.json",
+   "category": "phone",
+   "text": "התקשר אליי +972 50-123-4567"
+  },
+  {
+   "id": "RTLC-063",
+   "file": "RTLC-063.json",
+   "category": "datetime",
+   "text": "التاريخ 2026-09-08"
+  },
+  {
+   "id": "RTLC-064",
+   "file": "RTLC-064.json",
+   "category": "datetime",
+   "text": "الاجتماع الساعة 14:30"
+  },
+  {
+   "id": "RTLC-065",
+   "file": "RTLC-065.json",
+   "category": "datetime",
+   "text": "اليوم 08/09/2026"
+  },
+  {
+   "id": "RTLC-066",
+   "file": "RTLC-066.json",
+   "category": "datetime",
+   "text": "من الساعة 9 إلى 5"
+  },
+  {
+   "id": "RTLC-067",
+   "file": "RTLC-067.json",
+   "category": "datetime",
+   "text": "تاریخ امروز ۱۴۰۵/۰۶/۱۷"
+  },
+  {
+   "id": "RTLC-068",
+   "file": "RTLC-068.json",
+   "category": "datetime",
+   "text": "התאריך היום הוא 08/09/2026"
+  },
+  {
+   "id": "RTLC-069",
+   "file": "RTLC-069.json",
+   "category": "newline",
+   "text": "السعر 1234\nريال فقط"
+  },
+  {
+   "id": "RTLC-070",
+   "file": "RTLC-070.json",
+   "category": "newline",
+   "text": "السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333"
+  },
+  {
+   "id": "RTLC-071",
+   "file": "RTLC-071.json",
+   "category": "newline",
+   "text": "מחיר 1234\n₪ בלבד"
+  },
+  {
+   "id": "RTLC-072",
+   "file": "RTLC-072.json",
+   "category": "newline",
+   "text": "قیمت 1234\nتومان"
+  },
+  {
+   "id": "RTLC-073",
+   "file": "RTLC-073.json",
+   "category": "pure-number",
+   "text": "1234"
+  },
+  {
+   "id": "RTLC-074",
+   "file": "RTLC-074.json",
+   "category": "pure-number",
+   "text": "1234"
+  },
+  {
+   "id": "RTLC-075",
+   "file": "RTLC-075.json",
+   "category": "pure-number",
+   "text": "١٢٣٤"
+  },
+  {
+   "id": "RTLC-076",
+   "file": "RTLC-076.json",
+   "category": "pure-number",
+   "text": "۱۲۳۴"
+  },
+  {
+   "id": "RTLC-077",
+   "file": "RTLC-077.json",
+   "category": "pure-rtl",
+   "text": "مرحبا بالعالم"
+  },
+  {
+   "id": "RTLC-078",
+   "file": "RTLC-078.json",
+   "category": "pure-rtl",
+   "text": "שלום עולם"
+  },
+  {
+   "id": "RTLC-079",
+   "file": "RTLC-079.json",
+   "category": "pure-rtl",
+   "text": "سلام دنیا"
+  },
+  {
+   "id": "RTLC-080",
+   "file": "RTLC-080.json",
+   "category": "mixed-latin",
+   "text": "123 مرحبا 456"
+  },
+  {
+   "id": "RTLC-081",
+   "file": "RTLC-081.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا 456 وسهلا"
+  },
+  {
+   "id": "RTLC-082",
+   "file": "RTLC-082.json",
+   "category": "mixed-latin",
+   "text": "1234 1234"
+  },
+  {
+   "id": "RTLC-083",
+   "file": "RTLC-083.json",
+   "category": "mixed-latin",
+   "text": "مرحبا،123،أهلا"
+  },
+  {
+   "id": "RTLC-084",
+   "file": "RTLC-084.json",
+   "category": "mixed-latin",
+   "text": "مرحباABC123"
+  },
+  {
+   "id": "RTLC-085",
+   "file": "RTLC-085.json",
+   "category": "mixed-latin",
+   "text": "123ABCمرحبا"
+  },
+  {
+   "id": "RTLC-086",
+   "file": "RTLC-086.json",
+   "category": "mixed-latin",
+   "text": "السعر 1 234 567 ريال"
+  },
+  {
+   "id": "RTLC-087",
+   "file": "RTLC-087.json",
+   "category": "mixed-latin",
+   "text": "السعر 1 234 567 ريال"
+  },
+  {
+   "id": "RTLC-088",
+   "file": "RTLC-088.json",
+   "category": "mixed-latin",
+   "text": "قیمت 1 234٫56 تومان"
+  },
+  {
+   "id": "RTLC-089",
+   "file": "RTLC-089.json",
+   "category": "mixed-latin",
+   "text": "السعر 1234٫56 ريال"
+  },
+  {
+   "id": "RTLC-090",
+   "file": "RTLC-090.json",
+   "category": "mixed-latin",
+   "text": "السعر 1٬234٬567 ريال"
+  },
+  {
+   "id": "RTLC-091",
+   "file": "RTLC-091.json",
+   "category": "mixed-latin",
+   "text": "قیمت 1234 روپے ہے"
+  },
+  {
+   "id": "RTLC-092",
+   "file": "RTLC-092.json",
+   "category": "mixed-latin",
+   "text": "میرے پاس 5 کتابیں ہیں"
+  },
+  {
+   "id": "RTLC-093",
+   "file": "RTLC-093.json",
+   "category": "mixed-latin",
+   "text": "قیمت ۱۲۳۴ روپے"
+  },
+  {
+   "id": "RTLC-094",
+   "file": "RTLC-094.json",
+   "category": "mixed-latin",
+   "text": "فون نمبر +92 300 1234567"
+  },
+  {
+   "id": "RTLC-095",
+   "file": "RTLC-095.json",
+   "category": "pure-number",
+   "text": "123"
+  },
+  {
+   "id": "RTLC-096",
+   "file": "RTLC-096.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا"
+  },
+  {
+   "id": "RTLC-097",
+   "file": "RTLC-097.json",
+   "category": "mixed-latin",
+   "text": "123 مرحبا"
+  },
+  {
+   "id": "RTLC-098",
+   "file": "RTLC-098.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123"
+  },
+  {
+   "id": "RTLC-099",
+   "file": "RTLC-099.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-100",
+   "file": "RTLC-100.json",
+   "category": "mixed-latin",
+   "text": "ABC123مرحبا"
+  },
+  {
+   "id": "RTLC-101",
+   "file": "RTLC-101.json",
+   "category": "pure-number",
+   "text": "129"
+  },
+  {
+   "id": "RTLC-102",
+   "file": "RTLC-102.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 129 أهلا"
+  },
+  {
+   "id": "RTLC-103",
+   "file": "RTLC-103.json",
+   "category": "mixed-latin",
+   "text": "129 مرحبا"
+  },
+  {
+   "id": "RTLC-104",
+   "file": "RTLC-104.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 129"
+  },
+  {
+   "id": "RTLC-105",
+   "file": "RTLC-105.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 129 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-106",
+   "file": "RTLC-106.json",
+   "category": "mixed-latin",
+   "text": "ABC129مرحبا"
+  },
+  {
+   "id": "RTLC-107",
+   "file": "RTLC-107.json",
+   "category": "pure-number",
+   "text": "999"
+  },
+  {
+   "id": "RTLC-108",
+   "file": "RTLC-108.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 999 أهلا"
+  },
+  {
+   "id": "RTLC-109",
+   "file": "RTLC-109.json",
+   "category": "mixed-latin",
+   "text": "999 مرحبا"
+  },
+  {
+   "id": "RTLC-110",
+   "file": "RTLC-110.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 999"
+  },
+  {
+   "id": "RTLC-111",
+   "file": "RTLC-111.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 999 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-112",
+   "file": "RTLC-112.json",
+   "category": "mixed-latin",
+   "text": "ABC999مرحبا"
+  },
+  {
+   "id": "RTLC-113",
+   "file": "RTLC-113.json",
+   "category": "pure-number",
+   "text": "1,999"
+  },
+  {
+   "id": "RTLC-114",
+   "file": "RTLC-114.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 1,999 أهلا"
+  },
+  {
+   "id": "RTLC-115",
+   "file": "RTLC-115.json",
+   "category": "mixed-latin",
+   "text": "1,999 مرحبا"
+  },
+  {
+   "id": "RTLC-116",
+   "file": "RTLC-116.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 1,999"
+  },
+  {
+   "id": "RTLC-117",
+   "file": "RTLC-117.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 1,999 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-118",
+   "file": "RTLC-118.json",
+   "category": "mixed-latin",
+   "text": "ABC1,999مرحبا"
+  },
+  {
+   "id": "RTLC-119",
+   "file": "RTLC-119.json",
+   "category": "pure-number",
+   "text": "9.99"
+  },
+  {
+   "id": "RTLC-120",
+   "file": "RTLC-120.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 9.99 أهلا"
+  },
+  {
+   "id": "RTLC-121",
+   "file": "RTLC-121.json",
+   "category": "mixed-latin",
+   "text": "9.99 مرحبا"
+  },
+  {
+   "id": "RTLC-122",
+   "file": "RTLC-122.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 9.99"
+  },
+  {
+   "id": "RTLC-123",
+   "file": "RTLC-123.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 9.99 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-124",
+   "file": "RTLC-124.json",
+   "category": "mixed-latin",
+   "text": "ABC9.99مرحبا"
+  },
+  {
+   "id": "RTLC-125",
+   "file": "RTLC-125.json",
+   "category": "pure-number",
+   "text": "-99"
+  },
+  {
+   "id": "RTLC-126",
+   "file": "RTLC-126.json",
+   "category": "mixed-latin",
+   "text": "مرحبا -99 أهلا"
+  },
+  {
+   "id": "RTLC-127",
+   "file": "RTLC-127.json",
+   "category": "mixed-latin",
+   "text": "-99 مرحبا"
+  },
+  {
+   "id": "RTLC-128",
+   "file": "RTLC-128.json",
+   "category": "mixed-latin",
+   "text": "مرحبا -99"
+  },
+  {
+   "id": "RTLC-129",
+   "file": "RTLC-129.json",
+   "category": "mixed-latin",
+   "text": "مرحبا -99 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-130",
+   "file": "RTLC-130.json",
+   "category": "mixed-latin",
+   "text": "ABC-99مرحبا"
+  },
+  {
+   "id": "RTLC-131",
+   "file": "RTLC-131.json",
+   "category": "pure-number",
+   "text": "$999"
+  },
+  {
+   "id": "RTLC-132",
+   "file": "RTLC-132.json",
+   "category": "mixed-latin",
+   "text": "مرحبا $999 أهلا"
+  },
+  {
+   "id": "RTLC-133",
+   "file": "RTLC-133.json",
+   "category": "mixed-latin",
+   "text": "$999 مرحبا"
+  },
+  {
+   "id": "RTLC-134",
+   "file": "RTLC-134.json",
+   "category": "mixed-latin",
+   "text": "مرحبا $999"
+  },
+  {
+   "id": "RTLC-135",
+   "file": "RTLC-135.json",
+   "category": "mixed-latin",
+   "text": "مرحبا $999 أهلا وسهلا"
+  },
+  {
+   "id": "RTLC-136",
+   "file": "RTLC-136.json",
+   "category": "mixed-latin",
+   "text": "ABC$999مرحبا"
+  },
+  {
+   "id": "RTLC-137",
+   "file": "RTLC-137.json",
+   "category": "arabic-indic",
+   "text": "مرحبا ١٢٣ أهلا"
+  },
+  {
+   "id": "RTLC-138",
+   "file": "RTLC-138.json",
+   "category": "arabic-indic",
+   "text": "١٢٣"
+  },
+  {
+   "id": "RTLC-139",
+   "file": "RTLC-139.json",
+   "category": "arabic-indic",
+   "text": "مرحبا ٩٩٩ أهلا"
+  },
+  {
+   "id": "RTLC-140",
+   "file": "RTLC-140.json",
+   "category": "arabic-indic",
+   "text": "٩٩٩"
+  },
+  {
+   "id": "RTLC-141",
+   "file": "RTLC-141.json",
+   "category": "persian-digits",
+   "text": "قیمت ۱۲۳ تومان"
+  },
+  {
+   "id": "RTLC-142",
+   "file": "RTLC-142.json",
+   "category": "persian-digits",
+   "text": "۱۲۳"
+  },
+  {
+   "id": "RTLC-143",
+   "file": "RTLC-143.json",
+   "category": "persian-digits",
+   "text": "قیمت ۹۹۹ تومان"
+  },
+  {
+   "id": "RTLC-144",
+   "file": "RTLC-144.json",
+   "category": "persian-digits",
+   "text": "۹۹۹"
+  },
+  {
+   "id": "RTLC-145",
+   "file": "RTLC-145.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا"
+  },
+  {
+   "id": "RTLC-146",
+   "file": "RTLC-146.json",
+   "category": "mixed-latin",
+   "text": "السعر 99 ريال"
+  },
+  {
+   "id": "RTLC-147",
+   "file": "RTLC-147.json",
+   "category": "mixed-latin",
+   "text": "السعر 9999 ريال"
+  },
+  {
+   "id": "RTLC-148",
+   "file": "RTLC-148.json",
+   "category": "mixed-latin",
+   "text": "مرحبا $9.99"
+  },
+  {
+   "id": "RTLC-149",
+   "file": "RTLC-149.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 9.99 أهلا"
+  },
+  {
+   "id": "RTLC-150",
+   "file": "RTLC-150.json",
+   "category": "mixed-latin",
+   "text": "مرحبا أهلا"
+  },
+  {
+   "id": "RTLC-151",
+   "file": "RTLC-151.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا"
+  },
+  {
+   "id": "RTLC-152",
+   "file": "RTLC-152.json",
+   "category": "mixed-latin",
+   "text": "ABC 1 مرحبا"
+  },
+  {
+   "id": "RTLC-153",
+   "file": "RTLC-153.json",
+   "category": "mixed-latin",
+   "text": "מחיר 100 ₪"
+  },
+  {
+   "id": "RTLC-154",
+   "file": "RTLC-154.json",
+   "category": "mixed-latin",
+   "text": "قیمت 100 تومان"
+  },
+  {
+   "id": "RTLC-155",
+   "file": "RTLC-155.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 1 أهلا"
+  },
+  {
+   "id": "RTLC-156",
+   "file": "RTLC-156.json",
+   "category": "mixed-latin",
+   "text": "$1"
+  },
+  {
+   "id": "RTLC-157",
+   "file": "RTLC-157.json",
+   "category": "mixed-latin",
+   "text": "מחיר 1 ₪"
+  },
+  {
+   "id": "RTLC-158",
+   "file": "RTLC-158.json",
+   "category": "mixed-latin",
+   "text": "قیمت 1 تومان"
+  },
+  {
+   "id": "RTLC-159",
+   "file": "RTLC-159.json",
+   "category": "mixed-latin",
+   "text": "مرحبا أهلا"
+  },
+  {
+   "id": "RTLC-160",
+   "file": "RTLC-160.json",
+   "category": "mixed-latin",
+   "text": "مرحبا 123 أهلا"
+  },
+  {
+   "id": "RTLC-161",
+   "file": "RTLC-161.json",
+   "category": "pure-number",
+   "text": "999"
+  },
+  {
+   "id": "RTLC-162",
+   "file": "RTLC-162.json",
+   "category": "pure-number",
+   "text": "999"
+  }
+ ]
+}

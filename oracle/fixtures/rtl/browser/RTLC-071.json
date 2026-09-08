@@ -1,0 +1,1002 @@
+{
+ "id": "RTLC-071",
+ "category": "newline",
+ "text": "מחיר 1234\n₪ בלבד",
+ "direction": "rtl",
+ "locale": "he",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "מחיר 1234\n₪ בלבד",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 157.7031,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "מ",
+    "rect": {
+     "x": 145.6719,
+     "y": 0,
+     "w": 12.0313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ח",
+    "rect": {
+     "x": 133.7031,
+     "y": 0,
+     "w": 11.9844,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "י",
+    "rect": {
+     "x": 128.7656,
+     "y": 0,
+     "w": 4.9531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ר",
+    "rect": {
+     "x": 118.5781,
+     "y": 0,
+     "w": 10.2031,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "rect": {
+     "x": 113.0313,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "1",
+    "rect": {
+     "x": 68.5313,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "2",
+    "rect": {
+     "x": 79.6406,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "3",
+    "rect": {
+     "x": 90.7656,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "4",
+    "rect": {
+     "x": 101.8906,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "\n",
+    "rect": {
+     "x": 62.9688,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "₪",
+    "rect": {
+     "x": 46.6563,
+     "y": 0,
+     "w": 16.3125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "rect": {
+     "x": 41.0938,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ב",
+    "rect": {
+     "x": 30.25,
+     "y": 0,
+     "w": 10.8594,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ל",
+    "rect": {
+     "x": 21,
+     "y": 0,
+     "w": 9.2656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "ב",
+    "rect": {
+     "x": 10.1563,
+     "y": 0,
+     "w": 10.8594,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "ד",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.1719,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 15,
+    "grapheme": "ד",
+    "x": 0
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "ב",
+    "x": 10.1563
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ל",
+    "x": 21
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ב",
+    "x": 30.25
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "x": 41.0938
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "₪",
+    "x": 46.6563
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "\n",
+    "x": 62.9688
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "1",
+    "x": 68.5313
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "2",
+    "x": 79.6406
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "3",
+    "x": 90.7656
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "4",
+    "x": 101.8906
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "x": 113.0313
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ר",
+    "x": 118.5781
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "י",
+    "x": 128.7656
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ח",
+    "x": 133.7031
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "מ",
+    "x": 145.6719
+   }
+  ],
+  "plainVisualOrderString": "דבלב ₪\n1234 ריחמ"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 89.1875,
+    "h": 46
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "מחיר",
+    "text": "מחיר",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "\u0000n211",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "\u0000n212",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "\u0000n213",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "\u0000n214",
+    "text": "4",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "newline-9",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 7,
+    "id": "₪",
+    "text": "₪",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 8,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 9,
+    "id": "בלבד",
+    "text": "בלבד",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "מחיר",
+    "tag": "span",
+    "text": "מחיר",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 50.0625,
+     "y": 0,
+     "w": 39.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "מ",
+      "rect": {
+       "x": 77.1406,
+       "y": 0,
+       "w": 12.0469,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ח",
+      "rect": {
+       "x": 65.1719,
+       "y": 0,
+       "w": 11.9844,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "י",
+      "rect": {
+       "x": 60.2344,
+       "y": 0,
+       "w": 4.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ר",
+      "rect": {
+       "x": 50.0625,
+       "y": 0,
+       "w": 10.1875,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "\u0000n211",
+    "tag": "span",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 33.375,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 33.375,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "1",
+      "rect": {
+       "x": 33.375,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "\u0000n212",
+    "tag": "span",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 22.25,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 22.25,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 22.25,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "\u0000n213",
+    "tag": "span",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 11.125,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 11.125,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "3",
+      "rect": {
+       "x": 11.125,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "\u0000n214",
+    "tag": "span",
+    "text": "4",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "4",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "newline-9",
+    "tag": "br",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 22
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline"
+    },
+    "mover": null,
+    "graphemes": []
+   },
+   {
+    "index": 7,
+    "id": "₪",
+    "tag": "span",
+    "text": "₪",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 72.875,
+     "y": 23,
+     "w": 16.3125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "₪",
+      "rect": {
+       "x": 72.875,
+       "y": 23,
+       "w": 16.3125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 8,
+    "id": "space-11",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 67.3125,
+     "y": 23,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 67.3125,
+       "y": 23,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 9,
+    "id": "בלבד",
+    "tag": "span",
+    "text": "בלבד",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 26.2031,
+     "y": 23,
+     "w": 41.1094,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ב",
+      "rect": {
+       "x": 56.4531,
+       "y": 23,
+       "w": 10.8594,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ל",
+      "rect": {
+       "x": 47.2031,
+       "y": 23,
+       "w": 9.2656,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ב",
+      "rect": {
+       "x": 36.3594,
+       "y": 23,
+       "w": 10.8594,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ד",
+      "rect": {
+       "x": 26.2031,
+       "y": 23,
+       "w": 10.1719,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 5,
+    "id": "\u0000n214",
+    "text": "4",
+    "kind": "digit",
+    "x": 0
+   },
+   {
+    "index": 6,
+    "id": "newline-9",
+    "text": "",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 4,
+    "id": "\u0000n213",
+    "text": "3",
+    "kind": "digit",
+    "x": 11.125
+   },
+   {
+    "index": 3,
+    "id": "\u0000n212",
+    "text": "2",
+    "kind": "digit",
+    "x": 22.25
+   },
+   {
+    "index": 9,
+    "id": "בלבד",
+    "text": "בלבד",
+    "kind": null,
+    "x": 26.2031
+   },
+   {
+    "index": 2,
+    "id": "\u0000n211",
+    "text": "1",
+    "kind": "digit",
+    "x": 33.375
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "x": 44.5
+   },
+   {
+    "index": 0,
+    "id": "מחיר",
+    "text": "מחיר",
+    "kind": null,
+    "x": 50.0625
+   },
+   {
+    "index": 8,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "x": 67.3125
+   },
+   {
+    "index": 7,
+    "id": "₪",
+    "text": "₪",
+    "kind": null,
+    "x": 72.875
+   }
+  ],
+  "torphVisualGlyphOrderString": "432דבלב1 ריחמ ₪"
+ }
+}

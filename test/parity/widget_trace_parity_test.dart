@@ -9,7 +9,7 @@ import 'package:torph/torph.dart';
 import '../widget/harness.dart';
 
 /// Widget-level parity against the browser oracle (`oracle/fixtures/runtime/*.json`).
-///
+/// Upstream Torph has no bidi reordering, so every widget is built with `bidi: false`.
 
 /// Relative tolerance on a normalised translate or root size (2 %).
 const double _rel = 0.02;
@@ -164,6 +164,7 @@ Future<void> _runWidgetTrace(WidgetTester tester, Map<String, dynamic> trace) as
           scale: (options['scale'] as bool?) ?? true,
           numbers: (options['numbers'] as bool?) ?? true,
           decimals: (options['decimals'] as num?)?.toInt(),
+          bidi: false,
           onAnimationStart: () => record('start'),
           onAnimationComplete: () => record('complete'),
           onAnimationCancel: () => record('cancel'),

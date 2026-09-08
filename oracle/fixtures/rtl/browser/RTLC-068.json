@@ -1,0 +1,1223 @@
+{
+ "id": "RTLC-068",
+ "category": "datetime",
+ "text": "התאריך היום הוא 08/09/2026",
+ "direction": "rtl",
+ "locale": "he",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "התאריך היום הוא 08/09/2026",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 240.3438,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "ה",
+    "rect": {
+     "x": 228.2969,
+     "y": 0,
+     "w": 12.0469,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ת",
+    "rect": {
+     "x": 215.4375,
+     "y": 0,
+     "w": 12.875,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "א",
+    "rect": {
+     "x": 204.1875,
+     "y": 0,
+     "w": 11.2656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ר",
+    "rect": {
+     "x": 194,
+     "y": 0,
+     "w": 10.2031,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "י",
+    "rect": {
+     "x": 189.0625,
+     "y": 0,
+     "w": 4.9531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "ך",
+    "rect": {
+     "x": 178.875,
+     "y": 0,
+     "w": 10.2031,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": " ",
+    "rect": {
+     "x": 173.3281,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ה",
+    "rect": {
+     "x": 161.2813,
+     "y": 0,
+     "w": 12.0625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "י",
+    "rect": {
+     "x": 156.3594,
+     "y": 0,
+     "w": 4.9375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "ו",
+    "rect": {
+     "x": 151.4219,
+     "y": 0,
+     "w": 4.9375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ם",
+    "rect": {
+     "x": 139.4531,
+     "y": 0,
+     "w": 11.9844,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "rect": {
+     "x": 133.8906,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ה",
+    "rect": {
+     "x": 121.8438,
+     "y": 0,
+     "w": 12.0625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ו",
+    "rect": {
+     "x": 116.9219,
+     "y": 0,
+     "w": 4.9375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "א",
+    "rect": {
+     "x": 105.6563,
+     "y": 0,
+     "w": 11.2813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": " ",
+    "rect": {
+     "x": 100.1094,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 16,
+    "grapheme": "0",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": "8",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "/",
+    "rect": {
+     "x": 22.2344,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "0",
+    "rect": {
+     "x": 27.7969,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 20,
+    "grapheme": "9",
+    "rect": {
+     "x": 38.9219,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 21,
+    "grapheme": "/",
+    "rect": {
+     "x": 50.0469,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 22,
+    "grapheme": "2",
+    "rect": {
+     "x": 55.5938,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 23,
+    "grapheme": "0",
+    "rect": {
+     "x": 66.7188,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 24,
+    "grapheme": "2",
+    "rect": {
+     "x": 77.8438,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 25,
+    "grapheme": "6",
+    "rect": {
+     "x": 88.9688,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 16,
+    "grapheme": "0",
+    "x": 0
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": "8",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "/",
+    "x": 22.2344
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "0",
+    "x": 27.7969
+   },
+   {
+    "logicalIndex": 20,
+    "grapheme": "9",
+    "x": 38.9219
+   },
+   {
+    "logicalIndex": 21,
+    "grapheme": "/",
+    "x": 50.0469
+   },
+   {
+    "logicalIndex": 22,
+    "grapheme": "2",
+    "x": 55.5938
+   },
+   {
+    "logicalIndex": 23,
+    "grapheme": "0",
+    "x": 66.7188
+   },
+   {
+    "logicalIndex": 24,
+    "grapheme": "2",
+    "x": 77.8438
+   },
+   {
+    "logicalIndex": 25,
+    "grapheme": "6",
+    "x": 88.9688
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": " ",
+    "x": 100.1094
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "א",
+    "x": 105.6563
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ו",
+    "x": 116.9219
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ה",
+    "x": 121.8438
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "x": 133.8906
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ם",
+    "x": 139.4531
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "ו",
+    "x": 151.4219
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "י",
+    "x": 156.3594
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ה",
+    "x": 161.2813
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": " ",
+    "x": 173.3281
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "ך",
+    "x": 178.875
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "י",
+    "x": 189.0625
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ר",
+    "x": 194
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "א",
+    "x": 204.1875
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ת",
+    "x": 215.4375
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "ה",
+    "x": 228.2969
+   }
+  ],
+  "plainVisualOrderString": "08/09/2026 אוה םויה ךיראתה"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 240.4063,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "התאריך",
+    "text": "התאריך",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-6",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "היום",
+    "text": "היום",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "הוא",
+    "text": "הוא",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "space-15",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "08",
+    "text": "08",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 7,
+    "id": "/",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 8,
+    "id": "09",
+    "text": "09",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 9,
+    "id": "/-21",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 10,
+    "id": "2026",
+    "text": "2026",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "התאריך",
+    "tag": "span",
+    "text": "התאריך",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 178.9375,
+     "y": 0,
+     "w": 61.4688,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ה",
+      "rect": {
+       "x": 228.3438,
+       "y": 0,
+       "w": 12.0625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ת",
+      "rect": {
+       "x": 215.5,
+       "y": 0,
+       "w": 12.8594,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "א",
+      "rect": {
+       "x": 204.2344,
+       "y": 0,
+       "w": 11.2656,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ר",
+      "rect": {
+       "x": 194.0469,
+       "y": 0,
+       "w": 10.2031,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "י",
+      "rect": {
+       "x": 189.1094,
+       "y": 0,
+       "w": 4.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 5,
+      "grapheme": "ך",
+      "rect": {
+       "x": 178.9375,
+       "y": 0,
+       "w": 10.1875,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-6",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 173.375,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 173.375,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "היום",
+    "tag": "span",
+    "text": "היום",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 139.4844,
+     "y": 0,
+     "w": 33.8906,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ה",
+      "rect": {
+       "x": 161.3125,
+       "y": 0,
+       "w": 12.0625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "י",
+      "rect": {
+       "x": 156.375,
+       "y": 0,
+       "w": 4.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ו",
+      "rect": {
+       "x": 151.4531,
+       "y": 0,
+       "w": 4.9375,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ם",
+      "rect": {
+       "x": 139.4844,
+       "y": 0,
+       "w": 11.9844,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 133.9219,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 133.9219,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "הוא",
+    "tag": "span",
+    "text": "הוא",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 105.6875,
+     "y": 0,
+     "w": 28.2344,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ה",
+      "rect": {
+       "x": 121.875,
+       "y": 0,
+       "w": 12.0469,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ו",
+      "rect": {
+       "x": 116.9375,
+       "y": 0,
+       "w": 4.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "א",
+      "rect": {
+       "x": 105.6875,
+       "y": 0,
+       "w": 11.2656,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "space-15",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 100.125,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 100.125,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "08",
+    "tag": "span",
+    "text": "08",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 77.875,
+     "y": 0,
+     "w": 22.25,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "0",
+      "rect": {
+       "x": 77.875,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "8",
+      "rect": {
+       "x": 88.9844,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 7,
+    "id": "/",
+    "tag": "span",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 72.3125,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "/",
+      "rect": {
+       "x": 72.3125,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 8,
+    "id": "09",
+    "tag": "span",
+    "text": "09",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 50.0625,
+     "y": 0,
+     "w": 22.25,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "0",
+      "rect": {
+       "x": 50.0625,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "9",
+      "rect": {
+       "x": 61.1719,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 9,
+    "id": "/-21",
+    "tag": "span",
+    "text": "/",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 44.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "/",
+      "rect": {
+       "x": 44.5,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 10,
+    "id": "2026",
+    "tag": "span",
+    "text": "2026",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 44.5,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "0",
+      "rect": {
+       "x": 11.1094,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "2",
+      "rect": {
+       "x": 22.2344,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "6",
+      "rect": {
+       "x": 33.3594,
+       "y": 0,
+       "w": 11.1406,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 10,
+    "id": "2026",
+    "text": "2026",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 9,
+    "id": "/-21",
+    "text": "/",
+    "kind": null,
+    "x": 44.5
+   },
+   {
+    "index": 8,
+    "id": "09",
+    "text": "09",
+    "kind": null,
+    "x": 50.0625
+   },
+   {
+    "index": 7,
+    "id": "/",
+    "text": "/",
+    "kind": null,
+    "x": 72.3125
+   },
+   {
+    "index": 6,
+    "id": "08",
+    "text": "08",
+    "kind": null,
+    "x": 77.875
+   },
+   {
+    "index": 5,
+    "id": "space-15",
+    "text": " ",
+    "kind": null,
+    "x": 100.125
+   },
+   {
+    "index": 4,
+    "id": "הוא",
+    "text": "הוא",
+    "kind": null,
+    "x": 105.6875
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "x": 133.9219
+   },
+   {
+    "index": 2,
+    "id": "היום",
+    "text": "היום",
+    "kind": null,
+    "x": 139.4844
+   },
+   {
+    "index": 1,
+    "id": "space-6",
+    "text": " ",
+    "kind": null,
+    "x": 173.375
+   },
+   {
+    "index": 0,
+    "id": "התאריך",
+    "text": "התאריך",
+    "kind": null,
+    "x": 178.9375
+   }
+  ],
+  "torphVisualGlyphOrderString": "2026/09/08 אוה םויה ךיראתה"
+ }
+}

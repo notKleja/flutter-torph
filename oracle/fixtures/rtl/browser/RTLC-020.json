@@ -1,0 +1,660 @@
+{
+ "id": "RTLC-020",
+ "category": "persian-digits",
+ "text": "قیمت ۱۲۳۴ تومان",
+ "direction": "ltr",
+ "locale": "fa",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "قیمت ۱۲۳۴ تومان",
+  "computed": {
+   "direction": "ltr",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 122.1094,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "ق",
+    "rect": {
+     "x": 116.7344,
+     "y": 0,
+     "w": 5.375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "rect": {
+     "x": 111.8594,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "م",
+    "rect": {
+     "x": 103.9688,
+     "y": 0,
+     "w": 7.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ت",
+    "rect": {
+     "x": 89.7031,
+     "y": 0,
+     "w": 14.2813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "rect": {
+     "x": 84.1563,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "۱",
+    "rect": {
+     "x": 42.0781,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "۲",
+    "rect": {
+     "x": 52.5938,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "۳",
+    "rect": {
+     "x": 63.1094,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "۴",
+    "rect": {
+     "x": 73.625,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": " ",
+    "rect": {
+     "x": 36.5,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ت",
+    "rect": {
+     "x": 31.625,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "و",
+    "rect": {
+     "x": 22.9844,
+     "y": 0,
+     "w": 8.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "م",
+    "rect": {
+     "x": 15.0938,
+     "y": 0,
+     "w": 7.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "rect": {
+     "x": 10.5156,
+     "y": 0,
+     "w": 4.5938,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "ن",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 14,
+    "grapheme": "ن",
+    "x": 0
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "x": 10.5156
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "م",
+    "x": 15.0938
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "و",
+    "x": 22.9844
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ت",
+    "x": 31.625
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": " ",
+    "x": 36.5
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": "۱",
+    "x": 42.0781
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "۲",
+    "x": 52.5938
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "۳",
+    "x": 63.1094
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "۴",
+    "x": 73.625
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": " ",
+    "x": 84.1563
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ت",
+    "x": 89.7031
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "م",
+    "x": 103.9688
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ی",
+    "x": 111.8594
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "ق",
+    "x": 116.7344
+   }
+  ],
+  "plainVisualOrderString": "ناموت ۱۲۳۴ تمیق"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "ltr",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 122.1094,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "قیمت",
+    "text": "قیمت",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳۴",
+    "text": "۱۲۳۴",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "تومان",
+    "text": "تومان",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "قیمت",
+    "tag": "span",
+    "text": "قیمت",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 32.3906,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "ltr",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ق",
+      "rect": {
+       "x": 27.0313,
+       "y": 0,
+       "w": 5.3594,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ی",
+      "rect": {
+       "x": 22.1406,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "م",
+      "rect": {
+       "x": 14.2656,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ت",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 14.2813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 32.3906,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "ltr",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 32.3906,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳۴",
+    "tag": "span",
+    "text": "۱۲۳۴",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 37.9531,
+     "y": 0,
+     "w": 42.0781,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "ltr",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "۱",
+      "rect": {
+       "x": 37.9531,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "۲",
+      "rect": {
+       "x": 48.4688,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "۳",
+      "rect": {
+       "x": 58.9844,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "۴",
+      "rect": {
+       "x": 69.5,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 80.0313,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "ltr",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 80.0313,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "تومان",
+    "tag": "span",
+    "text": "تومان",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 85.5938,
+     "y": 0,
+     "w": 36.5156,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "ltr",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ت",
+      "rect": {
+       "x": 117.2188,
+       "y": 0,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "و",
+      "rect": {
+       "x": 108.5781,
+       "y": 0,
+       "w": 8.6563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "م",
+      "rect": {
+       "x": 100.6875,
+       "y": 0,
+       "w": 7.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 96.1094,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ن",
+      "rect": {
+       "x": 85.5938,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 0,
+    "id": "قیمت",
+    "text": "قیمت",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 1,
+    "id": "space-4",
+    "text": " ",
+    "kind": null,
+    "x": 32.3906
+   },
+   {
+    "index": 2,
+    "id": "۱۲۳۴",
+    "text": "۱۲۳۴",
+    "kind": null,
+    "x": 37.9531
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "text": " ",
+    "kind": null,
+    "x": 80.0313
+   },
+   {
+    "index": 4,
+    "id": "تومان",
+    "text": "تومان",
+    "kind": null,
+    "x": 85.5938
+   }
+  ],
+  "torphVisualGlyphOrderString": "تمیق ۱۲۳۴ ناموت"
+ }
+}

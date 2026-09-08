@@ -1,0 +1,2550 @@
+{
+ "id": "RTLC-070",
+ "category": "newline",
+ "text": "السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 366.9063,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "ا",
+    "rect": {
+     "x": 362.75,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "rect": {
+     "x": 358.6094,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "س",
+    "rect": {
+     "x": 347.9844,
+     "y": 0,
+     "w": 10.6406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ط",
+    "rect": {
+     "x": 336.3594,
+     "y": 0,
+     "w": 11.6406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ر",
+    "rect": {
+     "x": 326.5781,
+     "y": 0,
+     "w": 9.7969,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 321.0313,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ا",
+    "rect": {
+     "x": 316.8906,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ل",
+    "rect": {
+     "x": 311.4531,
+     "y": 0,
+     "w": 5.4531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "أ",
+    "rect": {
+     "x": 306,
+     "y": 0,
+     "w": 5.4531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "و",
+    "rect": {
+     "x": 297.3594,
+     "y": 0,
+     "w": 8.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ل",
+    "rect": {
+     "x": 287.2344,
+     "y": 0,
+     "w": 10.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "rect": {
+     "x": 281.6875,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "1",
+    "rect": {
+     "x": 251.2813,
+     "y": 0,
+     "w": 10.3906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "1",
+    "rect": {
+     "x": 261.6563,
+     "y": 0,
+     "w": 9.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "1",
+    "rect": {
+     "x": 271.2969,
+     "y": 0,
+     "w": 10.3906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "\n",
+    "rect": {
+     "x": 245.7031,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 16,
+    "grapheme": "ا",
+    "rect": {
+     "x": 241.5625,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": "ل",
+    "rect": {
+     "x": 237.4219,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "س",
+    "rect": {
+     "x": 226.8125,
+     "y": 0,
+     "w": 10.625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "ط",
+    "rect": {
+     "x": 215.1719,
+     "y": 0,
+     "w": 11.6563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 20,
+    "grapheme": "ر",
+    "rect": {
+     "x": 205.4063,
+     "y": 0,
+     "w": 9.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 21,
+    "grapheme": " ",
+    "rect": {
+     "x": 199.8438,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 22,
+    "grapheme": "ا",
+    "rect": {
+     "x": 195.7031,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 23,
+    "grapheme": "ل",
+    "rect": {
+     "x": 191.5625,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 24,
+    "grapheme": "ث",
+    "rect": {
+     "x": 186.6875,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 25,
+    "grapheme": "ا",
+    "rect": {
+     "x": 182.0938,
+     "y": 0,
+     "w": 4.5938,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 26,
+    "grapheme": "ن",
+    "rect": {
+     "x": 177.2031,
+     "y": 0,
+     "w": 4.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 27,
+    "grapheme": "ي",
+    "rect": {
+     "x": 165.4375,
+     "y": 0,
+     "w": 11.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 28,
+    "grapheme": " ",
+    "rect": {
+     "x": 159.8906,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 29,
+    "grapheme": "2",
+    "rect": {
+     "x": 126.5156,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 30,
+    "grapheme": "2",
+    "rect": {
+     "x": 137.625,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 31,
+    "grapheme": "2",
+    "rect": {
+     "x": 148.75,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 32,
+    "grapheme": "\n",
+    "rect": {
+     "x": 120.9531,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 33,
+    "grapheme": "ا",
+    "rect": {
+     "x": 116.8125,
+     "y": 0,
+     "w": 4.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 34,
+    "grapheme": "ل",
+    "rect": {
+     "x": 112.6719,
+     "y": 0,
+     "w": 4.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 35,
+    "grapheme": "س",
+    "rect": {
+     "x": 102.0469,
+     "y": 0,
+     "w": 10.625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 36,
+    "grapheme": "ط",
+    "rect": {
+     "x": 90.4219,
+     "y": 0,
+     "w": 11.6406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 37,
+    "grapheme": "ر",
+    "rect": {
+     "x": 80.6406,
+     "y": 0,
+     "w": 9.7969,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 38,
+    "grapheme": " ",
+    "rect": {
+     "x": 75.0938,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 39,
+    "grapheme": "ا",
+    "rect": {
+     "x": 70.9531,
+     "y": 0,
+     "w": 4.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 40,
+    "grapheme": "ل",
+    "rect": {
+     "x": 66.8125,
+     "y": 0,
+     "w": 4.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 41,
+    "grapheme": "ث",
+    "rect": {
+     "x": 61.9219,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 42,
+    "grapheme": "ا",
+    "rect": {
+     "x": 57.3281,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 43,
+    "grapheme": "ل",
+    "rect": {
+     "x": 53.1875,
+     "y": 0,
+     "w": 4.1563,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 44,
+    "grapheme": "ث",
+    "rect": {
+     "x": 38.9219,
+     "y": 0,
+     "w": 14.2813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 45,
+    "grapheme": " ",
+    "rect": {
+     "x": 33.375,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 46,
+    "grapheme": "3",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 47,
+    "grapheme": "3",
+    "rect": {
+     "x": 11.1094,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 48,
+    "grapheme": "3",
+    "rect": {
+     "x": 22.2344,
+     "y": 0,
+     "w": 11.1406,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 46,
+    "grapheme": "3",
+    "x": 0
+   },
+   {
+    "logicalIndex": 47,
+    "grapheme": "3",
+    "x": 11.1094
+   },
+   {
+    "logicalIndex": 48,
+    "grapheme": "3",
+    "x": 22.2344
+   },
+   {
+    "logicalIndex": 45,
+    "grapheme": " ",
+    "x": 33.375
+   },
+   {
+    "logicalIndex": 44,
+    "grapheme": "ث",
+    "x": 38.9219
+   },
+   {
+    "logicalIndex": 43,
+    "grapheme": "ل",
+    "x": 53.1875
+   },
+   {
+    "logicalIndex": 42,
+    "grapheme": "ا",
+    "x": 57.3281
+   },
+   {
+    "logicalIndex": 41,
+    "grapheme": "ث",
+    "x": 61.9219
+   },
+   {
+    "logicalIndex": 40,
+    "grapheme": "ل",
+    "x": 66.8125
+   },
+   {
+    "logicalIndex": 39,
+    "grapheme": "ا",
+    "x": 70.9531
+   },
+   {
+    "logicalIndex": 38,
+    "grapheme": " ",
+    "x": 75.0938
+   },
+   {
+    "logicalIndex": 37,
+    "grapheme": "ر",
+    "x": 80.6406
+   },
+   {
+    "logicalIndex": 36,
+    "grapheme": "ط",
+    "x": 90.4219
+   },
+   {
+    "logicalIndex": 35,
+    "grapheme": "س",
+    "x": 102.0469
+   },
+   {
+    "logicalIndex": 34,
+    "grapheme": "ل",
+    "x": 112.6719
+   },
+   {
+    "logicalIndex": 33,
+    "grapheme": "ا",
+    "x": 116.8125
+   },
+   {
+    "logicalIndex": 32,
+    "grapheme": "\n",
+    "x": 120.9531
+   },
+   {
+    "logicalIndex": 29,
+    "grapheme": "2",
+    "x": 126.5156
+   },
+   {
+    "logicalIndex": 30,
+    "grapheme": "2",
+    "x": 137.625
+   },
+   {
+    "logicalIndex": 31,
+    "grapheme": "2",
+    "x": 148.75
+   },
+   {
+    "logicalIndex": 28,
+    "grapheme": " ",
+    "x": 159.8906
+   },
+   {
+    "logicalIndex": 27,
+    "grapheme": "ي",
+    "x": 165.4375
+   },
+   {
+    "logicalIndex": 26,
+    "grapheme": "ن",
+    "x": 177.2031
+   },
+   {
+    "logicalIndex": 25,
+    "grapheme": "ا",
+    "x": 182.0938
+   },
+   {
+    "logicalIndex": 24,
+    "grapheme": "ث",
+    "x": 186.6875
+   },
+   {
+    "logicalIndex": 23,
+    "grapheme": "ل",
+    "x": 191.5625
+   },
+   {
+    "logicalIndex": 22,
+    "grapheme": "ا",
+    "x": 195.7031
+   },
+   {
+    "logicalIndex": 21,
+    "grapheme": " ",
+    "x": 199.8438
+   },
+   {
+    "logicalIndex": 20,
+    "grapheme": "ر",
+    "x": 205.4063
+   },
+   {
+    "logicalIndex": 19,
+    "grapheme": "ط",
+    "x": 215.1719
+   },
+   {
+    "logicalIndex": 18,
+    "grapheme": "س",
+    "x": 226.8125
+   },
+   {
+    "logicalIndex": 17,
+    "grapheme": "ل",
+    "x": 237.4219
+   },
+   {
+    "logicalIndex": 16,
+    "grapheme": "ا",
+    "x": 241.5625
+   },
+   {
+    "logicalIndex": 15,
+    "grapheme": "\n",
+    "x": 245.7031
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "1",
+    "x": 251.2813
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "1",
+    "x": 261.6563
+   },
+   {
+    "logicalIndex": 14,
+    "grapheme": "1",
+    "x": 271.2969
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": " ",
+    "x": 281.6875
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ل",
+    "x": 287.2344
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "و",
+    "x": 297.3594
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "أ",
+    "x": 306
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "ل",
+    "x": 311.4531
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "ا",
+    "x": 316.8906
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 321.0313
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ر",
+    "x": 326.5781
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ط",
+    "x": 336.3594
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "س",
+    "x": 347.9844
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ل",
+    "x": 358.6094
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "ا",
+    "x": 362.75
+   }
+  ],
+  "plainVisualOrderString": "333 ثلاثلا رطسلا\n222 يناثلا رطسلا\n111 لوألا رطسلا"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 120.9844,
+    "h": 69
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "السطر",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "الأول",
+    "text": "الأول",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "\u0000n202",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "\u0000n203",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "\u0000n204",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 7,
+    "id": "newline-15",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 8,
+    "id": "السطر-16",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 9,
+    "id": "space-21",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 10,
+    "id": "الثاني",
+    "text": "الثاني",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 11,
+    "id": "space-28",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 12,
+    "id": "\u0000n205",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 13,
+    "id": "\u0000n206",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 14,
+    "id": "\u0000n207",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 15,
+    "id": "newline-32",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 16,
+    "id": "السطر-33",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 17,
+    "id": "space-38",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 18,
+    "id": "الثالث",
+    "text": "الثالث",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 19,
+    "id": "space-45",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 20,
+    "id": "\u0000n208",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 21,
+    "id": "\u0000n209",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 22,
+    "id": "\u0000n210",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "السطر",
+    "tag": "span",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 80.6719,
+     "y": 0,
+     "w": 40.3125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 116.8281,
+       "y": 0,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 112.6875,
+       "y": 0,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "س",
+      "rect": {
+       "x": 102.0781,
+       "y": 0,
+       "w": 10.625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ط",
+      "rect": {
+       "x": 90.4375,
+       "y": 0,
+       "w": 11.6406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ر",
+      "rect": {
+       "x": 80.6719,
+       "y": 0,
+       "w": 9.7813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 75.1094,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 75.1094,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "الأول",
+    "tag": "span",
+    "text": "الأول",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 41.3125,
+     "y": 0,
+     "w": 33.7969,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 70.9531,
+       "y": 0,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 65.5156,
+       "y": 0,
+       "w": 5.4531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "أ",
+      "rect": {
+       "x": 60.0781,
+       "y": 0,
+       "w": 5.4531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "و",
+      "rect": {
+       "x": 51.4375,
+       "y": 0,
+       "w": 8.6563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ل",
+      "rect": {
+       "x": 41.3125,
+       "y": 0,
+       "w": 10.1406,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 35.75,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 35.75,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "\u0000n202",
+    "tag": "span",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 24.625,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 24.625,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "1",
+      "rect": {
+       "x": 24.625,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "\u0000n203",
+    "tag": "span",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 13.5,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 13.5,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "1",
+      "rect": {
+       "x": 13.5,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "\u0000n204",
+    "tag": "span",
+    "text": "1",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 2.375,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 2.375,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "1",
+      "rect": {
+       "x": 2.375,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 7,
+    "id": "newline-15",
+    "tag": "br",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 2.375,
+     "y": 0,
+     "w": 0,
+     "h": 22
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline"
+    },
+    "mover": null,
+    "graphemes": []
+   },
+   {
+    "index": 8,
+    "id": "السطر-16",
+    "tag": "span",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 80.6719,
+     "y": 23,
+     "w": 40.3125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 116.8281,
+       "y": 23,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 112.6875,
+       "y": 23,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "س",
+      "rect": {
+       "x": 102.0781,
+       "y": 23,
+       "w": 10.625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ط",
+      "rect": {
+       "x": 90.4375,
+       "y": 23,
+       "w": 11.6406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ر",
+      "rect": {
+       "x": 80.6719,
+       "y": 23,
+       "w": 9.7813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 9,
+    "id": "space-21",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 75.1094,
+     "y": 23,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 75.1094,
+       "y": 23,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 10,
+    "id": "الثاني",
+    "tag": "span",
+    "text": "الثاني",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 40.7031,
+     "y": 23,
+     "w": 34.4063,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 70.9531,
+       "y": 23,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 66.8125,
+       "y": 23,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ث",
+      "rect": {
+       "x": 61.9375,
+       "y": 23,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 57.3438,
+       "y": 23,
+       "w": 4.6094,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ن",
+      "rect": {
+       "x": 52.4688,
+       "y": 23,
+       "w": 4.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 5,
+      "grapheme": "ي",
+      "rect": {
+       "x": 40.7031,
+       "y": 23,
+       "w": 11.7813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 11,
+    "id": "space-28",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 35.1406,
+     "y": 23,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 35.1406,
+       "y": 23,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 12,
+    "id": "\u0000n205",
+    "tag": "span",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 24.0156,
+     "y": 23,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 24.0156,
+      "y": 23,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 24.0156,
+       "y": 23,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 13,
+    "id": "\u0000n206",
+    "tag": "span",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 12.8906,
+     "y": 23,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 12.8906,
+      "y": 23,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 12.8906,
+       "y": 23,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 14,
+    "id": "\u0000n207",
+    "tag": "span",
+    "text": "2",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 1.7656,
+     "y": 23,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 1.7656,
+      "y": 23,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "2",
+      "rect": {
+       "x": 1.7656,
+       "y": 23,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 15,
+    "id": "newline-32",
+    "tag": "br",
+    "text": "",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 1.7656,
+     "y": 23,
+     "w": 0,
+     "h": 22
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline"
+    },
+    "mover": null,
+    "graphemes": []
+   },
+   {
+    "index": 16,
+    "id": "السطر-33",
+    "tag": "span",
+    "text": "السطر",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 80.6719,
+     "y": 46,
+     "w": 40.3125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 116.8281,
+       "y": 46,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 112.6875,
+       "y": 46,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "س",
+      "rect": {
+       "x": 102.0781,
+       "y": 46,
+       "w": 10.625,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ط",
+      "rect": {
+       "x": 90.4375,
+       "y": 46,
+       "w": 11.6406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ر",
+      "rect": {
+       "x": 80.6719,
+       "y": 46,
+       "w": 9.7813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 17,
+    "id": "space-38",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 75.1094,
+     "y": 46,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 75.1094,
+       "y": 46,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 18,
+    "id": "الثالث",
+    "tag": "span",
+    "text": "الثالث",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 38.9375,
+     "y": 46,
+     "w": 36.1719,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ا",
+      "rect": {
+       "x": 70.9531,
+       "y": 46,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ل",
+      "rect": {
+       "x": 66.8125,
+       "y": 46,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ث",
+      "rect": {
+       "x": 61.9219,
+       "y": 46,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 57.3438,
+       "y": 46,
+       "w": 4.5938,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ل",
+      "rect": {
+       "x": 53.2031,
+       "y": 46,
+       "w": 4.1563,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 5,
+      "grapheme": "ث",
+      "rect": {
+       "x": 38.9375,
+       "y": 46,
+       "w": 14.2813,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 19,
+    "id": "space-45",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 33.375,
+     "y": 46,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 33.375,
+       "y": 46,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 20,
+    "id": "\u0000n208",
+    "tag": "span",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 22.25,
+     "y": 46,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 22.25,
+      "y": 46,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "3",
+      "rect": {
+       "x": 22.25,
+       "y": 46,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 21,
+    "id": "\u0000n209",
+    "tag": "span",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 11.125,
+     "y": 46,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 11.125,
+      "y": 46,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "3",
+      "rect": {
+       "x": 11.125,
+       "y": 46,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 22,
+    "id": "\u0000n210",
+    "tag": "span",
+    "text": "3",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 46,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 0,
+      "y": 46,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "3",
+      "rect": {
+       "x": 0,
+       "y": 46,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 22,
+    "id": "\u0000n210",
+    "text": "3",
+    "kind": "digit",
+    "x": 0
+   },
+   {
+    "index": 14,
+    "id": "\u0000n207",
+    "text": "2",
+    "kind": "digit",
+    "x": 1.7656
+   },
+   {
+    "index": 15,
+    "id": "newline-32",
+    "text": "",
+    "kind": null,
+    "x": 1.7656
+   },
+   {
+    "index": 6,
+    "id": "\u0000n204",
+    "text": "1",
+    "kind": "digit",
+    "x": 2.375
+   },
+   {
+    "index": 7,
+    "id": "newline-15",
+    "text": "",
+    "kind": null,
+    "x": 2.375
+   },
+   {
+    "index": 21,
+    "id": "\u0000n209",
+    "text": "3",
+    "kind": "digit",
+    "x": 11.125
+   },
+   {
+    "index": 13,
+    "id": "\u0000n206",
+    "text": "2",
+    "kind": "digit",
+    "x": 12.8906
+   },
+   {
+    "index": 5,
+    "id": "\u0000n203",
+    "text": "1",
+    "kind": "digit",
+    "x": 13.5
+   },
+   {
+    "index": 20,
+    "id": "\u0000n208",
+    "text": "3",
+    "kind": "digit",
+    "x": 22.25
+   },
+   {
+    "index": 12,
+    "id": "\u0000n205",
+    "text": "2",
+    "kind": "digit",
+    "x": 24.0156
+   },
+   {
+    "index": 4,
+    "id": "\u0000n202",
+    "text": "1",
+    "kind": "digit",
+    "x": 24.625
+   },
+   {
+    "index": 19,
+    "id": "space-45",
+    "text": " ",
+    "kind": null,
+    "x": 33.375
+   },
+   {
+    "index": 11,
+    "id": "space-28",
+    "text": " ",
+    "kind": null,
+    "x": 35.1406
+   },
+   {
+    "index": 3,
+    "id": "space-11",
+    "text": " ",
+    "kind": null,
+    "x": 35.75
+   },
+   {
+    "index": 18,
+    "id": "الثالث",
+    "text": "الثالث",
+    "kind": null,
+    "x": 38.9375
+   },
+   {
+    "index": 10,
+    "id": "الثاني",
+    "text": "الثاني",
+    "kind": null,
+    "x": 40.7031
+   },
+   {
+    "index": 2,
+    "id": "الأول",
+    "text": "الأول",
+    "kind": null,
+    "x": 41.3125
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "x": 75.1094
+   },
+   {
+    "index": 9,
+    "id": "space-21",
+    "text": " ",
+    "kind": null,
+    "x": 75.1094
+   },
+   {
+    "index": 17,
+    "id": "space-38",
+    "text": " ",
+    "kind": null,
+    "x": 75.1094
+   },
+   {
+    "index": 0,
+    "id": "السطر",
+    "text": "السطر",
+    "kind": null,
+    "x": 80.6719
+   },
+   {
+    "index": 8,
+    "id": "السطر-16",
+    "text": "السطر",
+    "kind": null,
+    "x": 80.6719
+   },
+   {
+    "index": 16,
+    "id": "السطر-33",
+    "text": "السطر",
+    "kind": null,
+    "x": 80.6719
+   }
+  ],
+  "torphVisualGlyphOrderString": "321321321   ثلاثلايناثلالوألا   رطسلارطسلارطسلا"
+ }
+}

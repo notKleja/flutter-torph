@@ -1,0 +1,728 @@
+{
+ "id": "RTLC-025",
+ "category": "hebrew",
+ "text": "יש לי 7 ספרים",
+ "direction": "rtl",
+ "locale": "he",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "יש לי 7 ספרים",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 110.3125,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "י",
+    "rect": {
+     "x": 105.375,
+     "y": 0,
+     "w": 4.9375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ש",
+    "rect": {
+     "x": 91.4844,
+     "y": 0,
+     "w": 13.9063,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": " ",
+    "rect": {
+     "x": 85.9219,
+     "y": 0,
+     "w": 5.5781,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ל",
+    "rect": {
+     "x": 76.6719,
+     "y": 0,
+     "w": 9.2656,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "י",
+    "rect": {
+     "x": 71.7344,
+     "y": 0,
+     "w": 4.9531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 66.1875,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "7",
+    "rect": {
+     "x": 55.0625,
+     "y": 0,
+     "w": 11.125,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": " ",
+    "rect": {
+     "x": 49.5,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "ס",
+    "rect": {
+     "x": 38.0156,
+     "y": 0,
+     "w": 11.5,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "פ",
+    "rect": {
+     "x": 27.0781,
+     "y": 0,
+     "w": 10.9531,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ר",
+    "rect": {
+     "x": 16.8906,
+     "y": 0,
+     "w": 10.2031,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "י",
+    "rect": {
+     "x": 11.9688,
+     "y": 0,
+     "w": 4.9375,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ם",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 11.9844,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 12,
+    "grapheme": "ם",
+    "x": 0
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "י",
+    "x": 11.9688
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "ר",
+    "x": 16.8906
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": "פ",
+    "x": 27.0781
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "ס",
+    "x": 38.0156
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": " ",
+    "x": 49.5
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "7",
+    "x": 55.0625
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 66.1875
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "י",
+    "x": 71.7344
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ל",
+    "x": 76.6719
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": " ",
+    "x": 85.9219
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ש",
+    "x": 91.4844
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "י",
+    "x": 105.375
+   }
+  ],
+  "plainVisualOrderString": "םירפס 7 יל שי"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 110.3594,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "יש",
+    "text": "יש",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-2",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "לי",
+    "text": "לי",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "\u0000n71",
+    "text": "7",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false
+   },
+   {
+    "index": 5,
+    "id": "space-7",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 6,
+    "id": "ספרים",
+    "text": "ספרים",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "יש",
+    "tag": "span",
+    "text": "יש",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 91.5313,
+     "y": 0,
+     "w": 18.8281,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "י",
+      "rect": {
+       "x": 105.4063,
+       "y": 0,
+       "w": 4.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ש",
+      "rect": {
+       "x": 91.5313,
+       "y": 0,
+       "w": 13.8906,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-2",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 85.9688,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 85.9688,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "לי",
+    "tag": "span",
+    "text": "לי",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 71.7656,
+     "y": 0,
+     "w": 14.2031,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ל",
+      "rect": {
+       "x": 76.6875,
+       "y": 0,
+       "w": 9.2813,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "י",
+      "rect": {
+       "x": 71.7656,
+       "y": 0,
+       "w": 4.9375,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 66.2031,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 66.2031,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "\u0000n71",
+    "tag": "span",
+    "text": "7",
+    "kind": "digit",
+    "slot": true,
+    "exiting": false,
+    "rect": {
+     "x": 55.0781,
+     "y": 0,
+     "w": 11.125,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": {
+     "rect": {
+      "x": 55.0781,
+      "y": 0,
+      "w": 11.125,
+      "h": 23
+     },
+     "transform": "none",
+     "translate": {
+      "tx": 0,
+      "ty": 0
+     },
+     "scale": {
+      "sx": 1,
+      "sy": 1
+     },
+     "opacity": 1,
+     "computed": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block"
+     }
+    },
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "7",
+      "rect": {
+       "x": 55.0781,
+       "y": 0,
+       "w": 11.125,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 5,
+    "id": "space-7",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 49.5156,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 49.5156,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 6,
+    "id": "ספרים",
+    "tag": "span",
+    "text": "ספרים",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 49.5156,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "ס",
+      "rect": {
+       "x": 38.0156,
+       "y": 0,
+       "w": 11.5,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "פ",
+      "rect": {
+       "x": 27.0781,
+       "y": 0,
+       "w": 10.9531,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ר",
+      "rect": {
+       "x": 16.8906,
+       "y": 0,
+       "w": 10.2031,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "י",
+      "rect": {
+       "x": 11.9688,
+       "y": 0,
+       "w": 4.9375,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ם",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 11.9844,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 6,
+    "id": "ספרים",
+    "text": "ספרים",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 5,
+    "id": "space-7",
+    "text": " ",
+    "kind": null,
+    "x": 49.5156
+   },
+   {
+    "index": 4,
+    "id": "\u0000n71",
+    "text": "7",
+    "kind": "digit",
+    "x": 55.0781
+   },
+   {
+    "index": 3,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "x": 66.2031
+   },
+   {
+    "index": 2,
+    "id": "לי",
+    "text": "לי",
+    "kind": null,
+    "x": 71.7656
+   },
+   {
+    "index": 1,
+    "id": "space-2",
+    "text": " ",
+    "kind": null,
+    "x": 85.9688
+   },
+   {
+    "index": 0,
+    "id": "יש",
+    "text": "יש",
+    "kind": null,
+    "x": 91.5313
+   }
+  ],
+  "torphVisualGlyphOrderString": "םירפס 7 יל שי"
+ }
+}

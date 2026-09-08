@@ -32,6 +32,7 @@ class TextMorphOptions {
     this.numbers = true,
     this.decimals,
     this.blur = defaultBlur,
+    this.bidi = true,
   });
 
   final String locale;
@@ -47,6 +48,9 @@ class TextMorphOptions {
   final int? decimals;
   final double blur;
 
+  /// Place each segment where the Unicode Bidirectional Algorithm puts it.
+  final bool bidi;
+
   @override
   bool operator ==(Object other) =>
       other is TextMorphOptions &&
@@ -59,11 +63,12 @@ class TextMorphOptions {
       other.scale == scale &&
       other.numbers == numbers &&
       other.decimals == decimals &&
-      other.blur == blur;
+      other.blur == blur &&
+      other.bidi == bidi;
 
   @override
   int get hashCode => Object.hash(locale, duration, ease, disabled,
-      respectReducedMotion, debug, scale, numbers, decimals, blur);
+      respectReducedMotion, debug, scale, numbers, decimals, blur, bidi);
 }
 
 /// Upstream `DEFAULT_TEXT_MORPH_OPTIONS`.

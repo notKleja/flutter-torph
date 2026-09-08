@@ -25,7 +25,7 @@ Release candidate requires every row PASS with automated evidence, P0 = P1 = 0, 
 | Rapid retargeting | PASS (storms 16 ms) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
 | Empty state | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
 | Explicit newlines | PASS + widget: widget_trace_parity 169 traces, adversarial, fuzz |
-| RTL | PASS (18 RTL-root traces, Q-025) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
+| RTL | PASS — bidi-correct by default (DEV-006: test/rtl/rtl_bidi_corpus_test 162 cases vs a plain TextPainter, rtl_invariants 14); upstream rule kept under `bidi: false` (18 RTL-root traces, Q-025; RTL audit: 162-case bidi corpus static parity + 148 kinematic traces + macOS/iOS runs, spec/RTL_AUDIT.md; RTL-002 upstream limitation documented) + widget: widget_trace_parity 169 traces, adversarial, fuzz |
 | Semantics | PASS (test/widget/semantics_test, fuzz label invariant) |
 | Reduced motion | PASS (test/widget/reduced_motion_test, adversarial disabled mid-morph) |
 | Callbacks/lifecycle | PASS (callback log in all traces) + widget: widget_trace_parity 169 traces, adversarial, fuzz |

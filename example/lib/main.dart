@@ -22,10 +22,7 @@ class TorphExampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'torph',
-      theme: ThemeData(
-        colorSchemeSeed: const Color(0xFF3B5BDB),
-        useMaterial3: true,
-      ),
+      theme: ThemeData(colorSchemeSeed: const Color(0xFF3B5BDB), useMaterial3: true),
       home: const HomePage(),
     );
   }
@@ -56,22 +53,22 @@ class _HomePageState extends State<HomePage> {
             ),
             CounterDemo(options: _options),
             CorpusDemo(
-              key: const Key('sentence-demo'),
+              key: Key('sentence-demo-${_options.language}'),
               title: 'Sentence',
-              cases: sentenceCases,
+              cases: _options.arabic ? arabicSentenceCases : sentenceCases,
               options: _options,
             ),
             CorpusDemo(
-              key: const Key('number-demo'),
+              key: Key('number-demo-${_options.language}'),
               title: 'Numbers',
-              cases: numberCases,
+              cases: _options.arabic ? arabicNumberCases : numberCases,
               options: _options,
               tabular: true,
             ),
             CorpusDemo(
-              key: const Key('multiline-demo'),
+              key: Key('multiline-demo-${_options.language}'),
               title: 'Multi-line',
-              cases: multilineCases,
+              cases: _options.arabic ? arabicMultilineCases : multilineCases,
               options: _options,
             ),
             EditableDemo(options: _options),
@@ -146,12 +143,13 @@ class _CounterDemoState extends State<CounterDemo> {
               key: const Key('counter'),
               value: _total,
               decimals: 2,
-              locale: const Locale('en'),
+              locale: widget.options.locale,
               textAlign: widget.options.textAlign,
               scale: widget.options.scale,
               numbers: widget.options.numbers,
-          blur: widget.options.blur,
-          duration: widget.options.duration,
+              blur: widget.options.blur,
+              duration: widget.options.duration,
+              bidi: widget.options.bidi,
               ease: widget.options.ease,
               disabled: widget.options.disabled,
             ),
@@ -164,21 +162,14 @@ class _CounterDemoState extends State<CounterDemo> {
           onPressed: () => _add(1),
           child: const Text('+1'),
         ),
-        FilledButton.tonal(
-          onPressed: () => _add(0.05),
-          child: const Text('+0.05'),
-        ),
-        FilledButton.tonal(
-          onPressed: () => _add(9999),
-          child: const Text('+9,999'),
-        ),
+        FilledButton.tonal(onPressed: () => _add(0.05), child: const Text('+0.05')),
+        FilledButton.tonal(onPressed: () => _add(9999), child: const Text('+9,999')),
         FilledButton.tonal(
           onPressed: () => setState(() => _total = -_total),
           child: const Text('negate'),
         ),
         FilledButton.tonal(
-          onPressed: () =>
-              setState(() => _total = _random.nextDouble() * 1000000),
+          onPressed: () => setState(() => _total = _random.nextDouble() * 1000000),
           child: const Text('random'),
         ),
       ],
@@ -217,9 +208,7 @@ class _CorpusDemoState extends State<CorpusDemo> {
     super.dispose();
   }
 
-  void _next() => setState(
-    () => _valueIndex = (_valueIndex + 1) % _case.values.length,
-  );
+  void _next() => setState(() => _valueIndex = (_valueIndex + 1) % _case.values.length);
 
   void _select(int index) => setState(() {
     _caseIndex = index;
@@ -250,10 +239,7 @@ class _CorpusDemoState extends State<CorpusDemo> {
             },
             items: <DropdownMenuItem<int>>[
               for (int i = 0; i < widget.cases.length; i++)
-                DropdownMenuItem<int>(
-                  value: i,
-                  child: Text(widget.cases[i].label),
-                ),
+                DropdownMenuItem<int>(value: i, child: Text(widget.cases[i].label)),
             ],
           ),
           const SizedBox(height: 12),
@@ -263,12 +249,13 @@ class _CorpusDemoState extends State<CorpusDemo> {
                 : const TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
             child: TextMorph(
               value: _case.values[_valueIndex],
-              locale: const Locale('en'),
+              locale: widget.options.locale,
               textAlign: widget.options.textAlign,
               scale: widget.options.scale,
               numbers: widget.options.numbers,
-          blur: widget.options.blur,
-          duration: widget.options.duration,
+              blur: widget.options.blur,
+              duration: widget.options.duration,
+              bidi: widget.options.bidi,
               ease: widget.options.ease,
               disabled: widget.options.disabled,
             ),
@@ -328,10 +315,7 @@ class _EditableDemoState extends State<EditableDemo> {
           TextField(
             key: const Key('editable-field'),
             controller: _controller,
-            decoration: const InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'amount',
-            ),
+            decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'amount'),
           ),
           const SizedBox(height: 12),
           DefaultTextStyle.merge(
@@ -339,12 +323,13 @@ class _EditableDemoState extends State<EditableDemo> {
             child: TextMorph(
               value: _value,
               cursorIndex: _cursorIndex,
-              locale: const Locale('en'),
+              locale: widget.options.locale,
               textAlign: widget.options.textAlign,
               scale: widget.options.scale,
               numbers: widget.options.numbers,
-          blur: widget.options.blur,
-          duration: widget.options.duration,
+              blur: widget.options.blur,
+              duration: widget.options.duration,
+              bidi: widget.options.bidi,
               ease: widget.options.ease,
               disabled: widget.options.disabled,
             ),
@@ -372,6 +357,17 @@ class StormDemo extends StatefulWidget {
 }
 
 class _StormDemoState extends State<StormDemo> {
+  static const List<String> _arabicStorm = <String>[
+    'المعاملة آمنة',
+    'جارٍ معالجة المعاملة',
+    r'$1,234.50',
+    r'$9,876.50',
+    'مرحبا بالعالم',
+    'بالعالم مرحبا',
+    '2 من 10 مكتملة',
+    '7 من 15 مكتملة',
+  ];
+
   static const List<String> _storm = <String>[
     'Transaction Safe',
     'Processing Transaction',
@@ -413,13 +409,14 @@ class _StormDemoState extends State<StormDemo> {
       body: DefaultTextStyle.merge(
         style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
         child: TextMorph(
-          value: _storm[_tick % _storm.length],
-          locale: const Locale('en'),
+          value: (widget.options.arabic ? _arabicStorm : _storm)[_tick % _storm.length],
+          locale: widget.options.locale,
           textAlign: widget.options.textAlign,
           scale: widget.options.scale,
           numbers: widget.options.numbers,
           blur: widget.options.blur,
           duration: widget.options.duration,
+          bidi: widget.options.bidi,
           ease: widget.options.ease,
           disabled: widget.options.disabled,
         ),

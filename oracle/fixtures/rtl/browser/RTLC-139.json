@@ -1,0 +1,4297 @@
+{
+ "id": "RTLC-139",
+ "category": "arabic-indic",
+ "text": "مرحبا ٩٩٩ أهلا",
+ "direction": "rtl",
+ "locale": "ar",
+ "font": "Arial, \"Helvetica Neue\", system-ui, sans-serif",
+ "fontSize": 20,
+ "plain": {
+  "text": "مرحبا ٩٩٩ أهلا",
+  "computed": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "textAlign": "start"
+  },
+  "spanRect": {
+   "w": 105.5625,
+   "h": 22
+  },
+  "graphemes": [
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "rect": {
+     "x": 97.6719,
+     "y": 0,
+     "w": 7.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "rect": {
+     "x": 87.9063,
+     "y": 0,
+     "w": 9.7813,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "rect": {
+     "x": 77.2969,
+     "y": 0,
+     "w": 10.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "rect": {
+     "x": 72.4219,
+     "y": 0,
+     "w": 4.8906,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "rect": {
+     "x": 67.8281,
+     "y": 0,
+     "w": 4.6094,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "rect": {
+     "x": 62.2813,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "٩",
+    "rect": {
+     "x": 30.7188,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "٩",
+    "rect": {
+     "x": 41.2344,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "٩",
+    "rect": {
+     "x": 51.75,
+     "y": 0,
+     "w": 10.5313,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": " ",
+    "rect": {
+     "x": 25.1563,
+     "y": 0,
+     "w": 5.5625,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "أ",
+    "rect": {
+     "x": 21.0156,
+     "y": 0,
+     "w": 4.1406,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "ه",
+    "rect": {
+     "x": 12,
+     "y": 0,
+     "w": 9.0156,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ل",
+    "rect": {
+     "x": 6,
+     "y": 0,
+     "w": 6.0156,
+     "h": 22
+    }
+   },
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 6.0156,
+     "h": 22
+    }
+   }
+  ],
+  "plainVisualOrder": [
+   {
+    "logicalIndex": 13,
+    "grapheme": "ا",
+    "x": 0
+   },
+   {
+    "logicalIndex": 12,
+    "grapheme": "ل",
+    "x": 6
+   },
+   {
+    "logicalIndex": 11,
+    "grapheme": "ه",
+    "x": 12
+   },
+   {
+    "logicalIndex": 10,
+    "grapheme": "أ",
+    "x": 21.0156
+   },
+   {
+    "logicalIndex": 9,
+    "grapheme": " ",
+    "x": 25.1563
+   },
+   {
+    "logicalIndex": 6,
+    "grapheme": "٩",
+    "x": 30.7188
+   },
+   {
+    "logicalIndex": 7,
+    "grapheme": "٩",
+    "x": 41.2344
+   },
+   {
+    "logicalIndex": 8,
+    "grapheme": "٩",
+    "x": 51.75
+   },
+   {
+    "logicalIndex": 5,
+    "grapheme": " ",
+    "x": 62.2813
+   },
+   {
+    "logicalIndex": 4,
+    "grapheme": "ا",
+    "x": 67.8281
+   },
+   {
+    "logicalIndex": 3,
+    "grapheme": "ب",
+    "x": 72.4219
+   },
+   {
+    "logicalIndex": 2,
+    "grapheme": "ح",
+    "x": 77.2969
+   },
+   {
+    "logicalIndex": 1,
+    "grapheme": "ر",
+    "x": 87.9063
+   },
+   {
+    "logicalIndex": 0,
+    "grapheme": "م",
+    "x": 97.6719
+   }
+  ],
+  "plainVisualOrderString": "الهأ ٩٩٩ ابحرم"
+ },
+ "torphAtRest": {
+  "root": {
+   "direction": "rtl",
+   "unicodeBidi": "normal",
+   "display": "inline-block",
+   "textAlign": "start",
+   "rect": {
+    "w": 105.5781,
+    "h": 23
+   }
+  },
+  "domOrder": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 2,
+    "id": "٩٩٩",
+    "text": "٩٩٩",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   },
+   {
+    "index": 4,
+    "id": "أهلا",
+    "text": "أهلا",
+    "kind": null,
+    "slot": false,
+    "exiting": false
+   }
+  ],
+  "items": [
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "tag": "span",
+    "text": "مرحبا",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 67.8438,
+     "y": 0,
+     "w": 37.7344,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "م",
+      "rect": {
+       "x": 97.6875,
+       "y": 0,
+       "w": 7.8906,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ر",
+      "rect": {
+       "x": 87.9063,
+       "y": 0,
+       "w": 9.7813,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ح",
+      "rect": {
+       "x": 77.3125,
+       "y": 0,
+       "w": 10.6094,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ب",
+      "rect": {
+       "x": 72.4219,
+       "y": 0,
+       "w": 4.9063,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 4,
+      "grapheme": "ا",
+      "rect": {
+       "x": 67.8438,
+       "y": 0,
+       "w": 4.5938,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 62.2813,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 62.2813,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "id": "٩٩٩",
+    "tag": "span",
+    "text": "٩٩٩",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 30.7188,
+     "y": 0,
+     "w": 31.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "٩",
+      "rect": {
+       "x": 30.7188,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "٩",
+      "rect": {
+       "x": 41.2344,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "٩",
+      "rect": {
+       "x": 51.75,
+       "y": 0,
+       "w": 10.5313,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "tag": "span",
+    "text": " ",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 25.1563,
+     "y": 0,
+     "w": 5.5625,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": " ",
+      "rect": {
+       "x": 25.1563,
+       "y": 0,
+       "w": 5.5625,
+       "h": 22
+      }
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "id": "أهلا",
+    "tag": "span",
+    "text": "أهلا",
+    "kind": null,
+    "slot": false,
+    "exiting": false,
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "w": 25.1563,
+     "h": 23
+    },
+    "transform": "none",
+    "translate": {
+     "tx": 0,
+     "ty": 0
+    },
+    "scale": {
+     "sx": 1,
+     "sy": 1
+    },
+    "opacity": 1,
+    "computed": {
+     "direction": "rtl",
+     "unicodeBidi": "normal",
+     "display": "inline-block"
+    },
+    "mover": null,
+    "graphemes": [
+     {
+      "logicalIndex": 0,
+      "grapheme": "أ",
+      "rect": {
+       "x": 21.0156,
+       "y": 0,
+       "w": 4.1406,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 1,
+      "grapheme": "ه",
+      "rect": {
+       "x": 12,
+       "y": 0,
+       "w": 9.0156,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 2,
+      "grapheme": "ل",
+      "rect": {
+       "x": 6,
+       "y": 0,
+       "w": 6.0156,
+       "h": 22
+      }
+     },
+     {
+      "logicalIndex": 3,
+      "grapheme": "ا",
+      "rect": {
+       "x": 0,
+       "y": 0,
+       "w": 6.0156,
+       "h": 22
+      }
+     }
+    ]
+   }
+  ],
+  "torphVisualOrder": [
+   {
+    "index": 4,
+    "id": "أهلا",
+    "text": "أهلا",
+    "kind": null,
+    "x": 0
+   },
+   {
+    "index": 3,
+    "id": "space-9",
+    "text": " ",
+    "kind": null,
+    "x": 25.1563
+   },
+   {
+    "index": 2,
+    "id": "٩٩٩",
+    "text": "٩٩٩",
+    "kind": null,
+    "x": 30.7188
+   },
+   {
+    "index": 1,
+    "id": "space-5",
+    "text": " ",
+    "kind": null,
+    "x": 62.2813
+   },
+   {
+    "index": 0,
+    "id": "مرحبا",
+    "text": "مرحبا",
+    "kind": null,
+    "x": 67.8438
+   }
+  ],
+  "torphVisualGlyphOrderString": "الهأ ٩٩٩ ابحرم"
+ },
+ "morph": {
+  "to": "مرحبا ١٬٠٠٠ أهلا",
+  "resolvedDuration": 400,
+  "samples": [
+   {
+    "frac": 0,
+    "t": 0,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 105.5625,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "text": "٩٩٩",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "tag": "span",
+       "text": "٩٩٩",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 31,
+        "y": 0,
+        "w": 31.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٩",
+         "rect": {
+          "x": 31,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٩",
+         "rect": {
+          "x": 41.5156,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٩",
+         "rect": {
+          "x": 52.0313,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 25,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 25,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 67.8438,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.015625, 0)",
+       "translate": {
+        "tx": 0.0156,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 97.6875,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 87.9063,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 77.3125,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 72.4219,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 67.8438,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 62.2813,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.015625, 0)",
+       "translate": {
+        "tx": 0.0156,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 62.2813,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 15.0394,
+        "y": 0.575,
+        "w": 46.0305,
+        "h": 21.85
+       },
+       "transform": "matrix(0.95, 0, 0, 0.95, 0.015625, 0)",
+       "translate": {
+        "tx": 0.0156,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.95,
+        "sy": 0.95
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 15.0394,
+          "y": 0.575,
+          "w": 10.0047,
+          "h": 20.9
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 25.0293,
+          "y": 0.575,
+          "w": 6.0711,
+          "h": 20.9
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 31.0856,
+          "y": 0.575,
+          "w": 10.0046,
+          "h": 20.9
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 41.0754,
+          "y": 0.575,
+          "w": 10.0047,
+          "h": 20.9
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 51.0652,
+          "y": 0.575,
+          "w": 10.0047,
+          "h": 20.9
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 8.4047,
+        "y": 0.575,
+        "w": 5.2844,
+        "h": 21.85
+       },
+       "transform": "matrix(0.95, 0, 0, 0.95, 0.015625, 0)",
+       "translate": {
+        "tx": 0.0156,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.95,
+        "sy": 0.95
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 8.4047,
+          "y": 0.575,
+          "w": 5.2844,
+          "h": 20.9
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 16.9062, 0)",
+       "translate": {
+        "tx": 16.9062,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0156,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 12,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 6,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 8.4047
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 15.0394
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "text": " ",
+       "kind": null,
+       "x": 25
+      },
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "text": "٩٩٩",
+       "kind": null,
+       "x": 31
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 62.2813
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 67.8438
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ٩٩٩ ابحرم"
+    }
+   },
+   {
+    "frac": 0.1,
+    "t": 40,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 113.6719,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "text": "٩٩٩",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": true
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 6,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "tag": "span",
+       "text": "٩٩٩",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 31.3785,
+        "y": 0.2759,
+        "w": 30.8054,
+        "h": 22.4483
+       },
+       "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.976,
+        "sy": 0.976
+       },
+       "opacity": 0.6,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "٩",
+         "rect": {
+          "x": 31.3785,
+          "y": 0.2759,
+          "w": 10.2786,
+          "h": 21.4723
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٩",
+         "rect": {
+          "x": 41.6419,
+          "y": 0.2759,
+          "w": 10.2786,
+          "h": 21.4723
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٩",
+         "rect": {
+          "x": 51.9053,
+          "y": 0.2759,
+          "w": 10.2786,
+          "h": 21.4723
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": true,
+       "rect": {
+        "x": 25.0667,
+        "y": 0.2759,
+        "w": 5.4291,
+        "h": 22.4483
+       },
+       "transform": "matrix(0.976012, 0, 0, 0.976012, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.976,
+        "sy": 0.976
+       },
+       "opacity": 0.6,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 25.0667,
+          "y": 0.2759,
+          "w": 5.4291,
+          "h": 21.4723
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 75.9456,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00812883, 0)",
+       "translate": {
+        "tx": 0.0081,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 105.7894,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 96.0081,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 85.4144,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 80.5237,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 75.9456,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 70.3831,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00812883, 0)",
+       "translate": {
+        "tx": 0.0081,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 70.3831,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 22.5602,
+        "y": 0.2991,
+        "w": 47.1927,
+        "h": 22.4017
+       },
+       "transform": "matrix(0.973988, 0, 0, 0.973988, 0.00812883, 0)",
+       "translate": {
+        "tx": 0.0081,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.974,
+        "sy": 0.974
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 22.5602,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 32.8023,
+          "y": 0.2991,
+          "w": 6.2244,
+          "h": 21.4277
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 39.0115,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 49.2535,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 59.4956,
+          "y": 0.2991,
+          "w": 10.2573,
+          "h": 21.4277
+         }
+        }
+       ]
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 16.4398,
+        "y": 0.2991,
+        "w": 5.4178,
+        "h": 22.4017
+       },
+       "transform": "matrix(0.973988, 0, 0, 0.973988, 0.00812883, 0)",
+       "translate": {
+        "tx": 0.0081,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.974,
+        "sy": 0.974
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 16.4398,
+          "y": 0.2991,
+          "w": 5.4178,
+          "h": 21.4277
+         }
+        }
+       ]
+      },
+      {
+       "index": 6,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0015,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 8.7954, 0)",
+       "translate": {
+        "tx": 8.7954,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0142,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 11.9985,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 5.9985,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": -0.0015,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 6,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": -0.0015
+      },
+      {
+       "index": 5,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 16.4398
+      },
+      {
+       "index": 4,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 22.5602
+      },
+      {
+       "index": 1,
+       "id": "space-9",
+       "text": " ",
+       "kind": null,
+       "x": 25.0667
+      },
+      {
+       "index": 0,
+       "id": "٩٩٩",
+       "text": "٩٩٩",
+       "kind": null,
+       "x": 31.3785
+      },
+      {
+       "index": 3,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 70.3831
+      },
+      {
+       "index": 2,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 75.9456
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ٩٩٩ ابحرم"
+    }
+   },
+   {
+    "frac": 0.25,
+    "t": 100,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 119.8125,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 82.0806,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00244509, 0)",
+       "translate": {
+        "tx": 0.0024,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 111.9243,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 102.1431,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 91.5493,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 86.6587,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 82.0806,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 76.5181,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00244509, 0)",
+       "translate": {
+        "tx": 0.0024,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 76.5181,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 28.2545,
+        "y": 0.09,
+        "w": 48.074,
+        "h": 22.82
+       },
+       "transform": "matrix(0.992176, 0, 0, 0.992176, 0.00244509, 0)",
+       "translate": {
+        "tx": 0.0024,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9922,
+        "sy": 0.9922
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 28.2545,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 38.6879,
+          "y": 0.09,
+          "w": 6.3406,
+          "h": 21.8279
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 45.0129,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 55.4463,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 65.8796,
+          "y": 0.09,
+          "w": 10.4489,
+          "h": 21.8279
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 22.5242,
+        "y": 0.09,
+        "w": 5.519,
+        "h": 22.82
+       },
+       "transform": "matrix(0.992176, 0, 0, 0.992176, 0.00244509, 0)",
+       "translate": {
+        "tx": 0.0024,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9922,
+        "sy": 0.9922
+       },
+       "opacity": 0,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 22.5242,
+          "y": 0.09,
+          "w": 5.519,
+          "h": 21.8279
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0107,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 2.64559, 0)",
+       "translate": {
+        "tx": 2.6456,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0049,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 11.9893,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 5.9893,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": -0.0107,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": -0.0107
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 22.5242
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 28.2545
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 76.5181
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 82.0806
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   },
+   {
+    "frac": 0.37,
+    "t": 148,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 121.4219,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 83.6885,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00096796, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 113.5322,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 103.751,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 93.1572,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 88.2666,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 83.6885,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 78.126,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00096796, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 78.126,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 29.7479,
+        "y": 0.0356,
+        "w": 48.303,
+        "h": 22.9288
+       },
+       "transform": "matrix(0.996903, 0, 0, 0.996903, 0.00096796, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9969,
+        "sy": 0.9969
+       },
+       "opacity": 0.24,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 29.7479,
+          "y": 0.0356,
+          "w": 10.4987,
+          "h": 21.9319
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 40.231,
+          "y": 0.0356,
+          "w": 6.3708,
+          "h": 21.9319
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 46.5862,
+          "y": 0.0356,
+          "w": 10.4987,
+          "h": 21.9319
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 57.0692,
+          "y": 0.0356,
+          "w": 10.4987,
+          "h": 21.9319
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 67.5523,
+          "y": 0.0356,
+          "w": 10.4986,
+          "h": 21.9319
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 24.119,
+        "y": 0.0356,
+        "w": 5.5453,
+        "h": 22.9288
+       },
+       "transform": "matrix(0.996903, 0, 0, 0.996903, 0.00096796, 0)",
+       "translate": {
+        "tx": 0.001,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9969,
+        "sy": 0.9969
+       },
+       "opacity": 0.24,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 24.119,
+          "y": 0.0356,
+          "w": 5.5453,
+          "h": 21.9319
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0.0004,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.04733, 0)",
+       "translate": {
+        "tx": 1.0473,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0161,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 12.0004,
+          "y": 0,
+          "w": 9.0157,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 6.0004,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 0.0004,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": 0.0004
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 24.119
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 29.7479
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 78.126
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 83.6885
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   },
+   {
+    "frac": 0.5,
+    "t": 200,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 122.0938,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 84.3597,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000346491, 0)",
+       "translate": {
+        "tx": 0.0003,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 114.2035,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 104.4222,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 93.8285,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 88.9379,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 84.3597,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 78.7972,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.000346491, 0)",
+       "translate": {
+        "tx": 0.0003,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 78.7972,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 30.371,
+        "y": 0.0127,
+        "w": 48.3994,
+        "h": 22.9745
+       },
+       "transform": "matrix(0.998891, 0, 0, 0.998891, 0.000346491, 0)",
+       "translate": {
+        "tx": 0.0003,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9989,
+        "sy": 0.9989
+       },
+       "opacity": 0.5,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 30.371,
+          "y": 0.0127,
+          "w": 10.5195,
+          "h": 21.9756
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 40.8749,
+          "y": 0.0127,
+          "w": 6.3835,
+          "h": 21.9756
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 47.2429,
+          "y": 0.0127,
+          "w": 10.5196,
+          "h": 21.9756
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 57.7468,
+          "y": 0.0127,
+          "w": 10.5196,
+          "h": 21.9756
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 68.2508,
+          "y": 0.0127,
+          "w": 10.5196,
+          "h": 21.9756
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 24.7847,
+        "y": 0.0127,
+        "w": 5.5563,
+        "h": 22.9745
+       },
+       "transform": "matrix(0.998891, 0, 0, 0.998891, 0.000346491, 0)",
+       "translate": {
+        "tx": 0.0003,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9989,
+        "sy": 0.9989
+       },
+       "opacity": 0.5,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 24.7847,
+          "y": 0.0127,
+          "w": 5.5563,
+          "h": 21.9756
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0001,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.374903, 0)",
+       "translate": {
+        "tx": 0.3749,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0155,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 11.9999,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 5.9999,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": -0.0001,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": -0.0001
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 24.7847
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 30.371
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 78.7972
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 84.3597
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   },
+   {
+    "frac": 0.73,
+    "t": 292,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 122.4219,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 84.6875,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 3.51383e-05, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 114.5313,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 104.75,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 94.1563,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 89.2656,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 84.6875,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.1251,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 3.51383e-05, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 79.1251,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 30.6746,
+        "y": 0.0013,
+        "w": 48.4477,
+        "h": 22.9974
+       },
+       "transform": "matrix(0.999888, 0, 0, 0.999888, 3.51383e-05, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9999,
+        "sy": 0.9999
+       },
+       "opacity": 0.96,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 30.6746,
+          "y": 0.0013,
+          "w": 10.5301,
+          "h": 21.9975
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 41.1891,
+          "y": 0.0013,
+          "w": 6.3899,
+          "h": 21.9975
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 47.5634,
+          "y": 0.0013,
+          "w": 10.5301,
+          "h": 21.9975
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 58.0778,
+          "y": 0.0013,
+          "w": 10.53,
+          "h": 21.9975
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 68.5922,
+          "y": 0.0013,
+          "w": 10.5301,
+          "h": 21.9975
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 25.1097,
+        "y": 0.0013,
+        "w": 5.5618,
+        "h": 22.9974
+       },
+       "transform": "matrix(0.999888, 0, 0, 0.999888, 3.51383e-05, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 0.9999,
+        "sy": 0.9999
+       },
+       "opacity": 0.96,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 25.1097,
+          "y": 0.0013,
+          "w": 5.5618,
+          "h": 21.9975
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0089,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.0380196, 0)",
+       "translate": {
+        "tx": 0.038,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0068,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 11.9911,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 5.9911,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": -0.0089,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": -0.0089
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 25.1097
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 30.6746
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 79.1251
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 84.6875
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   },
+   {
+    "frac": 0.9,
+    "t": 360,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 122.4531,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 84.7188,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.38754e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 114.5625,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 104.7813,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 94.1875,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 89.2969,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 84.7188,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.1563,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 1.38754e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 79.1563,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 30.7032,
+        "y": 0.0001,
+        "w": 48.4529,
+        "h": 22.9999
+       },
+       "transform": "matrix(0.999996, 0, 0, 0.999996, 1.38754e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 30.7032,
+          "y": 0.0001,
+          "w": 10.5312,
+          "h": 21.9999
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 41.2188,
+          "y": 0.0001,
+          "w": 6.3906,
+          "h": 21.9999
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 47.5938,
+          "y": 0.0001,
+          "w": 10.5312,
+          "h": 21.9999
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 58.1094,
+          "y": 0.0001,
+          "w": 10.5312,
+          "h": 21.9999
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 68.6249,
+          "y": 0.0001,
+          "w": 10.5312,
+          "h": 21.9999
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 25.1406,
+        "y": 0.0001,
+        "w": 5.5625,
+        "h": 22.9999
+       },
+       "transform": "matrix(0.999996, 0, 0, 0.999996, 1.38754e-06, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 25.1406,
+          "y": 0.0001,
+          "w": 5.5625,
+          "h": 21.9999
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": -0.0141,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0.00150132, 0)",
+       "translate": {
+        "tx": 0.0015,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0015,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 11.9859,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 5.9859,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": -0.0141,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": -0.0141
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 25.1406
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 30.7032
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 79.1563
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 84.7188
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   },
+   {
+    "frac": 1,
+    "t": 400,
+    "snap": {
+     "root": {
+      "direction": "rtl",
+      "unicodeBidi": "normal",
+      "display": "inline-block",
+      "textAlign": "start",
+      "rect": {
+       "w": 122.4688,
+       "h": 23
+      }
+     },
+     "domOrder": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false
+      }
+     ],
+     "items": [
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "tag": "span",
+       "text": "مرحبا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 84.7344,
+        "y": 0,
+        "w": 37.7344,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "م",
+         "rect": {
+          "x": 114.5781,
+          "y": 0,
+          "w": 7.8906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ر",
+         "rect": {
+          "x": 104.7969,
+          "y": 0,
+          "w": 9.7813,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ح",
+         "rect": {
+          "x": 94.2031,
+          "y": 0,
+          "w": 10.6094,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ب",
+         "rect": {
+          "x": 89.3125,
+          "y": 0,
+          "w": 4.9063,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "ا",
+         "rect": {
+          "x": 84.7344,
+          "y": 0,
+          "w": 4.5938,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 79.1719,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 79.1719,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "tag": "span",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 30.7188,
+        "y": 0,
+        "w": 48.4531,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "١",
+         "rect": {
+          "x": 30.7188,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "٬",
+         "rect": {
+          "x": 41.2344,
+          "y": 0,
+          "w": 6.3906,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "٠",
+         "rect": {
+          "x": 47.6094,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "٠",
+         "rect": {
+          "x": 58.125,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 4,
+         "grapheme": "٠",
+         "rect": {
+          "x": 68.6406,
+          "y": 0,
+          "w": 10.5313,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "tag": "span",
+       "text": " ",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 25.1563,
+        "y": 0,
+        "w": 5.5625,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": " ",
+         "rect": {
+          "x": 25.1563,
+          "y": 0,
+          "w": 5.5625,
+          "h": 22
+         }
+        }
+       ]
+      },
+      {
+       "index": 4,
+       "id": "أهلا",
+       "tag": "span",
+       "text": "أهلا",
+       "kind": null,
+       "slot": false,
+       "exiting": false,
+       "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 25.1563,
+        "h": 23
+       },
+       "transform": "matrix(1, 0, 0, 1, 0, 0)",
+       "translate": {
+        "tx": 0,
+        "ty": 0
+       },
+       "scale": {
+        "sx": 1,
+        "sy": 1
+       },
+       "opacity": 1,
+       "computed": {
+        "direction": "rtl",
+        "unicodeBidi": "normal",
+        "display": "inline-block"
+       },
+       "mover": null,
+       "graphemes": [
+        {
+         "logicalIndex": 0,
+         "grapheme": "أ",
+         "rect": {
+          "x": 21.0156,
+          "y": 0,
+          "w": 4.1406,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 1,
+         "grapheme": "ه",
+         "rect": {
+          "x": 12,
+          "y": 0,
+          "w": 9.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 2,
+         "grapheme": "ل",
+         "rect": {
+          "x": 6,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        },
+        {
+         "logicalIndex": 3,
+         "grapheme": "ا",
+         "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 6.0156,
+          "h": 22
+         }
+        }
+       ]
+      }
+     ],
+     "torphVisualOrder": [
+      {
+       "index": 4,
+       "id": "أهلا",
+       "text": "أهلا",
+       "kind": null,
+       "x": 0
+      },
+      {
+       "index": 3,
+       "id": "space-11",
+       "text": " ",
+       "kind": null,
+       "x": 25.1563
+      },
+      {
+       "index": 2,
+       "id": "١٬٠٠٠",
+       "text": "١٬٠٠٠",
+       "kind": null,
+       "x": 30.7188
+      },
+      {
+       "index": 1,
+       "id": "space-5",
+       "text": " ",
+       "kind": null,
+       "x": 79.1719
+      },
+      {
+       "index": 0,
+       "id": "مرحبا",
+       "text": "مرحبا",
+       "kind": null,
+       "x": 84.7344
+      }
+     ],
+     "torphVisualGlyphOrderString": "الهأ ١٬٠٠٠ ابحرم"
+    }
+   }
+  ]
+ }
+}

@@ -3,6 +3,7 @@ import 'package:torph/torph.dart';
 
 class DemoOptions {
   const DemoOptions({
+    this.language = 'en',
     this.textAlign = TextAlign.start,
     this.textDirection = TextDirection.ltr,
     this.scale = true,
@@ -10,21 +11,28 @@ class DemoOptions {
     this.easeLabel = 'cubic-bezier(0.19, 1, 0.22, 1)',
     this.blur = defaultBlur,
     this.duration = defaultDuration,
+    this.bidi = true,
     this.disabled = false,
   });
 
+  final String language;
   final TextAlign textAlign;
   final TextDirection textDirection;
+
+  Locale get locale => Locale(language);
+  bool get arabic => language == 'ar';
   final bool scale;
   final bool numbers;
   final String easeLabel;
   final double blur;
   final Duration duration;
+  final bool bidi;
   final bool disabled;
 
   Object get ease => easeChoices[easeLabel]!;
 
   DemoOptions copyWith({
+    String? language,
     TextAlign? textAlign,
     TextDirection? textDirection,
     bool? scale,
@@ -32,9 +40,11 @@ class DemoOptions {
     String? easeLabel,
     double? blur,
     Duration? duration,
+    bool? bidi,
     bool? disabled,
   }) {
     return DemoOptions(
+      language: language ?? this.language,
       textAlign: textAlign ?? this.textAlign,
       textDirection: textDirection ?? this.textDirection,
       scale: scale ?? this.scale,
@@ -42,6 +52,7 @@ class DemoOptions {
       easeLabel: easeLabel ?? this.easeLabel,
       blur: blur ?? this.blur,
       duration: duration ?? this.duration,
+      bidi: bidi ?? this.bidi,
       disabled: disabled ?? this.disabled,
     );
   }
@@ -84,6 +95,16 @@ class OptionsPanel extends StatelessWidget {
               runSpacing: 4,
               crossAxisAlignment: WrapCrossAlignment.center,
               children: <Widget>[
+                _Dropdown<String>(
+                  label: 'language',
+                  value: options.language,
+                  items: const <String>['en', 'ar'],
+                  nameOf: (String v) => v == 'ar' ? 'العربية (RTL)' : 'English',
+                  onChanged: (String v) => onChanged(options.copyWith(
+                    language: v,
+                    textDirection: v == 'ar' ? TextDirection.rtl : TextDirection.ltr,
+                  )),
+                ),
                 _Dropdown<TextAlign>(
                   label: 'align',
                   value: options.textAlign,
@@ -157,6 +178,11 @@ class OptionsPanel extends StatelessWidget {
                       ),
                     ],
                   ),
+                ),
+                _Toggle(
+                  label: 'bidi',
+                  value: options.bidi,
+                  onChanged: (bool v) => onChanged(options.copyWith(bidi: v)),
                 ),
                 _Toggle(
                   label: 'disabled',

@@ -457,16 +457,16 @@ void main() {
 
     testWidgets('a Directionality flip mid-morph re-lays out from the other edge',
         (tester) async {
-      await tester.pumpWidget(host(TextMorph(value: 'hello')));
-      await tester.pumpWidget(host(TextMorph(value: 'hello world')));
+      await tester.pumpWidget(host(TextMorph(value: 'hello', bidi: false)));
+      await tester.pumpWidget(host(TextMorph(value: 'hello world', bidi: false)));
       await startClock(tester);
       await tester.pump(const Duration(milliseconds: 200));
       final ltr = snapshotOf(tester).item('world').x;
 
-      await tester.pumpWidget(
-          host(TextMorph(value: 'hello world'), direction: TextDirection.rtl));
+      await tester.pumpWidget(host(
+          TextMorph(value: 'hello world', bidi: false), direction: TextDirection.rtl));
       final rtl = snapshotOf(tester);
-      // Logical order is kept, the flow starts at the right edge.
+      // Logical order is kept (upstream rule, `bidi: false`), the flow starts at the right edge.
       expect(rtl.item('world').x, lessThan(ltr));
       expect(rtl.item('h').x, greaterThan(rtl.item('world').x));
       expect(rtl.animating, isTrue, reason: 'the morph is not torn down');

@@ -31,6 +31,11 @@ Upstream: an instance constructed disabled has no `[torph-root]` styles and wrap
 ## DEV-005 Integer pinning quantum (approved A0, P2)
 Upstream pins exiting boxes at integer CSS-px `offsetLeft/offsetTop` and divides integer `offsetHeight` for the digit slide; the port rounds the same way in logical Flutter pixels (Q-026/Q-027). Same rule, different pixel grid; ≤0.5 px.
 
+## DEV-006 (APPROVED, implemented, default on) UAX#9 reordering of items
+Upstream lays every segment out as a bidi-neutral atomic inline, so digit runs and Latin words inside an RTL root (and RTL words inside an LTR root) appear in logical, not UBA, order (RTL-002, spec/RTL_KNOWN_LIMITATIONS.md). A deviation would place each line's items at the x positions the platform paragraph engine gives their substrings (one `TextPainter` per line, `getBoxesForSelection` per item range), keeping per-item painters for motion. Implemented in `lib/src/rendering/text_measurer.dart`: each line's items are concatenated into one `TextPainter` and every item is placed at the visual left `getBoxesForSelection` reports for its own character range; per-item painters still do the painting, so motion is unchanged. `TextMorph.bidi` (default `true`) turns it off, and the upstream-parity suites pass `bidi: false`, so the 18 + 148 RTL traces remain valid evidence for the upstream rule.
+
+Deliberately not matched to upstream: with `bidi: true` a right-to-left root reads correctly instead of reproducing upstream's reversed digit runs and word order (RTL-002).
+
 Candidates under investigation (not yet deviations):
 - CJK/Thai dictionary word segmentation in ICU (only reachable when such text also contains a space or newline).
 - Font metrics: browser vs Flutter line height / advances differ; kinematic parity is compared in normalised units (per-item deltas relative to that platform own layout).

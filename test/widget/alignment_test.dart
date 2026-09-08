@@ -45,22 +45,22 @@ void main() {
     testWidgets('RTL flows the items from the right, in logical order',
         (tester) async {
       await tester.pumpWidget(host(
-        TextMorph(value: 'aaa\nb'),
+        TextMorph(value: 'aaa\nb', bidi: false),
         direction: TextDirection.rtl,
       ));
       final snapshot = snapshotOf(tester);
-      // Line 0 fills the root; line 1 is start-aligned, which in RTL is right.
+      // Line 0 fills the root; line 1 is start-aligned, upstream rule (`bidi: false`) puts that on the right.
       expect(snapshot.item('aaa').x, closeTo(0, 0.01));
       expect(snapshot.item('b').x, closeTo(40, 0.01));
     });
 
     testWidgets('RTL keeps logical order within a line', (tester) async {
       await tester.pumpWidget(host(
-        TextMorph(value: 'ab cd'),
+        TextMorph(value: 'ab cd', bidi: false),
         direction: TextDirection.rtl,
       ));
       final snapshot = snapshotOf(tester);
-      // "ab" is the first logical item, so it sits at the right-hand end.
+      // "ab" is the first logical item, so under the upstream rule (`bidi: false`) it sits at the right-hand end.
       expect(snapshot.item('ab').x, closeTo(60, 0.01));
       expect(snapshot.item('cd').x, closeTo(0, 0.01));
     });

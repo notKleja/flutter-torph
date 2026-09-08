@@ -465,3 +465,215 @@ H.measureAt = function (width) {
   void root.offsetWidth;
   return res;
 };
+
+// ============================================================ RTL/bidi oracle
+// Additive helpers for the browser RTL oracle (oracle/runtime/trace-rtl.mjs).
+
+H.measurePlainGraphemes = function (text, opts) {
+  const direction = opts.direction || "ltr";
+  const fontFamily = opts.fontFamily || "Menlo";
+  const fontSize = opts.fontSize || 20;
+  const locale = opts.locale || undefined;
+  const textAlign = opts.textAlign || "start";
+
+  const container = document.createElement("div");
+  container.style.position = "absolute";
+  container.style.left = "100px";
+  container.style.top = "100px";
+  container.style.fontFamily = fontFamily;
+  container.style.fontSize = fontSize + "px";
+  container.style.textAlign = textAlign;
+  container.dir = direction;
+  document.body.appendChild(container);
+
+  const span = document.createElement("span");
+  span.textContent = text;
+  container.appendChild(span);
+
+  const cs = getComputedStyle(span);
+  const spanRect = span.getBoundingClientRect();
+  const textNode = span.firstChild;
+
+  let graphemes = [];
+  if (textNode && text.length > 0) {
+    const seg = new Intl.Segmenter(locale, { granularity: "grapheme" });
+    graphemes = [...seg.segment(text)].map((g, logicalIndex) => {
+      const range = document.createRange();
+      range.setStart(textNode, g.index);
+      range.setEnd(textNode, g.index + g.segment.length);
+      const r = range.getBoundingClientRect();
+      return {
+        logicalIndex,
+        grapheme: g.segment,
+        rect: {
+          x: r4(r.left - spanRect.left),
+          y: r4(r.top - spanRect.top),
+          w: r4(r.width),
+          h: r4(r.height),
+        },
+      };
+    });
+  }
+
+  const visualOrder = graphemes
+    .slice()
+    .sort((a, b) => a.rect.x - b.rect.x || a.rect.y - b.rect.y);
+
+  const out = {
+    text,
+    computed: {
+      direction: cs.direction,
+      unicodeBidi: cs.unicodeBidi,
+      textAlign: cs.textAlign,
+    },
+    spanRect: { w: r4(spanRect.width), h: r4(spanRect.height) },
+    graphemes,
+    plainVisualOrder: visualOrder.map((g) => ({
+      logicalIndex: g.logicalIndex,
+      grapheme: g.grapheme,
+      x: g.rect.x,
+    })),
+    plainVisualOrderString: visualOrder.map((g) => g.grapheme).join(""),
+  };
+  container.remove();
+  return out;
+};
+
+function itemGraphemes(el, locale, rootRect) {
+  let textEl = el;
+  if (el.hasAttribute(ATTR.SLOT)) {
+    textEl = el.firstElementChild || el;
+  }
+  let textNode = null;
+  for (const n of textEl.childNodes) {
+    if (n.nodeType === Node.TEXT_NODE) {
+      textNode = n;
+      break;
+    }
+  }
+  if (!textNode || !textNode.textContent) return [];
+  const text = textNode.textContent;
+  const seg = new Intl.Segmenter(locale, { granularity: "grapheme" });
+  return [...seg.segment(text)].map((g, logicalIndex) => {
+    const range = document.createRange();
+    range.setStart(textNode, g.index);
+    range.setEnd(textNode, g.index + g.segment.length);
+    const r = range.getBoundingClientRect();
+    return {
+      logicalIndex,
+      grapheme: g.segment,
+      rect: {
+        x: r4(r.left - rootRect.left),
+        y: r4(r.top - rootRect.top),
+        w: r4(r.width),
+        h: r4(r.height),
+      },
+    };
+  });
+}
+
+H.torphSnapshot = function (locale) {
+  const root = H.root;
+  const rootRect = root.getBoundingClientRect();
+  const rootCs = getComputedStyle(root);
+  const children = Array.from(root.children).filter(
+    (c) => !c.hasAttribute(ATTR.SR),
+  );
+
+  const items = children.map((child, index) => {
+    const cs = getComputedStyle(child);
+    const rect = child.getBoundingClientRect();
+    const tr = parseMatrix(cs.transform);
+    const isSlot = child.hasAttribute(ATTR.SLOT);
+    const mover = isSlot ? child.firstElementChild || child : null;
+    let moverOut = null;
+    if (mover) {
+      const mcs = getComputedStyle(mover);
+      const mrect = mover.getBoundingClientRect();
+      const mtr = parseMatrix(mcs.transform);
+      moverOut = {
+        rect: {
+          x: r4(mrect.left - rootRect.left),
+          y: r4(mrect.top - rootRect.top),
+          w: r4(mrect.width),
+          h: r4(mrect.height),
+        },
+        transform: mcs.transform,
+        translate: { tx: r4(mtr.tx), ty: r4(mtr.ty) },
+        scale: { sx: r4(mtr.sx), sy: r4(mtr.sy) },
+        opacity: r4(Number(mcs.opacity)),
+        computed: {
+          direction: mcs.direction,
+          unicodeBidi: mcs.unicodeBidi,
+          display: mcs.display,
+        },
+      };
+    }
+    return {
+      index,
+      id: child.getAttribute(ATTR.ID),
+      tag: child.tagName.toLowerCase(),
+      text: child.textContent,
+      kind: child.getAttribute(ATTR.KIND) || null,
+      slot: isSlot,
+      exiting: child.hasAttribute(ATTR.EXITING),
+      rect: {
+        x: r4(rect.left - rootRect.left),
+        y: r4(rect.top - rootRect.top),
+        w: r4(rect.width),
+        h: r4(rect.height),
+      },
+      transform: cs.transform,
+      translate: { tx: r4(tr.tx), ty: r4(tr.ty) },
+      scale: { sx: r4(tr.sx), sy: r4(tr.sy) },
+      opacity: r4(Number(cs.opacity)),
+      computed: {
+        direction: cs.direction,
+        unicodeBidi: cs.unicodeBidi,
+        display: cs.display,
+      },
+      mover: moverOut,
+      graphemes: itemGraphemes(child, locale, rootRect),
+    };
+  });
+
+  const torphVisualOrder = items
+    .slice()
+    .sort((a, b) => a.rect.x - b.rect.x || a.rect.y - b.rect.y);
+
+  const torphVisualGlyphOrderString = torphVisualOrder
+    .map((it) => {
+      const gs = it.graphemes
+        .slice()
+        .sort((a, b) => a.rect.x - b.rect.x || a.rect.y - b.rect.y);
+      return gs.map((g) => g.grapheme).join("");
+    })
+    .join("");
+
+  return {
+    root: {
+      direction: rootCs.direction,
+      unicodeBidi: rootCs.unicodeBidi,
+      display: rootCs.display,
+      textAlign: rootCs.textAlign,
+      rect: { w: r4(rootRect.width), h: r4(rootRect.height) },
+    },
+    domOrder: items.map((it) => ({
+      index: it.index,
+      id: it.id,
+      text: it.text,
+      kind: it.kind,
+      slot: it.slot,
+      exiting: it.exiting,
+    })),
+    items,
+    torphVisualOrder: torphVisualOrder.map((it) => ({
+      index: it.index,
+      id: it.id,
+      text: it.text,
+      kind: it.kind,
+      x: it.rect.x,
+    })),
+    torphVisualGlyphOrderString,
+  };
+};

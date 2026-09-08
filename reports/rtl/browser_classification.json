@@ -1,0 +1,1634 @@
+{
+ "summary": {
+  "rtl|DIGIT-RUN-REVERSED|UBA-OK": 56,
+  "rtl|OTHER-REORDER|UBA-DIFF": 10,
+  "ltr|OTHER-REORDER|UBA-OK": 6,
+  "rtl|MATCH|UBA-OK": 47,
+  "rtl|OTHER-REORDER|UBA-OK": 32,
+  "rtl|DIGIT-RUN-REVERSED|UBA-DIFF": 2,
+  "ltr|MATCH|UBA-OK": 7,
+  "rtl|MATCH|UBA-DIFF": 2
+ },
+ "cases": {
+  "RTLC-001": {
+   "text": "السعر 1234 ريال",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "لاير 1234 رعسلا",
+   "torph": "لاير 4321 رعسلا",
+   "uba": "لاير 1234 رعسلا",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-002": {
+   "text": "السعر $1,234.56 اليوم",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "مويلا 1,234.56$ رعسلا",
+   "torph": "مويلا 65.432,1$ رعسلا",
+   "uba": "مويلا 1,234.56$ رعسلا",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-003": {
+   "text": "لدي 123 تفاحة",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "ةحافت 123 يدل",
+   "torph": "ةحافت 321 يدل",
+   "uba": "ةحافت 123 يدل",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-004": {
+   "text": "الوقت 10:45 مساءً",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "ءًاسم 10:45 تقولا",
+   "torph": "ءًاسم 45:10 تقولا",
+   "uba": "ًءاسم 10:45 تقولا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-005": {
+   "text": "السعر 1234 ريال",
+   "dir": "ltr",
+   "category": "arabic-ascii-digits",
+   "plain": "لاير 1234 رعسلا",
+   "torph": "رعسلا 1234 لاير",
+   "uba": "لاير 1234 رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-006": {
+   "text": "لدي 5 كتب و 10 أقلام",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "مالقأ 10 و بتك 5 يدل",
+   "torph": "مالقأ 01 و بتك 5 يدل",
+   "uba": "مالقأ 10 و بتك 5 يدل",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-007": {
+   "text": "رقم الهاتف 0501234567",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "0501234567 فتاهلا مقر",
+   "torph": "7654321050 فتاهلا مقر",
+   "uba": "0501234567 فتاهلا مقر",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-008": {
+   "text": "الفصل 12 من 30",
+   "dir": "rtl",
+   "category": "arabic-ascii-digits",
+   "plain": "30 نم 12 لصفلا",
+   "torph": "03 نم 21 لصفلا",
+   "uba": "30 نم 12 لصفلا",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-009": {
+   "text": "قیمت 1234 تومان",
+   "dir": "rtl",
+   "category": "persian-ascii-digits",
+   "plain": "ناموت 1234 تمیق",
+   "torph": "ناموت 4321 تمیق",
+   "uba": "ناموت 1234 تمیق",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-010": {
+   "text": "قیمت 1,234.50 دلار",
+   "dir": "rtl",
+   "category": "persian-ascii-digits",
+   "plain": "رالد 1,234.50 تمیق",
+   "torph": "رالد 05.432,1 تمیق",
+   "uba": "رالد 1,234.50 تمیق",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-011": {
+   "text": "قیمت 1234 تومان",
+   "dir": "ltr",
+   "category": "persian-ascii-digits",
+   "plain": "ناموت 1234 تمیق",
+   "torph": "تمیق 1234 ناموت",
+   "uba": "ناموت 1234 تمیق",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-012": {
+   "text": "من 3 برادر دارم",
+   "dir": "rtl",
+   "category": "persian-ascii-digits",
+   "plain": "مراد ردارب 3 نم",
+   "torph": "مراد ردارب 3 نم",
+   "uba": "مراد ردارب 3 نم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-013": {
+   "text": "السعر ١٢٣٤ ريال",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "لاير ١٢٣٤ رعسلا",
+   "torph": "لاير ١٢٣٤ رعسلا",
+   "uba": "لاير ١٢٣٤ رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-014": {
+   "text": "السعر ١٬٢٣٤٫٥٦ ريال",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "لاير ١٬٢٣٤٫٥٦ رعسلا",
+   "torph": "لاير ١٬٢٣٤٫٥٦ رعسلا",
+   "uba": "لاير ١٬٢٣٤٫٥٦ رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-015": {
+   "text": "السعر ١٢٣٤ ريال",
+   "dir": "ltr",
+   "category": "arabic-indic",
+   "plain": "لاير ١٢٣٤ رعسلا",
+   "torph": "رعسلا ١٢٣٤ لاير",
+   "uba": "لاير ١٢٣٤ رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-016": {
+   "text": "لدي ٥ أقلام",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "مالقأ ٥ يدل",
+   "torph": "مالقأ ٥ يدل",
+   "uba": "مالقأ ٥ يدل",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-017": {
+   "text": "١٢٣ و ٤٥٦",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "٤٥٦ و ١٢٣",
+   "torph": "٤٥٦ و ١٢٣",
+   "uba": "٤٥٦ و ١٢٣",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-018": {
+   "text": "قیمت ۱۲۳۴ تومان",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "ناموت ۱۲۳۴ تمیق",
+   "torph": "ناموت ۱۲۳۴ تمیق",
+   "uba": "ناموت ۱۲۳۴ تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-019": {
+   "text": "قیمت ۱٬۲۳۴٫۵۶ تومان",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "ناموت ۱٬۲۳۴٫۵۶ تمیق",
+   "torph": "ناموت ۱٬۲۳۴٫۵۶ تمیق",
+   "uba": "ناموت ۱٬۲۳۴٫۵۶ تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-020": {
+   "text": "قیمت ۱۲۳۴ تومان",
+   "dir": "ltr",
+   "category": "persian-digits",
+   "plain": "ناموت ۱۲۳۴ تمیق",
+   "torph": "تمیق ۱۲۳۴ ناموت",
+   "uba": "ناموت ۱۲۳۴ تمیق",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-021": {
+   "text": "من ۳ کتاب دارم",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "مراد باتک ۳ نم",
+   "torph": "مراد باتک ۳ نم",
+   "uba": "مراد باتک ۳ نم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-022": {
+   "text": "מחיר 1234 ₪",
+   "dir": "rtl",
+   "category": "hebrew",
+   "plain": "₪ 1234 ריחמ",
+   "torph": "₪ 4321 ריחמ",
+   "uba": "₪ 1234 ריחמ",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-023": {
+   "text": "מחיר $1,234.56 היום",
+   "dir": "rtl",
+   "category": "hebrew",
+   "plain": "םויה $1,234.56 ריחמ",
+   "torph": "םויה 65.432,1$ ריחמ",
+   "uba": "םויה $1,234.56 ריחמ",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-024": {
+   "text": "מחיר 1234 ₪",
+   "dir": "ltr",
+   "category": "hebrew",
+   "plain": "1234 ריחמ ₪",
+   "torph": "ריחמ 1234 ₪",
+   "uba": "1234 ריחמ ₪",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-025": {
+   "text": "יש לי 7 ספרים",
+   "dir": "rtl",
+   "category": "hebrew",
+   "plain": "םירפס 7 יל שי",
+   "torph": "םירפס 7 יל שי",
+   "uba": "םירפס 7 יל שי",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-026": {
+   "text": "מספר הטלפון 050-1234567",
+   "dir": "rtl",
+   "category": "hebrew",
+   "plain": "050-1234567 ןופלטה רפסמ",
+   "torph": "1234567-050 ןופלטה רפסמ",
+   "uba": "050-1234567 ןופלטה רפסמ",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-027": {
+   "text": "مرحبا ABC 123 DEF",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ABC 123 DEF ابحرم",
+   "torph": "DEF 321 ABC ابحرم",
+   "uba": "ABC 123 DEF ابحرم",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-028": {
+   "text": "ABC مرحبا 123 عالم DEF",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "DEF ملاع 123 ابحرم ABC",
+   "torph": "DEF ملاع 321 ابحرم ABC",
+   "uba": "DEF ملاع 123 ابحرم ABC",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-029": {
+   "text": "123 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 123",
+   "torph": "ابحرم 321",
+   "uba": "ابحرم 123",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-030": {
+   "text": "مرحبا 123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "123 ابحرم",
+   "torph": "321 ابحرم",
+   "uba": "123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-031": {
+   "text": "مرحبا (123)",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": ")123( ابحرم",
+   "torph": ")321( ابحرم",
+   "uba": "(123) ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-032": {
+   "text": "مرحبا -123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "123- ابحرم",
+   "torph": "321- ابحرم",
+   "uba": "123- ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-033": {
+   "text": "مرحبا +123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "123+ ابحرم",
+   "torph": "321+ ابحرم",
+   "uba": "123+ ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-034": {
+   "text": "مرحبا $123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "123$ ابحرم",
+   "torph": "321$ ابحرم",
+   "uba": "123$ ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-035": {
+   "text": "مرحبا 123%",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "%123 ابحرم",
+   "torph": "%321 ابحرم",
+   "uba": "%123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-036": {
+   "text": "مرحبا 1/2",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "1/2 ابحرم",
+   "torph": "2/1 ابحرم",
+   "uba": "1/2 ابحرم",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-037": {
+   "text": "مرحبا 12:34",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "12:34 ابحرم",
+   "torph": "34:12 ابحرم",
+   "uba": "12:34 ابحرم",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-038": {
+   "text": "مرحبا ABC 123 DEF",
+   "dir": "ltr",
+   "category": "mixed-latin",
+   "plain": "ابحرم ABC 123 DEF",
+   "torph": "ابحرم ABC 123 DEF",
+   "uba": "ابحرم ABC 123 DEF",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-039": {
+   "text": "123 مرحبا",
+   "dir": "ltr",
+   "category": "mixed-latin",
+   "plain": "123 ابحرم",
+   "torph": "123 ابحرم",
+   "uba": "123 ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-040": {
+   "text": "بين مرحبا و ABC يوجد 123 عنصر",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "رصنع 123 دجوي ABC و ابحرم نيب",
+   "torph": "رصنع 321 دجوي ABC و ابحرم نيب",
+   "uba": "رصنع 123 دجوي ABC و ابحرم نيب",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-041": {
+   "text": "Hello 123 مرحبا 456 World",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "World 456 ابحرم Hello 123",
+   "torph": "World 654 ابحرم 321 Hello",
+   "uba": "World 456 ابحرم Hello 123",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-042": {
+   "text": "السعر: 1234!",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": "!1234 :رعسلا",
+   "torph": "!4321 :رعسلا",
+   "uba": "!1234 :رعسلا",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-043": {
+   "text": "السعر، 1234، شكرا",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": "اركش ،1234 ،رعسلا",
+   "torph": "اركش ،1234 ،رعسلا",
+   "uba": "اركش ،1234 ،رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-044": {
+   "text": "“مرحبا 123”",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": "”123 ابحرم“",
+   "torph": "”321 ابحرم“",
+   "uba": "”123 ابحرم“",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-045": {
+   "text": "مرحبا؟ 123.",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": ".123 ؟ابحرم",
+   "torph": ".321 ؟ابحرم",
+   "uba": ".123 ؟ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-046": {
+   "text": "(مرحبا) 123",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": "123 )ابحرم(",
+   "torph": "321 )ابحرم(",
+   "uba": "123 (ابحرم)",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-047": {
+   "text": "مرحبا; 123: أهلا",
+   "dir": "rtl",
+   "category": "punctuation",
+   "plain": "الهأ :123 ;ابحرم",
+   "torph": "الهأ :321 ;ابحرم",
+   "uba": "الهأ :123 ;ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-048": {
+   "text": "السعر ‎1234‎ ريال",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "لاير ‎1234‎ رعسلا",
+   "torph": "لاير 1234‎رعسلا ‎",
+   "uba": "لاير ‎1234‎ رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-049": {
+   "text": "السعر ‏1234‏ ريال",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "لاير ‏1234 ‏رعسلا",
+   "torph": "لاير 1‏234رعسلا ‏",
+   "uba": "لاير ‏1234‏ رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-050": {
+   "text": "السعر ⁦1234⁩ ريال",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "لاير ⁩1234 ⁦رعسلا",
+   "torph": "لاير 1⁩234رعسلا ⁦",
+   "uba": "",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-051": {
+   "text": "السعر ⁧1234⁩ ريال",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "لاير ⁩1234 ⁧رعسلا",
+   "torph": "لاير 1⁩234رعسلا ⁧",
+   "uba": "",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-052": {
+   "text": "السعر ⁨1234⁩ ريال",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "لاير ⁩1234 ⁨رعسلا",
+   "torph": "لاير 1⁩234رعسلا ⁨",
+   "uba": "",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-053": {
+   "text": "⁦1234⁩ مرحبا",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "ابحرم 1⁩234⁦",
+   "torph": "ابحرم 1⁩234⁦",
+   "uba": "",
+   "cls": "MATCH",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-054": {
+   "text": "مرحبا ⁦1234⁩",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "1⁩234 ⁦ابحرم",
+   "torph": "1⁩234ابحرم ⁦",
+   "uba": "",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-055": {
+   "text": "‏مرحبا $123‏",
+   "dir": "rtl",
+   "category": "bidi-controls",
+   "plain": "1‏23$ ابحرم‏",
+   "torph": "1‏23$ ابحرم‏",
+   "uba": "‏123$ ابحرم‏",
+   "cls": "MATCH",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-056": {
+   "text": "السعر ‎1234‎ ريال",
+   "dir": "ltr",
+   "category": "bidi-controls",
+   "plain": "رعسلا ‎1234‎ لاير",
+   "torph": "رعسلا ‎1234‎ لاير",
+   "uba": "رعسلا ‎1234‎ لاير",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-057": {
+   "text": "+971 50 123 4567",
+   "dir": "ltr",
+   "category": "phone",
+   "plain": "+971 50 123 4567",
+   "torph": "+971 50 123 4567",
+   "uba": "+971 50 123 4567",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-058": {
+   "text": "اتصل بي على +971 50 123 4567",
+   "dir": "rtl",
+   "category": "phone",
+   "plain": "4567 123 50 971+ ىلع يب لصتا",
+   "torph": "7654 321 05 179+ ىلع يب لصتا",
+   "uba": "4567 123 50 971+ ىلع يب لصتا",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-059": {
+   "text": "هاتفي: +971-50-123-4567",
+   "dir": "rtl",
+   "category": "phone",
+   "plain": "4567-123-50-971+ :يفتاه",
+   "torph": "4567-123-50-971+ :يفتاه",
+   "uba": "4567-123-50-971+ :يفتاه",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-060": {
+   "text": "+98 21 1234 5678",
+   "dir": "ltr",
+   "category": "phone",
+   "plain": "+98 21 1234 5678",
+   "torph": "+98 21 1234 5678",
+   "uba": "+98 21 1234 5678",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-061": {
+   "text": "تماس بگیرید +98 21 1234 5678",
+   "dir": "rtl",
+   "category": "phone",
+   "plain": "5678 1234 21 98+ دیریگب سامت",
+   "torph": "8765 4321 12 89+ دیریگب سامت",
+   "uba": "5678 1234 21 98+ دیریگب سامت",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-062": {
+   "text": "התקשר אליי +972 50-123-4567",
+   "dir": "rtl",
+   "category": "phone",
+   "plain": "50-123-4567 972+ יילא רשקתה",
+   "torph": "4567-123-50 279+ יילא רשקתה",
+   "uba": "50-123-4567 972+ יילא רשקתה",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-063": {
+   "text": "التاريخ 2026-09-08",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "08-09-2026 خيراتلا",
+   "torph": "08-09-2026 خيراتلا",
+   "uba": "08-09-2026 خيراتلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-064": {
+   "text": "الاجتماع الساعة 14:30",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "14:30 ةعاسلا عامتجالا",
+   "torph": "30:14 ةعاسلا عامتجالا",
+   "uba": "14:30 ةعاسلا عامتجالا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-065": {
+   "text": "اليوم 08/09/2026",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "08/09/2026 مويلا",
+   "torph": "2026/09/08 مويلا",
+   "uba": "08/09/2026 مويلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-066": {
+   "text": "من الساعة 9 إلى 5",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "5 ىلإ 9 ةعاسلا نم",
+   "torph": "5 ىلإ 9 ةعاسلا نم",
+   "uba": "5 ىلإ 9 ةعاسلا نم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-067": {
+   "text": "تاریخ امروز ۱۴۰۵/۰۶/۱۷",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "۱۴۰۵/۰۶/۱۷ زورما خیرات",
+   "torph": "۱۷/۰۶/۱۴۰۵ زورما خیرات",
+   "uba": "۱۴۰۵/۰۶/۱۷ زورما خیرات",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-068": {
+   "text": "התאריך היום הוא 08/09/2026",
+   "dir": "rtl",
+   "category": "datetime",
+   "plain": "08/09/2026 אוה םויה ךיראתה",
+   "torph": "2026/09/08 אוה םויה ךיראתה",
+   "uba": "08/09/2026 אוה םויה ךיראתה",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-069": {
+   "text": "السعر 1234\nريال فقط",
+   "dir": "rtl",
+   "category": "newline",
+   "plain": "طقف لاير\n1234 رعسلا",
+   "torph": "4321طقف رعسلا لاير",
+   "uba": "1234 رعسلا\nطقف لاير",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-070": {
+   "text": "السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333",
+   "dir": "rtl",
+   "category": "newline",
+   "plain": "333 ثلاثلا رطسلا\n222 يناثلا رطسلا\n111 لوألا رطسلا",
+   "torph": "321321321   ثلاثلايناثلالوألا   رطسلارطسلارطسلا",
+   "uba": "111 لوألا رطسلا\n222 يناثلا رطسلا\n333 ثلاثلا رطسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-071": {
+   "text": "מחיר 1234\n₪ בלבד",
+   "dir": "rtl",
+   "category": "newline",
+   "plain": "דבלב ₪\n1234 ריחמ",
+   "torph": "432דבלב1 ריחמ ₪",
+   "uba": "1234 ריחמ\nדבלב ₪",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-072": {
+   "text": "قیمت 1234\nتومان",
+   "dir": "rtl",
+   "category": "newline",
+   "plain": "ناموت\n1234 تمیق",
+   "torph": "4321 ناموتتمیق",
+   "uba": "1234 تمیق\nناموت",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-DIFF"
+  },
+  "RTLC-073": {
+   "text": "1234",
+   "dir": "ltr",
+   "category": "pure-number",
+   "plain": "1234",
+   "torph": "1234",
+   "uba": "1234",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-074": {
+   "text": "1234",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "1234",
+   "torph": "4321",
+   "uba": "1234",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-075": {
+   "text": "١٢٣٤",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "١٢٣٤",
+   "torph": "٤٣٢١",
+   "uba": "١٢٣٤",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-076": {
+   "text": "۱۲۳۴",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "۱۲۳۴",
+   "torph": "۴۳۲۱",
+   "uba": "۱۲۳۴",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-077": {
+   "text": "مرحبا بالعالم",
+   "dir": "rtl",
+   "category": "pure-rtl",
+   "plain": "ملاعلاب ابحرم",
+   "torph": "ملاعلاب ابحرم",
+   "uba": "ملاعلاب ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-078": {
+   "text": "שלום עולם",
+   "dir": "rtl",
+   "category": "pure-rtl",
+   "plain": "םלוע םולש",
+   "torph": "םלוע םולש",
+   "uba": "םלוע םולש",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-079": {
+   "text": "سلام دنیا",
+   "dir": "rtl",
+   "category": "pure-rtl",
+   "plain": "ایند مالس",
+   "torph": "ایند مالس",
+   "uba": "ایند مالس",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-080": {
+   "text": "123 مرحبا 456",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "456 ابحرم 123",
+   "torph": "654 ابحرم 321",
+   "uba": "456 ابحرم 123",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-081": {
+   "text": "مرحبا 123 أهلا 456 وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو 456 الهأ 123 ابحرم",
+   "torph": "الهسو 654 الهأ 321 ابحرم",
+   "uba": "الهسو 456 الهأ 123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-082": {
+   "text": "1234 1234",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "1234 1234",
+   "torph": "4321 4321",
+   "uba": "1234 1234",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-083": {
+   "text": "مرحبا،123،أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ،123،ابحرم",
+   "torph": "الهأ،321،ابحرم",
+   "uba": "الهأ،123،ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-084": {
+   "text": "مرحباABC123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ABC123ابحرم",
+   "torph": "321CBAابحرم",
+   "uba": "ABC123ابحرم",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-085": {
+   "text": "123ABCمرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم123ABC",
+   "torph": "ابحرمCBA321",
+   "uba": "ابحرم123ABC",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-086": {
+   "text": "السعر 1 234 567 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 1 234 567 رعسلا",
+   "torph": "لاير 765 432 1 رعسلا",
+   "uba": "لاير 1 234 567 رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-087": {
+   "text": "السعر 1 234 567 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 1 234 567 رعسلا",
+   "torph": "لاير 765 432 1 رعسلا",
+   "uba": "لاير 1 234 567 رعسلا",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-088": {
+   "text": "قیمت 1 234٫56 تومان",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ناموت 1 234٫56 تمیق",
+   "torph": "ناموت 234٫56 1 تمیق",
+   "uba": "ناموت 1 234٫56 تمیق",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-089": {
+   "text": "السعر 1234٫56 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 1234٫56 رعسلا",
+   "torph": "لاير 1234٫56 رعسلا",
+   "uba": "لاير 1234٫56 رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-090": {
+   "text": "السعر 1٬234٬567 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 1٬234٬567 رعسلا",
+   "torph": "لاير 1٬234٬567 رعسلا",
+   "uba": "لاير 1٬234٬567 رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-091": {
+   "text": "قیمت 1234 روپے ہے",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ےہ ےپور 1234 تمیق",
+   "torph": "ےہ ےپور 4321 تمیق",
+   "uba": "ےہ ےپور 1234 تمیق",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-092": {
+   "text": "میرے پاس 5 کتابیں ہیں",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ںیہ ںیباتک 5 ساپ ےریم",
+   "torph": "ںیہ ںیباتک 5 ساپ ےریم",
+   "uba": "ںیہ ںیباتک 5 ساپ ےریم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-093": {
+   "text": "قیمت ۱۲۳۴ روپے",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ےپور ۱۲۳۴ تمیق",
+   "torph": "ےپور ۱۲۳۴ تمیق",
+   "uba": "ےپور ۱۲۳۴ تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-094": {
+   "text": "فون نمبر +92 300 1234567",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "1234567 300 92+ ربمن نوف",
+   "torph": "7654321 003 29+ ربمن نوف",
+   "uba": "1234567 300 92+ ربمن نوف",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-095": {
+   "text": "123",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "123",
+   "torph": "321",
+   "uba": "123",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-096": {
+   "text": "مرحبا 123 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 123 ابحرم",
+   "torph": "الهأ 321 ابحرم",
+   "uba": "الهأ 123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-097": {
+   "text": "123 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 123",
+   "torph": "ابحرم 321",
+   "uba": "ابحرم 123",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-098": {
+   "text": "مرحبا 123",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "123 ابحرم",
+   "torph": "321 ابحرم",
+   "uba": "123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-099": {
+   "text": "مرحبا 123 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 123 ابحرم",
+   "torph": "الهسو الهأ 321 ابحرم",
+   "uba": "الهسو الهأ 123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-100": {
+   "text": "ABC123مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC123",
+   "torph": "ابحرم321CBA",
+   "uba": "ابحرمABC123",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-101": {
+   "text": "129",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "129",
+   "torph": "921",
+   "uba": "129",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-102": {
+   "text": "مرحبا 129 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 129 ابحرم",
+   "torph": "الهأ 921 ابحرم",
+   "uba": "الهأ 129 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-103": {
+   "text": "129 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 129",
+   "torph": "ابحرم 921",
+   "uba": "ابحرم 129",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-104": {
+   "text": "مرحبا 129",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "129 ابحرم",
+   "torph": "921 ابحرم",
+   "uba": "129 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-105": {
+   "text": "مرحبا 129 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 129 ابحرم",
+   "torph": "الهسو الهأ 921 ابحرم",
+   "uba": "الهسو الهأ 129 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-106": {
+   "text": "ABC129مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC129",
+   "torph": "ابحرم921CBA",
+   "uba": "ابحرمABC129",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-107": {
+   "text": "999",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "999",
+   "torph": "999",
+   "uba": "999",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-108": {
+   "text": "مرحبا 999 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 999 ابحرم",
+   "torph": "الهأ 999 ابحرم",
+   "uba": "الهأ 999 ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-109": {
+   "text": "999 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 999",
+   "torph": "ابحرم 999",
+   "uba": "ابحرم 999",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-110": {
+   "text": "مرحبا 999",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "999 ابحرم",
+   "torph": "999 ابحرم",
+   "uba": "999 ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-111": {
+   "text": "مرحبا 999 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 999 ابحرم",
+   "torph": "الهسو الهأ 999 ابحرم",
+   "uba": "الهسو الهأ 999 ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-112": {
+   "text": "ABC999مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC999",
+   "torph": "ابحرم999CBA",
+   "uba": "ابحرمABC999",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-113": {
+   "text": "1,999",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "1,999",
+   "torph": "999,1",
+   "uba": "1,999",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-114": {
+   "text": "مرحبا 1,999 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 1,999 ابحرم",
+   "torph": "الهأ 999,1 ابحرم",
+   "uba": "الهأ 1,999 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-115": {
+   "text": "1,999 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 1,999",
+   "torph": "ابحرم 999,1",
+   "uba": "ابحرم 1,999",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-116": {
+   "text": "مرحبا 1,999",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "1,999 ابحرم",
+   "torph": "999,1 ابحرم",
+   "uba": "1,999 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-117": {
+   "text": "مرحبا 1,999 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 1,999 ابحرم",
+   "torph": "الهسو الهأ 999,1 ابحرم",
+   "uba": "الهسو الهأ 1,999 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-118": {
+   "text": "ABC1,999مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC1,999",
+   "torph": "ابحرم999,1CBA",
+   "uba": "ابحرمABC1,999",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-119": {
+   "text": "9.99",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "9.99",
+   "torph": "99.9",
+   "uba": "9.99",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-120": {
+   "text": "مرحبا 9.99 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 9.99 ابحرم",
+   "torph": "الهأ 99.9 ابحرم",
+   "uba": "الهأ 9.99 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-121": {
+   "text": "9.99 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 9.99",
+   "torph": "ابحرم 99.9",
+   "uba": "ابحرم 9.99",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-122": {
+   "text": "مرحبا 9.99",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "9.99 ابحرم",
+   "torph": "99.9 ابحرم",
+   "uba": "9.99 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-123": {
+   "text": "مرحبا 9.99 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 9.99 ابحرم",
+   "torph": "الهسو الهأ 99.9 ابحرم",
+   "uba": "الهسو الهأ 9.99 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-124": {
+   "text": "ABC9.99مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC9.99",
+   "torph": "ابحرم99.9CBA",
+   "uba": "ابحرمABC9.99",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-125": {
+   "text": "-99",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "99-",
+   "torph": "99-",
+   "uba": "99-",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-126": {
+   "text": "مرحبا -99 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 99- ابحرم",
+   "torph": "الهأ 99- ابحرم",
+   "uba": "الهأ 99- ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-127": {
+   "text": "-99 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم 99-",
+   "torph": "ابحرم 99-",
+   "uba": "ابحرم 99-",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-128": {
+   "text": "مرحبا -99",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "99- ابحرم",
+   "torph": "99- ابحرم",
+   "uba": "99- ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-129": {
+   "text": "مرحبا -99 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 99- ابحرم",
+   "torph": "الهسو الهأ 99- ابحرم",
+   "uba": "الهسو الهأ 99- ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-130": {
+   "text": "ABC-99مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC-99",
+   "torph": "ابحرم99-CBA",
+   "uba": "ابحرمABC-99",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-131": {
+   "text": "$999",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "$999",
+   "torph": "999$",
+   "uba": "$999",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-132": {
+   "text": "مرحبا $999 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 999$ ابحرم",
+   "torph": "الهأ 999$ ابحرم",
+   "uba": "الهأ 999$ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-133": {
+   "text": "$999 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم $999",
+   "torph": "ابحرم 999$",
+   "uba": "ابحرم $999",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-134": {
+   "text": "مرحبا $999",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "999$ ابحرم",
+   "torph": "999$ ابحرم",
+   "uba": "999$ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-135": {
+   "text": "مرحبا $999 أهلا وسهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهسو الهأ 999$ ابحرم",
+   "torph": "الهسو الهأ 999$ ابحرم",
+   "uba": "الهسو الهأ 999$ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-136": {
+   "text": "ABC$999مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرمABC$999",
+   "torph": "ابحرم999$CBA",
+   "uba": "ابحرمABC$999",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-137": {
+   "text": "مرحبا ١٢٣ أهلا",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "الهأ ١٢٣ ابحرم",
+   "torph": "الهأ ١٢٣ ابحرم",
+   "uba": "الهأ ١٢٣ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-138": {
+   "text": "١٢٣",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "١٢٣",
+   "torph": "٣٢١",
+   "uba": "١٢٣",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-139": {
+   "text": "مرحبا ٩٩٩ أهلا",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "الهأ ٩٩٩ ابحرم",
+   "torph": "الهأ ٩٩٩ ابحرم",
+   "uba": "الهأ ٩٩٩ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-140": {
+   "text": "٩٩٩",
+   "dir": "rtl",
+   "category": "arabic-indic",
+   "plain": "٩٩٩",
+   "torph": "٩٩٩",
+   "uba": "٩٩٩",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-141": {
+   "text": "قیمت ۱۲۳ تومان",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "ناموت ۱۲۳ تمیق",
+   "torph": "ناموت ۱۲۳ تمیق",
+   "uba": "ناموت ۱۲۳ تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-142": {
+   "text": "۱۲۳",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "۱۲۳",
+   "torph": "۳۲۱",
+   "uba": "۱۲۳",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-143": {
+   "text": "قیمت ۹۹۹ تومان",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "ناموت ۹۹۹ تمیق",
+   "torph": "ناموت ۹۹۹ تمیق",
+   "uba": "ناموت ۹۹۹ تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-144": {
+   "text": "۹۹۹",
+   "dir": "rtl",
+   "category": "persian-digits",
+   "plain": "۹۹۹",
+   "torph": "۹۹۹",
+   "uba": "۹۹۹",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-145": {
+   "text": "مرحبا 123 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 123 ابحرم",
+   "torph": "الهأ 321 ابحرم",
+   "uba": "الهأ 123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-146": {
+   "text": "السعر 99 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 99 رعسلا",
+   "torph": "لاير 99 رعسلا",
+   "uba": "لاير 99 رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-147": {
+   "text": "السعر 9999 ريال",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "لاير 9999 رعسلا",
+   "torph": "لاير 9999 رعسلا",
+   "uba": "لاير 9999 رعسلا",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-148": {
+   "text": "مرحبا $9.99",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "9.99$ ابحرم",
+   "torph": "99.9$ ابحرم",
+   "uba": "9.99$ ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-149": {
+   "text": "مرحبا 9.99 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 9.99 ابحرم",
+   "torph": "الهأ 99.9 ابحرم",
+   "uba": "الهأ 9.99 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-150": {
+   "text": "مرحبا أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ ابحرم",
+   "torph": "الهأ ابحرم",
+   "uba": "الهأ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-151": {
+   "text": "مرحبا 123 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 123 ابحرم",
+   "torph": "الهأ 321 ابحرم",
+   "uba": "الهأ 123 ابحرم",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-152": {
+   "text": "ABC 1 مرحبا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ابحرم ABC 1",
+   "torph": "ابحرم 1 ABC",
+   "uba": "ابحرم ABC 1",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-153": {
+   "text": "מחיר 100 ₪",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "₪ 100 ריחמ",
+   "torph": "₪ 001 ריחמ",
+   "uba": "₪ 100 ריחמ",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-154": {
+   "text": "قیمت 100 تومان",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ناموت 100 تمیق",
+   "torph": "ناموت 001 تمیق",
+   "uba": "ناموت 100 تمیق",
+   "cls": "DIGIT-RUN-REVERSED",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-155": {
+   "text": "مرحبا 1 أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ 1 ابحرم",
+   "torph": "الهأ 1 ابحرم",
+   "uba": "الهأ 1 ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-156": {
+   "text": "$1",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "$1",
+   "torph": "1$",
+   "uba": "$1",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-157": {
+   "text": "מחיר 1 ₪",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "₪ 1 ריחמ",
+   "torph": "₪ 1 ריחמ",
+   "uba": "₪ 1 ריחמ",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-158": {
+   "text": "قیمت 1 تومان",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "ناموت 1 تمیق",
+   "torph": "ناموت 1 تمیق",
+   "uba": "ناموت 1 تمیق",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-159": {
+   "text": "مرحبا أهلا",
+   "dir": "rtl",
+   "category": "mixed-latin",
+   "plain": "الهأ ابحرم",
+   "torph": "الهأ ابحرم",
+   "uba": "الهأ ابحرم",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-160": {
+   "text": "مرحبا 123 أهلا",
+   "dir": "ltr",
+   "category": "mixed-latin",
+   "plain": "الهأ 123 ابحرم",
+   "torph": "ابحرم 123 الهأ",
+   "uba": "الهأ 123 ابحرم",
+   "cls": "OTHER-REORDER",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-161": {
+   "text": "999",
+   "dir": "ltr",
+   "category": "pure-number",
+   "plain": "999",
+   "torph": "999",
+   "uba": "999",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  },
+  "RTLC-162": {
+   "text": "999",
+   "dir": "rtl",
+   "category": "pure-number",
+   "plain": "999",
+   "torph": "999",
+   "uba": "999",
+   "cls": "MATCH",
+   "baseline": "UBA-OK"
+  }
+ }
+}

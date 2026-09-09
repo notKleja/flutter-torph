@@ -7,6 +7,8 @@ import '../debug/morph_snapshot.dart';
 import '../motion/morph_engine.dart';
 import 'text_measurer.dart';
 
+typedef _Slice = ({TextPainter painter, double left, double baseline});
+
 /// Half the width of the open inline axis of a numeric slot's clip
 /// (`clip-path: inset(0 -100vw)`): effectively unbounded.
 const double _kSlotInlineOverflow = 1000000;
@@ -157,16 +159,58 @@ class RenderTextMorph extends RenderBox {
       return;
     }
 
+    final slices = _shapedSlices();
     for (final item in _frame.items) {
       if (item.isBreak) continue;
       if (item.opacity == 0) continue;
-      _paintItem(canvas, offset, item);
+      _paintItem(canvas, offset, item, slices[item.id]);
     }
 
     if (_debug) _paintDebugRoot(canvas, offset);
   }
 
-  void _paintItem(Canvas canvas, Offset offset, ItemFrame item) {
+  /// Where each live item's characters sit inside the painter for its whole
+  /// line. Only for scripts that join, and only while the line has more than
+  /// one item — otherwise the item's own painter already shapes correctly.
+  Map<String, _Slice> _shapedSlices() {
+    final lines = <List<ItemFrame>>[[]];
+    for (final item in _frame.items) {
+      if (item.exiting) continue;
+      if (item.isBreak) {
+        lines.add(<ItemFrame>[]);
+      } else {
+        lines.last.add(item);
+      }
+    }
+
+    final slices = <String, _Slice>{};
+    for (final line in lines) {
+      if (line.length < 2) continue;
+      final text = line.map((i) => i.text).join();
+      if (!TextMeasurer.needsShaping(text)) continue;
+      final painter = _measurer.linePainterFor(text);
+      final baseline = painter.computeDistanceToActualBaseline(TextBaseline.alphabetic);
+      if (!baseline.isFinite) continue;
+      var offset = 0;
+      for (final item in line) {
+        final start = offset;
+        offset += item.text.length;
+        if (!TextMeasurer.needsShaping(item.text)) continue;
+        final boxes = painter.getBoxesForSelection(
+          TextSelection(baseOffset: start, extentOffset: offset),
+        );
+        if (boxes.isEmpty) continue;
+        var left = boxes.first.left;
+        for (final box in boxes) {
+          if (box.left < left) left = box.left;
+        }
+        slices[item.id] = (painter: painter, left: left, baseline: baseline);
+      }
+    }
+    return slices;
+  }
+
+  void _paintItem(Canvas canvas, Offset offset, ItemFrame item, _Slice? slice) {
     final t = item.transform;
     final ox = item.originX;
     final oy = item.originY;
@@ -188,6 +232,14 @@ class RenderTextMorph extends RenderBox {
 
     if (item.kind != null) {
       _paintSlot(canvas, item);
+    } else if (slice != null) {
+      final own = _measurer.painterFor(item.text);
+      final ownBaseline = own.computeDistanceToActualBaseline(TextBaseline.alphabetic);
+      canvas.save();
+      canvas.clipRect(Rect.fromLTWH(0, -item.height, item.width, item.height * 3));
+      canvas.translate(-slice.left, (ownBaseline.isFinite ? ownBaseline : own.height) - slice.baseline);
+      slice.painter.paint(canvas, Offset.zero);
+      canvas.restore();
     } else {
       _measurer.painterFor(item.text).paint(canvas, Offset.zero);
     }

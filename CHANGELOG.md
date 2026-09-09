@@ -1,5 +1,9 @@
 ## Unreleased
 
+* Arabic and other joining scripts keep their connected letter forms when a
+  word morphs character by character: live items are painted out of a painter
+  that saw the whole line (RTL-005).
+
 * `bidi` option (default `true`): right-to-left and mixed-direction values are
   laid out by the Unicode Bidirectional Algorithm, so numbers, Latin words and
   RTL words appear where a plain paragraph puts them. `bidi: false` restores

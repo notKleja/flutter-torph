@@ -75,6 +75,9 @@ Future<List<int>> _inkColumns(WidgetTester tester) async {
 }
 
 void main() {
+  setUpAll(() => debugSplitJoiningWords = true);
+  tearDownAll(() => debugSplitJoiningWords = false);
+
   testWidgets('a character-split Arabic word keeps its joined glyphs', (
     tester,
   ) async {

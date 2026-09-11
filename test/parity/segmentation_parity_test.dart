@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/src/core/diff.dart';
 import 'package:torph/src/core/segment.dart';
 import 'package:torph/src/core/segmenter.dart';
@@ -29,6 +30,9 @@ const Set<String> graphemeMorphChainLabels = {
 };
 
 void main() {
+  setUpAll(() => debugSplitJoiningWords = true);
+  tearDownAll(() => debugSplitJoiningWords = false);
+
   group('segmentText (oracle:segment-text)', () {
     final cases = loadFixture('segment-text') as List;
     var skipped = 0;

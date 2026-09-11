@@ -5,6 +5,7 @@ import 'dart:io';
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 import '../../widget/harness.dart';
@@ -34,6 +35,9 @@ class _Row {
 final List<_Row> _rows = [];
 
 void main() {
+  setUpAll(() => debugSplitJoiningWords = true);
+  tearDownAll(() => debugSplitJoiningWords = false);
+
   final dir = Directory(_browserDir);
   final files = dir.existsSync()
       ? (dir

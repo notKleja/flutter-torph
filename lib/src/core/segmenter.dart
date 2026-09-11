@@ -1,3 +1,4 @@
+import 'joining.dart';
 import 'number.dart';
 import 'segment.dart';
 import 'text_segmenter.dart';
@@ -71,7 +72,9 @@ List<Segment> _segmentLine(
   int offset,
   IdAllocator alloc,
 ) {
-  final parts = byWord ? segmentWords(line) : segmentGraphemes(line);
+  final parts = byWord
+      ? segmentWords(line)
+      : _mergeJoiningRuns(segmentGraphemes(line));
   final segments = <Segment>[];
 
   for (final data in parts) {
@@ -89,3 +92,17 @@ List<Segment> _segmentLine(
 
 String allocSegmentId(String part, int index, IdAllocator alloc) =>
     alloc.has(part) ? alloc.take('$part-$index') : alloc.take(part);
+
+/// A run of graphemes in a joining script is one unit (DEV-008).
+List<TextSegment> _mergeJoiningRuns(List<TextSegment> graphemes) {
+  final out = <TextSegment>[];
+  for (final g in graphemes) {
+    final last = out.isEmpty ? null : out.last;
+    if (last != null && isAtomicWord(last.segment) && isAtomicWord(g.segment)) {
+      out[out.length - 1] = TextSegment(last.index, last.segment + g.segment);
+    } else {
+      out.add(g);
+    }
+  }
+  return out;
+}

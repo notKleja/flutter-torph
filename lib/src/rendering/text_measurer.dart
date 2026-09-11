@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 import 'package:flutter/painting.dart';
 
+import '../core/joining.dart';
 import '../core/segment.dart';
 import '../motion/morph_engine.dart';
 
@@ -211,14 +212,7 @@ class TextMeasurer implements Measurer {
     '\u200f\u202b\u202e\u2067]',
   );
 
-  static final RegExp _joining = RegExp(
-    '[\u0600-\u06ff\u0700-\u074f\u0750-\u077f\u07c0-\u07ff'
-    '\u0840-\u085f\u0860-\u08ff\ufb50-\ufdff\ufe70-\ufeff]',
-  );
-
-  /// Scripts whose letters change shape by position, so a character split
-  /// across items has to be painted out of a painter that saw its neighbours.
-  static bool needsShaping(String text) => _joining.hasMatch(text);
+  static bool needsShaping(String text) => hasJoiningScript(text);
 
   /// Running-sum placement already is the algorithm's answer for an LTR
   /// paragraph with nothing strongly right-to-left in it.

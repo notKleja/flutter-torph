@@ -1,8 +1,8 @@
 {
   "corpusSource": "generated",
   "caseCount": 162,
-  "matchCount": 8,
-  "mismatchCount": 154,
+  "matchCount": 12,
+  "mismatchCount": 150,
   "cases": [
     {
       "id": "RTLC-001",
@@ -16758,104 +16758,33 @@
           ],
           "torphLogical": [
             {
-              "id": "١",
-              "text": "١",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "٢",
-              "text": "٢",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "٣",
-              "text": "٣",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "٤",
-              "text": "٤",
+              "id": "١٢٣٤",
+              "text": "١٢٣٤",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 80.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 80.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "٤",
-              "text": "٤",
+              "id": "١٢٣٤",
+              "text": "١٢٣٤",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 80.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "٣",
-              "text": "٣",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "٢",
-              "text": "٢",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "١",
-              "text": "١",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
               "visualRight": 80.0
             }
           ],
-          "torphVisualGlyphOrder": "٤٣٢١",
-          "match": false,
-          "mismatchIndices": [
-            0,
-            1,
-            2,
-            3
-          ]
+          "torphVisualGlyphOrder": "١٢٣٤",
+          "match": true,
+          "mismatchIndices": []
         },
         "system": null
       }
@@ -16878,104 +16807,33 @@
           ],
           "torphLogical": [
             {
-              "id": "۱",
-              "text": "۱",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "۲",
-              "text": "۲",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "۳",
-              "text": "۳",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۴",
-              "text": "۴",
+              "id": "۱۲۳۴",
+              "text": "۱۲۳۴",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 80.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 80.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "۴",
-              "text": "۴",
+              "id": "۱۲۳۴",
+              "text": "۱۲۳۴",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 80.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "۳",
-              "text": "۳",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۲",
-              "text": "۲",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "۱",
-              "text": "۱",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
               "visualRight": 80.0
             }
           ],
-          "torphVisualGlyphOrder": "۴۳۲۱",
-          "match": false,
-          "mismatchIndices": [
-            0,
-            1,
-            2,
-            3
-          ]
+          "torphVisualGlyphOrder": "۱۲۳۴",
+          "match": true,
+          "mismatchIndices": []
         },
         "system": null
       }
@@ -18135,70 +17993,15 @@
           ],
           "torphLogical": [
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 260.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 260.0,
-              "visualRight": 280.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 240.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 240.0,
-              "visualRight": 260.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 220.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 220.0,
-              "visualRight": 240.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 200.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 200.0,
-              "visualRight": 220.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
-              "kind": null,
-              "x": 180.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 180.0,
-              "visualRight": 200.0
-            },
-            {
-              "id": "،",
-              "text": "،",
+              "id": "مرحبا،",
+              "text": "مرحبا،",
               "kind": null,
               "x": 160.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 120.0,
               "height": 20.0,
               "visualLeft": 160.0,
-              "visualRight": 180.0
+              "visualRight": 280.0
             },
             {
               "id": "1",
@@ -18234,115 +18037,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "،-9",
-              "text": "،",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "أ",
-              "text": "أ",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ه",
-              "text": "ه",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ل",
-              "text": "ل",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا-13",
-              "text": "ا",
+              "id": "،أهلا",
+              "text": "،أهلا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا-13",
-              "text": "ا",
+              "id": "،أهلا",
+              "text": "،أهلا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ل",
-              "text": "ل",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ه",
-              "text": "ه",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "أ",
-              "text": "أ",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "،-9",
-              "text": "،",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -18379,69 +18094,14 @@
               "visualRight": 160.0
             },
             {
-              "id": "،",
-              "text": "،",
+              "id": "مرحبا،",
+              "text": "مرحبا،",
               "kind": null,
               "x": 160.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 120.0,
               "height": 20.0,
               "visualLeft": 160.0,
-              "visualRight": 180.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
-              "kind": null,
-              "x": 180.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 180.0,
-              "visualRight": 200.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 200.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 200.0,
-              "visualRight": 220.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 220.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 220.0,
-              "visualRight": 240.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 240.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 240.0,
-              "visualRight": 260.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 260.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 260.0,
               "visualRight": 280.0
             }
           ],
@@ -18480,59 +18140,15 @@
           ],
           "torphLogical": [
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 200.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 200.0,
-              "visualRight": 220.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 180.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 180.0,
-              "visualRight": 200.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 160.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 160.0,
-              "visualRight": 180.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 140.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 140.0,
-              "visualRight": 160.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 120.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 120.0,
-              "visualRight": 140.0
+              "visualRight": 220.0
             },
             {
               "id": "A",
@@ -18669,58 +18285,14 @@
               "visualRight": 120.0
             },
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 120.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 120.0,
-              "visualRight": 140.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 140.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 140.0,
-              "visualRight": 160.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 160.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 160.0,
-              "visualRight": 180.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 180.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 180.0,
-              "visualRight": 200.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 200.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 200.0,
               "visualRight": 220.0
             }
           ],
@@ -18829,115 +18401,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -22284,115 +21768,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -23397,115 +22793,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -24499,115 +23807,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -25876,115 +25096,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -27140,115 +26272,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -28253,115 +27297,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -29487,115 +28443,27 @@
               "visualRight": 120.0
             },
             {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
-              "visualRight": 100.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 100.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "ا",
-              "text": "ا",
+              "id": "مرحبا",
+              "text": "مرحبا",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 100.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "ب",
-              "text": "ب",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "ح",
-              "text": "ح",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "ر",
-              "text": "ر",
-              "kind": null,
-              "x": 60.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 60.0,
-              "visualRight": 80.0
-            },
-            {
-              "id": "م",
-              "text": "م",
-              "kind": null,
-              "x": 80.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 80.0,
               "visualRight": 100.0
             },
             {
@@ -29857,80 +28725,33 @@
           ],
           "torphLogical": [
             {
-              "id": "١",
-              "text": "١",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "٢",
-              "text": "٢",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "٣",
-              "text": "٣",
+              "id": "١٢٣",
+              "text": "١٢٣",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 60.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "٣",
-              "text": "٣",
+              "id": "١٢٣",
+              "text": "١٢٣",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "٢",
-              "text": "٢",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "١",
-              "text": "١",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
               "visualRight": 60.0
             }
           ],
-          "torphVisualGlyphOrder": "٣٢١",
-          "match": false,
-          "mismatchIndices": [
-            0,
-            2
-          ]
+          "torphVisualGlyphOrder": "١٢٣",
+          "match": true,
+          "mismatchIndices": []
         },
         "system": null
       }
@@ -30102,71 +28923,27 @@
           ],
           "torphLogical": [
             {
-              "id": "٩",
-              "text": "٩",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "٩-1",
-              "text": "٩",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "٩-2",
-              "text": "٩",
+              "id": "٩٩٩",
+              "text": "٩٩٩",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 60.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "٩-2",
-              "text": "٩",
+              "id": "٩٩٩",
+              "text": "٩٩٩",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "٩-1",
-              "text": "٩",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "٩",
-              "text": "٩",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
               "visualRight": 60.0
             }
           ],
@@ -30344,80 +29121,33 @@
           ],
           "torphLogical": [
             {
-              "id": "۱",
-              "text": "۱",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "۲",
-              "text": "۲",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۳",
-              "text": "۳",
+              "id": "۱۲۳",
+              "text": "۱۲۳",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 60.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "۳",
-              "text": "۳",
+              "id": "۱۲۳",
+              "text": "۱۲۳",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "۲",
-              "text": "۲",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۱",
-              "text": "۱",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
               "visualRight": 60.0
             }
           ],
-          "torphVisualGlyphOrder": "۳۲۱",
-          "match": false,
-          "mismatchIndices": [
-            0,
-            2
-          ]
+          "torphVisualGlyphOrder": "۱۲۳",
+          "match": true,
+          "mismatchIndices": []
         },
         "system": null
       }
@@ -30589,71 +29319,27 @@
           ],
           "torphLogical": [
             {
-              "id": "۹",
-              "text": "۹",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
-              "visualRight": 60.0
-            },
-            {
-              "id": "۹-1",
-              "text": "۹",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۹-2",
-              "text": "۹",
+              "id": "۹۹۹",
+              "text": "۹۹۹",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
+              "visualRight": 60.0
             }
           ],
           "torphVisualOrder": [
             {
-              "id": "۹-2",
-              "text": "۹",
+              "id": "۹۹۹",
+              "text": "۹۹۹",
               "kind": null,
               "x": 0.0,
               "y": 0.0,
-              "width": 20.0,
+              "width": 60.0,
               "height": 20.0,
               "visualLeft": 0.0,
-              "visualRight": 20.0
-            },
-            {
-              "id": "۹-1",
-              "text": "۹",
-              "kind": null,
-              "x": 20.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 20.0,
-              "visualRight": 40.0
-            },
-            {
-              "id": "۹",
-              "text": "۹",
-              "kind": null,
-              "x": 40.0,
-              "y": 0.0,
-              "width": 20.0,
-              "height": 20.0,
-              "visualLeft": 40.0,
               "visualRight": 60.0
             }
           ],

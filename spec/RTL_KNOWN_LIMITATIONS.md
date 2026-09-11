@@ -38,7 +38,7 @@ LRM/RLM/LRI/RLI/FSI/PDI are ordinary characters to the segmenter; they attach to
 ## RTL-004 A grouping space inside a number is rendered as NBSP, so the number stays one run (P2, by design)
 `isNumericWord` treats a space as a thousands separator, and the port renders it as NBSP (U+00A0). NBSP is a common separator for the bidi algorithm where U+0020 is whitespace, so a phone-shaped value keeps its groups in typed order instead of having them reordered: `اتصل بي على +971 50 123 4567` renders `971 50 123 4567+`, while the same string typed with plain spaces into a paragraph gives `4567 123 50 971+`. Both are the algorithm's own answer for the text each actually contains, so `bidi: true` is self-consistent; the difference is upstream's grouping rule, not the bidi pass. Verified on RTLC-058, 061, 062, 094 (test/rtl/rtl_bidi_corpus_test.dart compares against the rendered text for this reason).
 
-## RTL-005 An exiting letter of a split word is drawn in its isolated form (P2)
+## RTL-005 An exiting letter of a split word is drawn in its isolated form (P2; unreachable by default since DEV-008 keeps joining-script words whole)
 A word that morphs character by character is split into one item per letter. Live items are painted as slices of a painter over the whole line, so joining forms survive (`RenderTextMorph._shapedSlices`, proven by test/rtl/rtl_shaping_test.dart: the ink profile of a split word matches the same word drawn as one run within 8 %, versus 67 % without the slice). Items already leaving the flow are not in that line any more and keep their own painter, so a departing Arabic letter shows its isolated shape while it fades (under 200 ms at the default duration).
 
 ## Not limitations (verified)

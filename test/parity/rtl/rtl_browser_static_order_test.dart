@@ -22,6 +22,9 @@ const Set<String> _zeroWidthSpace = {
 String _norm(String s) => s.replaceAll(' ', ' ').replaceAll(' ', ' ');
 
 void main() {
+  setUpAll(() => debugSplitJoiningWords = true);
+  tearDownAll(() => debugSplitJoiningWords = false);
+
   final dir = Directory('oracle/fixtures/rtl/browser');
   if (!dir.existsSync()) return;
   final files =

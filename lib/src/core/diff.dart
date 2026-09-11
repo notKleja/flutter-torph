@@ -1,3 +1,4 @@
+import 'joining.dart';
 import 'lcs.dart';
 import 'number.dart';
 import 'segment.dart';
@@ -90,6 +91,7 @@ const double minSimilarity = 0.4;
 /// An old word's claim on a new one. A matching numeric skeleton beats shared
 /// characters.
 double _pairAffinity(String a, String b) {
+  if (isAtomicWord(a) || isAtomicWord(b)) return 0;
   if ((hasDigit(a) || hasDigit(b)) &&
       numericSkeleton(a) == numericSkeleton(b)) {
     return 1;

@@ -266,6 +266,9 @@ this package's compatibility promise.
 - Words that morph character by character are cut into grapheme clusters, so
   an emoji, flag or accented letter moves as one unit; upstream cuts into
   UTF-16 code units (DEV-007).
+- Words in joining scripts (Arabic, Syriac, N'Ko) never morph letter by
+  letter: a changed word is swapped whole, since connected letters have no
+  identity of their own (DEV-008).
 - `ease` additionally accepts a Flutter `Curve`, sampled into the same
   step-function form a spring resolves to; upstream only accepts a CSS easing
   string or spring parameters.

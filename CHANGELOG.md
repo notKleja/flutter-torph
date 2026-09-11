@@ -17,6 +17,10 @@
   instead of UTF-16 code units, so emoji, flags, ZWJ sequences and combining
   marks move as one unit rather than as tofu fragments (DEV-007).
 
+* Arabic, Syriac and N'Ko words are atomic: a changed word is swapped whole
+  instead of being cut into letters (DEV-008). Numbers and Latin words in the
+  same value still morph as before.
+
 * `ease` also accepts a Flutter `Curve` (`Curves.easeOutCubic`), sampled the
   way a spring is. The engine is keyed on the resolved easing, so an
   equivalent non-const `Curve` or `SpringParams` on every rebuild no longer

@@ -4,6 +4,7 @@ library;
 
 import 'src/widget/text_morph.dart' show TextMorph;
 
+export 'src/core/joining.dart' show debugSplitJoiningWords;
 export 'src/debug/morph_snapshot.dart' show TextMorphSnapshot;
 export 'src/motion/morph_engine.dart' show FrameState, ItemFrame, Lifecycle;
 export 'src/rendering/render_text_morph.dart' show RenderTextMorph;

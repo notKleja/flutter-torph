@@ -27,6 +27,9 @@ const double _unit = 2e-3;
 const double _norm = 2e-3;
 
 void main() {
+  setUpAll(() => debugSplitJoiningWords = true);
+  tearDownAll(() => debugSplitJoiningWords = false);
+
   final dir = Directory('oracle/fixtures/runtime');
   final files =
       dir

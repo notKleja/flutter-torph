@@ -6,14 +6,24 @@ set -uo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
+FORMAT=skipped
 ANALYZE=skipped
 TEST=skipped
 FIXTURES=skipped
 EXAMPLE=skipped
+PUBLISH=skipped
 STATUS=0
 
 step() { printf '\n=== %s ===\n' "$1"; }
 fail() { STATUS=1; }
+
+step "dart format"
+if dart format --output=none --set-exit-if-changed .; then
+  FORMAT=pass
+else
+  FORMAT=FAIL
+  fail
+fi
 
 step "flutter analyze"
 if flutter analyze; then ANALYZE=pass; else ANALYZE=FAIL; fail; fi
@@ -65,10 +75,20 @@ if [ -f "$ROOT/example/pubspec.yaml" ]; then
   fi
 fi
 
+step "publish dry run"
+if dart pub publish --dry-run; then
+  PUBLISH=pass
+else
+  PUBLISH=FAIL
+  fail
+fi
+
 step "summary"
+printf 'format             %s\n' "$FORMAT"
 printf 'analyze            %s\n' "$ANALYZE"
 printf 'test               %s\n' "$TEST"
 printf 'oracle fixtures    %s\n' "$FIXTURES"
 printf 'example            %s\n' "$EXAMPLE"
+printf 'publish dry run    %s\n' "$PUBLISH"
 printf '\n%s\n' "$([ $STATUS -eq 0 ] && echo 'CI passed' || echo 'CI failed')"
 exit $STATUS

@@ -5,8 +5,9 @@ import 'package:torph/torph.dart';
 import 'harness.dart';
 
 void main() {
-  testWidgets('one node labelled with the value, during a morph too',
-      (tester) async {
+  testWidgets('one node labelled with the value, during a morph too', (
+    tester,
+  ) async {
     final handle = tester.ensureSemantics();
 
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
@@ -29,18 +30,39 @@ void main() {
 
   testWidgets('the label follows the direction', (tester) async {
     final handle = tester.ensureSemantics();
-    await tester.pumpWidget(host(
-      TextMorph(value: 'مرحبا'),
-      direction: TextDirection.rtl,
-    ));
+    await tester.pumpWidget(
+      host(TextMorph(value: 'مرحبا'), direction: TextDirection.rtl),
+    );
     final node = tester.getSemantics(find.byType(TextMorph));
     expect(node.label, 'مرحبا');
     expect(node.textDirection, TextDirection.rtl);
     handle.dispose();
   });
 
-  testWidgets('a numeric value is labelled with the formatted string',
-      (tester) async {
+  testWidgets('an RTL value renders, settles, and keeps its rtl label', (
+    tester,
+  ) async {
+    final handle = tester.ensureSemantics();
+    await tester.pumpWidget(
+      host(TextMorph(value: 'مرحبا'), direction: TextDirection.rtl),
+    );
+    await tester.pumpWidget(
+      host(TextMorph(value: 'مرحبا بالعالم'), direction: TextDirection.rtl),
+    );
+    await startClock(tester);
+    await tester.pump(const Duration(milliseconds: 500));
+
+    expect(snapshotOf(tester).animating, isFalse);
+    expect(tester.takeException(), isNull);
+    final node = tester.getSemantics(find.byType(TextMorph));
+    expect(node.label, 'مرحبا بالعالم');
+    expect(node.textDirection, TextDirection.rtl);
+    handle.dispose();
+  });
+
+  testWidgets('a numeric value is labelled with the formatted string', (
+    tester,
+  ) async {
     final handle = tester.ensureSemantics();
     await tester.pumpWidget(host(TextMorph(value: 1234)));
     expect(find.bySemanticsLabel('1,234'), findsOneWidget);

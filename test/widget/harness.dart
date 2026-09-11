@@ -1,11 +1,15 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 /// The default `flutter_test` font: every glyph is [fontSize] wide and one
 /// [fontSize] tall, which makes every expectation an exact integer.
 const double fontSize = 20;
-const TextStyle testStyle = TextStyle(fontSize: fontSize, color: Color(0xFF000000));
+const TextStyle testStyle = TextStyle(
+  fontSize: fontSize,
+  color: Color(0xFF000000),
+);
 
 /// One line of the test font.
 const double lineHeight = fontSize;
@@ -37,7 +41,8 @@ Widget host(
 RenderTextMorph renderOf(WidgetTester tester) =>
     tester.renderObject<RenderTextMorph>(find.byType(TextMorph));
 
-TextMorphSnapshot snapshotOf(WidgetTester tester) => renderOf(tester).debugSnapshot();
+TextMorphSnapshot snapshotOf(WidgetTester tester) =>
+    renderOf(tester).debugSnapshot();
 
 TextMorphState stateOf(WidgetTester tester) =>
     tester.state<TextMorphState>(find.byType(TextMorph));

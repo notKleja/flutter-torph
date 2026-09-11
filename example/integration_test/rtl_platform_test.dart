@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 import 'rtl_corpus_data.dart';
@@ -53,21 +54,16 @@ List<Map<String, dynamic>> _plainOrder(
     entries.add({'text': g, 'left': left});
   }
   painter.dispose();
-  entries.sort(
-    (a, b) => (a['left'] as double).compareTo(b['left'] as double),
-  );
+  entries.sort((a, b) => (a['left'] as double).compareTo(b['left'] as double));
   return entries;
 }
 
 List<Map<String, dynamic>> _torphOrder(TextMorphSnapshot snap) {
   final live = snap.liveItems.where((i) => !i.isBreak).toList();
   final entries = [
-    for (final item in live)
-      {'text': item.text, 'left': item.visualRect.left},
+    for (final item in live) {'text': item.text, 'left': item.visualRect.left},
   ];
-  entries.sort(
-    (a, b) => (a['left'] as double).compareTo(b['left'] as double),
-  );
+  entries.sort((a, b) => (a['left'] as double).compareTo(b['left'] as double));
   return entries;
 }
 

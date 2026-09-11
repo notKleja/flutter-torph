@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 import '../widget/harness.dart';
@@ -28,21 +29,27 @@ void main() {
     });
   }
 
-  testWidgets('a 16 ms storm of 1000 updates leaks no exiting items',
-      (tester) async {
+  testWidgets('a 16 ms storm of 1000 updates leaks no exiting items', (
+    tester,
+  ) async {
     final random = Random(9001);
     await tester.pumpWidget(host(TextMorph(value: 'start')));
     await startClock(tester);
     var worst = 0;
     for (var i = 0; i < 1000; i++) {
-      await tester.pumpWidget(host(TextMorph(value: 'v$i ${random.nextInt(999)}')));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'v$i ${random.nextInt(999)}')),
+      );
       await tester.pump(const Duration(milliseconds: 16));
       final snapshot = snapshotOf(tester);
       worst = max(worst, snapshot.exitingItems.length);
       // Every 16 ms morph leaves at most the previous value's boxes behind, and
       // their text exit fade is over in 100 ms: the set cannot accumulate.
-      expect(snapshot.exitingItems.length, lessThan(64),
-          reason: 'exiting items accumulated at update $i');
+      expect(
+        snapshot.exitingItems.length,
+        lessThan(64),
+        reason: 'exiting items accumulated at update $i',
+      );
     }
     await tester.pump(const Duration(milliseconds: 600));
     expect(snapshotOf(tester).exitingItems, isEmpty);
@@ -57,12 +64,14 @@ void main() {
   // `test/parity/widget_adversarial_test.dart --plain-name "F-1"`.
   test('F-1: a settled line is aligned to the width the root actually has', () {
     if (_staleAlignment.isEmpty) return;
-    fail('${_staleAlignment.length} settled lines are laid out for a container '
-        'width the root no longer has (finding F-1: `MorphEngine.frame` clears '
-        '`_container` and only re-measures `if (pinned != null)`, so the frame '
-        'that completes a container transition never re-measures at the natural '
-        'width — morph_engine.dart:906-916). Invisible under LTR + left, '
-        'visible under center/right/RTL.\n${_staleAlignment.take(12).join('\n')}');
+    fail(
+      '${_staleAlignment.length} settled lines are laid out for a container '
+      'width the root no longer has (finding F-1: `MorphEngine.frame` clears '
+      '`_container` and only re-measures `if (pinned != null)`, so the frame '
+      'that completes a container transition never re-measures at the natural '
+      'width — morph_engine.dart:906-916). Invisible under LTR + left, '
+      'visible under center/right/RTL.\n${_staleAlignment.take(12).join('\n')}',
+    );
   });
 }
 
@@ -99,9 +108,10 @@ Object _value(Random r) {
       // Grouped and fractional currency, as a String so the digits are exact.
       final cents = r.nextInt(100).toString().padLeft(2, '0');
       final units = r.nextInt(2000000);
-      final grouped = units
-          .toString()
-          .replaceAllMapped(RegExp(r'(\d)(?=(\d{3})+$)'), (m) => '${m[1]},');
+      final grouped = units.toString().replaceAllMapped(
+        RegExp(r'(\d)(?=(\d{3})+$)'),
+        (m) => '${m[1]},',
+      );
       return '\$$grouped.$cents';
     case 5:
       // A num value: the widget formats it (locale `en`, no decimals option).
@@ -117,8 +127,15 @@ Object _value(Random r) {
     case 10:
       return _pick(r, const ['مرحبا', 'مرحبا بالعالم', 'بالعالم مرحبا']);
     case 11:
-      return _pick(r,
-          const ['1 of 10', '2 of 10', 'café', 'cafe', 'a\n1,234\nb', '  ', '9.99']);
+      return _pick(r, const [
+        '1 of 10',
+        '2 of 10',
+        'café',
+        'cafe',
+        'a\n1,234\nb',
+        '  ',
+        '9.99',
+      ]);
   }
   throw StateError('unreachable');
 }
@@ -142,7 +159,9 @@ Duration _gap(Random r) {
 
 Future<void> _runSequence(WidgetTester tester, int seed) async {
   final random = Random(seed);
-  final direction = random.nextInt(4) == 0 ? TextDirection.rtl : TextDirection.ltr;
+  final direction = random.nextInt(4) == 0
+      ? TextDirection.rtl
+      : TextDirection.ltr;
   final align = switch (random.nextInt(5)) {
     0 => TextAlign.center,
     1 => TextAlign.right,
@@ -156,18 +175,18 @@ Future<void> _runSequence(WidgetTester tester, int seed) async {
   final problems = <String>[];
 
   Widget build(Object value) => host(
-        TextMorph(
-          value: value,
-          onAnimationStart: () => starts++,
-          onAnimationComplete: () => completes++,
-          onAnimationCancel: () => cancels++,
-        ),
-        direction: direction,
-        textAlign: align,
-      );
+    TextMorph(
+      value: value,
+      onAnimationStart: () => starts++,
+      onAnimationComplete: () => completes++,
+      onAnimationCancel: () => cancels++,
+    ),
+    direction: direction,
+    textAlign: align,
+  );
 
   final values = <Object>[
-    for (var i = 0; i < 4 + random.nextInt(6); i++) _value(random)
+    for (var i = 0; i < 4 + random.nextInt(6); i++) _value(random),
   ];
 
   final limits = _Limits();
@@ -197,8 +216,10 @@ Future<void> _runSequence(WidgetTester tester, int seed) async {
         // INV-13: the container starts from the layout size that was on screen,
         // unless that was zero — then there is no container animation at all.
         if (beforeWidth > 0 && (after.size.width - beforeWidth).abs() > 0.6) {
-          problems.add('INV-13 ${_q(value)}: the container jumped from '
-              '$beforeWidth to ${after.size.width} instead of animating from it');
+          problems.add(
+            'INV-13 ${_q(value)}: the container jumped from '
+            '$beforeWidth to ${after.size.width} instead of animating from it',
+          );
         }
       }
     }
@@ -207,9 +228,11 @@ Future<void> _runSequence(WidgetTester tester, int seed) async {
     _balance(problems, starts, completes, cancels, 'after ${_q(value)}');
 
     final gap = _gap(random);
-    for (var elapsed = Duration.zero;
-        elapsed < gap;
-        elapsed += const Duration(milliseconds: 16)) {
+    for (
+      var elapsed = Duration.zero;
+      elapsed < gap;
+      elapsed += const Duration(milliseconds: 16)
+    ) {
       await tester.pump(const Duration(milliseconds: 16));
       _check(tester, value, problems, 'during ${_q(value)}', limits);
       _balance(problems, starts, completes, cancels, 'during ${_q(value)}');
@@ -223,52 +246,80 @@ Future<void> _runSequence(WidgetTester tester, int seed) async {
   }
   await tester.pump(const Duration(milliseconds: 401));
   final settled = snapshotOf(tester);
-  if (settled.animating) problems.add('still animating 1.3 s after the last update');
+  if (settled.animating) {
+    problems.add('still animating 1.3 s after the last update');
+  }
   if (stateOf(tester).debugTickerActive) {
     problems.add('the ticker is still active 1.3 s after the last update');
   }
   if ((settled.size.width - settled.naturalSize.width).abs() > 0.001 ||
       (settled.size.height - settled.naturalSize.height).abs() > 0.001) {
-    problems.add('settled size ${settled.size} != natural ${settled.naturalSize}');
+    problems.add(
+      'settled size ${settled.size} != natural ${settled.naturalSize}',
+    );
   }
   if (settled.exitingItems.isNotEmpty) {
-    problems.add('${settled.exitingItems.length} exiting items survived the morph');
+    problems.add(
+      '${settled.exitingItems.length} exiting items survived the morph',
+    );
   }
   _check(tester, values.last, problems, 'settled', limits);
-  _restingLayout(tester, settled, direction, align, problems,
-      'seed $seed ($direction, $align, last ${_q(values.last)})');
+  _restingLayout(
+    tester,
+    settled,
+    direction,
+    align,
+    problems,
+    'seed $seed ($direction, $align, last ${_q(values.last)})',
+  );
 
   if (starts != morphs) {
     problems.add('CALLBACK-001: $morphs morphs fired $starts onAnimationStart');
   }
   if (completes + cancels != starts) {
-    problems.add('INV-11: $starts starts but ${completes + cancels} terminal '
-        'callbacks ($completes complete, $cancels cancel)');
+    problems.add(
+      'INV-11: $starts starts but ${completes + cancels} terminal '
+      'callbacks ($completes complete, $cancels cancel)',
+    );
   }
 
   // Semantics: one node, labelled with the whole value (INV-15, ACCESS-001).
   final handle = tester.ensureSemantics();
-  expect(tester.getSemantics(find.byType(TextMorph)).label, settled.value,
-      reason: 'the semantics label is the value');
+  expect(
+    tester.getSemantics(find.byType(TextMorph)).label,
+    settled.value,
+    reason: 'the semantics label is the value',
+  );
   handle.dispose();
 
   if (problems.isNotEmpty) {
-    fail('FUZZ FAILURE seed $seed '
-        '(direction: $direction, align: $align, values: ${values.map(_q).join(' → ')})\n'
-        '${problems.take(10).join('\n')}');
+    fail(
+      'FUZZ FAILURE seed $seed '
+      '(direction: $direction, align: $align, values: ${values.map(_q).join(' → ')})\n'
+      '${problems.take(10).join('\n')}',
+    );
   }
 }
 
-String _q(Object value) => '"${value.toString().replaceAll('\n', r'\n')}"'
+String _q(Object value) =>
+    '"${value.toString().replaceAll('\n', r'\n')}"'
     '${value is num ? ' (num)' : ''}';
 
 /// `starts - (completes + cancels)` is the number of morphs in flight: 0 or 1,
 /// never more, never negative (INV-11).
-void _balance(List<String> problems, int starts, int completes, int cancels, String tag) {
+void _balance(
+  List<String> problems,
+  int starts,
+  int completes,
+  int cancels,
+  String tag,
+) {
   final inFlight = starts - completes - cancels;
   if (inFlight < 0 || inFlight > 1) {
-    problems.add('INV-11 $tag: $starts starts, $completes complete, $cancels '
-        'cancel — $inFlight morphs in flight');
+    problems.add(
+      'INV-11 $tag: $starts starts, $completes complete, $cancels '
+      'cancel — $inFlight morphs in flight',
+    );
   }
 }
 
@@ -280,11 +331,18 @@ class _Limits {
   double maxHeight = 0;
 }
 
-void _check(WidgetTester tester, Object value, List<String> problems, String tag,
-    _Limits limits) {
+void _check(
+  WidgetTester tester,
+  Object value,
+  List<String> problems,
+  String tag,
+  _Limits limits,
+) {
   final snapshot = snapshotOf(tester);
-  limits.maxHeight =
-      max(limits.maxHeight, max(snapshot.size.height, snapshot.naturalSize.height));
+  limits.maxHeight = max(
+    limits.maxHeight,
+    max(snapshot.size.height, snapshot.naturalSize.height),
+  );
   final render = renderOf(tester);
   final live = snapshot.liveItems;
 
@@ -303,35 +361,48 @@ void _check(WidgetTester tester, Object value, List<String> problems, String tag
   }
 
   // INV-2: the live strings are the value.
-  final rendered =
-      live.where((i) => !i.isBreak).map((i) => i.text == kNbsp ? ' ' : i.text).join();
+  final rendered = live
+      .where((i) => !i.isBreak)
+      .map((i) => i.text == kNbsp ? ' ' : i.text)
+      .join();
   final expected = snapshot.value.replaceAll('\n', '');
   // An empty value renders the zero-width stand-in — except an *initial* render
   // of `''`, which upstream leaves as an empty root
   final wanted = expected.isEmpty ? <String>[kZwsp, ''] : <String>[expected];
   if (!wanted.contains(rendered)) {
-    problems.add('$tag INV-2: rendered ${_j(rendered)} != value '
-        '${wanted.map(_j).join(' or ')}');
+    problems.add(
+      '$tag INV-2: rendered ${_j(rendered)} != value '
+      '${wanted.map(_j).join(' or ')}',
+    );
   }
   if (value is String && snapshot.value != value) {
-    problems.add('$tag: the frame value is ${_j(snapshot.value)}, expected ${_j(value)}');
+    problems.add(
+      '$tag: the frame value is ${_j(snapshot.value)}, expected ${_j(value)}',
+    );
   }
   if (value is num && !snapshot.value.contains(RegExp(r'[0-9]'))) {
-    problems.add('$tag: the frame value ${_j(snapshot.value)} holds no digits of $value');
+    problems.add(
+      '$tag: the frame value ${_j(snapshot.value)} holds no digits of $value',
+    );
   }
 
   for (final item in snapshot.items) {
     // INV-3: no empty strings but the placeholder.
     if (item.text.isEmpty) {
-      problems.add('$tag INV-3: an item with an empty string (id ${_j(item.id)})');
+      problems.add(
+        '$tag INV-3: an item with an empty string (id ${_j(item.id)})',
+      );
     }
     // INV-4: the two ID namespaces are disjoint.
     if (item.id.contains('\u0000') && !item.id.startsWith(kMintPrefix)) {
-      problems.add('$tag INV-4: id ${_j(item.id)} holds U+0000 but is not minted');
+      problems.add(
+        '$tag INV-4: id ${_j(item.id)} holds U+0000 but is not minted',
+      );
     }
     // INV-5 (proxy): a kind is a per-character number kind.
     if (item.kind != null) {
-      final isDigit = item.text.length == 1 && RegExp(r'[0-9]').hasMatch(item.text);
+      final isDigit =
+          item.text.length == 1 && RegExp(r'[0-9]').hasMatch(item.text);
       if (isDigit != (item.kind == SegmentKind.digit)) {
         problems.add('$tag INV-5: ${_j(item.text)} has kind ${item.kind}');
       }
@@ -349,8 +420,10 @@ void _check(WidgetTester tester, Object value, List<String> problems, String tag
     // can never exceed the tallest root the sequence has had (plus the pixel
     final mover = item.moverTransform;
     if (mover != null && mover.ty.abs() > limits.maxHeight + 1.001) {
-      problems.add('$tag INV-14: mover ty ${mover.ty} exceeds every line box the '
-          'sequence has had (${limits.maxHeight + 1.001})');
+      problems.add(
+        '$tag INV-14: mover ty ${mover.ty} exceeds every line box the '
+        'sequence has had (${limits.maxHeight + 1.001})',
+      );
     }
     if (item.opacity < 0 || item.opacity > 1) {
       problems.add('$tag: opacity ${item.opacity} out of range');
@@ -373,8 +446,14 @@ void _check(WidgetTester tester, Object value, List<String> problems, String tag
 
 /// INV-9 at rest: the live items sit at their measured layout positions, so the
 /// animated coordinates never leaked into the layout.
-void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
-    TextDirection direction, TextAlign align, List<String> problems, String seedTag) {
+void _restingLayout(
+  WidgetTester tester,
+  TextMorphSnapshot snapshot,
+  TextDirection direction,
+  TextAlign align,
+  List<String> problems,
+  String seedTag,
+) {
   final lines = <List<ItemFrame>>[<ItemFrame>[]];
   for (final item in snapshot.liveItems) {
     if (item.isBreak) {
@@ -392,7 +471,8 @@ void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
   };
   // Under LTR + left the line always starts at 0, so no container width can
   // shift it: a mismatch there can only be a per-item coordinate error.
-  final alignmentCanShift = resolved != 'left' || direction == TextDirection.rtl;
+  final alignmentCanShift =
+      resolved != 'left' || direction == TextDirection.rtl;
   final width = snapshot.size.width;
 
   for (final line in lines) {
@@ -408,8 +488,10 @@ void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
           };
     for (final item in line) {
       if (item.transform.tx != 0 || item.transform.ty != 0) {
-        problems.add('INV-9: ${_j(item.text)} rests with a translate '
-            '(${item.transform.tx}, ${item.transform.ty})');
+        problems.add(
+          'INV-9: ${_j(item.text)} rests with a translate '
+          '(${item.transform.tx}, ${item.transform.ty})',
+        );
       }
     }
     // Packed contiguously from `left`, in *visual* order — under bidi an RTL
@@ -426,16 +508,20 @@ void _restingLayout(WidgetTester tester, TextMorphSnapshot snapshot,
     if (uniform && deltas.first.abs() <= 0.01) continue;
     if (uniform && alignmentCanShift) {
       final implied = width - deltas.first * (resolved == 'center' ? 2 : 1);
-      _staleAlignment.add('$seedTag: the line ${_j(line.map((i) => i.text).join())} '
-          'rests ${deltas.first.toStringAsFixed(3)} px from where the root width '
-          '${width.toStringAsFixed(3)} puts it (as if the root were still '
-          '${implied.toStringAsFixed(3)} wide)');
+      _staleAlignment.add(
+        '$seedTag: the line ${_j(line.map((i) => i.text).join())} '
+        'rests ${deltas.first.toStringAsFixed(3)} px from where the root width '
+        '${width.toStringAsFixed(3)} puts it (as if the root were still '
+        '${implied.toStringAsFixed(3)} wide)',
+      );
       continue;
     }
     for (var i = 0; i < byVisualX.length; i++) {
       if (deltas[i].abs() > 0.01) {
-        problems.add('INV-9: ${_j(byVisualX[i].text)} rests at x ${byVisualX[i].x}, '
-            'measured layout says ${byVisualX[i].x - deltas[i]}');
+        problems.add(
+          'INV-9: ${_j(byVisualX[i].text)} rests at x ${byVisualX[i].x}, '
+          'measured layout says ${byVisualX[i].x - deltas[i]}',
+        );
       }
     }
   }

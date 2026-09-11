@@ -12,7 +12,6 @@ import '../widget/harness.dart';
 import 'rtl_corpus.dart';
 import 'rtl_visual.dart';
 
-
 const List<String> _arabicScriptCandidates = [
   '/System/Library/Fonts/GeezaPro.ttc',
   '/System/Library/Fonts/SFArabic.ttf',
@@ -36,7 +35,9 @@ Future<String?> _systemFamilyFor(String locale) async {
   if (_loadedFamilyByLocale.containsKey(locale)) {
     return _loadedFamilyByLocale[locale];
   }
-  if (Platform.environment['RTL_AUDIT_SYSTEM_FONT'] != '1') return _loadedFamilyByLocale[locale] = null;
+  if (Platform.environment['RTL_AUDIT_SYSTEM_FONT'] != '1') {
+    return _loadedFamilyByLocale[locale] = null;
+  }
   final candidates = _systemFontCandidatesByLocale[locale] ?? const [];
   for (final path in candidates) {
     final file = File(path);
@@ -55,22 +56,21 @@ Future<String?> _systemFamilyFor(String locale) async {
   return _loadedFamilyByLocale[locale] = null;
 }
 
-
 final List<Map<String, dynamic>> _results = [];
 int _matchCount = 0;
 int _mismatchCount = 0;
 
 Map<String, dynamic> _geometryOf(dynamic item) => {
-      'id': item.id,
-      'text': item.text,
-      'kind': item.kind?.toString(),
-      'x': item.x,
-      'y': item.y,
-      'width': item.width,
-      'height': item.height,
-      'visualLeft': item.visualRect.left,
-      'visualRight': item.visualRect.right,
-    };
+  'id': item.id,
+  'text': item.text,
+  'kind': item.kind?.toString(),
+  'x': item.x,
+  'y': item.y,
+  'width': item.width,
+  'height': item.height,
+  'visualLeft': item.visualRect.left,
+  'visualRight': item.visualRect.right,
+};
 
 Future<Map<String, dynamic>> _runOnePass(
   WidgetTester tester,
@@ -80,14 +80,20 @@ Future<Map<String, dynamic>> _runOnePass(
   TextStyle style,
   String fontLabel,
 ) async {
-  final plainBoxes =
-      graphemeBoxesOf(c.text, direction: dir, style: style, locale: locale);
+  final plainBoxes = graphemeBoxesOf(
+    c.text,
+    direction: dir,
+    style: style,
+    locale: locale,
+  );
   final plainVisualOrder = visualOrderList(plainBoxes);
 
-  await tester.pumpWidget(host(
-    TextMorph(value: c.text, locale: locale, style: style, bidi: false),
-    direction: dir,
-  ));
+  await tester.pumpWidget(
+    host(
+      TextMorph(value: c.text, locale: locale, style: style, bidi: false),
+      direction: dir,
+    ),
+  );
   await tester.pumpAndSettle();
 
   final snap = snapshotOf(tester);
@@ -100,8 +106,12 @@ Future<Map<String, dynamic>> _runOnePass(
 
   final glyphOrder = <String>[];
   for (final item in visual) {
-    final boxes =
-        graphemeBoxesOf(item.text, direction: dir, style: style, locale: locale);
+    final boxes = graphemeBoxesOf(
+      item.text,
+      direction: dir,
+      style: style,
+      locale: locale,
+    );
     glyphOrder.addAll(visualOrderList(boxes));
   }
 
@@ -137,17 +147,21 @@ void main() {
     final dir = Directory('reports/rtl');
     dir.createSync(recursive: true);
     final file = File('reports/rtl/flutter_static.json');
-    file.writeAsStringSync(const JsonEncoder.withIndent('  ').convert({
-      'corpusSource': rtlCorpusIsFallback ? 'fallback' : 'generated',
-      'caseCount': cases.length,
-      'matchCount': _matchCount,
-      'mismatchCount': _mismatchCount,
-      'cases': _results,
-    }));
-    print('rtl_static_audit: ${cases.length} cases '
-        '(source: ${rtlCorpusIsFallback ? "fallback" : "generated"}), '
-        '$_matchCount pass-matches, $_mismatchCount pass-mismatches '
-        '(a case may run 1-2 font passes) -> reports/rtl/flutter_static.json');
+    file.writeAsStringSync(
+      const JsonEncoder.withIndent('  ').convert({
+        'corpusSource': rtlCorpusIsFallback ? 'fallback' : 'generated',
+        'caseCount': cases.length,
+        'matchCount': _matchCount,
+        'mismatchCount': _mismatchCount,
+        'cases': _results,
+      }),
+    );
+    print(
+      'rtl_static_audit: ${cases.length} cases '
+      '(source: ${rtlCorpusIsFallback ? "fallback" : "generated"}), '
+      '$_matchCount pass-matches, $_mismatchCount pass-mismatches '
+      '(a case may run 1-2 font passes) -> reports/rtl/flutter_static.json',
+    );
   });
 
   for (final c in cases) {
@@ -156,15 +170,27 @@ void main() {
       final locale = Locale(c.locale);
       const defaultStyle = testStyle;
 
-      final defaultResult =
-          await _runOnePass(tester, c, dir, locale, defaultStyle, 'default');
+      final defaultResult = await _runOnePass(
+        tester,
+        c,
+        dir,
+        locale,
+        defaultStyle,
+        'default',
+      );
 
       Map<String, dynamic>? systemResult;
       final family = await _systemFamilyFor(c.locale);
       if (family != null) {
         final systemStyle = defaultStyle.copyWith(fontFamily: family);
-        systemResult =
-            await _runOnePass(tester, c, dir, locale, systemStyle, 'system:$family');
+        systemResult = await _runOnePass(
+          tester,
+          c,
+          dir,
+          locale,
+          systemStyle,
+          'system:$family',
+        );
       }
 
       _results.add({
@@ -173,10 +199,7 @@ void main() {
         'text': c.text,
         'direction': c.direction,
         'locale': c.locale,
-        'passes': {
-          'default': defaultResult,
-          'system': systemResult,
-        },
+        'passes': {'default': defaultResult, 'system': systemResult},
       });
 
       expect(true, isTrue);

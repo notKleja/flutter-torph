@@ -5,37 +5,43 @@ import 'package:torph/torph.dart';
 import 'harness.dart';
 
 void main() {
-  testWidgets('a value change fires start once, then exactly one of complete/cancel',
-      (tester) async {
-    final log = <String>[];
-    Widget app(String value) => host(TextMorph(
+  testWidgets(
+    'a value change fires start once, then exactly one of complete/cancel',
+    (tester) async {
+      final log = <String>[];
+      Widget app(String value) => host(
+        TextMorph(
           value: value,
           onAnimationStart: () => log.add('start'),
           onAnimationComplete: () => log.add('complete'),
           onAnimationCancel: () => log.add('cancel'),
-        ));
+        ),
+      );
 
-    await tester.pumpWidget(app('a'));
-    expect(log, isEmpty, reason: 'an initial render is not a morph');
+      await tester.pumpWidget(app('a'));
+      expect(log, isEmpty, reason: 'an initial render is not a morph');
 
-    await tester.pumpWidget(app('ab'));
-    // Raised during the build phase, flushed in the same frame's post-frame
-    // callbacks (DEV-003).
-    expect(log, ['start']);
+      await tester.pumpWidget(app('ab'));
+      // Raised during the build phase, flushed in the same frame's post-frame
+      // callbacks (DEV-003).
+      expect(log, ['start']);
 
-    await startClock(tester);
-    await tester.pump(const Duration(milliseconds: 400));
-    expect(log, ['start', 'complete']);
-  });
+      await startClock(tester);
+      await tester.pump(const Duration(milliseconds: 400));
+      expect(log, ['start', 'complete']);
+    },
+  );
 
   testWidgets('an interrupted morph cancels exactly once', (tester) async {
     final log = <String>[];
-    Widget app(String value) => host(TextMorph(
-          value: value,
-          onAnimationStart: () => log.add('start'),
-          onAnimationComplete: () => log.add('complete'),
-          onAnimationCancel: () => log.add('cancel'),
-        ));
+    Widget app(String value) => host(
+      TextMorph(
+        value: value,
+        onAnimationStart: () => log.add('start'),
+        onAnimationComplete: () => log.add('complete'),
+        onAnimationCancel: () => log.add('cancel'),
+      ),
+    );
 
     await tester.pumpWidget(app('a'));
     await tester.pumpWidget(app('ab'));
@@ -51,26 +57,26 @@ void main() {
   testWidgets('callbacks are read through the latest widget', (tester) async {
     final first = <String>[];
     final second = <String>[];
-    await tester.pumpWidget(host(TextMorph(
-      value: 'a',
-      onAnimationStart: () => first.add('start'),
-    )));
-    await tester.pumpWidget(host(TextMorph(
-      value: 'ab',
-      onAnimationStart: () => second.add('start'),
-    )));
+    await tester.pumpWidget(
+      host(TextMorph(value: 'a', onAnimationStart: () => first.add('start'))),
+    );
+    await tester.pumpWidget(
+      host(TextMorph(value: 'ab', onAnimationStart: () => second.add('start'))),
+    );
     expect(first, isEmpty);
     expect(second, ['start']);
   });
 
   testWidgets('dispose mid-morph fires nothing', (tester) async {
     final log = <String>[];
-    Widget app(String value) => host(TextMorph(
-          value: value,
-          onAnimationStart: () => log.add('start'),
-          onAnimationComplete: () => log.add('complete'),
-          onAnimationCancel: () => log.add('cancel'),
-        ));
+    Widget app(String value) => host(
+      TextMorph(
+        value: value,
+        onAnimationStart: () => log.add('start'),
+        onAnimationComplete: () => log.add('complete'),
+        onAnimationCancel: () => log.add('cancel'),
+      ),
+    );
 
     await tester.pumpWidget(app('a'));
     await tester.pumpWidget(app('ab'));
@@ -83,15 +89,19 @@ void main() {
     expect(log, isEmpty);
   });
 
-  testWidgets('a config change replays the value without motion', (tester) async {
+  testWidgets('a config change replays the value without motion', (
+    tester,
+  ) async {
     final log = <String>[];
-    Widget app(String value, Duration duration) => host(TextMorph(
-          value: value,
-          duration: duration,
-          onAnimationStart: () => log.add('start'),
-          onAnimationComplete: () => log.add('complete'),
-          onAnimationCancel: () => log.add('cancel'),
-        ));
+    Widget app(String value, Duration duration) => host(
+      TextMorph(
+        value: value,
+        duration: duration,
+        onAnimationStart: () => log.add('start'),
+        onAnimationComplete: () => log.add('complete'),
+        onAnimationCancel: () => log.add('cancel'),
+      ),
+    );
 
     await tester.pumpWidget(app('hello', const Duration(milliseconds: 400)));
     final before = renderOf(tester).size;
@@ -106,7 +116,9 @@ void main() {
     expect(stateOf(tester).debugEngine!.config.duration, 900);
   });
 
-  testWidgets('a config change during a morph restarts from rest', (tester) async {
+  testWidgets('a config change during a morph restarts from rest', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     await tester.pumpWidget(host(TextMorph(value: 'hello world')));
     await startClock(tester);
@@ -119,26 +131,33 @@ void main() {
     expect(snapshot.exitingItems, isEmpty);
   });
 
-  testWidgets('a changed callback alone does not recreate the engine',
-      (tester) async {
-    await tester.pumpWidget(host(TextMorph(value: 'a', onAnimationStart: () {})));
+  testWidgets('a changed callback alone does not recreate the engine', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      host(TextMorph(value: 'a', onAnimationStart: () {})),
+    );
     final engine = stateOf(tester).debugEngine;
-    await tester.pumpWidget(host(TextMorph(value: 'a', onAnimationStart: () {})));
+    await tester.pumpWidget(
+      host(TextMorph(value: 'a', onAnimationStart: () {})),
+    );
     expect(stateOf(tester).debugEngine, same(engine));
   });
 
-  testWidgets('a style change re-measures without resetting the morph',
-      (tester) async {
+  testWidgets('a style change re-measures without resetting the morph', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     await tester.pumpWidget(host(TextMorph(value: 'hello world')));
     await startClock(tester);
     await tester.pump(const Duration(milliseconds: 100));
     final engine = stateOf(tester).debugEngine;
 
-    await tester.pumpWidget(host(TextMorph(
-      value: 'hello world',
-      style: const TextStyle(fontSize: 40),
-    )));
+    await tester.pumpWidget(
+      host(
+        TextMorph(value: 'hello world', style: const TextStyle(fontSize: 40)),
+      ),
+    );
 
     // Same engine, same morph — new geometry.
     expect(stateOf(tester).debugEngine, same(engine));
@@ -150,31 +169,18 @@ void main() {
   testWidgets('the same value again is a no-op', (tester) async {
     final log = <String>[];
     await tester.pumpWidget(host(TextMorph(value: 'a')));
-    await tester.pumpWidget(host(TextMorph(
-      value: 'a',
-      onAnimationStart: () => log.add('start'),
-    )));
+    await tester.pumpWidget(
+      host(TextMorph(value: 'a', onAnimationStart: () => log.add('start'))),
+    );
     expect(log, isEmpty);
     expect(snapshotOf(tester).animating, isFalse);
   });
 
   group('options', () {
-    test('the defaults are upstream\'s', () {
-      expect(defaultTextMorphOptions.locale, 'en');
-      expect(defaultTextMorphOptions.duration, const Duration(milliseconds: 400));
-      expect(defaultTextMorphOptions.ease, 'cubic-bezier(0.19, 1, 0.22, 1)');
-      expect(defaultTextMorphOptions.scale, isTrue);
-      expect(defaultTextMorphOptions.numbers, isTrue);
-      expect(defaultTextMorphOptions.disabled, isFalse);
-      expect(defaultTextMorphOptions.respectReducedMotion, isTrue);
-      expect(defaultTextMorphOptions.debug, isFalse);
-      expect(defaultTextMorphOptions.decimals, isNull);
-    });
-
     test('the widget defaults match', () {
       final widget = TextMorph(value: 'a');
-      expect(widget.duration, defaultTextMorphOptions.duration);
-      expect(widget.ease, defaultTextMorphOptions.ease);
+      expect(widget.duration, const Duration(milliseconds: 400));
+      expect(widget.ease, 'cubic-bezier(0.19, 1, 0.22, 1)');
       expect(widget.scale, isTrue);
       expect(widget.numbers, isTrue);
       expect(widget.disabled, isFalse);
@@ -196,11 +202,15 @@ void main() {
 
     testWidgets('a spring replaces the duration', (tester) async {
       const params = SpringParams(stiffness: 120, damping: 14);
-      await tester.pumpWidget(host(TextMorph(
-        value: 'a',
-        ease: params,
-        duration: const Duration(milliseconds: 400),
-      )));
+      await tester.pumpWidget(
+        host(
+          TextMorph(
+            value: 'a',
+            ease: params,
+            duration: const Duration(milliseconds: 400),
+          ),
+        ),
+      );
       final resolved = spring(params);
       final config = stateOf(tester).debugEngine!.config;
       expect(config.duration, resolved.duration.toDouble());
@@ -208,13 +218,12 @@ void main() {
       expect(config.duration, isNot(400));
     });
 
-    testWidgets('a num value is formatted with locale and decimals',
-        (tester) async {
-      await tester.pumpWidget(host(TextMorph(
-        value: 1234.5,
-        decimals: 2,
-        locale: const Locale('de'),
-      )));
+    testWidgets('a num value is formatted with locale and decimals', (
+      tester,
+    ) async {
+      await tester.pumpWidget(
+        host(TextMorph(value: 1234.5, decimals: 2, locale: const Locale('de'))),
+      );
       expect(snapshotOf(tester).value, '1.234,50');
     });
   });

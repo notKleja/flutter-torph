@@ -33,7 +33,9 @@ void main() {
     expect(snapshot.naturalSize, Size.zero);
   });
 
-  testWidgets('"x" → "" holds one line of height for the stand-in', (tester) async {
+  testWidgets('"x" → "" holds one line of height for the stand-in', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'x')));
     expect(renderOf(tester).size, const Size(fontSize, lineHeight));
 
@@ -57,10 +59,9 @@ void main() {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     expect(renderOf(tester).size.width, closeTo(5 * fontSize, 0.01));
 
-    await tester.pumpWidget(host(
-      TextMorph(value: 'hello'),
-      textScaler: const TextScaler.linear(2),
-    ));
+    await tester.pumpWidget(
+      host(TextMorph(value: 'hello'), textScaler: const TextScaler.linear(2)),
+    );
     // Same engine, re-measured: no motion, twice the box.
     expect(snapshotOf(tester).animating, isFalse);
     expect(renderOf(tester).size.width, closeTo(10 * fontSize, 0.01));
@@ -70,11 +71,14 @@ void main() {
   testWidgets('intrinsics report the natural size', (tester) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     final render = renderOf(tester);
-    expect(render.getMaxIntrinsicWidth(double.infinity), closeTo(5 * fontSize, 0.01));
-    expect(render.getMinIntrinsicHeight(double.infinity), closeTo(lineHeight, 0.01));
     expect(
-      render.getDryLayout(const BoxConstraints()),
-      render.size,
+      render.getMaxIntrinsicWidth(double.infinity),
+      closeTo(5 * fontSize, 0.01),
     );
+    expect(
+      render.getMinIntrinsicHeight(double.infinity),
+      closeTo(lineHeight, 0.01),
+    );
+    expect(render.getDryLayout(const BoxConstraints()), render.size);
   });
 }

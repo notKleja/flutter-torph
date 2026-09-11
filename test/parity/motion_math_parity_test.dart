@@ -27,7 +27,11 @@ void main() {
         expect(fn != null, c['valid'], reason: 'validity of ${show(ease)}');
         if (fn == null) return;
         _expectClose(c['values'] as List, ts.map(fn).toList(), 'value');
-        _expectClose(c['slopes'] as List, ts.map((t) => slopeAt(fn, t)).toList(), 'slope');
+        _expectClose(
+          c['slopes'] as List,
+          ts.map((t) => slopeAt(fn, t)).toList(),
+          'slope',
+        );
       });
     }
   });
@@ -63,13 +67,17 @@ void main() {
       final velocity = v == null
           ? double.nan
           : v is String
-              ? (v == 'Infinity' ? double.infinity : double.nan)
-              : (v as num).toDouble();
+          ? (v == 'Infinity' ? double.infinity : double.nan)
+          : (v as num).toDouble();
       test('${base.length > 20 ? base.substring(0, 20) : base} v=$v', () {
         final fn = parseEasing(base)!;
         final carried = carry(fn, velocity);
         expect(carried.k, closeTo((c['k'] as num).toDouble(), _tol));
-        _expectClose(c['values'] as List, ts.map(carried.curve).toList(), 'curve');
+        _expectClose(
+          c['values'] as List,
+          ts.map(carried.curve).toList(),
+          'curve',
+        );
         expect(sampleEasing(carried.curve, 400), c['sampled400']);
         expect(sampleEasing(carried.curve, 1000), c['sampled1000']);
         expect(sampleEasing(carried.curve, 100), c['sampled100']);
@@ -84,8 +92,15 @@ void main() {
         final persistent = (c['persistent'] as List).cast<String>().toSet();
         final target = c['target'] as int;
         expect(findNearestAnchor(target, ids, persistent), c['backwardFirst']);
-        expect(findNearestAnchor(target, ids, persistent, AnchorDirection.forwardFirst),
-            c['forwardFirst']);
+        expect(
+          findNearestAnchor(
+            target,
+            ids,
+            persistent,
+            AnchorDirection.forwardFirst,
+          ),
+          c['forwardFirst'],
+        );
       }
     });
     test('resolveExitingAnchors', () {
@@ -93,12 +108,17 @@ void main() {
         final oldIds = (c['oldIds'] as List).cast<String>();
         final newIds = (c['newIds'] as List).cast<String>().toSet();
         final exitingIds = (c['exiting'] as List).cast<String>().toSet();
-        final exiting = {for (var i = 0; i < oldIds.length; i++) if (exitingIds.contains(oldIds[i])) i};
+        final exiting = {
+          for (var i = 0; i < oldIds.length; i++)
+            if (exitingIds.contains(oldIds[i])) i,
+        };
         final res = resolveExitingAnchors(oldIds, exiting, newIds);
-        final expected = (c['anchors'] as List).map((e) => [e[0], e[1]]).toList();
+        final expected = (c['anchors'] as List)
+            .map((e) => [e[0], e[1]])
+            .toList();
         final actual = [
           for (var i = 0; i < oldIds.length; i++)
-            if (exiting.contains(i)) [oldIds[i], res[i]]
+            if (exiting.contains(i)) [oldIds[i], res[i]],
         ];
         expect(actual, expected);
       }

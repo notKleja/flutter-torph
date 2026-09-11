@@ -25,24 +25,28 @@ const List<String> dictionaryScriptAllowlist = <String>[
 List<TextSegment> _expectedWords(Map<String, dynamic> entry) =>
     (entry['word'] as List<dynamic>)
         .cast<Map<String, dynamic>>()
-        .map((Map<String, dynamic> m) => TextSegment(
-              m['index'] as int,
-              m['segment'] as String,
-              isWordLike: m['isWordLike'] as bool,
-            ))
+        .map(
+          (Map<String, dynamic> m) => TextSegment(
+            m['index'] as int,
+            m['segment'] as String,
+            isWordLike: m['isWordLike'] as bool,
+          ),
+        )
         .toList();
 
 List<TextSegment> _expectedGraphemes(Map<String, dynamic> entry) =>
     (entry['grapheme'] as List<dynamic>)
         .cast<Map<String, dynamic>>()
-        .map((Map<String, dynamic> m) =>
-            TextSegment(m['index'] as int, m['segment'] as String))
+        .map(
+          (Map<String, dynamic> m) =>
+              TextSegment(m['index'] as int, m['segment'] as String),
+        )
         .toList();
 
 void main() {
-  final fixture = jsonDecode(
-    File('oracle/fixtures/segmenter.json').readAsStringSync(),
-  ) as List<dynamic>;
+  final fixture =
+      jsonDecode(File('oracle/fixtures/segmenter.json').readAsStringSync())
+          as List<dynamic>;
   final entries = fixture.cast<Map<String, dynamic>>();
 
   test('fixture corpus is loaded', () {
@@ -71,13 +75,20 @@ void main() {
   test('every allowlisted value is in the fixture and still deviates', () {
     final values = entries.map((e) => e['value'] as String).toSet();
     for (final allowed in dictionaryScriptAllowlist) {
-      expect(values, contains(allowed),
-          reason: 'stale allowlist entry ${jsonEncode(allowed)}');
+      expect(
+        values,
+        contains(allowed),
+        reason: 'stale allowlist entry ${jsonEncode(allowed)}',
+      );
       final entry = entries.firstWhere((e) => e['value'] == allowed);
-      expect(segmentWords(allowed), isNot(_expectedWords(entry)),
-          reason: 'allowlist entry ${jsonEncode(allowed)} now matches; '
-              'drop it from the allowlist and from '
-              'spec/SEGMENTER_KNOWN_GAPS.md');
+      expect(
+        segmentWords(allowed),
+        isNot(_expectedWords(entry)),
+        reason:
+            'allowlist entry ${jsonEncode(allowed)} now matches; '
+            'drop it from the allowlist and from '
+            'spec/SEGMENTER_KNOWN_GAPS.md',
+      );
     }
   });
 
@@ -137,10 +148,16 @@ void main() {
     });
 
     test('CR LF stays together but CR alone does not swallow letters', () {
-      expect(segmentWords('a\r\nb').map((s) => s.segment).toList(),
-          <String>['a', '\r\n', 'b']);
-      expect(segmentWords('a\rb').map((s) => s.segment).toList(),
-          <String>['a', '\r', 'b']);
+      expect(segmentWords('a\r\nb').map((s) => s.segment).toList(), <String>[
+        'a',
+        '\r\n',
+        'b',
+      ]);
+      expect(segmentWords('a\rb').map((s) => s.segment).toList(), <String>[
+        'a',
+        '\r',
+        'b',
+      ]);
     });
   });
 
@@ -170,52 +187,88 @@ void main() {
 
   group('ICU-specific word boundaries', () {
     test('numbers, quotes and mid-letters', () {
-      expect(segmentWords('e.g. 3.5 1,000 a.b a-b M&M\'s')
-          .map((s) => s.segment)
-          .toList(), <String>[
-        'e.g', '.', ' ', '3.5', ' ', '1,000', ' ', 'a.b', ' ', 'a', '-', 'b',
-        ' ', 'M', '&', 'M\'s',
-      ]);
+      expect(
+        segmentWords(
+          'e.g. 3.5 1,000 a.b a-b M&M\'s',
+        ).map((s) => s.segment).toList(),
+        <String>[
+          'e.g',
+          '.',
+          ' ',
+          '3.5',
+          ' ',
+          '1,000',
+          ' ',
+          'a.b',
+          ' ',
+          'a',
+          '-',
+          'b',
+          ' ',
+          'M',
+          '&',
+          'M\'s',
+        ],
+      );
     });
 
     test('a URL breaks on its punctuation', () {
-      expect(segmentWords('http://x.y/z?a=1').map((s) => s.segment).toList(),
-          <String>['http', ':', '/', '/', 'x.y', '/', 'z', '?', 'a', '=', '1']);
+      expect(
+        segmentWords('http://x.y/z?a=1').map((s) => s.segment).toList(),
+        <String>['http', ':', '/', '/', 'x.y', '/', 'z', '?', 'a', '=', '1'],
+      );
     });
 
     test('ZWJ between letters keeps them together, ZWSP does not', () {
-      expect(segmentWords('x‍y').map((s) => s.segment).toList(),
-          <String>['x‍y']);
-      expect(segmentWords('a​b').map((s) => s.segment).toList(),
-          <String>['a', '​', 'b']);
+      expect(segmentWords('x‍y').map((s) => s.segment).toList(), <String>[
+        'x‍y',
+      ]);
+      expect(segmentWords('a​b').map((s) => s.segment).toList(), <String>[
+        'a',
+        '​',
+        'b',
+      ]);
     });
 
     test('Hangul and CJK runs chain, but not across an Extend', () {
-      expect(segmentWords('한국어').map((s) => s.segment).toList(),
-          <String>['한국어']);
-      expect(segmentWords('가́각').map((s) => s.segment).toList(),
-          <String>['가́', '각']);
-      expect(segmentWords('一́一').map((s) => s.segment).toList(),
-          <String>['一́', '一']);
+      expect(segmentWords('한국어').map((s) => s.segment).toList(), <String>[
+        '한국어',
+      ]);
+      expect(segmentWords('가́각').map((s) => s.segment).toList(), <String>[
+        '가́',
+        '각',
+      ]);
+      expect(segmentWords('一́一').map((s) => s.segment).toList(), <String>[
+        '一́',
+        '一',
+      ]);
       // Rule 13 does allow it for Katakana.
-      expect(segmentWords('カ́カ').map((s) => s.segment).toList(),
-          <String>['カ́カ']);
+      expect(segmentWords('カ́カ').map((s) => s.segment).toList(), <String>[
+        'カ́カ',
+      ]);
     });
 
     test('emoji ZWJ sequences, flags and skin tones are single segments', () {
-      expect(segmentWords('👨‍👩‍👧‍👦').map((s) => s.segment).toList(),
-          <String>['👨‍👩‍👧‍👦']);
-      expect(segmentWords('🏳️‍🌈').map((s) => s.segment).toList(),
-          <String>['🏳️‍🌈']);
-      expect(segmentWords('👋🏽').map((s) => s.segment).toList(),
-          <String>['👋🏽']);
-      expect(segmentWords('🇬🇧🇺🇸').map((s) => s.segment).toList(),
-          <String>['🇬🇧', '🇺🇸']);
+      expect(
+        segmentWords('👨‍👩‍👧‍👦').map((s) => s.segment).toList(),
+        <String>['👨‍👩‍👧‍👦'],
+      );
+      expect(segmentWords('🏳️‍🌈').map((s) => s.segment).toList(), <String>[
+        '🏳️‍🌈',
+      ]);
+      expect(segmentWords('👋🏽').map((s) => s.segment).toList(), <String>[
+        '👋🏽',
+      ]);
+      expect(segmentWords('🇬🇧🇺🇸').map((s) => s.segment).toList(), <String>[
+        '🇬🇧',
+        '🇺🇸',
+      ]);
     });
   });
 
   test('500 characters segment well under a millisecond', () {
-    const line = 'The quick brown fox jumps over the lazy dog, 1,234.56 '
+    const line =
+        'The quick brown fox jumps over the lazy dog, 1,234.56 '
         'times; don\'t stop e.g. a.b https://x.y/z?q=1 ';
     final value = (line * 6).substring(0, 500);
     expect(value.length, 500);
@@ -236,6 +289,10 @@ void main() {
       final per = sw.elapsedMicroseconds / iterations;
       if (per < best) best = per;
     }
-    expect(best, lessThan(1000), reason: '${best.toStringAsFixed(1)}us per pass');
+    expect(
+      best,
+      lessThan(1000),
+      reason: '${best.toStringAsFixed(1)}us per pass',
+    );
   });
 }

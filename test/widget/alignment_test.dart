@@ -1,21 +1,23 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:torph/src/motion/morph_engine.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 import 'harness.dart';
 
 /// A stand-in item list for the measurer, which never inspects anything but
 /// `id`, `string` and `isBreak`.
-List<MorphItem> items(List<String> strings) =>
-    [for (var i = 0; i < strings.length; i++) MorphItem('i$i', strings[i])];
+List<MorphItem> items(List<String> strings) => [
+  for (var i = 0; i < strings.length; i++) MorphItem('i$i', strings[i]),
+];
 
 void main() {
   group('alignment inside the root', () {
     testWidgets('centre shifts the short line', (tester) async {
-      await tester.pumpWidget(host(
-        TextMorph(value: 'aaa\nb', textAlign: TextAlign.center),
-      ));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'aaa\nb', textAlign: TextAlign.center)),
+      );
       final snapshot = snapshotOf(tester);
       expect(snapshot.item('aaa').x, closeTo(0, 0.01));
       // (60 − 20) / 2
@@ -23,9 +25,9 @@ void main() {
     });
 
     testWidgets('right pushes the short line to the far edge', (tester) async {
-      await tester.pumpWidget(host(
-        TextMorph(value: 'aaa\nb', textAlign: TextAlign.right),
-      ));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'aaa\nb', textAlign: TextAlign.right)),
+      );
       expect(snapshotOf(tester).item('b').x, closeTo(40, 0.01));
     });
 
@@ -35,19 +37,21 @@ void main() {
     });
 
     testWidgets('textAlign inherits from DefaultTextStyle', (tester) async {
-      await tester.pumpWidget(host(
-        TextMorph(value: 'aaa\nb'),
-        textAlign: TextAlign.right,
-      ));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'aaa\nb'), textAlign: TextAlign.right),
+      );
       expect(snapshotOf(tester).item('b').x, closeTo(40, 0.01));
     });
 
-    testWidgets('RTL flows the items from the right, in logical order',
-        (tester) async {
-      await tester.pumpWidget(host(
-        TextMorph(value: 'aaa\nb', bidi: false),
-        direction: TextDirection.rtl,
-      ));
+    testWidgets('RTL flows the items from the right, in logical order', (
+      tester,
+    ) async {
+      await tester.pumpWidget(
+        host(
+          TextMorph(value: 'aaa\nb', bidi: false),
+          direction: TextDirection.rtl,
+        ),
+      );
       final snapshot = snapshotOf(tester);
       // Line 0 fills the root; line 1 is start-aligned, upstream rule (`bidi: false`) puts that on the right.
       expect(snapshot.item('aaa').x, closeTo(0, 0.01));
@@ -55,10 +59,12 @@ void main() {
     });
 
     testWidgets('RTL keeps logical order within a line', (tester) async {
-      await tester.pumpWidget(host(
-        TextMorph(value: 'ab cd', bidi: false),
-        direction: TextDirection.rtl,
-      ));
+      await tester.pumpWidget(
+        host(
+          TextMorph(value: 'ab cd', bidi: false),
+          direction: TextDirection.rtl,
+        ),
+      );
       final snapshot = snapshotOf(tester);
       // "ab" is the first logical item, so under the upstream rule (`bidi: false`) it sits at the right-hand end.
       expect(snapshot.item('ab').x, closeTo(60, 0.01));
@@ -74,14 +80,13 @@ void main() {
     TextMeasurer build({
       TextAlign align = TextAlign.start,
       TextDirection direction = TextDirection.ltr,
-    }) =>
-        measurer = TextMeasurer(
-          style: testStyle,
-          textScaler: TextScaler.noScaling,
-          textDirection: direction,
-          textAlign: align,
-          locale: const Locale('en'),
-        );
+    }) => measurer = TextMeasurer(
+      style: testStyle,
+      textScaler: TextScaler.noScaling,
+      textDirection: direction,
+      textAlign: align,
+      locale: const Locale('en'),
+    );
 
     test('an overflowing line stays start-aligned (LTR)', () {
       final m = build(align: TextAlign.center);

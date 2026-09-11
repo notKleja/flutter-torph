@@ -72,9 +72,7 @@ String _mutate(String source, int seed) {
   final math.Random random = math.Random(seed);
   final List<String> words = source.split(' ');
   for (int i = 0; i < words.length; i += 3) {
-    words[i] = String.fromCharCodes(
-      words[i].codeUnits.reversed,
-    );
+    words[i] = String.fromCharCodes(words[i].codeUnits.reversed);
     if (random.nextBool() && words.length > 4) {
       words[i] = '${words[i]}s';
     }

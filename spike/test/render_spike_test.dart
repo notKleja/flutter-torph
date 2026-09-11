@@ -40,7 +40,9 @@ Future<void> _load(String family, String path) async {
   }
   final bytes = await file.readAsBytes();
   final loader = FontLoader(family)
-    ..addFont(Future<ByteData>.value(ByteData.view(Uint8List.fromList(bytes).buffer)));
+    ..addFont(
+      Future<ByteData>.value(ByteData.view(Uint8List.fromList(bytes).buffer)),
+    );
   await loader.load();
 }
 
@@ -169,10 +171,7 @@ class StratB {
 
 // ---------------------------------------------------------------- image diff
 
-Future<ui.Image> _render(
-  Size size,
-  void Function(Canvas) body,
-) async {
+Future<ui.Image> _render(Size size, void Function(Canvas) body) async {
   final recorder = ui.PictureRecorder();
   final canvas = Canvas(recorder);
   canvas.drawRect(
@@ -205,8 +204,14 @@ Future<Diff> _diff(ui.Image a, ui.Image b, {int tolerance = 12}) async {
       d = math.max(d, (da.getUint8(i + c) - db.getUint8(i + c)).abs());
     }
     if (d > tolerance) differing++;
-    final aInk = da.getUint8(i) < 250 || da.getUint8(i + 1) < 250 || da.getUint8(i + 2) < 250;
-    final bInk = db.getUint8(i) < 250 || db.getUint8(i + 1) < 250 || db.getUint8(i + 2) < 250;
+    final aInk =
+        da.getUint8(i) < 250 ||
+        da.getUint8(i + 1) < 250 ||
+        da.getUint8(i + 2) < 250;
+    final bInk =
+        db.getUint8(i) < 250 ||
+        db.getUint8(i + 1) < 250 ||
+        db.getUint8(i + 2) < 250;
     if (aInk || bInk) inked++;
   }
   return Diff(differing, n ~/ 4, inked);
@@ -220,7 +225,12 @@ Future<void> _save(ui.Image img, String name) async {
 // ---------------------------------------------------------------- test cases
 
 class Case {
-  const Case(this.name, this.value, this.family, {this.dir = TextDirection.ltr});
+  const Case(
+    this.name,
+    this.value,
+    this.family, {
+    this.dir = TextDirection.ltr,
+  });
   final String name;
   final String value;
   final String? family; // null = default flutter_test font
@@ -253,11 +263,11 @@ const List<Case> realFontCases = [
 final List<Map<String, Object?>> results = [];
 
 TextStyle _style(String? family) => TextStyle(
-      fontSize: kFontSize,
-      color: const Color(0xFF000000),
-      fontFamily: family,
-      height: null,
-    );
+  fontSize: kFontSize,
+  color: const Color(0xFF000000),
+  fontFamily: family,
+  height: null,
+);
 
 Future<void> _runCase(Case c, String bucket) async {
   final segs = segmentText(c.value, 'en');
@@ -291,7 +301,8 @@ Future<void> _runCase(Case c, String bucket) async {
 
   // (3) images.
   final canvasW = math.max(advanceA, math.max(widthB, widthC)) + 8;
-  final canvasH = math.max(a.height, math.max(b.tp.height, cPainter.height)) + 8;
+  final canvasH =
+      math.max(a.height, math.max(b.tp.height, cPainter.height)) + 8;
   final size = Size(canvasW, canvasH);
   const origin = Offset(4, 4);
   final imgA = await _render(size, (cv) => a.paint(cv, origin, (_) => 0));
@@ -394,8 +405,12 @@ Future<void> _runCase(Case c, String bucket) async {
 
 final List<Map<String, Object?>> failures = [];
 
-void _failureMode(String label, List<String> parts, String? family,
-    {TextDirection dir = TextDirection.ltr}) {
+void _failureMode(
+  String label,
+  List<String> parts,
+  String? family, {
+  TextDirection dir = TextDirection.ltr,
+}) {
   final style = _style(family);
   final joined = parts.join();
   final b = StratB.build(parts, style, dir);
@@ -410,7 +425,9 @@ void _failureMode(String label, List<String> parts, String? family,
   for (var i = 0; i < parts.length; i++) {
     rows.add({
       'i': i,
-      'part': parts[i].codeUnits.map((u) => 'U+${u.toRadixString(16).toUpperCase().padLeft(4, '0')}').join(' '),
+      'part': parts[i].codeUnits
+          .map((u) => 'U+${u.toRadixString(16).toUpperCase().padLeft(4, '0')}')
+          .join(' '),
       'aWidth': a == null ? null : a.painters[i].width,
       'aX': a == null ? null : a.xs[i],
       'bBoxCount': b.boxes[i].length,
@@ -436,10 +453,22 @@ void main() {
     if (!outDir.existsSync()) outDir.createSync(recursive: true);
     const f = 'fonts';
     await _load('Roboto', '${Directory.current.path}/$f/Roboto-Regular.ttf');
-    await _load('NotoSansArabic', '${Directory.current.path}/$f/NotoSansArabic-Regular.ttf');
-    await _load('NotoSansDevanagari', '${Directory.current.path}/$f/NotoSansDevanagari-Regular.ttf');
-    await _load('NotoColorEmoji', '${Directory.current.path}/$f/NotoColorEmoji.ttf');
-    await _load('NotoSansJP', '${Directory.current.path}/$f/NotoSansJP-Regular.otf');
+    await _load(
+      'NotoSansArabic',
+      '${Directory.current.path}/$f/NotoSansArabic-Regular.ttf',
+    );
+    await _load(
+      'NotoSansDevanagari',
+      '${Directory.current.path}/$f/NotoSansDevanagari-Regular.ttf',
+    );
+    await _load(
+      'NotoColorEmoji',
+      '${Directory.current.path}/$f/NotoColorEmoji.ttf',
+    );
+    await _load(
+      'NotoSansJP',
+      '${Directory.current.path}/$f/NotoSansJP-Regular.otf',
+    );
   });
 
   test('A vs B vs C across strings', () async {
@@ -546,59 +575,96 @@ void main() {
     // ---- failure modes.
     // 1. char-morph of "office" -> per-character fragments.
     _failureMode('char-split "office" (Roboto)', 'office'.split(''), 'Roboto');
-    _failureMode('char-split "ﬁne" precomposed (Roboto)',
-        'ﬁne'.split(''), 'Roboto');
+    _failureMode(
+      'char-split "ﬁne" precomposed (Roboto)',
+      'ﬁne'.split(''),
+      'Roboto',
+    );
     // 2. char-morph of an Arabic word.
-    _failureMode('char-split "مرحبا" (NotoSansArabic)',
-        'مرحبا'.split(''), 'NotoSansArabic', dir: TextDirection.rtl);
-    _failureMode('char-split "مرحبة" (NotoSansArabic)',
-        'مرحبة'.split(''), 'NotoSansArabic', dir: TextDirection.rtl);
+    _failureMode(
+      'char-split "مرحبا" (NotoSansArabic)',
+      'مرحبا'.split(''),
+      'NotoSansArabic',
+      dir: TextDirection.rtl,
+    );
+    _failureMode(
+      'char-split "مرحبة" (NotoSansArabic)',
+      'مرحبة'.split(''),
+      'NotoSansArabic',
+      dir: TextDirection.rtl,
+    );
     // 3. Devanagari conjunct split per code unit.
-    _failureMode('char-split "नमस्ते" (NotoSansDevanagari)',
-        'नमस्ते'.split(''), 'NotoSansDevanagari');
+    _failureMode(
+      'char-split "नमस्ते" (NotoSansDevanagari)',
+      'नमस्ते'.split(''),
+      'NotoSansDevanagari',
+    );
     // 4. UTF-16 code-unit split of an astral emoji: lone surrogates.
-    _failureMode('code-unit split "a😀b" (NotoColorEmoji)',
-        'a😀b'.codeUnits.map((u) => String.fromCharCode(u)).toList(),
-        'NotoColorEmoji');
+    _failureMode(
+      'code-unit split "a😀b" (NotoColorEmoji)',
+      'a😀b'.codeUnits.map((u) => String.fromCharCode(u)).toList(),
+      'NotoColorEmoji',
+    );
     // 5. ZWJ family sequence split per code unit.
-    _failureMode('code-unit split "👨‍👩‍👧‍👦" (NotoColorEmoji)',
-        '👨‍👩‍👧‍👦'.codeUnits.map((u) => String.fromCharCode(u)).toList(),
-        'NotoColorEmoji');
+    _failureMode(
+      'code-unit split "👨‍👩‍👧‍👦" (NotoColorEmoji)',
+      '👨‍👩‍👧‍👦'.codeUnits.map((u) => String.fromCharCode(u)).toList(),
+      'NotoColorEmoji',
+    );
     // 6. grapheme-cluster split of the same family sequence (Torph's own
     //    grapheme segmenter for a single-word value).
-    _failureMode('segmentText grapheme split "👨‍👩‍👧‍👦"',
-        segmentText('👨‍👩‍👧‍👦', 'en').map((s) => s.string).toList(),
-        'NotoColorEmoji');
+    _failureMode(
+      'segmentText grapheme split "👨‍👩‍👧‍👦"',
+      segmentText('👨‍👩‍👧‍👦', 'en').map((s) => s.string).toList(),
+      'NotoColorEmoji',
+    );
     // 7. combining mark separated from its base.
-    _failureMode('char-split "café" NFD (Roboto)',
-        'café'.split(''), 'Roboto');
-
+    _failureMode('char-split "café" NFD (Roboto)', 'café'.split(''), 'Roboto');
 
     // 8. What segmentText ACTUALLY produces for a single-word value (no space
     //    => grapheme segmentation): the real Torph char-morph fragment set.
-    void graphemeMode(String word, String? family,
-        {TextDirection dir = TextDirection.ltr}) {
+    void graphemeMode(
+      String word,
+      String? family, {
+      TextDirection dir = TextDirection.ltr,
+    }) {
       final parts = segmentText(word, 'en').map((s) => s.string).toList();
-      _failureMode('segmentText graphemes ($word) n=${parts.length}', parts,
-          family, dir: dir);
+      _failureMode(
+        'segmentText graphemes ($word) n=${parts.length}',
+        parts,
+        family,
+        dir: dir,
+      );
     }
 
     graphemeMode('office', 'Roboto');
     graphemeMode('\uFB01ne', 'Roboto');
-    graphemeMode('\u0645\u0631\u062D\u0628\u0627', 'NotoSansArabic', dir: TextDirection.rtl);
-    graphemeMode('\u0645\u0631\u062D\u0628\u0629', 'NotoSansArabic', dir: TextDirection.rtl);
+    graphemeMode(
+      '\u0645\u0631\u062D\u0628\u0627',
+      'NotoSansArabic',
+      dir: TextDirection.rtl,
+    );
+    graphemeMode(
+      '\u0645\u0631\u062D\u0628\u0629',
+      'NotoSansArabic',
+      dir: TextDirection.rtl,
+    );
     graphemeMode('\u0928\u092E\u0938\u094D\u0924\u0947', 'NotoSansDevanagari');
     graphemeMode('cafe\u0301', 'Roboto');
     graphemeMode('a\u{1F600}b', 'NotoColorEmoji');
     graphemeMode('\u{1F3F3}\uFE0F\u200D\u{1F308}', 'NotoColorEmoji');
 
     File('${outDir.path}/results.json').writeAsStringSync(
-      const JsonEncoder.withIndent('  ')
-          .convert({'results': results, 'failures': failures}),
+      const JsonEncoder.withIndent(
+        '  ',
+      ).convert({'results': results, 'failures': failures}),
     );
     // Console dump, so the numbers land in the test log too.
     // ignore: avoid_print
-    print(const JsonEncoder.withIndent('  ')
-        .convert({'results': results, 'failures': failures}));
+    print(
+      const JsonEncoder.withIndent(
+        '  ',
+      ).convert({'results': results, 'failures': failures}),
+    );
   });
 }

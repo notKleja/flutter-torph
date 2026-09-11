@@ -6,7 +6,7 @@ import 'segment.dart';
 /// A segment that came out of [segmentNumber] and so always carries a kind.
 class NumberSegment extends Segment {
   const NumberSegment(super.id, super.string, {required SegmentKind kind})
-      : super(kind: kind);
+    : super(kind: kind);
 
   @override
   SegmentKind get kind => super.kind!;
@@ -25,7 +25,9 @@ String mintId() => '$mintedPrefix${_nextNewId++}';
 void debugResetMintedIds() => _nextNewId = 0;
 
 bool isDigit(String char) =>
-    char.length == 1 && char.codeUnitAt(0) >= 0x30 && char.codeUnitAt(0) <= 0x39;
+    char.length == 1 &&
+    char.codeUnitAt(0) >= 0x30 &&
+    char.codeUnitAt(0) <= 0x39;
 
 bool _isDigitUnit(int unit) => unit >= 0x30 && unit <= 0x39;
 
@@ -102,7 +104,10 @@ String decimalSeparator(String locale) {
 
   var separator = '.';
   try {
-    separator = intl.NumberFormat(null, canonicalLocale(locale)).symbols.DECIMAL_SEP;
+    separator = intl.NumberFormat(
+      null,
+      canonicalLocale(locale),
+    ).symbols.DECIMAL_SEP;
   } catch (_) {
     // Invalid or unsupported locale tag: upstream falls back the same way.
   }
@@ -129,8 +134,8 @@ String formatNumber(num value, String locale, int? decimals) {
   return format.format(value);
 }
 
-/// Per-character segments, matched by caret where `cursorIndex` is given, else
-/// by place.
+/// Per-character segments of the numeric word [value], carrying ids over from
+/// [prevSegments] by caret when [cursorIndex] is given, else by place value.
 List<NumberSegment> segmentNumber(
   String value, [
   List<Segment>? prevSegments,
@@ -164,7 +169,9 @@ List<NumberSegment> segmentNumber(
 
     final oldIdx = matches[i];
     if (oldIdx != null) {
-      result.add(NumberSegment(prevSegments[oldIdx].id, displayChar, kind: kind));
+      result.add(
+        NumberSegment(prevSegments[oldIdx].id, displayChar, kind: kind),
+      );
     } else {
       var id = mintId();
       while (usedIds.contains(id)) {
@@ -179,8 +186,13 @@ List<NumberSegment> segmentNumber(
 
 /// Fresh segmentation for a number with nothing to carry over from.
 List<NumberSegment> _simpleSegment(List<String> chars) => chars
-    .map((char) => NumberSegment(mintId(), char == ' ' ? nbsp : char,
-        kind: classifyKind(char)))
+    .map(
+      (char) => NumberSegment(
+        mintId(),
+        char == ' ' ? nbsp : char,
+        kind: classifyKind(char),
+      ),
+    )
     .toList();
 
 /// The caret in the new string says where the edit was; both sides of it map
@@ -313,7 +325,13 @@ Map<int, int> _placeMatch(
   /// Pairs the digits on one side of the pivot, by column where the count
   /// matches and by subsequence where it changed. Returns whether digits
   /// survived a reshape.
-  bool matchDigits(int oldFrom, int oldTo, int newFrom, int newTo, bool towardsPivot) {
+  bool matchDigits(
+    int oldFrom,
+    int oldTo,
+    int newFrom,
+    int newTo,
+    bool towardsPivot,
+  ) {
     final oldIndices = _digitIndices(oldChars, oldFrom, oldTo);
     final newIndices = _digitIndices(newChars, newFrom, newTo);
 
@@ -330,8 +348,16 @@ Map<int, int> _placeMatch(
     }
 
     // Reversed, so the subsequence walk resolves its ties from the units end.
-    final oldRun = oldIndices.map((i) => oldChars[i]).toList().reversed.toList();
-    final newRun = newIndices.map((i) => newChars[i]).toList().reversed.toList();
+    final oldRun = oldIndices
+        .map((i) => oldChars[i])
+        .toList()
+        .reversed
+        .toList();
+    final newRun = newIndices
+        .map((i) => newChars[i])
+        .toList()
+        .reversed
+        .toList();
     final (ai, bi) = lcsIndices(oldRun, newRun);
 
     for (var k = 0; k < ai.length; k++) {

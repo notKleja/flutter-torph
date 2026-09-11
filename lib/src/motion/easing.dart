@@ -70,7 +70,11 @@ EasingFn? _linearEasing(String body) {
   final stops = <double?>[];
 
   for (final part in body.split(',')) {
-    final tokens = part.trim().split(RegExp(r'\s+')).where((t) => t.isNotEmpty).toList();
+    final tokens = part
+        .trim()
+        .split(RegExp(r'\s+'))
+        .where((t) => t.isNotEmpty)
+        .toList();
     final value = jsNumber(tokens.isEmpty ? '' : tokens[0]);
     if (!value.isFinite) return null;
 
@@ -105,7 +109,8 @@ EasingFn? _linearEasing(String body) {
     }
     final span = positions[i + 1] - positions[i];
     if (span == 0) return values[i + 1];
-    return values[i] + ((values[i + 1] - values[i]) * (t - positions[i])) / span;
+    return values[i] +
+        ((values[i + 1] - values[i]) * (t - positions[i])) / span;
   };
 }
 
@@ -122,7 +127,11 @@ EasingFn? parseEasing(String ease) {
 
   final bezier = _bezierRe.firstMatch(value);
   if (bezier != null) {
-    final n = bezier.group(1)!.split(',').map((part) => jsNumber(part.trim())).toList();
+    final n = bezier
+        .group(1)!
+        .split(',')
+        .map((part) => jsNumber(part.trim()))
+        .toList();
     if (n.length != 4 || n.any((v) => !v.isFinite)) return null;
     return cubicBezier(n[0], n[1], n[2], n[3]);
   }
@@ -147,7 +156,9 @@ double jsNumber(String s) {
   final t = s.trim();
   if (t.isEmpty) return 0;
   final lower = t.toLowerCase();
-  if (lower.startsWith('0x') || lower.startsWith('0b') || lower.startsWith('0o')) {
+  if (lower.startsWith('0x') ||
+      lower.startsWith('0b') ||
+      lower.startsWith('0o')) {
     final radix = lower[1] == 'x' ? 16 : (lower[1] == 'b' ? 2 : 8);
     final v = int.tryParse(t.substring(2), radix: radix);
     return v == null ? double.nan : v.toDouble();

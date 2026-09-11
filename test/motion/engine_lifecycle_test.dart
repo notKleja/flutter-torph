@@ -56,27 +56,33 @@ void main() {
   });
 
   group('CALLBACK-002 exactly one of complete or cancel', () {
-    test('a morph left alone completes at the frame the width axis runs out', () {
-      final (morph: morph, log: log) = logged();
-      morph.update('hello');
-      morph.update('hello world');
+    test(
+      'a morph left alone completes at the frame the width axis runs out',
+      () {
+        final (morph: morph, log: log) = logged();
+        morph.update('hello');
+        morph.update('hello world');
 
-      final width = morph.engine.containerTransition!.width!;
-      expect(width.startedAt, 0);
+        final width = morph.engine.containerTransition!.width!;
+        expect(width.startedAt, 0);
 
-      morph.at(399);
-      expect(log, ['start'], reason: 'still one millisecond of curve left');
+        morph.at(399);
+        expect(log, ['start'], reason: 'still one millisecond of curve left');
 
-      morph.at(400);
-      expect(log, ['start', 'complete']);
-      expect(morph.engine.containerTransition, isNull);
+        morph.at(400);
+        expect(log, ['start', 'complete']);
+        expect(morph.engine.containerTransition, isNull);
 
-      // The size is released back to the content, not pinned at the target.
-      expect(morph.frame.width, morph.frame.naturalWidth);
+        // The size is released back to the content, not pinned at the target.
+        expect(morph.frame.width, morph.frame.naturalWidth);
 
-      morph.at(800);
-      expect(log, ['start', 'complete'], reason: 'completion is not repeated');
-    });
+        morph.at(800);
+        expect(log, [
+          'start',
+          'complete',
+        ], reason: 'completion is not repeated');
+      },
+    );
 
     test('an interruption cancels synchronously, inside update()', () {
       final (morph: morph, log: log) = logged();
@@ -88,8 +94,11 @@ void main() {
       // `onAnimationStart` fires before reconciliation (index.ts:167) and the
       // abort of the transition already in flight comes at the end of it — both
       morph.engine.update('hello there', disabled: false);
-      expect(log, ['start', 'start', 'cancel'],
-          reason: 'the new morph starts, then what was in flight is aborted');
+      expect(log, [
+        'start',
+        'start',
+        'cancel',
+      ], reason: 'the new morph starts, then what was in flight is aborted');
 
       morph.at(500);
       expect(log, ['start', 'start', 'cancel', 'complete']);
@@ -111,40 +120,52 @@ void main() {
       expect(log.where((e) => e == 'complete').length, 1);
     });
 
-    test('an emptied value holds the old size and completes after the duration', () {
-      final (morph: morph, log: log) = logged();
-      morph.update('hello');
-      morph.update('');
+    test(
+      'an emptied value holds the old size and completes after the duration',
+      () {
+        final (morph: morph, log: log) = logged();
+        morph.update('hello');
+        morph.update('');
 
-      final held = morph.engine.containerTransition!;
-      expect(held.held, isNotNull);
-      expect(held.widthAt(200), 50);
-      expect(held.heightAt(200), 20);
+        final held = morph.engine.containerTransition!;
+        expect(held.held, isNotNull);
+        expect(held.widthAt(200), 50);
+        expect(held.heightAt(200), 20);
 
-      morph.at(399);
-      expect(log, ['start']);
-      morph.at(400);
-      expect(log, ['start', 'complete']);
-      expect(morph.engine.containerTransition, isNull);
-    });
+        morph.at(399);
+        expect(log, ['start']);
+        morph.at(400);
+        expect(log, ['start', 'complete']);
+        expect(morph.engine.containerTransition, isNull);
+      },
+    );
 
-    test('a first morph from a value that laid out empty cancels immediately', () {
-      // A zero-rect measurer is the state the root is in after the disabled path
-      // wrote plain text: nothing in flow, so the old width is 0.
-      final (morph: morph, log: log) = logged(measurer: happyDom());
-      morph.update('a');
-      morph.update('ab');
+    test(
+      'a first morph from a value that laid out empty cancels immediately',
+      () {
+        // A zero-rect measurer is the state the root is in after the disabled path
+        // wrote plain text: nothing in flow, so the old width is 0.
+        final (morph: morph, log: log) = logged(measurer: happyDom());
+        morph.update('a');
+        morph.update('ab');
 
-      expect(log, ['start', 'cancel']);
-      expect(morph.engine.containerTransition, isNull,
-          reason: 'nothing animates the container when an axis started at 0');
+        expect(log, ['start', 'cancel']);
+        expect(
+          morph.engine.containerTransition,
+          isNull,
+          reason: 'nothing animates the container when an axis started at 0',
+        );
 
-      // The items still animate — only the container bows out.
-      expect(transformsOf(morph), isNotEmpty);
+        // The items still animate — only the container bows out.
+        expect(transformsOf(morph), isNotEmpty);
 
-      morph.at(1000);
-      expect(log, ['start', 'cancel'], reason: 'no completion follows a cancel');
-    });
+        morph.at(1000);
+        expect(log, [
+          'start',
+          'cancel',
+        ], reason: 'no completion follows a cancel');
+      },
+    );
   });
 
   group('CALLBACK-003 same value', () {
@@ -176,7 +197,10 @@ void main() {
 
   group('number values', () {
     test('format through the locale and the decimals option', () {
-      final morph = Morph(measurer: FakeMeasurer(), config: MorphConfig(decimals: 2));
+      final morph = Morph(
+        measurer: FakeMeasurer(),
+        config: MorphConfig(decimals: 2),
+      );
       morph.update(1234.5);
       expect(morph.engine.data, '1,234.50');
       expect(morph.frame.value, '1,234.50');
@@ -186,14 +210,19 @@ void main() {
       plain.update(1234.5);
       expect(plain.engine.data, '1,234.5');
 
-      final german =
-          Morph(measurer: FakeMeasurer(), config: MorphConfig(locale: 'de', decimals: 2));
+      final german = Morph(
+        measurer: FakeMeasurer(),
+        config: MorphConfig(locale: 'de', decimals: 2),
+      );
       german.update(1234.5);
       expect(german.engine.data, '1.234,50');
     });
 
     test('a string value is used verbatim', () {
-      final morph = Morph(measurer: FakeMeasurer(), config: MorphConfig(decimals: 2));
+      final morph = Morph(
+        measurer: FakeMeasurer(),
+        config: MorphConfig(decimals: 2),
+      );
       morph.update('1234.5');
       expect(morph.engine.data, '1234.5');
     });

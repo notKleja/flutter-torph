@@ -117,14 +117,44 @@ const List<CorpusCase> multilineCases = <CorpusCase>[
 ];
 
 const List<CorpusCase> arabicSentenceCases = <CorpusCase>[
-  CorpusCase('Word reorder + exit', <Object>['المعاملة آمنة', 'جارٍ معالجة المعاملة']),
-  CorpusCase('Same words, reversed order', <Object>['مرحبا بالعالم', 'بالعالم مرحبا']),
-  CorpusCase('Number inside a sentence', <Object>['3 رسائل غير مقروءة', '13 رسالة غير مقروءة', '9 رسائل غير مقروءة']),
-  CorpusCase('Two numbers, one sentence', <Object>['2 من 10 مكتملة', '2 من 15 مكتملة', '7 من 15 مكتملة']),
-  CorpusCase('Price with currency', <Object>[r'السعر $1,234.56 اليوم', r'السعر $1,299.00 اليوم', r'السعر $999.50 اليوم']),
-  CorpusCase('Time', <Object>['الوقت 10:45 مساءً', 'الوقت 10:46 مساءً', 'الوقت 11:00 مساءً']),
-  CorpusCase('Latin + digits inside Arabic', <Object>['مرحبا ABC 123 DEF', 'مرحبا ABC 124 DEF', 'مرحبا XYZ 999 DEF']),
-  CorpusCase('Arabic-Indic digits (one word)', <Object>['السعر ١٢٣٤ ريال', 'السعر ١٢٣٥ ريال', 'السعر ٩٩٩ ريال']),
+  CorpusCase('Word reorder + exit', <Object>[
+    'المعاملة آمنة',
+    'جارٍ معالجة المعاملة',
+  ]),
+  CorpusCase('Same words, reversed order', <Object>[
+    'مرحبا بالعالم',
+    'بالعالم مرحبا',
+  ]),
+  CorpusCase('Number inside a sentence', <Object>[
+    '3 رسائل غير مقروءة',
+    '13 رسالة غير مقروءة',
+    '9 رسائل غير مقروءة',
+  ]),
+  CorpusCase('Two numbers, one sentence', <Object>[
+    '2 من 10 مكتملة',
+    '2 من 15 مكتملة',
+    '7 من 15 مكتملة',
+  ]),
+  CorpusCase('Price with currency', <Object>[
+    r'السعر $1,234.56 اليوم',
+    r'السعر $1,299.00 اليوم',
+    r'السعر $999.50 اليوم',
+  ]),
+  CorpusCase('Time', <Object>[
+    'الوقت 10:45 مساءً',
+    'الوقت 10:46 مساءً',
+    'الوقت 11:00 مساءً',
+  ]),
+  CorpusCase('Latin + digits inside Arabic', <Object>[
+    'مرحبا ABC 123 DEF',
+    'مرحبا ABC 124 DEF',
+    'مرحبا XYZ 999 DEF',
+  ]),
+  CorpusCase('Arabic-Indic digits (one word)', <Object>[
+    'السعر ١٢٣٤ ريال',
+    'السعر ١٢٣٥ ريال',
+    'السعر ٩٩٩ ريال',
+  ]),
   CorpusCase('Persian', <Object>['قیمت 1234 تومان', 'قیمت 1,234.50 دلار']),
   CorpusCase('Hebrew', <Object>['מחיר 1234 ₪', r'מחיר $1,234.56 היום']),
   CorpusCase('Complete replacement', <Object>['مرحبا يا صديقي', 'وداعا']),
@@ -132,19 +162,42 @@ const List<CorpusCase> arabicSentenceCases = <CorpusCase>[
 ];
 
 const List<CorpusCase> arabicNumberCases = <CorpusCase>[
-  CorpusCase('Count up', <Object>['لدي 123 تفاحة', 'لدي 124 تفاحة', 'لدي 129 تفاحة', 'لدي 130 تفاحة']),
-  CorpusCase('Grouping appears', <Object>['999 ريال', '1,000 ريال', '1,999 ريال', '2,000 ريال']),
+  CorpusCase('Count up', <Object>[
+    'لدي 123 تفاحة',
+    'لدي 124 تفاحة',
+    'لدي 129 تفاحة',
+    'لدي 130 تفاحة',
+  ]),
+  CorpusCase('Grouping appears', <Object>[
+    '999 ريال',
+    '1,000 ريال',
+    '1,999 ريال',
+    '2,000 ريال',
+  ]),
   CorpusCase('Decimal carry', <Object>['9.99 ريال', '10.00 ريال', '9.99 ريال']),
   CorpusCase('Negative', <Object>['الرصيد -99', 'الرصيد -100', 'الرصيد +5']),
   CorpusCase('Currency', <Object>[r'$999', r'$1,000', r'$999']),
   CorpusCase('Percent', <Object>['مرحبا 12%', 'مرحبا 97%', 'مرحبا 100%']),
-  CorpusCase('Parentheses', <Object>['مرحبا (123)', 'مرحبا (5,678)', 'مرحبا (12)']),
+  CorpusCase('Parentheses', <Object>[
+    'مرحبا (123)',
+    'مرحبا (5,678)',
+    'مرحبا (12)',
+  ]),
   CorpusCase('Fraction', <Object>['مرحبا 1/2', 'مرحبا 3/4', 'مرحبا 1/2']),
   CorpusCase('Phone', <Object>['+971 50 123 4567', '+971 50 123 4568']),
 ];
 
 const List<CorpusCase> arabicMultilineCases = <CorpusCase>[
-  CorpusCase('Price on two lines', <Object>['السعر 1234\nريال فقط', 'السعر 1299\nريال فقط']),
-  CorpusCase('Three lines', <Object>['السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333', 'السطر الأول 112\nالسطر الثاني 223\nالسطر الثالث 334']),
-  CorpusCase('Hebrew two lines', <Object>['מחיר 1234\n₪ בלבד', 'מחיר 1235\n₪ בלבד']),
+  CorpusCase('Price on two lines', <Object>[
+    'السعر 1234\nريال فقط',
+    'السعر 1299\nريال فقط',
+  ]),
+  CorpusCase('Three lines', <Object>[
+    'السطر الأول 111\nالسطر الثاني 222\nالسطر الثالث 333',
+    'السطر الأول 112\nالسطر الثاني 223\nالسطر الثالث 334',
+  ]),
+  CorpusCase('Hebrew two lines', <Object>[
+    'מחיר 1234\n₪ בלבד',
+    'מחיר 1235\n₪ בלבד',
+  ]),
 ];

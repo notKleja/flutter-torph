@@ -38,8 +38,10 @@ Carried carry(EasingFn base, double normalisedVelocity) {
 }
 
 // JS Math.min/max propagate NaN; Dart's math.min/max do not.
-double _jsMin(double a, double b) => (a.isNaN || b.isNaN) ? double.nan : math.min(a, b);
-double _jsMax(double a, double b) => (a.isNaN || b.isNaN) ? double.nan : math.max(a, b);
+double _jsMin(double a, double b) =>
+    (a.isNaN || b.isNaN) ? double.nan : math.min(a, b);
+double _jsMax(double a, double b) =>
+    (a.isNaN || b.isNaN) ? double.nan : math.max(a, b);
 
 /// Sampled fine enough that a segment is shorter than a frame at 120Hz.
 String sampleEasing(EasingFn curve, double duration) {

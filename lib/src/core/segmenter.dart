@@ -33,7 +33,8 @@ List<Segment> _expandNumbers(List<Segment> segments) {
   return out;
 }
 
-/// Upstream `segmentText(value, locale, numbers)`.
+/// Splits [value] into the units `TextMorph` animates (upstream
+/// `segmentText`); `numbers: false` keeps numbers as ordinary words.
 List<Segment> segmentText(String value, String locale, {bool numbers = true}) {
   final hasNewlines = value.contains('\n');
   final byWord = value.contains(' ') || hasNewlines;
@@ -78,7 +79,9 @@ List<Segment> _segmentLine(
     if (data.segment == ' ') {
       segments.add(Segment(alloc.take('space-$index'), nbsp));
     } else {
-      segments.add(Segment(allocSegmentId(data.segment, index, alloc), data.segment));
+      segments.add(
+        Segment(allocSegmentId(data.segment, index, alloc), data.segment),
+      );
     }
   }
   return segments;

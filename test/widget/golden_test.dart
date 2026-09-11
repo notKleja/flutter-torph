@@ -9,20 +9,20 @@ const Key _boundary = ValueKey('golden');
 /// The goldens are Flutter-to-Flutter, drawn with the default `flutter_test`
 /// font so nothing outside the repository can move them.
 Widget golden(Widget child) => host(
-      RepaintBoundary(
-        key: _boundary,
-        child: Container(
-          color: const Color(0xFFFFFFFF),
-          padding: const EdgeInsets.all(8),
-          child: child,
-        ),
-      ),
-    );
+  RepaintBoundary(
+    key: _boundary,
+    child: Container(
+      color: const Color(0xFFFFFFFF),
+      padding: const EdgeInsets.all(8),
+      child: child,
+    ),
+  ),
+);
 
 Future<void> expectGolden(WidgetTester tester, String name) => expectLater(
-      find.byKey(_boundary),
-      matchesGoldenFile('../goldens/$name.png'),
-    );
+  find.byKey(_boundary),
+  matchesGoldenFile('../goldens/$name.png'),
+);
 
 void main() {
   testWidgets('a number at rest', (tester) async {

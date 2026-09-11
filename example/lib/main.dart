@@ -22,7 +22,10 @@ class TorphExampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'torph',
-      theme: ThemeData(colorSchemeSeed: const Color(0xFF3B5BDB), useMaterial3: true),
+      theme: ThemeData(
+        colorSchemeSeed: const Color(0xFF3B5BDB),
+        useMaterial3: true,
+      ),
       home: const HomePage(),
     );
   }
@@ -47,6 +50,7 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           padding: const EdgeInsets.only(bottom: 48),
           children: <Widget>[
+            const HelloDemo(),
             OptionsPanel(
               options: _options,
               onChanged: (DemoOptions o) => setState(() => _options = o),
@@ -74,6 +78,41 @@ class _HomePageState extends State<HomePage> {
             EditableDemo(options: _options),
             StormDemo(options: _options),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// The minimal case: a `String` in state, and a `TextMorph` that morphs
+/// whenever it changes. No other options are needed to use the widget.
+class HelloDemo extends StatefulWidget {
+  const HelloDemo({super.key});
+
+  @override
+  State<HelloDemo> createState() => _HelloDemoState();
+}
+
+class _HelloDemoState extends State<HelloDemo> {
+  static const List<String> _phrases = <String>[
+    'Hello',
+    'Hello world',
+    'Hello Flutter',
+    'Hello torph',
+  ];
+
+  int _index = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return DemoCard(
+      title: 'Hello',
+      body: GestureDetector(
+        key: const Key('hello-tap'),
+        onTap: () => setState(() => _index = (_index + 1) % _phrases.length),
+        child: TextMorph(
+          value: _phrases[_index],
+          style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
         ),
       ),
     );
@@ -162,14 +201,21 @@ class _CounterDemoState extends State<CounterDemo> {
           onPressed: () => _add(1),
           child: const Text('+1'),
         ),
-        FilledButton.tonal(onPressed: () => _add(0.05), child: const Text('+0.05')),
-        FilledButton.tonal(onPressed: () => _add(9999), child: const Text('+9,999')),
+        FilledButton.tonal(
+          onPressed: () => _add(0.05),
+          child: const Text('+0.05'),
+        ),
+        FilledButton.tonal(
+          onPressed: () => _add(9999),
+          child: const Text('+9,999'),
+        ),
         FilledButton.tonal(
           onPressed: () => setState(() => _total = -_total),
           child: const Text('negate'),
         ),
         FilledButton.tonal(
-          onPressed: () => setState(() => _total = _random.nextDouble() * 1000000),
+          onPressed: () =>
+              setState(() => _total = _random.nextDouble() * 1000000),
           child: const Text('random'),
         ),
       ],
@@ -208,7 +254,8 @@ class _CorpusDemoState extends State<CorpusDemo> {
     super.dispose();
   }
 
-  void _next() => setState(() => _valueIndex = (_valueIndex + 1) % _case.values.length);
+  void _next() =>
+      setState(() => _valueIndex = (_valueIndex + 1) % _case.values.length);
 
   void _select(int index) => setState(() {
     _caseIndex = index;
@@ -220,7 +267,10 @@ class _CorpusDemoState extends State<CorpusDemo> {
       _timer!.cancel();
       _timer = null;
     } else {
-      _timer = Timer.periodic(const Duration(milliseconds: 900), (_) => _next());
+      _timer = Timer.periodic(
+        const Duration(milliseconds: 900),
+        (_) => _next(),
+      );
     }
   });
 
@@ -239,7 +289,10 @@ class _CorpusDemoState extends State<CorpusDemo> {
             },
             items: <DropdownMenuItem<int>>[
               for (int i = 0; i < widget.cases.length; i++)
-                DropdownMenuItem<int>(value: i, child: Text(widget.cases[i].label)),
+                DropdownMenuItem<int>(
+                  value: i,
+                  child: Text(widget.cases[i].label),
+                ),
             ],
           ),
           const SizedBox(height: 12),
@@ -283,7 +336,9 @@ class EditableDemo extends StatefulWidget {
 }
 
 class _EditableDemoState extends State<EditableDemo> {
-  final TextEditingController _controller = TextEditingController(text: r'$4.20');
+  final TextEditingController _controller = TextEditingController(
+    text: r'$4.20',
+  );
   String _value = r'$4.20';
   int? _cursorIndex;
 
@@ -315,7 +370,10 @@ class _EditableDemoState extends State<EditableDemo> {
           TextField(
             key: const Key('editable-field'),
             controller: _controller,
-            decoration: const InputDecoration(border: OutlineInputBorder(), labelText: 'amount'),
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'amount',
+            ),
           ),
           const SizedBox(height: 12),
           DefaultTextStyle.merge(
@@ -409,7 +467,9 @@ class _StormDemoState extends State<StormDemo> {
       body: DefaultTextStyle.merge(
         style: const TextStyle(fontSize: 28, fontWeight: FontWeight.w500),
         child: TextMorph(
-          value: (widget.options.arabic ? _arabicStorm : _storm)[_tick % _storm.length],
+          value: (widget.options.arabic
+              ? _arabicStorm
+              : _storm)[_tick % _storm.length],
           locale: widget.options.locale,
           textAlign: widget.options.textAlign,
           scale: widget.options.scale,

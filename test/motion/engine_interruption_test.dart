@@ -38,34 +38,37 @@ void main() {
       expect(motion(w), [carriedTx - 40, 0, 1, 0, 0, 1]);
     });
 
-    test('a mid-enter item that persists loses its scale but keeps its fade', () {
-      final morph = Morph(measurer: FakeMeasurer());
-      morph.update('world');
-      morph.update('hi world');
+    test(
+      'a mid-enter item that persists loses its scale but keeps its fade',
+      () {
+        final morph = Morph(measurer: FakeMeasurer());
+        morph.update('world');
+        morph.update('hi world');
 
-      // "hi" arrived: scale 0.95, fading in behind a 25% delay, and FLIPped by
-      // its nearest persisting neighbour's delta (FLIP-003).
-      final hi = morph.byText('hi');
-      expect(motion(hi), [-30, 0, 0.95, 0, 0, 1]);
+        // "hi" arrived: scale 0.95, fading in behind a 25% delay, and FLIPped by
+        // its nearest persisting neighbour's delta (FLIP-003).
+        final hi = morph.byText('hi');
+        expect(motion(hi), [-30, 0, 0.95, 0, 0, 1]);
 
-      morph.at(interruptAt);
-      final opacity = hi.box.opacityAt(interruptAt);
-      final tx = hi.box.transformAt(interruptAt).tx;
-      expect(opacity, greaterThan(0));
-      expect(opacity, lessThan(1));
+        morph.at(interruptAt);
+        final opacity = hi.box.opacityAt(interruptAt);
+        final tx = hi.box.transformAt(interruptAt).tx;
+        expect(opacity, greaterThan(0));
+        expect(opacity, lessThan(1));
 
-      morph.update('hi big world');
+        morph.update('hi big world');
 
-      // Q-006: only the translate is read back, so the scale snaps to the
-      // persist value of 1 — reproduced, not improved.
-      expect(motion(hi), [tx, 0, 1, 0, 0, 1]);
-      // The fade continues from where it had got to, over the persist share.
-      final fade = hi.box.opacityTracks.single;
-      expect(fade.from, opacity);
-      expect(fade.to, 1);
-      expect(fade.duration, 100);
-      expect(fade.delay, 0);
-    });
+        // Q-006: only the translate is read back, so the scale snaps to the
+        // persist value of 1 — reproduced, not improved.
+        expect(motion(hi), [tx, 0, 1, 0, 0, 1]);
+        // The fade continues from where it had got to, over the persist share.
+        final fade = hi.box.opacityTracks.single;
+        expect(fade.from, opacity);
+        expect(fade.to, 1);
+        expect(fade.duration, 100);
+        expect(fade.delay, 0);
+      },
+    );
   });
 
   group('INTERRUPT-002 / INTERRUPT-003 an arriving item that starts leaving', () {
@@ -100,7 +103,11 @@ void main() {
       // Frozen at its visual position: the layout offset plus the translate it
       // was carrying, with the animation cancelled out from under it.
       expect(there.x, x + tx);
-      expect(motion(there), textExit, reason: 'scale is not carried into the exit');
+      expect(
+        motion(there),
+        textExit,
+        reason: 'scale is not carried into the exit',
+      );
     });
 
     test('an item detached at exactly zero opacity reads back as opaque', () {
@@ -221,7 +228,11 @@ void main() {
       final tracks = transformsOf(morph);
       expect(tracks, isNotEmpty);
       for (final track in tracks) {
-        expect(track.startedAt, isNull, reason: 'play-pending until a frame lands');
+        expect(
+          track.startedAt,
+          isNull,
+          reason: 'play-pending until a frame lands',
+        );
         expect(track.progress(interruptAt), 0);
       }
 

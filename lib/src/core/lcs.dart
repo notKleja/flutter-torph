@@ -1,3 +1,5 @@
+import 'package:characters/characters.dart';
+
 /// Longest common subsequence as paired indices. Walked forwards so ties go to
 /// the earliest match — backwards, a repeated word flies across the block.
 (List<int>, List<int>) lcsIndices(List<String> a, List<String> b) {
@@ -37,3 +39,6 @@
 /// JavaScript `string.split("")`: one element per UTF-16 code unit.
 List<String> codeUnits(String s) =>
     List<String>.generate(s.length, (i) => s[i], growable: false);
+
+/// Extended grapheme clusters: what a reader sees as one character.
+List<String> graphemeClusters(String s) => s.characters.toList();

@@ -1,5 +1,8 @@
 import 'dart:math' as math;
 
+import 'package:flutter/animation.dart' show Curve;
+
+import 'carry.dart' show sampleEasing;
 import 'easing.dart';
 
 class SpringParams {
@@ -37,7 +40,6 @@ class SpringResult {
   /// A CSS `linear(...)` easing string, exactly as upstream hands to WAAPI.
   final String easing;
 
-  /// Milliseconds.
   final int duration;
 }
 
@@ -46,7 +48,8 @@ double springPosition(double t, double omega0, double zeta) {
     final omegaD = omega0 * math.sqrt(1 - zeta * zeta);
     return 1 -
         math.exp(-zeta * omega0 * t) *
-            (math.cos(omegaD * t) + ((zeta * omega0) / omegaD) * math.sin(omegaD * t));
+            (math.cos(omegaD * t) +
+                ((zeta * omega0) / omegaD) * math.sin(omegaD * t));
   }
 
   // Overdamped (includes near-critically-damped)
@@ -115,6 +118,8 @@ class ResolvedEase {
   const ResolvedEase(this.ease, this.duration);
 
   final String ease;
+
+  /// Milliseconds.
   final int duration;
 }
 
@@ -124,6 +129,16 @@ ResolvedEase resolveEase(Object ease, int fallbackDuration) {
     final resolved = spring(ease);
     return ResolvedEase(resolved.easing, resolved.duration);
   }
+  if (ease is Curve) {
+    return ResolvedEase(
+      sampleEasing(ease.transform, fallbackDuration.toDouble()),
+      fallbackDuration,
+    );
+  }
   if (ease is String) return ResolvedEase(ease, fallbackDuration);
-  throw ArgumentError.value(ease, 'ease', 'must be a CSS easing String or SpringParams');
+  throw ArgumentError.value(
+    ease,
+    'ease',
+    'must be a CSS easing String, a Curve, or SpringParams',
+  );
 }

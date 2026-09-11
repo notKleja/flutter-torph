@@ -7,7 +7,9 @@ import 'package:torph/src/core/segment.dart';
 dynamic loadFixture(String name) {
   final file = File('oracle/fixtures/$name.json');
   if (!file.existsSync()) {
-    throw StateError('missing oracle fixture $name — run `npm run gen` in oracle/');
+    throw StateError(
+      'missing oracle fixture $name — run `npm run gen` in oracle/',
+    );
   }
   return jsonDecode(file.readAsStringSync());
 }
@@ -24,21 +26,25 @@ class MintNormalizer {
   }
 
   List<Map<String, Object?>> segments(List<Segment> segs) => segs
-      .map((s) => {
-            'id': call(s.id),
-            'string': s.string,
-            if (s.kind != null) 'kind': s.kind!.name,
-          })
+      .map(
+        (s) => {
+          'id': call(s.id),
+          'string': s.string,
+          if (s.kind != null) 'kind': s.kind!.name,
+        },
+      )
       .toList();
 }
 
 /// Fixture segments already carry normalised IDs.
 List<Map<String, Object?>> fixtureSegments(List<dynamic> raw) => raw
-    .map((s) => {
-          'id': s['id'] as String,
-          'string': s['string'] as String,
-          if (s['kind'] != null) 'kind': s['kind'] as String,
-        })
+    .map(
+      (s) => {
+        'id': s['id'] as String,
+        'string': s['string'] as String,
+        if (s['kind'] != null) 'kind': s['kind'] as String,
+      },
+    )
     .toList();
 
 String show(String s) => jsonEncode(s);

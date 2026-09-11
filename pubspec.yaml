@@ -1,12 +1,11 @@
 name: torph
 description: >-
-  Animated text morphing for Flutter: words and characters that persist, enter
-  and exit between values, and numbers that morph by place value. A 1:1 port of
-  the Torph JavaScript library.
+  Flutter text morphing: words and characters persist, enter and exit between
+  values, and numbers morph by place value. A port of Torph.
 version: 0.1.3
-homepage: https://example.com/torph-flutter
-repository: https://example.com/torph-flutter
-issue_tracker: https://example.com/torph-flutter/issues
+homepage: https://github.com/notKleja/flutter-torph
+repository: https://github.com/notKleja/flutter-torph
+issue_tracker: https://github.com/notKleja/flutter-torph/issues
 
 topics:
   - animation
@@ -16,7 +15,7 @@ topics:
 
 environment:
   sdk: ^3.12.2
-  flutter: ">=1.17.0"
+  flutter: ">=3.44.0"
 
 dependencies:
   flutter:

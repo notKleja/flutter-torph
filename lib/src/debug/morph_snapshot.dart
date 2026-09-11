@@ -33,10 +33,12 @@ class TextMorphSnapshot {
   List<ItemFrame> get items => frame.items;
 
   /// Live (non-exiting) items, breaks included.
-  List<ItemFrame> get liveItems => frame.items.where((i) => !i.exiting).toList();
+  List<ItemFrame> get liveItems =>
+      frame.items.where((i) => !i.exiting).toList();
 
   /// Exiting items, pinned where they were when they left the flow.
-  List<ItemFrame> get exitingItems => frame.items.where((i) => i.exiting).toList();
+  List<ItemFrame> get exitingItems =>
+      frame.items.where((i) => i.exiting).toList();
 
   /// Lines the live items occupy: one, plus one per break. Zero when the root
   /// has no items at all (an initial render of `""`).
@@ -61,7 +63,8 @@ class TextMorphSnapshot {
   }
 
   @override
-  String toString() => 'TextMorphSnapshot(now: ${frame.now}, size: $size, '
+  String toString() =>
+      'TextMorphSnapshot(now: ${frame.now}, size: $size, '
       'natural: $naturalSize, items: ${frame.items.length}, '
       'animating: $animating, value: "${frame.value}"'
       '${frame.plainText != null ? ', plainText' : ''})';

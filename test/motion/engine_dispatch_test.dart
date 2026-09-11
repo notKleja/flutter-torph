@@ -123,7 +123,10 @@ void main() {
 
       // The root spans every line of the value, so clipping there would bound
       // only the first line's top and the last line's bottom. The clip lives on
-      expect(morph.live.where((c) => c.mover != null).map((c) => c.string).join(), '1,234');
+      expect(
+        morph.live.where((c) => c.mover != null).map((c) => c.string).join(),
+        '1,234',
+      );
       for (final child in morph.live) {
         expect(child.mover != null, child.kind != null, reason: child.id);
       }
@@ -209,66 +212,88 @@ void main() {
         expect(slideOf(morph.byId(id)), isNull, reason: 'mover $id');
       }
       expect(
-        morph.live.where((c) => c.string == 'a' || c.string == 'b').map((c) => c.kind),
+        morph.live
+            .where((c) => c.string == 'a' || c.string == 'b')
+            .map((c) => c.kind),
         [null, null],
       );
     });
   });
 
   group('invariants across a chained morph', () {
-    test('never gives two live children the same ID, and always renders the value', () {
-      final morph = Morph();
-      const sequence = [
-        '\$4',
-        '\$',
-        '\$420',
-        '\$4,020',
-        'hello world',
-        '3 unread messages',
-        '13 unread items',
-        'Total\n1,234',
-        '0',
-        '1,000,000',
-        'it cost \$1,234.',
-        '',
-        '99%',
-      ];
+    test(
+      'never gives two live children the same ID, and always renders the value',
+      () {
+        final morph = Morph();
+        const sequence = [
+          '\$4',
+          '\$',
+          '\$420',
+          '\$4,020',
+          'hello world',
+          '3 unread messages',
+          '13 unread items',
+          'Total\n1,234',
+          '0',
+          '1,000,000',
+          'it cost \$1,234.',
+          '',
+          '99%',
+        ];
 
-      for (final value in sequence) {
-        morph.update(value);
+        for (final value in sequence) {
+          morph.update(value);
 
-        expect(morph.duplicateId, isNull, reason: '"$value" repeats an ID');
+          expect(morph.duplicateId, isNull, reason: '"$value" repeats an ID');
 
-        // An empty value keeps a zero-width space so the line box survives the
-        // exits, so it is the one step that does not render its own text.
-        if (value != '') {
-          expect(morph.rendered.replaceAll('\n', ''), value.replaceAll('\n', ''));
-        } else {
-          expect(morph.live.map((c) => c.id), [emptyId]);
+          // An empty value keeps a zero-width space so the line box survives the
+          // exits, so it is the one step that does not render its own text.
+          if (value != '') {
+            expect(
+              morph.rendered.replaceAll('\n', ''),
+              value.replaceAll('\n', ''),
+            );
+          } else {
+            expect(morph.live.map((c) => c.id), [emptyId]);
+          }
         }
-      }
-    });
+      },
+    );
   });
 
   group('wholesale replacement', () {
-    test('collapses a long replaced run instead of moving it character by character', () {
-      final morph = Morph();
-      morph.update('abcdefghijklmnop');
-      final survivors = ['a', 'b', 'c', 'm', 'n', 'o', 'p'].map(morph.idOf).toList();
+    test(
+      'collapses a long replaced run instead of moving it character by character',
+      () {
+        final morph = Morph();
+        morph.update('abcdefghijklmnop');
+        final survivors = [
+          'a',
+          'b',
+          'c',
+          'm',
+          'n',
+          'o',
+          'p',
+        ].map(morph.idOf).toList();
 
-      morph.update('abcmnopqrstuvwx');
+        morph.update('abcmnopqrstuvwx');
 
-      // "defghijkl" leaves together and "qrstuvwx" arrives together — nine and
-      // eight characters with nothing surviving between them.
-      final grouped = morph.children.where(isGrouped).map((c) => c.id).toSet();
-      expect(grouped.length, 17);
+        // "defghijkl" leaves together and "qrstuvwx" arrives together — nine and
+        // eight characters with nothing surviving between them.
+        final grouped = morph.children
+            .where(isGrouped)
+            .map((c) => c.id)
+            .toSet();
+        expect(grouped.length, 17);
 
-      // The letters that survived are not part of either gesture; they still
-      // move relative to their neighbours as themselves.
-      for (final id in survivors) {
-        expect(grouped.contains(id), false, reason: id);
-      }
-    });
+        // The letters that survived are not part of either gesture; they still
+        // move relative to their neighbours as themselves.
+        for (final id in survivors) {
+          expect(grouped.contains(id), false, reason: id);
+        }
+      },
+    );
 
     test('scales about a shared origin rather than each character\'s own', () {
       final morph = Morph();
@@ -291,7 +316,9 @@ void main() {
       // place under a zero-rect measurer, so the stated offsets agree.
       expect(origins.map((o) => '${o!.x},${o.y}').toSet().length, 1);
 
-      for (final survivor in morph.live.where((c) => 'abcmnop'.contains(c.string))) {
+      for (final survivor in morph.live.where(
+        (c) => 'abcmnop'.contains(c.string),
+      )) {
         expect(survivor.transformOrigin, isNull, reason: survivor.id);
       }
     });
@@ -334,9 +361,21 @@ void main() {
         // A fixed ceiling here would decouple the fade from the transform: at
         // 3000ms a capped fade finishes a tenth of the way in and the character
         for (final fade in fades) {
-          expect(fade.duration, lessThanOrEqualTo(duration), reason: '${duration}ms fade');
-          expect(fade.duration / duration, greaterThan(0.1), reason: '${duration}ms fade share');
-          expect(fade.delay / duration, lessThan(0.5), reason: '${duration}ms delay share');
+          expect(
+            fade.duration,
+            lessThanOrEqualTo(duration),
+            reason: '${duration}ms fade',
+          );
+          expect(
+            fade.duration / duration,
+            greaterThan(0.1),
+            reason: '${duration}ms fade share',
+          );
+          expect(
+            fade.delay / duration,
+            lessThan(0.5),
+            reason: '${duration}ms delay share',
+          );
         }
 
         morph.dispose();
@@ -360,25 +399,28 @@ void main() {
       expect(morph.frame.height, morph.frame.naturalHeight);
     });
 
-    test('sizes from the layout box, not an ancestor transform\'s visual one', () {
-      final morph = Morph(measurer: FakeMeasurer());
-      morph.update('hello');
-      morph.update('hello world');
+    test(
+      'sizes from the layout box, not an ancestor transform\'s visual one',
+      () {
+        final morph = Morph(measurer: FakeMeasurer());
+        morph.update('hello');
+        morph.update('hello world');
 
-      // Mid-flight: the layout box is the animated size, which is neither the
-      // old size it left nor the natural size it is heading for.
-      morph.at(200);
-      final animated = morph.frame.width;
-      expect(animated, greaterThan(50));
-      expect(animated, lessThan(110));
+        // Mid-flight: the layout box is the animated size, which is neither the
+        // old size it left nor the natural size it is heading for.
+        morph.at(200);
+        final animated = morph.frame.width;
+        expect(animated, greaterThan(50));
+        expect(animated, lessThan(110));
 
-      morph.update('hi');
+        morph.update('hi');
 
-      // Starting from an inflated visual box is what balloons the root, morph
-      // on morph.
-      expect(morph.engine.containerTransition!.width!.from, animated);
-      expect(morph.engine.containerTransition!.width!.to, 20);
-    });
+        // Starting from an inflated visual box is what balloons the root, morph
+        // on morph.
+        expect(morph.engine.containerTransition!.width!.from, animated);
+        expect(morph.engine.containerTransition!.width!.to, 20);
+      },
+    );
   });
 
   group('disabled', () {

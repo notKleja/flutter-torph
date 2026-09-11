@@ -2,7 +2,11 @@
 /// translate subtracted (upstream `measure`).
 typedef Measures = Map<String, ({double x, double y})>;
 
-({double dx, double dy}) computeDelta(Measures prev, Measures current, String key) {
+({double dx, double dy}) computeDelta(
+  Measures prev,
+  Measures current,
+  String key,
+) {
   final p = prev[key];
   final c = current[key];
   if (p == null || c == null) return (dx: 0, dy: 0);
@@ -52,7 +56,12 @@ Map<int, String?> resolveExitingAnchors(
   final anchors = <int, String?>{};
   for (var i = 0; i < oldIds.length; i++) {
     if (!exiting.contains(i)) continue;
-    anchors[i] = findNearestAnchor(i, oldIds, persistentOldIds, AnchorDirection.forwardFirst);
+    anchors[i] = findNearestAnchor(
+      i,
+      oldIds,
+      persistentOldIds,
+      AnchorDirection.forwardFirst,
+    );
   }
   return anchors;
 }

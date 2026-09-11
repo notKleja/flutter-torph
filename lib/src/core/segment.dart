@@ -7,7 +7,10 @@ enum SegmentKind { digit, symbol }
 class Segment {
   const Segment(this.id, this.string, {this.kind});
 
+  /// Stable identity used for FLIP tracking and reconciliation.
   final String id;
+
+  /// The text this segment renders.
   final String string;
 
   /// Absent for ordinary text.

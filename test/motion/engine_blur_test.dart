@@ -6,7 +6,9 @@ import 'engine_harness.dart';
 const double blur = 2;
 const double duration = 400;
 
-Morph blurred() => Morph(config: MorphConfig(blur: blur, duration: duration));
+Morph blurred() => Morph(
+  config: MorphConfig(blur: blur, duration: duration),
+);
 
 ItemFrame frameOf(Morph morph, String text, {bool exiting = false}) =>
     morph.frame.items.firstWhere((i) => i.text == text && i.exiting == exiting);
@@ -51,7 +53,9 @@ void main() {
       morph.update('9');
       morph.update('10');
       morph.at(0);
-      final entering = morph.frame.items.where((i) => !i.exiting && i.lifecycle == Lifecycle.entering);
+      final entering = morph.frame.items.where(
+        (i) => !i.exiting && i.lifecycle == Lifecycle.entering,
+      );
       expect(entering, isNotEmpty);
       for (final item in entering) {
         expect(item.moverBlur, blur);
@@ -82,8 +86,12 @@ void main() {
       morph.update('abcdefghijklmnop');
       morph.update('abcmnopqrstuvwx');
       morph.at(0);
-      final entering = morph.children.where((c) => c.lifecycle == Lifecycle.groupEntering);
-      final exiting = morph.children.where((c) => c.lifecycle == Lifecycle.groupExiting);
+      final entering = morph.children.where(
+        (c) => c.lifecycle == Lifecycle.groupEntering,
+      );
+      final exiting = morph.children.where(
+        (c) => c.lifecycle == Lifecycle.groupExiting,
+      );
       expect(entering, isNotEmpty);
       expect(exiting, isNotEmpty);
       for (final c in entering) {

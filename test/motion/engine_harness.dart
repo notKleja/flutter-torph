@@ -20,7 +20,10 @@ class Morph {
 
   factory Morph({FakeMeasurer? measurer, MorphConfig? config}) {
     final m = measurer ?? happyDom();
-    return Morph._(m, MorphEngine(measurer: m, config: config ?? MorphConfig()));
+    return Morph._(
+      m,
+      MorphEngine(measurer: m, config: config ?? MorphConfig()),
+    );
   }
 
   final FakeMeasurer measurer;
@@ -61,9 +64,8 @@ class Morph {
 
   /// What the root reads as, ignoring the characters on their way out.
   /// `<br>` carries the line break and holds no text of its own.
-  String get rendered => live
-      .map((c) => c.isBreak ? '' : c.string.replaceAll(nbsp, ' '))
-      .join();
+  String get rendered =>
+      live.map((c) => c.isBreak ? '' : c.string.replaceAll(nbsp, ' ')).join();
 
   List<String> get shape =>
       live.map((c) => '${c.string}:${c.kind?.name ?? 'text'}').toList();
@@ -87,8 +89,14 @@ class Morph {
 
 /// A transform track flattened to `[fromTx, fromTy, fromScale, toTx, toTy,
 /// toScale]` — the two ends WAAPI was handed. Scale is uniform everywhere
-List<double?> shapeOf(Track<Transform2> t) =>
-    [t.from?.tx, t.from?.ty, t.from?.sx, t.to?.tx, t.to?.ty, t.to?.sx];
+List<double?> shapeOf(Track<Transform2> t) => [
+  t.from?.tx,
+  t.from?.ty,
+  t.from?.sx,
+  t.to?.tx,
+  t.to?.ty,
+  t.to?.sx,
+];
 
 /// What layout did to a character — the transform on the item itself.
 /// Null where upstream recorded no `animate()` call for it.
@@ -117,8 +125,9 @@ const List<double?> groupEnter = [0, 0, groupScale, null, null, null];
 const List<double?> groupExit = [null, null, null, 0, 0, groupScale];
 
 /// A group gesture states `scale(0.8)` at one end and nothing else.
-bool isGrouped(MorphItem item) => item.box.transformTracks
-    .any((t) => t.from?.sx == groupScale || t.to?.sx == groupScale);
+bool isGrouped(MorphItem item) => item.box.transformTracks.any(
+  (t) => t.from?.sx == groupScale || t.to?.sx == groupScale,
+);
 
 /// Every fade the morph started, on slots and movers both.
 List<Track<double>> fadesOf(Morph morph) {

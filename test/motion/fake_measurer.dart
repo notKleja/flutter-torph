@@ -32,7 +32,9 @@ class FakeMeasurer implements Measurer {
         lines.last.add(item);
       }
     }
-    final lineWidths = [for (final line in lines) line.fold(0.0, (w, i) => w + widthOf(i.string))];
+    final lineWidths = [
+      for (final line in lines) line.fold(0.0, (w, i) => w + widthOf(i.string)),
+    ];
     final naturalWidth = lineWidths.fold(0.0, math.max);
     // An empty root has no line box; any content, even a break, makes one per line.
     final naturalHeight = items.isEmpty ? 0.0 : lines.length * lineHeight;
@@ -45,10 +47,10 @@ class FakeMeasurer implements Measurer {
       final shift = free <= 0
           ? 0.0
           : align == 'center'
-              ? free / 2
-              : align == 'right'
-                  ? free
-                  : 0.0;
+          ? free / 2
+          : align == 'right'
+          ? free
+          : 0.0;
       var x = shift;
       for (final item in lines[li]) {
         final w = widthOf(item.string);

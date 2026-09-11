@@ -1,0 +1,23 @@
+# Development-only trees, not needed by consumers of the published package.
+upstream/
+oracle/
+spike/
+reports/
+tool/unicode/
+tool/ci.sh
+
+# IDE / tooling artefacts.
+.idea/
+*.iml
+.metadata
+.github/
+build/
+.dart_tool/
+
+# Example app build output and platform ephemeral files.
+example/build/
+example/.dart_tool/
+example/ios/Flutter/ephemeral/
+example/macos/Flutter/ephemeral/
+example/integration_test/
+example/test_driver/

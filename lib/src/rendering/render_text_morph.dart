@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/rendering.dart';
@@ -8,6 +9,10 @@ import '../motion/morph_engine.dart';
 import 'text_measurer.dart';
 
 typedef _Slice = ({TextPainter painter, double left, double baseline});
+
+/// A Gaussian kernel is negligible past ~3 sigma; less padding clips the blur.
+double _layerPad(double base, double blur) =>
+    blur > 0 ? math.max(base, blur * 3) : base;
 
 /// Half the width of the open inline axis of a numeric slot's clip
 /// (`clip-path: inset(0 -100vw)`): effectively unbounded.
@@ -26,11 +31,11 @@ class RenderTextMorph extends RenderBox {
     required TextStyle initialStyle,
     required TextDirection initialTextDirection,
     bool initialDebug = false,
-  })  : _frame = initialFrame,
-        _measurer = initialMeasurer,
-        _style = initialStyle,
-        _textDirection = initialTextDirection,
-        _debug = initialDebug;
+  }) : _frame = initialFrame,
+       _measurer = initialMeasurer,
+       _style = initialStyle,
+       _textDirection = initialTextDirection,
+       _debug = initialDebug;
 
   FrameState _frame;
   FrameState get frame => _frame;
@@ -95,6 +100,24 @@ class RenderTextMorph extends RenderBox {
   /// The scene as it stands, for tests and debugging.
   TextMorphSnapshot debugSnapshot() => TextMorphSnapshot(_frame);
 
+  double get debugBlockOffsetX {
+    final plain = _frame.plainText;
+    return plain != null
+        ? _blockOffsetX(_measurer.plainTextPainter(plain).width)
+        : _blockOffsetX(_frame.width);
+  }
+
+  /// Aligns the block inside a wider box, as `Text` does.
+  double _blockOffsetX(double contentWidth) {
+    final extra = size.width - contentWidth;
+    if (extra <= 0) return 0;
+    return switch (_measurer.align) {
+      LineAlign.left => 0,
+      LineAlign.center => extra / 2,
+      LineAlign.right => extra,
+    };
+  }
+
   // ─── layout ───
 
   Size _sizeFor(BoxConstraints constraints) {
@@ -131,7 +154,9 @@ class RenderTextMorph extends RenderBox {
   double? computeDistanceToActualBaseline(TextBaseline baseline) {
     final plain = _frame.plainText;
     if (plain != null) {
-      return _measurer.plainTextPainter(plain).computeDistanceToActualBaseline(baseline);
+      return _measurer
+          .plainTextPainter(plain)
+          .computeDistanceToActualBaseline(baseline);
     }
     // The alphabetic baseline of the first line, as an inline-block's is.
     for (final item in _frame.items) {
@@ -154,16 +179,18 @@ class RenderTextMorph extends RenderBox {
     final plain = _frame.plainText;
     if (plain != null) {
       final painter = _measurer.plainTextPainter(plain);
-      painter.paint(canvas, offset);
+      final dx = _blockOffsetX(painter.width);
+      painter.paint(canvas, offset.translate(dx, 0));
       if (_debug) _paintDebugRoot(canvas, offset);
       return;
     }
 
     final slices = _shapedSlices();
+    final blockOffset = offset.translate(_blockOffsetX(_frame.width), 0);
     for (final item in _frame.items) {
       if (item.isBreak) continue;
       if (item.opacity == 0) continue;
-      _paintItem(canvas, offset, item, slices[item.id]);
+      _paintItem(canvas, blockOffset, item, slices[item.id]);
     }
 
     if (_debug) _paintDebugRoot(canvas, offset);
@@ -186,25 +213,11 @@ class RenderTextMorph extends RenderBox {
     final slices = <String, _Slice>{};
     for (final line in lines) {
       if (line.length < 2) continue;
-      final text = line.map((i) => i.text).join();
-      if (!TextMeasurer.needsShaping(text)) continue;
-      final painter = _measurer.linePainterFor(text);
-      final baseline = painter.computeDistanceToActualBaseline(TextBaseline.alphabetic);
-      if (!baseline.isFinite) continue;
-      var offset = 0;
-      for (final item in line) {
-        final start = offset;
-        offset += item.text.length;
-        if (!TextMeasurer.needsShaping(item.text)) continue;
-        final boxes = painter.getBoxesForSelection(
-          TextSelection(baseOffset: start, extentOffset: offset),
-        );
-        if (boxes.isEmpty) continue;
-        var left = boxes.first.left;
-        for (final box in boxes) {
-          if (box.left < left) left = box.left;
-        }
-        slices[item.id] = (painter: painter, left: left, baseline: baseline);
+      final strings = [for (final item in line) item.text];
+      final lineSlices = _measurer.shapedSlicesFor(strings);
+      for (var i = 0; i < line.length; i++) {
+        final slice = lineSlices[i];
+        if (slice != null) slices[line[i].id] = slice;
       }
     }
     return slices;
@@ -217,7 +230,10 @@ class RenderTextMorph extends RenderBox {
 
     // CSS `transform-origin: o; transform: translate(t) scale(s)`.
     canvas.save();
-    canvas.translate(offset.dx + item.x + ox + t.tx, offset.dy + item.y + oy + t.ty);
+    canvas.translate(
+      offset.dx + item.x + ox + t.tx,
+      offset.dy + item.y + oy + t.ty,
+    );
     canvas.scale(t.sx, t.sy);
     canvas.translate(-ox, -oy);
 
@@ -227,17 +243,27 @@ class RenderTextMorph extends RenderBox {
     if (grouped) {
       // Glyphs of one item can overlap; a layer is the CSS group-opacity
       // semantic, not per-glyph alpha.
-      canvas.saveLayer(bounds.inflate(item.height), _layerPaint(opacity, item.blur));
+      canvas.saveLayer(
+        bounds.inflate(_layerPad(item.height, item.blur)),
+        _layerPaint(opacity, item.blur),
+      );
     }
 
     if (item.kind != null) {
       _paintSlot(canvas, item);
     } else if (slice != null) {
       final own = _measurer.painterFor(item.text);
-      final ownBaseline = own.computeDistanceToActualBaseline(TextBaseline.alphabetic);
+      final ownBaseline = own.computeDistanceToActualBaseline(
+        TextBaseline.alphabetic,
+      );
       canvas.save();
-      canvas.clipRect(Rect.fromLTWH(0, -item.height, item.width, item.height * 3));
-      canvas.translate(-slice.left, (ownBaseline.isFinite ? ownBaseline : own.height) - slice.baseline);
+      canvas.clipRect(
+        Rect.fromLTWH(0, -item.height, item.width, item.height * 3),
+      );
+      canvas.translate(
+        -slice.left,
+        (ownBaseline.isFinite ? ownBaseline : own.height) - slice.baseline,
+      );
       slice.painter.paint(canvas, Offset.zero);
       canvas.restore();
     } else {
@@ -283,7 +309,10 @@ class RenderTextMorph extends RenderBox {
     final bounds = Rect.fromLTWH(0, 0, item.width, item.height);
     final fade = moverOpacity < 1 || moverBlur > 0;
     if (fade) {
-      canvas.saveLayer(bounds.inflate(item.height), _layerPaint(moverOpacity, moverBlur));
+      canvas.saveLayer(
+        bounds.inflate(_layerPad(item.height, moverBlur)),
+        _layerPaint(moverOpacity, moverBlur),
+      );
     }
     _measurer.painterFor(item.text).paint(canvas, Offset.zero);
     if (fade) canvas.restore();
@@ -318,7 +347,11 @@ class RenderTextMorph extends RenderBox {
   static Paint _layerPaint(double opacity, double blur) {
     final paint = Paint()..color = Color.fromRGBO(0, 0, 0, opacity);
     if (blur > 0) {
-      paint.imageFilter = ImageFilter.blur(sigmaX: blur, sigmaY: blur, tileMode: TileMode.decal);
+      paint.imageFilter = ImageFilter.blur(
+        sigmaX: blur,
+        sigmaY: blur,
+        tileMode: TileMode.decal,
+      );
     }
     return paint;
   }
@@ -348,7 +381,9 @@ class RenderTextMorph extends RenderBox {
     properties.add(StringProperty('value', _frame.value));
     properties.add(DiagnosticsProperty<bool>('animating', _frame.animating));
     properties.add(IntProperty('items', _frame.items.length));
-    properties.add(FlagProperty('debugOutlines', value: _debug, ifTrue: 'debug'));
+    properties.add(
+      FlagProperty('debugOutlines', value: _debug, ifTrue: 'debug'),
+    );
   }
 }
 

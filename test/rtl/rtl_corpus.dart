@@ -16,15 +16,15 @@ class RtlCase {
   });
 
   factory RtlCase.fromJson(Map<String, dynamic> j) => RtlCase(
-        id: j['id'] as String,
-        category: (j['category'] as String?) ?? 'unknown',
-        text: j['text'] as String,
-        direction: (j['direction'] as String?) ?? 'rtl',
-        locale: (j['locale'] as String?) ?? 'ar',
-        morph: (j['morph'] as Map?)?.cast<String, dynamic>(),
-        interrupt: (j['interrupt'] as Map?)?.cast<String, dynamic>(),
-        storm: j['storm'] as List<dynamic>?,
-      );
+    id: j['id'] as String,
+    category: (j['category'] as String?) ?? 'unknown',
+    text: j['text'] as String,
+    direction: (j['direction'] as String?) ?? 'rtl',
+    locale: (j['locale'] as String?) ?? 'ar',
+    morph: (j['morph'] as Map?)?.cast<String, dynamic>(),
+    interrupt: (j['interrupt'] as Map?)?.cast<String, dynamic>(),
+    storm: j['storm'] as List<dynamic>?,
+  );
 
   final String id;
   final String category;
@@ -47,7 +47,8 @@ List<RtlCase> loadRtlCorpus() {
   final file = File(rtlCorpusPath);
   if (file.existsSync()) {
     try {
-      final decoded = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
+      final decoded =
+          jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
       final rawCases = decoded['cases'] as List;
       if (rawCases.isNotEmpty) {
         rtlCorpusIsFallback = false;
@@ -55,8 +56,7 @@ List<RtlCase> loadRtlCorpus() {
             .map((c) => RtlCase.fromJson((c as Map).cast<String, dynamic>()))
             .toList();
       }
-    } catch (_) {
-    }
+    } catch (_) {}
   }
   rtlCorpusIsFallback = true;
   return _fallback;

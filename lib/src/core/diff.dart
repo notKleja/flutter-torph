@@ -27,17 +27,22 @@ class DiffOptions {
 const String _numberToken = '\u0000#';
 
 /// Per-character segments of an old word, cutting it up first if it is still
-/// one span.
-List<Segment> _splitIfWhole(WordGroup oldGroup, Map<String, List<Segment>> splits) {
+/// one span: code units for numbers, grapheme clusters for text (DEV-007).
+List<Segment> _splitIfWhole(
+  WordGroup oldGroup,
+  Map<String, List<Segment>> splits,
+  List<String> Function(String) units,
+) {
+  final parts = units(oldGroup.word);
   // Cutting a one-character word mints a new ID for a character that never moved.
-  if (oldGroup.segments.length != 1 || oldGroup.word.length <= 1) {
+  if (oldGroup.segments.length != 1 || parts.length <= 1) {
     return oldGroup.segments;
   }
 
   final wordSeg = oldGroup.segments[0];
   final charSegs = <Segment>[];
-  for (var i = 0; i < oldGroup.word.length; i++) {
-    charSegs.add(Segment('${wordSeg.id}:$i', oldGroup.word[i]));
+  for (var i = 0; i < parts.length; i++) {
+    charSegs.add(Segment('${wordSeg.id}:$i', parts[i]));
   }
   splits[wordSeg.id] = charSegs;
   return charSegs;
@@ -45,9 +50,11 @@ List<Segment> _splitIfWhole(WordGroup oldGroup, Map<String, List<Segment>> split
 
 /// Fills in kinds an older, non-numeric segmentation of the same word lacked.
 List<Segment> _asNumberSegments(List<Segment> segments) => segments
-    .map((seg) => seg.kind != null
-        ? seg
-        : Segment(seg.id, seg.string, kind: classifyKind(seg.string)))
+    .map(
+      (seg) => seg.kind != null
+          ? seg
+          : Segment(seg.id, seg.string, kind: classifyKind(seg.string)),
+    )
     .toList();
 
 enum _Mode { fresh, reuse, morph, number }
@@ -61,8 +68,10 @@ class _WordPlan {
 
 double _charSimilarity(String a, String b) {
   if (a.isEmpty || b.isEmpty) return 0;
-  final (matched, _) = lcsIndices(codeUnits(a), codeUnits(b));
-  return matched.length / (a.length > b.length ? a.length : b.length);
+  final au = graphemeClusters(a);
+  final bu = graphemeClusters(b);
+  final (matched, _) = lcsIndices(au, bu);
+  return matched.length / (au.length > bu.length ? au.length : bu.length);
 }
 
 /// How many LCS matches sit before each word — the index of the gap it occupies.
@@ -81,7 +90,8 @@ const double minSimilarity = 0.4;
 /// An old word's claim on a new one. A matching numeric skeleton beats shared
 /// characters.
 double _pairAffinity(String a, String b) {
-  if ((hasDigit(a) || hasDigit(b)) && numericSkeleton(a) == numericSkeleton(b)) {
+  if ((hasDigit(a) || hasDigit(b)) &&
+      numericSkeleton(a) == numericSkeleton(b)) {
     return 1;
   }
   return _charSimilarity(a, b);
@@ -91,6 +101,7 @@ double _pairAffinity(String a, String b) {
 const int maxMorphPairings = 2500;
 const int maxLcsCells = 1000000;
 
+/// Matches [newText] against [oldSegments] so persisting text keeps its ids.
 DiffResult diffSegments(
   List<Segment> oldSegments,
   String newText,
@@ -110,7 +121,10 @@ DiffResult diffSegments(
   final digitsInvolved =
       numbersOn && (hasDigit(newText) || oldWords.any((g) => hasDigit(g.word)));
 
-  if (oldWords.length <= 1 && !newHasSpaces && !newHasNewlines && !digitsInvolved) {
+  if (oldWords.length <= 1 &&
+      !newHasSpaces &&
+      !newHasNewlines &&
+      !digitsInvolved) {
     return DiffResult(segmentText(newText, locale, numbers: numbersOn), {});
   }
 
@@ -148,11 +162,11 @@ DiffResult diffSegments(
 
   var oldUnmatched = [
     for (var i = 0; i < oldWordStrings.length; i++)
-      if (!oldMatchedSet.contains(i)) i
+      if (!oldMatchedSet.contains(i)) i,
   ];
   var newUnmatched = [
     for (var i = 0; i < newWordStrings.length; i++)
-      if (!newMatchedSet.contains(i)) i
+      if (!newMatchedSet.contains(i)) i,
   ];
 
   // Exact-match reordered words that LCS couldn't capture (order-preserving)
@@ -169,7 +183,9 @@ DiffResult diffSegments(
   }
   if (exactUsed.isNotEmpty) {
     oldUnmatched = oldUnmatched.where((i) => !exactUsed.contains(i)).toList();
-    newUnmatched = newUnmatched.where((i) => !newToOldWord.containsKey(i)).toList();
+    newUnmatched = newUnmatched
+        .where((i) => !newToOldWord.containsKey(i))
+        .toList();
   }
 
   final morphPairs = <int, int>{};
@@ -220,8 +236,8 @@ DiffResult diffSegments(
   // Meaningless once a value holds several figures.
   final cursorIndex =
       plans.where((plan) => plan.mode == _Mode.number).length == 1
-          ? options.cursorIndex
-          : null;
+      ? options.cursorIndex
+      : null;
   final decimalChar = decimalSeparator(locale);
 
   final alloc = IdAllocator();
@@ -234,7 +250,10 @@ DiffResult diffSegments(
     if (plan.mode != _Mode.reuse && oldGroup.segments.length == 1) {
       // About to be split into per-character spans
       final wordSeg = oldGroup.segments[0];
-      for (var i = 0; i < oldGroup.word.length; i++) {
+      final partCount = plan.mode == _Mode.morph
+          ? graphemeClusters(oldGroup.word).length
+          : oldGroup.word.length;
+      for (var i = 0; i < partCount; i++) {
         alloc.reserve('${wordSeg.id}:$i');
       }
     } else {
@@ -261,7 +280,9 @@ DiffResult diffSegments(
   }
 
   for (var ni = 0; ni < newWordStrings.length; ni++) {
-    pushSeparators(ni < newSeparators.length ? newSeparators[ni] : (ni > 0 ? [' '] : []));
+    pushSeparators(
+      ni < newSeparators.length ? newSeparators[ni] : (ni > 0 ? [' '] : []),
+    );
 
     final plan = plans[ni];
     final newWord = newWordStrings[ni];
@@ -271,18 +292,20 @@ DiffResult diffSegments(
         segments.addAll(oldWords[plan.oi].segments);
       case _Mode.number:
         final oldGroup = oldWords[plan.oi];
-        segments.addAll(segmentNumber(
-          newWord,
-          _asNumberSegments(_splitIfWhole(oldGroup, splits)),
-          cursorIndex == null ? null : cursorIndex - charOffset,
-          decimalChar,
-        ));
+        segments.addAll(
+          segmentNumber(
+            newWord,
+            _asNumberSegments(_splitIfWhole(oldGroup, splits, codeUnits)),
+            cursorIndex == null ? null : cursorIndex - charOffset,
+            decimalChar,
+          ),
+        );
       case _Mode.morph:
         final oldGroup = oldWords[plan.oi];
-        final oldCharSegs = _splitIfWhole(oldGroup, splits);
+        final oldCharSegs = _splitIfWhole(oldGroup, splits, graphemeClusters);
 
-        final oldChars = codeUnits(oldGroup.word);
-        final newChars = codeUnits(newWord);
+        final oldChars = graphemeClusters(oldGroup.word);
+        final newChars = graphemeClusters(newWord);
         final (oldCharLcs, newCharLcs) = lcsIndices(oldChars, newChars);
 
         final newCharToOldSeg = <int, Segment>{};

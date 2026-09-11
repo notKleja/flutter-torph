@@ -100,10 +100,14 @@ class OptionsPanel extends StatelessWidget {
                   value: options.language,
                   items: const <String>['en', 'ar'],
                   nameOf: (String v) => v == 'ar' ? 'العربية (RTL)' : 'English',
-                  onChanged: (String v) => onChanged(options.copyWith(
-                    language: v,
-                    textDirection: v == 'ar' ? TextDirection.rtl : TextDirection.ltr,
-                  )),
+                  onChanged: (String v) => onChanged(
+                    options.copyWith(
+                      language: v,
+                      textDirection: v == 'ar'
+                          ? TextDirection.rtl
+                          : TextDirection.ltr,
+                    ),
+                  ),
                 ),
                 _Dropdown<TextAlign>(
                   label: 'align',
@@ -141,7 +145,8 @@ class OptionsPanel extends StatelessWidget {
                 _Toggle(
                   label: 'numbers',
                   value: options.numbers,
-                  onChanged: (bool v) => onChanged(options.copyWith(numbers: v)),
+                  onChanged: (bool v) =>
+                      onChanged(options.copyWith(numbers: v)),
                 ),
                 SizedBox(
                   width: 220,
@@ -172,7 +177,9 @@ class OptionsPanel extends StatelessWidget {
                           max: 2000,
                           divisions: 38,
                           onChanged: (double v) => onChanged(
-                            options.copyWith(duration: Duration(milliseconds: v.round())),
+                            options.copyWith(
+                              duration: Duration(milliseconds: v.round()),
+                            ),
                           ),
                         ),
                       ),

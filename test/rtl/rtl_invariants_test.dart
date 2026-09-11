@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 import '../widget/harness.dart';
@@ -11,17 +12,24 @@ List<ItemFrame> liveByLeft(TextMorphSnapshot snapshot) {
   return live;
 }
 
-List<String> liveTextsByLeft(TextMorphSnapshot snapshot) =>
-    [for (final i in liveByLeft(snapshot)) i.text];
+List<String> liveTextsByLeft(TextMorphSnapshot snapshot) => [
+  for (final i in liveByLeft(snapshot)) i.text,
+];
 
-List<double> liveLefts(TextMorphSnapshot snapshot) =>
-    [for (final i in liveByLeft(snapshot)) i.visualRect.left];
+List<double> liveLefts(TextMorphSnapshot snapshot) => [
+  for (final i in liveByLeft(snapshot)) i.visualRect.left,
+];
 
 /// The plain-paragraph reference: what a bare `TextPainter` puts left-to-right
 /// for [text] in [direction], at grapheme granularity, NBSP normalized to a
 /// regular space so a rendered NBSP item compares equal to a literal one.
 String plainVisualOf(String text, TextDirection direction, {Locale? locale}) {
-  final boxes = graphemeBoxesOf(text, direction: direction, style: testStyle, locale: locale);
+  final boxes = graphemeBoxesOf(
+    text,
+    direction: direction,
+    style: testStyle,
+    locale: locale,
+  );
   return visualOrderString(boxes).replaceAll(' ', ' ');
 }
 
@@ -31,9 +39,11 @@ String torphVisualOf(TextMorphSnapshot snapshot, TextDirection direction) {
   final buffer = StringBuffer();
   for (final item in liveByLeft(snapshot)) {
     final text = item.text.replaceAll(' ', ' ');
-    buffer.write(visualOrderString(
-      graphemeBoxesOf(text, direction: direction, style: testStyle),
-    ));
+    buffer.write(
+      visualOrderString(
+        graphemeBoxesOf(text, direction: direction, style: testStyle),
+      ),
+    );
   }
   return buffer.toString();
 }
@@ -59,7 +69,9 @@ void main() {
     '"1,000" in an RTL root: bidi places digits UBA-correctly (1,0,0,0 left-to-right)',
     (tester) async {
       const value = '1,000';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['1', ',', '0', '0', '0']);
@@ -72,11 +84,21 @@ void main() {
     '"السعر 1234 ريال" in an RTL root: ريال, space, 1234 (forward), space, السعر',
     (tester) async {
       const value = 'السعر 1234 ريال';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
-      expect(liveTextsByLeft(snapshot),
-          ['ريال', ' ', '1', '2', '3', '4', ' ', 'السعر']);
+      expect(liveTextsByLeft(snapshot), [
+        'ريال',
+        ' ',
+        '1',
+        '2',
+        '3',
+        '4',
+        ' ',
+        'السعر',
+      ]);
       expect(liveLefts(snapshot), [0, 80, 100, 120, 140, 160, 180, 200]);
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
     },
@@ -86,11 +108,21 @@ void main() {
     '"مرحبا ABC 123 DEF" in an RTL root: ABC, space, 123, space, DEF, space, مرحبا',
     (tester) async {
       const value = 'مرحبا ABC 123 DEF';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), [
-        'ABC', ' ', '1', '2', '3', ' ', 'DEF', ' ', 'مرحبا',
+        'ABC',
+        ' ',
+        '1',
+        '2',
+        '3',
+        ' ',
+        'DEF',
+        ' ',
+        'مرحبا',
       ]);
       expect(liveLefts(snapshot), [0, 60, 80, 100, 120, 140, 160, 220, 240]);
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
@@ -101,7 +133,9 @@ void main() {
     '"مرحبا بالعالم" in an RTL root: both words visually reversed to بالعالم, space, مرحبا',
     (tester) async {
       const value = 'مرحبا بالعالم';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['بالعالم', ' ', 'مرحبا']);
@@ -114,7 +148,9 @@ void main() {
     '"مرحبا \$123" in an RTL root: digits and \$ stay left-to-right (123\$)',
     (tester) async {
       const value = 'مرحبا \$123';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['1', '2', '3', '\$', ' ', 'مرحبا']);
@@ -126,7 +162,9 @@ void main() {
     '"مرحبا -123" in an RTL root: digits and hyphen stay left-to-right (123-)',
     (tester) async {
       const value = 'مرحبا -123';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['1', '2', '3', '-', ' ', 'مرحبا']);
@@ -138,7 +176,9 @@ void main() {
     '"مرحبا 123%" in an RTL root: the % sits to the left of the digits (%123)',
     (tester) async {
       const value = 'مرحبا 123%';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['%', '1', '2', '3', ' ', 'مرحبا']);
@@ -150,10 +190,20 @@ void main() {
     '"مرحبا (123)" in an RTL root: mirrored parens, digits forward ()123()',
     (tester) async {
       const value = 'مرحبا (123)';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
-      expect(liveTextsByLeft(snapshot), [')', '1', '2', '3', '(', ' ', 'مرحبا']);
+      expect(liveTextsByLeft(snapshot), [
+        ')',
+        '1',
+        '2',
+        '3',
+        '(',
+        ' ',
+        'مرحبا',
+      ]);
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
     },
   );
@@ -162,7 +212,9 @@ void main() {
     '"مرحبا 12:34" in an RTL root: the digit runs and colon stay left-to-right',
     (tester) async {
       const value = 'مرحبا 12:34';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['12', ':', '34', ' ', 'مرحبا']);
@@ -174,10 +226,20 @@ void main() {
     '"اليوم 08/09/2026" in an RTL root: the date fields and slashes stay left-to-right',
     (tester) async {
       const value = 'اليوم 08/09/2026';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
-      expect(liveTextsByLeft(snapshot), ['08', '/', '09', '/', '2026', ' ', 'اليوم']);
+      expect(liveTextsByLeft(snapshot), [
+        '08',
+        '/',
+        '09',
+        '/',
+        '2026',
+        ' ',
+        'اليوم',
+      ]);
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
     },
   );
@@ -186,11 +248,21 @@ void main() {
     'Hebrew "מחיר 1234 ₪" in an RTL root: ₪, space, 1234 (forward), space, מחיר',
     (tester) async {
       const value = 'מחיר 1234 ₪';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
-      expect(liveTextsByLeft(snapshot),
-          ['₪', ' ', '1', '2', '3', '4', ' ', 'מחיר']);
+      expect(liveTextsByLeft(snapshot), [
+        '₪',
+        ' ',
+        '1',
+        '2',
+        '3',
+        '4',
+        ' ',
+        'מחיר',
+      ]);
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
     },
   );
@@ -199,13 +271,19 @@ void main() {
     '"السعر ١٢٣٤ ريال" (Arabic-Indic digits): the number stays one item, unreversed',
     (tester) async {
       const value = 'السعر ١٢٣٤ ريال';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.rtl));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.rtl),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['ريال', ' ', '١٢٣٤', ' ', 'السعر']);
       final numberItem = snapshot.item('١٢٣٤');
-      expect(numberItem.kind, isNull,
-          reason: 'Arabic-Indic digits are not ASCII 0-9, so classifyKind sees them as text');
+      expect(
+        numberItem.kind,
+        isNull,
+        reason:
+            'Arabic-Indic digits are not ASCII 0-9, so classifyKind sees them as text',
+      );
       expectMatchesPlainReference(snapshot, value, TextDirection.rtl);
     },
   );
@@ -214,11 +292,21 @@ void main() {
     'An LTR root with "السعر 1234 ريال": words placed logically, digits forward',
     (tester) async {
       const value = 'السعر 1234 ريال';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.ltr));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.ltr),
+      );
       final snapshot = snapshotOf(tester);
 
-      expect(liveTextsByLeft(snapshot),
-          ['ريال', ' ', '1', '2', '3', '4', ' ', 'السعر']);
+      expect(liveTextsByLeft(snapshot), [
+        'ريال',
+        ' ',
+        '1',
+        '2',
+        '3',
+        '4',
+        ' ',
+        'السعر',
+      ]);
       expectMatchesPlainReference(snapshot, value, TextDirection.ltr);
     },
   );
@@ -227,7 +315,9 @@ void main() {
     'Pure-LTR control "hello world" under ltr: unchanged logical order',
     (tester) async {
       const value = 'hello world';
-      await tester.pumpWidget(host(TextMorph(value: value), direction: TextDirection.ltr));
+      await tester.pumpWidget(
+        host(TextMorph(value: value), direction: TextDirection.ltr),
+      );
       final snapshot = snapshotOf(tester);
 
       expect(liveTextsByLeft(snapshot), ['hello', ' ', 'world']);

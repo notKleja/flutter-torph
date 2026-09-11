@@ -13,8 +13,11 @@ void main() {
         final a = (c['a'] as List).cast<String>();
         final b = (c['b'] as List).cast<String>();
         final (ai, bi) = lcsIndices(a, b);
-        expect([ai, bi], equals([(c['result'][0] as List), (c['result'][1] as List)]),
-            reason: 'lcs($a, $b)');
+        expect(
+          [ai, bi],
+          equals([(c['result'][0] as List), (c['result'][1] as List)]),
+          reason: 'lcs($a, $b)',
+        );
       }
     });
   });
@@ -24,8 +27,16 @@ void main() {
     test('isNumericWord and numericSkeleton for ${cases.length} words', () {
       for (final c in cases) {
         final word = c['word'] as String;
-        expect(isNumericWord(word), c['isNumeric'], reason: 'isNumericWord(${show(word)})');
-        expect(numericSkeleton(word), c['skeleton'], reason: 'numericSkeleton(${show(word)})');
+        expect(
+          isNumericWord(word),
+          c['isNumeric'],
+          reason: 'isNumericWord(${show(word)})',
+        );
+        expect(
+          numericSkeleton(word),
+          c['skeleton'],
+          reason: 'numericSkeleton(${show(word)})',
+        );
       }
     });
   });
@@ -41,8 +52,14 @@ void main() {
   group('number formatting (oracle:number-format)', () {
     for (final c in loadFixture('number-format') as List) {
       test('${c['value']} ${c['locale']} decimals=${c['decimals']}', () {
-        expect(formatNumber(c['value'] as num, c['locale'] as String, c['decimals'] as int?),
-            c['formatted']);
+        expect(
+          formatNumber(
+            c['value'] as num,
+            c['locale'] as String,
+            c['decimals'] as int?,
+          ),
+          c['formatted'],
+        );
       });
     }
   });
@@ -60,8 +77,11 @@ void main() {
             step['cursorIndex'] as int?,
             decimalChar,
           );
-          expect(norm.segments(segs), fixtureSegments(step['segments'] as List),
-              reason: 'step ${show(step['value'] as String)}');
+          expect(
+            norm.segments(segs),
+            fixtureSegments(step['segments'] as List),
+            reason: 'step ${show(step['value'] as String)}',
+          );
           prev = segs;
         }
       });

@@ -5,8 +5,9 @@ import 'package:torph/torph.dart';
 import 'harness.dart';
 
 void main() {
-  testWidgets('hello → hello world matches the engine at 0 ms and 400 ms',
-      (tester) async {
+  testWidgets('hello → hello world matches the engine at 0 ms and 400 ms', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     expect(renderOf(tester).size.width, closeTo(5 * fontSize, 0.01));
 
@@ -83,8 +84,9 @@ void main() {
     expect(snapshotOf(tester).liveItems.map((i) => i.text).join(), '1,000');
   });
 
-  testWidgets('digits slide in their slots, separators the other way',
-      (tester) async {
+  testWidgets('digits slide in their slots, separators the other way', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: '999')));
     await tester.pumpWidget(host(TextMorph(value: '1,000')));
 
@@ -96,8 +98,9 @@ void main() {
     expect(comma.moverTransform!.ty, lineHeight);
   });
 
-  testWidgets('an exiting word is pinned where it was and then removed',
-      (tester) async {
+  testWidgets('an exiting word is pinned where it was and then removed', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello world')));
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
 
@@ -108,8 +111,10 @@ void main() {
 
     await startClock(tester);
     await tester.pump(const Duration(milliseconds: 50));
-    expect(snapshotOf(tester).item('world', exiting: true).opacity,
-        closeTo(0.5, 1e-9));
+    expect(
+      snapshotOf(tester).item('world', exiting: true).opacity,
+      closeTo(0.5, 1e-9),
+    );
 
     await tester.pump(const Duration(milliseconds: 50));
     expect(snapshotOf(tester).exitingItems, isEmpty);
@@ -117,12 +122,12 @@ void main() {
   });
 
   testWidgets('TickerMode(enabled: false) freezes the morph', (tester) async {
-    await tester.pumpWidget(host(
-      const TickerMode(enabled: true, child: _Morph('hello')),
-    ));
-    await tester.pumpWidget(host(
-      const TickerMode(enabled: false, child: _Morph('hello world')),
-    ));
+    await tester.pumpWidget(
+      host(const TickerMode(enabled: true, child: _Morph('hello'))),
+    );
+    await tester.pumpWidget(
+      host(const TickerMode(enabled: false, child: _Morph('hello world'))),
+    );
 
     final frozen = snapshotOf(tester);
     await tester.pump(const Duration(milliseconds: 400));
@@ -133,7 +138,9 @@ void main() {
     expect(later.animating, isTrue);
   });
 
-  testWidgets('an interrupted morph carries on from the screen', (tester) async {
+  testWidgets('an interrupted morph carries on from the screen', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello')));
     await tester.pumpWidget(host(TextMorph(value: 'hello world')));
     await startClock(tester);
@@ -147,6 +154,19 @@ void main() {
     await tester.pump(const Duration(milliseconds: 400));
     expect(snapshotOf(tester).animating, isFalse);
     expect(snapshotOf(tester).size.width, closeTo(7 * fontSize, 0.01));
+  });
+
+  testWidgets('a large configured blur paints without clipping the layer', (
+    tester,
+  ) async {
+    // A blur wider than a third of the line height used to be clipped.
+    await tester.pumpWidget(host(TextMorph(value: 'hi', blur: 40)));
+    await tester.pumpWidget(host(TextMorph(value: 'hi there', blur: 40)));
+    await startClock(tester);
+    for (var i = 0; i < 10; i++) {
+      await tester.pump(const Duration(milliseconds: 40));
+      expect(tester.takeException(), isNull);
+    }
   });
 }
 

@@ -3,16 +3,14 @@ import 'package:flutter/widgets.dart';
 
 import '../debug/morph_snapshot.dart';
 import '../motion/morph_engine.dart';
+import '../motion/spring.dart' show ResolvedEase;
 import '../rendering/render_text_morph.dart';
 import '../rendering/text_measurer.dart';
 import '../semantics/accessibility.dart';
 import 'options.dart';
 
 /// Text that morphs from its previous value to its current one.
-///
-/// The Flutter port of upstream's `TextMorph` React component: this widget is
-/// the controller (upstream `MorphController`), [MorphEngine] is the instance,
-/// and `RenderTextMorph` is the DOM.
+/// Rebuild with a new [value] and it morphs from whatever is on screen.
 class TextMorph extends StatefulWidget {
   TextMorph({
     super.key,
@@ -37,7 +35,11 @@ class TextMorph extends StatefulWidget {
     this.onAnimationCancel,
   }) {
     if (value is! String && value is! num) {
-      throw ArgumentError.value(value, 'value', 'must be a String or a num');
+      throw ArgumentError.value(
+        value,
+        'value',
+        'must be a String or a num, was ${value.runtimeType}',
+      );
     }
     // Fails here rather than on the first frame, so the stack names the caller.
     validateEase(ease);
@@ -71,7 +73,7 @@ class TextMorph extends StatefulWidget {
   /// Ignored when [ease] is a `SpringParams`, which settles on its own physics.
   final Duration duration;
 
-  /// A CSS easing `String` or a `SpringParams`.
+  /// A CSS easing `String`, a `Curve` or a `SpringParams`.
   final Object ease;
 
   /// Whether entering and exiting items scale as well as fade.
@@ -101,7 +103,9 @@ class TextMorph extends StatefulWidget {
   final bool debug;
 
   final VoidCallback? onAnimationStart;
+
   final VoidCallback? onAnimationComplete;
+
   final VoidCallback? onAnimationCancel;
 
   @override
@@ -110,7 +114,8 @@ class TextMorph extends StatefulWidget {
 
 /// The state upstream's `MorphController` holds: the engine, the last value,
 /// the config key, and — Flutter's own concern — the clock.
-class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixin<TextMorph> {
+class TextMorphState extends State<TextMorph>
+    with SingleTickerProviderStateMixin<TextMorph> {
   late final Ticker _ticker;
 
   MorphEngine? _engine;
@@ -179,9 +184,16 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
     final style = DefaultTextStyle.of(context).style.merge(widget.style);
     final textScaler = MediaQuery.textScalerOf(context);
     final direction = widget.textDirection ?? Directionality.of(context);
-    final locale = widget.locale ?? Localizations.maybeLocaleOf(context) ?? const Locale(defaultLocaleTag);
-    final align = widget.textAlign ?? DefaultTextStyle.of(context).textAlign ?? TextAlign.start;
-    final textHeightBehavior = DefaultTextStyle.of(context).textHeightBehavior ??
+    final locale =
+        widget.locale ??
+        Localizations.maybeLocaleOf(context) ??
+        const Locale(defaultLocaleTag);
+    final align =
+        widget.textAlign ??
+        DefaultTextStyle.of(context).textAlign ??
+        TextAlign.start;
+    final textHeightBehavior =
+        DefaultTextStyle.of(context).textHeightBehavior ??
         DefaultTextHeightBehavior.maybeOf(context);
 
     // Read live at every update, as upstream reads the media query.
@@ -191,7 +203,8 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
       respectReducedMotion: widget.respectReducedMotion,
     );
 
-    final geometryChanged = _measurerRef == null ||
+    final geometryChanged =
+        _measurerRef == null ||
         style != _style ||
         textScaler != _textScaler ||
         direction != _direction ||
@@ -208,9 +221,11 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
     _textHeightBehavior = textHeightBehavior;
     _bidi = widget.bidi;
 
+    final resolvedEase = resolveWidgetEase(widget.ease, widget.duration);
+
     final configKey = MorphConfigKey(
-      ease: widget.ease,
-      duration: widget.duration,
+      resolvedEase: resolvedEase.ease,
+      resolvedDuration: Duration(milliseconds: resolvedEase.duration),
       locale: locale.toLanguageTag(),
       scale: widget.scale,
       numbers: widget.numbers,
@@ -252,19 +267,30 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
       // Upstream `MorphController.attach`: destroy, recreate, replay the last
       // value — which the fresh instance renders as an initial render.
       _engine?.dispose();
-      _engine = MorphEngine(measurer: _measurerRef!, config: _buildConfig(locale));
+      _engine = MorphEngine(
+        measurer: _measurerRef!,
+        config: _buildConfig(locale, resolvedEase),
+      );
       _stopTicker();
       _base = 0;
       _elapsedMs = 0;
       if (_hasValue) {
-        _engine!.update(_lastValue, cursorIndex: _lastCursorIndex, disabled: disabled);
+        _engine!.update(
+          _lastValue,
+          cursorIndex: _lastCursorIndex,
+          disabled: disabled,
+        );
       }
       // A value that changed in the same frame as the config still morphs, as
       // upstream's two effects do: attach replays, then the value effect runs.
       if (!_hasValue ||
           !_sameValue(widget.value, _lastValue) ||
           widget.cursorIndex != _lastCursorIndex) {
-        _engine!.update(widget.value, cursorIndex: widget.cursorIndex, disabled: disabled);
+        _engine!.update(
+          widget.value,
+          cursorIndex: widget.cursorIndex,
+          disabled: disabled,
+        );
       }
       updated = true;
     } else {
@@ -273,11 +299,16 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
         _engine!.remeasure();
         updated = true;
       }
-      final valueChanged = !_hasValue ||
+      final valueChanged =
+          !_hasValue ||
           !_sameValue(widget.value, _lastValue) ||
           widget.cursorIndex != _lastCursorIndex;
       if (valueChanged) {
-        _engine!.update(widget.value, cursorIndex: widget.cursorIndex, disabled: disabled);
+        _engine!.update(
+          widget.value,
+          cursorIndex: widget.cursorIndex,
+          disabled: disabled,
+        );
         updated = true;
       }
     }
@@ -298,11 +329,12 @@ class TextMorphState extends State<TextMorph> with SingleTickerProviderStateMixi
     }
   }
 
-  static bool _sameValue(Object a, Object b) => a == b && a.runtimeType == b.runtimeType;
+  static bool _sameValue(Object a, Object b) =>
+      a == b && a.runtimeType == b.runtimeType;
 
-  MorphConfig _buildConfig(Locale locale) => buildMorphConfig(
-        ease: widget.ease,
-        duration: widget.duration,
+  MorphConfig _buildConfig(Locale locale, ResolvedEase resolvedEase) =>
+      buildMorphConfig(
+        resolvedEase: resolvedEase,
         locale: locale.toLanguageTag(),
         scale: widget.scale,
         numbers: widget.numbers,

@@ -134,12 +134,22 @@ List<TextSegment> segmentWords(String s) {
     final prevCat = values[k - 1] & catMask;
     final curValue = values[k];
     final curCat = curValue & catMask;
-    final shouldBreak = _breakBefore(values, count, prevCat, curValue, curCat,
-        k, prevBase, prevPrevBase, riRun);
+    final shouldBreak = _breakBefore(
+      values,
+      count,
+      prevCat,
+      curValue,
+      curCat,
+      k,
+      prevBase,
+      prevPrevBase,
+      riRun,
+    );
 
     if (!_isIgnorable(curCat)) {
       if (curCat == catRegionalIndicator) {
-        riRun = !shouldBreak &&
+        riRun =
+            !shouldBreak &&
                 prevBase >= 0 &&
                 (values[prevBase] & catMask) == catRegionalIndicator
             ? riRun + 1
@@ -152,11 +162,13 @@ List<TextSegment> segmentWords(String s) {
     }
 
     if (shouldBreak) {
-      out.add(TextSegment(
-        offsets[segmentStart],
-        s.substring(offsets[segmentStart], offsets[k]),
-        isWordLike: _wordLike(values, segLastBase, segPrevBase, k - 1),
-      ));
+      out.add(
+        TextSegment(
+          offsets[segmentStart],
+          s.substring(offsets[segmentStart], offsets[k]),
+          isWordLike: _wordLike(values, segLastBase, segPrevBase, k - 1),
+        ),
+      );
       segmentStart = k;
       segLastBase = _isIgnorable(curCat) ? -1 : k;
       segPrevBase = -1;
@@ -166,11 +178,13 @@ List<TextSegment> segmentWords(String s) {
     }
   }
 
-  out.add(TextSegment(
-    offsets[segmentStart],
-    s.substring(offsets[segmentStart], length),
-    isWordLike: _wordLike(values, segLastBase, segPrevBase, count - 1),
-  ));
+  out.add(
+    TextSegment(
+      offsets[segmentStart],
+      s.substring(offsets[segmentStart], length),
+      isWordLike: _wordLike(values, segLastBase, segPrevBase, count - 1),
+    ),
+  );
   return out;
 }
 
@@ -189,7 +203,11 @@ List<TextSegment> segmentWords(String s) {
 ///     which is why "x‍\u{1f600}" is *not* word-like even though it starts
 ///     with a letter.
 bool _wordLike(
-    Int32List values, int segLastBase, int segPrevBase, int segLastCp) {
+  Int32List values,
+  int segLastBase,
+  int segPrevBase,
+  int segLastCp,
+) {
   if (segLastBase < 0) return false;
   final value = values[segLastBase];
   // Only the single-character status rules carry a trailing `$ExFm*`, so those
@@ -233,7 +251,9 @@ bool _breakBefore(
   // Rule 3: CR x LF.
   if (prevCat == catCR && curCat == catLF) return false;
   // Rules 3a/3b: always break around CR, LF and Newline otherwise.
-  if (prevCat == catCR || prevCat == catLF || prevCat == catNewline) return true;
+  if (prevCat == catCR || prevCat == catLF || prevCat == catNewline) {
+    return true;
+  }
   if (curCat == catCR || curCat == catLF || curCat == catNewline) return true;
   // Rule 3c: ZWJ x Extended_Pictographic, before rule 4 so no intervening
   // Extend is allowed.
@@ -276,7 +296,9 @@ bool _breakBefore(
       _nextBaseCat(values, count, k) == catHebrewLetter) {
     return false;
   }
-  if (pb == catDoubleQuote && ppb == catHebrewLetter && curCat == catHebrewLetter) {
+  if (pb == catDoubleQuote &&
+      ppb == catHebrewLetter &&
+      curCat == catHebrewLetter) {
     return false;
   }
   // Rule 8.

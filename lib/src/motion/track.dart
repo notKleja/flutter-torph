@@ -13,11 +13,11 @@ class Transform2 {
   final double sy;
 
   Transform2 lerp(Transform2 other, double p) => Transform2(
-        tx: tx + (other.tx - tx) * p,
-        ty: ty + (other.ty - ty) * p,
-        sx: sx + (other.sx - sx) * p,
-        sy: sy + (other.sy - sy) * p,
-      );
+    tx: tx + (other.tx - tx) * p,
+    ty: ty + (other.ty - ty) * p,
+    sx: sx + (other.sx - sx) * p,
+    sy: sy + (other.sy - sy) * p,
+  );
 
   @override
   String toString() => 'translate(${tx}px, ${ty}px) scale($sx, $sy)';
@@ -71,7 +71,8 @@ class Track<T> {
   }
 
   /// The value with [below] as the underlying value.
-  T valueAt(double now, T below) => lerp(from ?? below, to ?? below, progress(now));
+  T valueAt(double now, T below) =>
+      lerp(from ?? below, to ?? below, progress(now));
 }
 
 Transform2 lerpTransform(Transform2 a, Transform2 b, double p) => a.lerp(b, p);
@@ -119,7 +120,9 @@ class AnimatedBox {
   }
 
   bool get hasAnimations =>
-      transformTracks.isNotEmpty || opacityTracks.isNotEmpty || blurTracks.isNotEmpty;
+      transformTracks.isNotEmpty ||
+      opacityTracks.isNotEmpty ||
+      blurTracks.isNotEmpty;
 
   /// `element.getAnimations().forEach((a) => a.cancel())`.
   void cancelAll() {

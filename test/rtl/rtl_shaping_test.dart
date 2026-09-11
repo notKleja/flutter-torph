@@ -5,16 +5,25 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:torph/testing.dart';
 import 'package:torph/torph.dart';
 
 const String _fontFamily = 'RtlShaping';
-const TextStyle _style = TextStyle(fontFamily: _fontFamily, fontSize: 40, color: Color(0xFF000000));
+const TextStyle _style = TextStyle(
+  fontFamily: _fontFamily,
+  fontSize: 40,
+  color: Color(0xFF000000),
+);
 
 Future<bool> _loadArabicFont() async {
-  for (final path in const ['/System/Library/Fonts/SFArabic.ttf', '/System/Library/Fonts/GeezaPro.ttc']) {
+  for (final path in const [
+    '/System/Library/Fonts/SFArabic.ttf',
+    '/System/Library/Fonts/GeezaPro.ttc',
+  ]) {
     final file = File(path);
     if (!file.existsSync()) continue;
-    final loader = FontLoader(_fontFamily)..addFont(Future.value(ByteData.sublistView(file.readAsBytesSync())));
+    final loader = FontLoader(_fontFamily)
+      ..addFont(Future.value(ByteData.sublistView(file.readAsBytesSync())));
     await loader.load();
     return true;
   }
@@ -22,25 +31,35 @@ Future<bool> _loadArabicFont() async {
 }
 
 Widget _host(Widget child) => Directionality(
-      textDirection: TextDirection.rtl,
-      child: DefaultTextStyle(
-        style: _style,
-        child: Align(
-          alignment: Alignment.topRight,
-          child: RepaintBoundary(
-            key: const ValueKey('shape'),
-            child: Container(color: const Color(0xFFFFFFFF), padding: const EdgeInsets.all(8), child: child),
-          ),
+  textDirection: TextDirection.rtl,
+  child: DefaultTextStyle(
+    style: _style,
+    child: Align(
+      alignment: Alignment.topRight,
+      child: RepaintBoundary(
+        key: const ValueKey('shape'),
+        child: Container(
+          color: const Color(0xFFFFFFFF),
+          padding: const EdgeInsets.all(8),
+          child: child,
         ),
       ),
-    );
+    ),
+  ),
+);
 
 Future<List<int>> _inkColumns(WidgetTester tester) async {
-  final boundary = tester.renderObject<RenderRepaintBoundary>(find.byKey(const ValueKey('shape')));
+  final boundary = tester.renderObject<RenderRepaintBoundary>(
+    find.byKey(const ValueKey('shape')),
+  );
   final captured = await tester.runAsync(() async {
     final image = await boundary.toImage();
     final data = await image.toByteData(format: ui.ImageByteFormat.rawRgba);
-    return (width: image.width, height: image.height, bytes: data!.buffer.asUint8List());
+    return (
+      width: image.width,
+      height: image.height,
+      bytes: data!.buffer.asUint8List(),
+    );
   });
   final image = captured!;
   final bytes = image.bytes;
@@ -56,20 +75,32 @@ Future<List<int>> _inkColumns(WidgetTester tester) async {
 }
 
 void main() {
-  testWidgets('a character-split Arabic word keeps its joined glyphs', (tester) async {
+  testWidgets('a character-split Arabic word keeps its joined glyphs', (
+    tester,
+  ) async {
     if (!await _loadArabicFont()) {
       markTestSkipped('no system Arabic font');
       return;
     }
 
-    await tester.pumpWidget(_host(TextMorph(value: 'رسائل', locale: Locale('ar'), style: _style)));
+    await tester.pumpWidget(
+      _host(TextMorph(value: 'رسائل', locale: Locale('ar'), style: _style)),
+    );
     await tester.pump(const Duration(seconds: 1));
-    await tester.pumpWidget(_host(TextMorph(value: 'رسالة', locale: Locale('ar'), style: _style)));
+    await tester.pumpWidget(
+      _host(TextMorph(value: 'رسالة', locale: Locale('ar'), style: _style)),
+    );
     await tester.pump(const Duration(seconds: 2));
 
-    final snapshot = (tester.renderObject(find.byType(TextMorph)) as RenderTextMorph).debugSnapshot();
+    final snapshot =
+        (tester.renderObject(find.byType(TextMorph)) as RenderTextMorph)
+            .debugSnapshot();
     final live = snapshot.liveItems.where((i) => !i.isBreak).toList();
-    expect(live.length, greaterThan(1), reason: 'the word must be character-split for this test to mean anything');
+    expect(
+      live.length,
+      greaterThan(1),
+      reason: 'the word must be character-split for this test to mean anything',
+    );
 
     final morphed = await _inkColumns(tester);
 
@@ -84,7 +115,11 @@ void main() {
       diff += (morphed[i] - plain[i]).abs();
       total += plain[i];
     }
-    expect(diff / total, lessThan(0.08),
-        reason: 'ink profile of the split word must match the same word drawn as one run');
+    expect(
+      diff / total,
+      lessThan(0.08),
+      reason:
+          'ink profile of the split word must match the same word drawn as one run',
+    );
   });
 }

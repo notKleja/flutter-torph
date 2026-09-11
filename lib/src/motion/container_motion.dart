@@ -63,8 +63,7 @@ class AxisState {
 
 AxisState axisState(Axis axis, double duration, double now) {
   final run = now - axis.startedAt;
-  final settled =
-      axis.cancelled || !run.isFinite || run >= duration || run < 0;
+  final settled = axis.cancelled || !run.isFinite || run >= duration || run < 0;
   final elapsed = settled ? null : run;
   final curve = axis.curve;
   return AxisState(
@@ -75,7 +74,8 @@ AxisState axisState(Axis axis, double duration, double now) {
     elapsed: elapsed,
     velocity: elapsed == null || curve == null
         ? 0
-        : ((axis.to - axis.from) * slopeAt(curve, elapsed / duration)) / duration,
+        : ((axis.to - axis.from) * slopeAt(curve, elapsed / duration)) /
+              duration,
   );
 }
 
@@ -88,21 +88,33 @@ Axis animateAxis({
   required EasingFn? base,
   required double now,
 }) {
-  Axis run(double from, double to, String easing, EasingFn? curve, [double? seek]) => Axis(
-        from: from,
-        to: to,
-        easing: easing,
-        curve: curve,
-        duration: duration,
-        startedAt: now - (seek ?? 0),
-      );
+  Axis run(
+    double from,
+    double to,
+    String easing,
+    EasingFn? curve, [
+    double? seek,
+  ]) => Axis(
+    from: from,
+    to: to,
+    easing: easing,
+    curve: curve,
+    duration: duration,
+    startedAt: now - (seek ?? 0),
+  );
 
   // The target has not moved, so the curve already in flight is still the
   // right one — resumed at the phase it had reached rather than started over.
   if (previous != null &&
       previous.elapsed != null &&
       (previous.to - to).abs() < sameTarget) {
-    return run(previous.from, previous.to, previous.easing, previous.curve, previous.elapsed);
+    return run(
+      previous.from,
+      previous.to,
+      previous.easing,
+      previous.curve,
+      previous.elapsed,
+    );
   }
 
   final delta = to - from;
@@ -153,7 +165,13 @@ class ContainerTransition {
     final h = held;
     if (h != null) {
       AxisState pinned(double value) => AxisState(
-          from: value, to: value, easing: 'linear', curve: null, elapsed: null, velocity: 0);
+        from: value,
+        to: value,
+        easing: 'linear',
+        curve: null,
+        elapsed: null,
+        velocity: 0,
+      );
       return (width: pinned(h.width), height: pinned(h.height));
     }
     return (
@@ -226,14 +244,13 @@ class ContainerTransition {
     required double now,
     void Function()? onComplete,
     void Function()? onCancel,
-  }) =>
-      ContainerTransition._(
-        width: null,
-        height: null,
-        held: (width: width, height: height),
-        duration: duration,
-        startedAt: now,
-        onComplete: onComplete,
-        onCancel: onCancel,
-      );
+  }) => ContainerTransition._(
+    width: null,
+    height: null,
+    held: (width: width, height: height),
+    duration: duration,
+    startedAt: now,
+    onComplete: onComplete,
+    onCancel: onCancel,
+  );
 }

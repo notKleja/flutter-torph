@@ -9,7 +9,9 @@ import 'package:torph/src/motion/spring.dart';
 /// Port of `lib/utils/__tests__/container-size.test.ts` plus the
 /// "a container size interrupted every frame" section of `easing.test.ts`,
 
-final SpringResult ease = spring(const SpringParams(stiffness: 150, damping: 19, mass: 1.2));
+final SpringResult ease = spring(
+  const SpringParams(stiffness: 150, damping: 19, mass: 1.2),
+);
 const double frameMs = 1000 / 60;
 const String defaultEase = 'cubic-bezier(0.19, 1, 0.22, 1)';
 
@@ -67,7 +69,10 @@ void main() {
       stage.morph(67);
 
       // Width and height, in that order.
-      expect([stage.lastWidth.easing, stage.lastHeight.easing], [ease.easing, ease.easing]);
+      expect(
+        [stage.lastWidth.easing, stage.lastHeight.easing],
+        [ease.easing, ease.easing],
+      );
       expect([stage.lastWidth.from, stage.lastWidth.to], [67, 86]);
     });
 
@@ -172,12 +177,16 @@ void main() {
 
       for (var frame = 0; frame <= 60; frame += 1) {
         final target = width(90 + frame);
-        final velocity = carryOn ? ((to - from) * slopeAt(curve, elapsed / duration)) / duration : 0.0;
+        final velocity = carryOn
+            ? ((to - from) * slopeAt(curve, elapsed / duration)) / duration
+            : 0.0;
 
         from = position;
         to = target;
         final delta = to - from;
-        curve = carryOn && delta.abs() > 0.5 ? carry(base, (velocity * duration) / delta).curve : base;
+        curve = carryOn && delta.abs() > 0.5
+            ? carry(base, (velocity * duration) / delta).curve
+            : base;
 
         elapsed = frameMs;
         position = from + delta * curve(elapsed / duration);
@@ -186,9 +195,17 @@ void main() {
     }
 
     test('closes the gap a spring leaves open', () {
-      final springy = spring(const SpringParams(stiffness: 150, damping: 19, mass: 1.2));
-      expect(spin(springy.easing, springy.duration.toDouble(), false), greaterThan(2));
-      expect(spin(springy.easing, springy.duration.toDouble(), true), lessThan(0.5));
+      final springy = spring(
+        const SpringParams(stiffness: 150, damping: 19, mass: 1.2),
+      );
+      expect(
+        spin(springy.easing, springy.duration.toDouble(), false),
+        greaterThan(2),
+      );
+      expect(
+        spin(springy.easing, springy.duration.toDouble(), true),
+        lessThan(0.5),
+      );
     });
 
     test('does not make the front-loaded default any worse', () {
@@ -200,7 +217,12 @@ void main() {
 
   group('axis state', () {
     test('a held axis hands nothing on', () {
-      final held = ContainerTransition.hold(width: 50, height: 20, duration: 400, now: 0);
+      final held = ContainerTransition.hold(
+        width: 50,
+        height: 20,
+        duration: 400,
+        now: 0,
+      );
       final snap = held.snapshot(100);
       expect(snap.width.elapsed, isNull);
       expect(snap.width.velocity, 0);
@@ -222,7 +244,8 @@ void main() {
         now: 0,
       );
       final snap = t.snapshot(100);
-      final expected = 100 * slopeAt(parseEasing(defaultEase)!, 100 / 400) / 400;
+      final expected =
+          100 * slopeAt(parseEasing(defaultEase)!, 100 / 400) / 400;
       expect(snap.width.velocity, closeTo(expected, 1e-12));
       expect(snap.width.elapsed, 100);
     });
@@ -263,7 +286,11 @@ void main() {
       expect(moved.easing.startsWith('linear('), true);
       expect(slopeAt(moved.curve!, 0), greaterThan(slopeAt(base, 0)));
       // Sampled fine enough to be sub-frame, and pinned at both ends.
-      final values = moved.easing.substring(7, moved.easing.length - 1).split(',').map((v) => double.parse(v.trim())).toList();
+      final values = moved.easing
+          .substring(7, moved.easing.length - 1)
+          .split(',')
+          .map((v) => double.parse(v.trim()))
+          .toList();
       expect(values.length, greaterThanOrEqualTo(32));
       expect(values.length, lessThanOrEqualTo(120));
       expect(values.first, closeTo(0, 1e-4));
@@ -271,22 +298,25 @@ void main() {
       expect(values.every((v) => v.isFinite), true);
     });
 
-    test('an axis with no previous state leaves the author\'s easing alone', () {
-      final base = parseEasing(defaultEase)!;
-      final axis = animateAxis(
-        from: 0,
-        to: 100,
-        previous: null,
-        duration: 400,
-        ease: defaultEase,
-        base: base,
-        now: 0,
-      );
-      expect(axis.easing, defaultEase);
-      expect(axis.valueAt(0), 0);
-      expect(axis.valueAt(400), 100);
-      expect(axis.valueAt(200), closeTo(100 * base(0.5), 1e-9));
-      expect(math.min(axis.valueAt(-10), 0), 0);
-    });
+    test(
+      'an axis with no previous state leaves the author\'s easing alone',
+      () {
+        final base = parseEasing(defaultEase)!;
+        final axis = animateAxis(
+          from: 0,
+          to: 100,
+          previous: null,
+          duration: 400,
+          ease: defaultEase,
+          base: base,
+          now: 0,
+        );
+        expect(axis.easing, defaultEase);
+        expect(axis.valueAt(0), 0);
+        expect(axis.valueAt(400), 100);
+        expect(axis.valueAt(200), closeTo(100 * base(0.5), 1e-9));
+        expect(math.min(axis.valueAt(-10), 0), 0);
+      },
+    );
   });
 }

@@ -27,13 +27,22 @@ class MorphConfig {
     this.onAnimationStart,
     this.onAnimationComplete,
     this.onAnimationCancel,
-  }) : easeFn = parseEasing(ease) ??
-            (throw ArgumentError.value(ease, 'ease', 'unsupported CSS easing')) {
+  }) : easeFn =
+           parseEasing(ease) ??
+           (throw ArgumentError.value(ease, 'ease', 'unsupported CSS easing')) {
     if (!(duration >= 0)) {
-      throw ArgumentError.value(duration, 'duration', 'must be a finite, non-negative number');
+      throw ArgumentError.value(
+        duration,
+        'duration',
+        'must be a finite, non-negative number',
+      );
     }
     if (!blur.isFinite || blur < 0) {
-      throw ArgumentError.value(blur, 'blur', 'must be a finite, non-negative number');
+      throw ArgumentError.value(
+        blur,
+        'blur',
+        'must be a finite, non-negative number',
+      );
     }
   }
 
@@ -58,7 +67,14 @@ class MorphConfig {
   final void Function()? onAnimationCancel;
 }
 
-enum Lifecycle { rest, entering, persisting, exiting, groupEntering, groupExiting }
+enum Lifecycle {
+  rest,
+  entering,
+  persisting,
+  exiting,
+  groupEntering,
+  groupExiting,
+}
 
 /// One `[torph-item]` element: a retained logical object, never a widget.
 class MorphItem {
@@ -272,7 +288,9 @@ class MorphEngine {
   /// in-flight animated size, else the natural size of the current content.
   Extent layoutSize() {
     final c = _container;
-    if (c != null && !c.stopped) return (width: c.widthAt(now), height: c.heightAt(now));
+    if (c != null && !c.stopped) {
+      return (width: c.widthAt(now), height: c.heightAt(now));
+    }
     return (width: _naturalWidth, height: _naturalHeight);
   }
 
@@ -366,7 +384,11 @@ class MorphEngine {
       for (var i = 0; i < oldChildren.length; i++)
         if (exiting.contains(oldChildren[i])) i,
     };
-    final exitingAnchorByIndex = resolveExitingAnchors(oldIds, exitingIdx, newIds);
+    final exitingAnchorByIndex = resolveExitingAnchors(
+      oldIds,
+      exitingIdx,
+      newIds,
+    );
     final exitingAnchorId = <MorphItem, String?>{
       for (final i in exitingIdx) oldChildren[i]: exitingAnchorByIndex[i],
     };
@@ -382,11 +404,16 @@ class MorphEngine {
     final lineCount = segments.where((s) => s.string == '\n').length + 1;
     final blockHeight = _pinnedHeight ?? _naturalHeight;
     final offsetHeight = jsRound(blockHeight);
-    final slideDistance = (offsetHeight != 0 ? offsetHeight : 20 * lineCount) / lineCount;
+    final slideDistance =
+        (offsetHeight != 0 ? offsetHeight : 20 * lineCount) / lineCount;
 
     // Measured at the old width, not derived — text-align does nothing to
     // overflowing content.
-    final firstFrameMeasures = _measureInto(live, width: oldWidth, apply: false);
+    final firstFrameMeasures = _measureInto(
+      live,
+      width: oldWidth,
+      apply: false,
+    );
 
     _updateStyles(segments, firstFrameMeasures, slideDistance);
 
@@ -441,7 +468,12 @@ class MorphEngine {
   /// `measure(root)` — layout offsets with the current translate subtracted,
   /// which is exactly what the measurer reports. Also refreshes each item's
   /// layout box and, when [natural], the root's natural size.
-  Measures _measureInto(List<MorphItem> live, {double? width, bool natural = false, bool apply = true}) {
+  Measures _measureInto(
+    List<MorphItem> live, {
+    double? width,
+    bool natural = false,
+    bool apply = true,
+  }) {
     final result = measurer.measure(live, width: width);
     final measures = <String, Point>{};
     for (final item in live) {
@@ -460,7 +492,10 @@ class MorphEngine {
       // current transform-origin shifts it, and only the translate is subtracted.
       final t = item.box.transformAt(now);
       final o = item.transformOrigin ?? (x: s.width / 2, y: s.height / 2);
-      measures[item.id] = (x: p.x + o.x * (1 - t.sx), y: p.y + o.y * (1 - t.sy));
+      measures[item.id] = (
+        x: p.x + o.x * (1 - t.sx),
+        y: p.y + o.y * (1 - t.sy),
+      );
     }
     if (natural) {
       _naturalWidth = result.naturalWidth;
@@ -488,7 +523,10 @@ class MorphEngine {
       if (charSegs == null) continue;
       split.add(child.id);
 
-      final spans = [for (final seg in charSegs) MorphItem(seg.id, seg.string, kind: seg.kind)];
+      final spans = [
+        for (final seg in charSegs)
+          MorphItem(seg.id, seg.string, kind: seg.kind),
+      ];
       items.replaceRange(i, i + 1, spans);
       i += spans.length - 1;
     }
@@ -496,7 +534,18 @@ class MorphEngine {
 
   /// `detachFromFlow`: pins departing boxes where they are on screen.
   void _detachFromFlow(List<MorphItem> elements) {
-    final snapshots = <MorphItem, ({double left, double top, double width, double height, double opacity, double blur})>{};
+    final snapshots =
+        <
+          MorphItem,
+          ({
+            double left,
+            double top,
+            double width,
+            double height,
+            double opacity,
+            double blur,
+          })
+        >{};
     for (final child in elements) {
       if (child.isBreak) continue;
       // offsetLeft/offsetTop are integers; the translate keeps the subpixel part.
@@ -539,9 +588,14 @@ class MorphEngine {
   }
 
   /// `Number(getComputedStyle(el).opacity) || 1` — a fully faded box reads as opaque.
-  static double _opacityOrOne(double opacity) => opacity == 0 || opacity.isNaN ? 1 : opacity;
+  static double _opacityOrOne(double opacity) =>
+      opacity == 0 || opacity.isNaN ? 1 : opacity;
 
-  void _reconcileChildren(List<MorphItem> oldChildren, Set<String> newIds, List<Segment> segments) {
+  void _reconcileChildren(
+    List<MorphItem> oldChildren,
+    Set<String> newIds,
+    List<Segment> segments,
+  ) {
     final reusable = <String, MorphItem>{};
     for (final child in oldChildren) {
       if (newIds.contains(child.id) && !child.exiting) {
@@ -579,7 +633,11 @@ class MorphEngine {
     }
   }
 
-  void _updateStyles(List<Segment> segments, Measures firstFrameMeasures, double slideDistance) {
+  void _updateStyles(
+    List<Segment> segments,
+    Measures firstFrameMeasures,
+    double slideDistance,
+  ) {
     if (isInitialRender) return;
 
     final children = List<MorphItem>.of(items);
@@ -588,16 +646,22 @@ class MorphEngine {
 
     // The arriving half of the same gesture.
     final settled = children
-        .where((child) => !child.exiting && !child.isBreak && child.id != emptyId)
+        .where(
+          (child) => !child.exiting && !child.isBreak && child.id != emptyId,
+        )
         .toList();
-    final arriving = settled.where((child) => !_prevMeasures.containsKey(child.id)).toSet();
+    final arriving = settled
+        .where((child) => !_prevMeasures.containsKey(child.id))
+        .toSet();
     final arrivingTogether = <MorphItem>{};
     for (final run in replacedRuns(settled, arriving)) {
       arrivingTogether.addAll(run);
       _animateGroupEnter(run);
     }
 
-    final persistentIds = segmentIds.where((id) => _prevMeasures.containsKey(id)).toSet();
+    final persistentIds = segmentIds
+        .where((id) => _prevMeasures.containsKey(id))
+        .toSet();
 
     for (final child in children) {
       if (child.exiting) continue;
@@ -608,7 +672,11 @@ class MorphEngine {
       final isNew = !_prevMeasures.containsKey(key);
 
       final deltaKey = isNew
-          ? findNearestAnchor(segmentIds.indexOf(key), segmentIds, persistentIds)
+          ? findNearestAnchor(
+              segmentIds.indexOf(key),
+              segmentIds,
+              persistentIds,
+            )
           : key;
 
       final delta = deltaKey != null
@@ -653,7 +721,12 @@ class MorphEngine {
     box.animateBlur(from: null, to: config.blur, duration: duration);
   }
 
-  void _blurIn(AnimatedBox box, double prevBlur, double duration, {double delay = 0}) {
+  void _blurIn(
+    AnimatedBox box,
+    double prevBlur,
+    double duration, {
+    double delay = 0,
+  }) {
     if (config.blur == 0) return;
     box.animateBlur(
       from: prevBlur > 0 ? prevBlur : config.blur,
@@ -663,7 +736,12 @@ class MorphEngine {
     );
   }
 
-  void _animateEnterOrPersist(MorphItem child, double deltaX, double deltaY, bool isNew) {
+  void _animateEnterOrPersist(
+    MorphItem child,
+    double deltaX,
+    double deltaY,
+    bool isNew,
+  ) {
     final duration = config.duration;
     final prev = _cancelAnimations(child.box);
 
@@ -673,7 +751,12 @@ class MorphEngine {
 
     child.lifecycle = isNew ? Lifecycle.entering : Lifecycle.persisting;
     child.box.animateTransform(
-      from: Transform2(tx: startX, ty: startY, sx: isNew ? _itemScale : 1, sy: isNew ? _itemScale : 1),
+      from: Transform2(
+        tx: startX,
+        ty: startY,
+        sx: isNew ? _itemScale : 1,
+        sy: isNew ? _itemScale : 1,
+      ),
       to: Transform2.none,
       duration: duration,
       easing: config.easeFn,
@@ -683,7 +766,10 @@ class MorphEngine {
       child.box.animateOpacity(
         from: startOpacity,
         to: 1,
-        duration: fadeDuration(duration, isNew ? _textEnterFade : _textPersistFade),
+        duration: fadeDuration(
+          duration,
+          isNew ? _textEnterFade : _textPersistFade,
+        ),
         delay: isNew ? fadeDuration(duration, _textEnterDelay) : 0,
       );
     }
@@ -698,7 +784,9 @@ class MorphEngine {
   }
 
   /// `cancelAnimations(element)`: read the running translate and opacity, then cancel.
-  ({double tx, double ty, double opacity, double blur}) _cancelAnimations(AnimatedBox box) {
+  ({double tx, double ty, double opacity, double blur}) _cancelAnimations(
+    AnimatedBox box,
+  ) {
     final t = box.transformAt(now);
     final opacity = _opacityOrOne(box.opacityAt(now));
     final blur = box.blurAt(now);
@@ -710,7 +798,12 @@ class MorphEngine {
 
   /// The slot takes the FLIP correction, the character inside it takes the
   /// slide and fade.
-  void _animateNumberExit(MorphItem slot, double dx, double dy, double slideDistance) {
+  void _animateNumberExit(
+    MorphItem slot,
+    double dx,
+    double dy,
+    double slideDistance,
+  ) {
     final duration = config.duration;
     final mover = slot.moverBox;
 
@@ -737,7 +830,13 @@ class MorphEngine {
     _blurOut(mover, duration * _numberExitFade);
   }
 
-  void _animateNumberEnter(MorphItem slot, double deltaX, double deltaY, double slideDistance, SegmentKind kind) {
+  void _animateNumberEnter(
+    MorphItem slot,
+    double deltaX,
+    double deltaY,
+    double slideDistance,
+    SegmentKind kind,
+  ) {
     final duration = config.duration;
     _animateNumberPersist(slot, deltaX, deltaY);
     slot.lifecycle = Lifecycle.entering;
@@ -893,8 +992,9 @@ class MorphEngine {
   void _transitionContainerSize(double oldWidth, double oldHeight) {
     // Read before the abort, off the curves the box is still riding.
     final previous = _container;
-    final previousSnapshot =
-        previous != null && !previous.stopped ? previous.snapshot(now) : null;
+    final previousSnapshot = previous != null && !previous.stopped
+        ? previous.snapshot(now)
+        : null;
     _abortContainerTransition();
 
     if (oldWidth == 0 || oldHeight == 0) {
@@ -963,7 +1063,10 @@ class MorphEngine {
 
     items.removeWhere((item) {
       final fade = item.removeWhen;
-      return item.exiting && fade != null && !fade.cancelled && fade.finished(t);
+      return item.exiting &&
+          fade != null &&
+          !fade.cancelled &&
+          fade.finished(t);
     });
 
     return snapshot();
@@ -973,7 +1076,9 @@ class MorphEngine {
     final c = _container;
     if (c != null && !c.stopped) return true;
     for (final item in items) {
-      if (!item.box.settled(now) || !(item.mover?.settled(now) ?? true)) return true;
+      if (!item.box.settled(now) || !(item.mover?.settled(now) ?? true)) {
+        return true;
+      }
       if (item.exiting) return true;
     }
     return false;
@@ -985,26 +1090,28 @@ class MorphEngine {
     for (final item in items) {
       final o = item.origin;
       final mover = item.mover;
-      frames.add(ItemFrame(
-        id: item.id,
-        text: item.string,
-        kind: item.kind,
-        exiting: item.exiting,
-        isBreak: item.isBreak,
-        lifecycle: item.lifecycle,
-        x: item.x,
-        y: item.y,
-        width: item.width,
-        height: item.height,
-        transform: item.box.transformAt(now),
-        originX: o.x,
-        originY: o.y,
-        opacity: item.box.opacityAt(now),
-        blur: item.box.blurAt(now),
-        moverTransform: mover?.transformAt(now),
-        moverOpacity: mover?.opacityAt(now),
-        moverBlur: mover?.blurAt(now),
-      ));
+      frames.add(
+        ItemFrame(
+          id: item.id,
+          text: item.string,
+          kind: item.kind,
+          exiting: item.exiting,
+          isBreak: item.isBreak,
+          lifecycle: item.lifecycle,
+          x: item.x,
+          y: item.y,
+          width: item.width,
+          height: item.height,
+          transform: item.box.transformAt(now),
+          originX: o.x,
+          originY: o.y,
+          opacity: item.box.opacityAt(now),
+          blur: item.box.blurAt(now),
+          moverTransform: mover?.transformAt(now),
+          moverOpacity: mover?.opacityAt(now),
+          moverBlur: mover?.blurAt(now),
+        ),
+      );
     }
     return FrameState(
       now: now,

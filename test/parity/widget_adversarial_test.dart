@@ -41,11 +41,15 @@ void main() {
           await tester.pump(Duration(milliseconds: entry.key - at));
           at = entry.key;
         }
-        final one = snapshotOf(tester)
-            .items
-            .firstWhere((i) => i.text == '1' && i.exiting, orElse: () => throw StateError('the exiting "1" is gone at t=$at'));
-        expect(one.moverOpacity, closeTo(entry.value, 1e-3),
-            reason: 'mover opacity at t=$at');
+        final one = snapshotOf(tester).items.firstWhere(
+          (i) => i.text == '1' && i.exiting,
+          orElse: () => throw StateError('the exiting "1" is gone at t=$at'),
+        );
+        expect(
+          one.moverOpacity,
+          closeTo(entry.value, 1e-3),
+          reason: 'mover opacity at t=$at',
+        );
       }
     });
 
@@ -76,10 +80,16 @@ void main() {
         final items = snapshotOf(tester).items;
         final one = items.firstWhere((i) => i.text == '1' && i.exiting);
         final comma = items.firstWhere((i) => i.text == ',' && i.exiting);
-        expect(one.moverTransform!.ty, closeTo(_v(digit[t]!), 0.02),
-            reason: 'digit mover ty at t=$t');
-        expect(comma.moverTransform!.ty, closeTo(_v(symbol[t]!), 0.02),
-            reason: 'symbol mover ty at t=$t');
+        expect(
+          one.moverTransform!.ty,
+          closeTo(_v(digit[t]!), 0.02),
+          reason: 'digit mover ty at t=$t',
+        );
+        expect(
+          comma.moverTransform!.ty,
+          closeTo(_v(symbol[t]!), 0.02),
+          reason: 'symbol mover ty at t=$t',
+        );
       }
       // Non-monotonic: 12.4859 → 12.2088 → 12.1749 → 13.4713.
       expect(_v(symbol[44]!), lessThan(_v(symbol[40]!)));
@@ -94,45 +104,81 @@ void main() {
     // A fresh key per case: reusing one `State` would make the previous case's
     // in-flight width the next case's `oldWidth`.
     var cases = 0;
-    Future<double> deltaOf(WidgetTester tester, String from, String to,
-        TextAlign align, String survivor) async {
+    Future<double> deltaOf(
+      WidgetTester tester,
+      String from,
+      String to,
+      TextAlign align,
+      String survivor,
+    ) async {
       final key = ValueKey<int>(cases++);
-      await tester.pumpWidget(host(TextMorph(key: key, value: from), textAlign: align));
-      await tester.pumpWidget(host(TextMorph(key: key, value: to), textAlign: align));
+      await tester.pumpWidget(
+        host(
+          TextMorph(key: key, value: from),
+          textAlign: align,
+        ),
+      );
+      await tester.pumpWidget(
+        host(
+          TextMorph(key: key, value: to),
+          textAlign: align,
+        ),
+      );
       return snapshotOf(tester).item(survivor).transform.tx;
     }
 
-    testWidgets('a grow produces zero deltas under every alignment',
-        (tester) async {
+    testWidgets('a grow produces zero deltas under every alignment', (
+      tester,
+    ) async {
       for (final align in [TextAlign.left, TextAlign.center, TextAlign.right]) {
         // `"hello"` has no space, so it is segmented by grapheme: the survivors
         // are `h e l l o`, not one word.
-        expect(await deltaOf(tester, 'hello', 'hello world', align, 'h'), 0,
-            reason: 'grow under $align');
+        expect(
+          await deltaOf(tester, 'hello', 'hello world', align, 'h'),
+          0,
+          reason: 'grow under $align',
+        );
       }
     });
 
-    testWidgets('a shrink shifts by half the lost width when centred',
-        (tester) async {
+    testWidgets('a shrink shifts by half the lost width when centred', (
+      tester,
+    ) async {
       // oldW = 11 glyphs = 220, new line = 5 glyphs = 100.
-      expect(await deltaOf(tester, 'hello world', 'hello', TextAlign.center, 'hello'),
-          closeTo(-(220 - 100) / 2, 1e-9));
-      expect(await deltaOf(tester, 'hello world', 'hello', TextAlign.right, 'hello'),
-          closeTo(-(220 - 100), 1e-9));
-      expect(await deltaOf(tester, 'hello world', 'hello', TextAlign.left, 'hello'), 0);
+      expect(
+        await deltaOf(
+          tester,
+          'hello world',
+          'hello',
+          TextAlign.center,
+          'hello',
+        ),
+        closeTo(-(220 - 100) / 2, 1e-9),
+      );
+      expect(
+        await deltaOf(tester, 'hello world', 'hello', TextAlign.right, 'hello'),
+        closeTo(-(220 - 100), 1e-9),
+      );
+      expect(
+        await deltaOf(tester, 'hello world', 'hello', TextAlign.left, 'hello'),
+        0,
+      );
     });
   });
 
   // ─── 3. alignment is per line box, so items move while the root does not ───
 
-  testWidgets('3. a fixed-width root still shifts the shrinking line',
-      (tester) async {
+  testWidgets('3. a fixed-width root still shifts the shrinking line', (
+    tester,
+  ) async {
     const long = 'aaaaaaaaaaaaaaaaaaaa'; // 20 glyphs = 400, wider than line 2.
     await tester.pumpWidget(
-        host(TextMorph(value: '$long\nhello world'), textAlign: TextAlign.center));
+      host(TextMorph(value: '$long\nhello world'), textAlign: TextAlign.center),
+    );
     final before = renderOf(tester).size;
     await tester.pumpWidget(
-        host(TextMorph(value: '$long\nhello'), textAlign: TextAlign.center));
+      host(TextMorph(value: '$long\nhello'), textAlign: TextAlign.center),
+    );
 
     final snapshot = snapshotOf(tester);
     // The container animation is a no-op: line 1 fixes the width and height.
@@ -156,34 +202,48 @@ void main() {
   group('4. scale: false', () {
     testWidgets('still scales an entering text item', (tester) async {
       await tester.pumpWidget(host(TextMorph(value: 'hello', scale: false)));
-      await tester.pumpWidget(host(TextMorph(value: 'hello world', scale: false)));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'hello world', scale: false)),
+      );
       expect(snapshotOf(tester).item('world').transform.sx, 0.95);
       expect(snapshotOf(tester).item('h').transform.sx, 1);
     });
 
     testWidgets('drops the scale of an exiting text item', (tester) async {
-      await tester.pumpWidget(host(TextMorph(value: 'Hello\nWorld', scale: false)));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'Hello\nWorld', scale: false)),
+      );
       await tester.pumpWidget(host(TextMorph(value: 'Hello', scale: false)));
       await startClock(tester);
       await tester.pump(const Duration(milliseconds: 50));
-      expect(snapshotOf(tester).item('World', exiting: true).transform.sx, 1,
-          reason: 'the exit keyframe omits scale entirely');
+      expect(
+        snapshotOf(tester).item('World', exiting: true).transform.sx,
+        1,
+        reason: 'the exit keyframe omits scale entirely',
+      );
     });
 
     testWidgets('still scales a replacement group to 0.8', (tester) async {
-      await tester
-          .pumpWidget(host(TextMorph(value: 'abcdefghijklmnop', scale: false)));
-      await tester
-          .pumpWidget(host(TextMorph(value: 'abcmnopqrstuvwx', scale: false)));
+      await tester.pumpWidget(
+        host(TextMorph(value: 'abcdefghijklmnop', scale: false)),
+      );
+      await tester.pumpWidget(
+        host(TextMorph(value: 'abcmnopqrstuvwx', scale: false)),
+      );
       await startClock(tester);
       await tester.pump(const Duration(milliseconds: 400));
       final exited = snapshotOf(tester);
       // The group enter has landed at 1; mid-flight it came from 0.8.
       expect(exited.item('q').transform.sx, closeTo(1, 1e-9));
 
-      await tester.pumpWidget(host(TextMorph(value: 'abcdefghijklmnop', scale: false)));
-      expect(snapshotOf(tester).item('d').transform.sx, closeTo(0.8, 1e-9),
-          reason: 'the group enter keyframe is scale(0.8) whatever `scale` says');
+      await tester.pumpWidget(
+        host(TextMorph(value: 'abcdefghijklmnop', scale: false)),
+      );
+      expect(
+        snapshotOf(tester).item('d').transform.sx,
+        closeTo(0.8, 1e-9),
+        reason: 'the group enter keyframe is scale(0.8) whatever `scale` says',
+      );
     });
   });
 
@@ -195,10 +255,8 @@ void main() {
     Future<double> completeAt(WidgetTester tester, List<String> values) async {
       var clock = 0.0;
       var at = -1.0;
-      Widget build(String v) => host(TextMorph(
-            value: v,
-            onAnimationComplete: () => at = clock,
-          ));
+      Widget build(String v) =>
+          host(TextMorph(value: v, onAnimationComplete: () => at = clock));
 
       await tester.pumpWidget(build(values.first));
       await tester.pumpWidget(build(values[1]));
@@ -215,22 +273,31 @@ void main() {
       return at;
     }
 
-    testWidgets('completes 400 ms after the FIRST update when the width holds',
-        (tester) async {
+    testWidgets('completes 400 ms after the FIRST update when the width holds', (
+      tester,
+    ) async {
       // Every digit is one glyph wide, so the width target never moves and the
       // resumed axis still finishes at 400, not 448.
-      expect(await completeAt(tester, ['1', '2', '3', '4', '5']),
-          inInclusiveRange(400, 415),
-          reason: 'the resumed axis keeps the first update\'s start');
+      expect(
+        await completeAt(tester, ['1', '2', '3', '4', '5']),
+        inInclusiveRange(400, 415),
+        reason: 'the resumed axis keeps the first update\'s start',
+      );
     });
 
-    testWidgets('completes 400 ms after the LAST update when the width moves',
-        (tester) async {
+    testWidgets('completes 400 ms after the LAST update when the width moves', (
+      tester,
+    ) async {
       expect(
-          await completeAt(
-              tester, ['hi', 'hello', 'hello world', 'hello world foo']),
-          inInclusiveRange(432, 447),
-          reason: 'a moved target restarts the curve at 32 ms');
+        await completeAt(tester, [
+          'hi',
+          'hello',
+          'hello world',
+          'hello world foo',
+        ]),
+        inInclusiveRange(432, 447),
+        reason: 'a moved target restarts the curve at 32 ms',
+      );
     });
   });
 
@@ -246,19 +313,25 @@ void main() {
     expect(midFlight, lessThan(11 * fontSize));
 
     await tester.pumpWidget(host(TextMorph(value: 'hi')));
-    expect(snapshotOf(tester).size.width, closeTo(midFlight, 1e-9),
-        reason: 'the next axis starts from the width on screen');
+    expect(
+      snapshotOf(tester).size.width,
+      closeTo(midFlight, 1e-9),
+      reason: 'the next axis starts from the width on screen',
+    );
   });
 
-  testWidgets('6b. a zero old width cancels the container outright',
-      (tester) async {
+  testWidgets('6b. a zero old width cancels the container outright', (
+    tester,
+  ) async {
     final log = <String>[];
-    Widget build(String v) => host(TextMorph(
-          value: v,
-          onAnimationStart: () => log.add('start'),
-          onAnimationComplete: () => log.add('complete'),
-          onAnimationCancel: () => log.add('cancel'),
-        ));
+    Widget build(String v) => host(
+      TextMorph(
+        value: v,
+        onAnimationStart: () => log.add('start'),
+        onAnimationComplete: () => log.add('complete'),
+        onAnimationCancel: () => log.add('cancel'),
+      ),
+    );
 
     await tester.pumpWidget(build('hello'));
     await tester.pumpWidget(build(''));
@@ -273,8 +346,11 @@ void main() {
     await tester.pumpWidget(build('hello'));
     // oldWidth == 0: start then cancel in the same instant, no container motion.
     expect(log, ['start', 'complete', 'start', 'cancel']);
-    expect(snapshotOf(tester).size.width, closeTo(5 * fontSize, 1e-9),
-        reason: 'the root jumps to its natural width in one frame');
+    expect(
+      snapshotOf(tester).size.width,
+      closeTo(5 * fontSize, 1e-9),
+      reason: 'the root jumps to its natural width in one frame',
+    );
     // The items still animate.
     expect(snapshotOf(tester).item('h').transform.sx, 0.95);
     expect(snapshotOf(tester).item('h').opacity, 0);
@@ -282,8 +358,9 @@ void main() {
 
   // ─── 7. interrupting a mid-enter item snaps scale and flashes opacity ───
 
-  testWidgets('7. an interrupted mid-enter item snaps to sx 1 and opacity 1',
-      (tester) async {
+  testWidgets('7. an interrupted mid-enter item snaps to sx 1 and opacity 1', (
+    tester,
+  ) async {
     await tester.pumpWidget(host(TextMorph(value: 'hello world')));
     await tester.pumpWidget(host(TextMorph(value: 'hello there')));
     await startClock(tester);
@@ -296,8 +373,11 @@ void main() {
     await tester.pumpWidget(host(TextMorph(value: 'hello friend')));
     final after = snapshotOf(tester).item('there', exiting: true);
     expect(after.transform.sx, 1, reason: 'the cancelled scale snaps to none');
-    expect(after.opacity, 1,
-        reason: '`Number(getComputedStyle(el).opacity) || 1` coerces 0 to 1');
+    expect(
+      after.opacity,
+      1,
+      reason: '`Number(getComputedStyle(el).opacity) || 1` coerces 0 to 1',
+    );
 
     // A zero-delta persist still gets a full-duration animation that cancels
     // whatever was running.
@@ -309,7 +389,10 @@ void main() {
 
   group('8. numeric pairing', () {
     Future<({Set<String> kept, Set<String> exiting, Set<String> fresh})> reuse(
-        WidgetTester tester, String from, String to) async {
+      WidgetTester tester,
+      String from,
+      String to,
+    ) async {
       await tester.pumpWidget(host(TextMorph(value: from)));
       final before = snapshotOf(tester).liveItems.map((i) => i.id).toSet();
       await tester.pumpWidget(host(TextMorph(value: to)));
@@ -317,7 +400,10 @@ void main() {
       return (
         kept: now.liveItems.map((i) => i.id).where(before.contains).toSet(),
         exiting: now.exitingItems.map((i) => i.id).toSet(),
-        fresh: now.liveItems.map((i) => i.id).where((id) => !before.contains(id)).toSet(),
+        fresh: now.liveItems
+            .map((i) => i.id)
+            .where((id) => !before.contains(id))
+            .toSet(),
       );
     }
 
@@ -335,8 +421,9 @@ void main() {
       expect(r.fresh.length, 5);
     });
 
-    testWidgets('"\$999.50" → "\$1,000.00" keeps only the affix and a column',
-        (tester) async {
+    testWidgets('"\$999.50" → "\$1,000.00" keeps only the affix and a column', (
+      tester,
+    ) async {
       final r = await reuse(tester, '-999.50', '-1,000.00');
       // Report table: kept `- . 0`, exiting `9 9 9 5`, 6 fresh.
       expect(r.kept.length, 3);
@@ -348,19 +435,24 @@ void main() {
   // ─── 9. separator IDs are UTF-16 keyed ───
 
   group('9. separator identity', () {
-    testWidgets('"😀 hi" → "hi 😀" reuses everything, space included',
-        (tester) async {
+    testWidgets('"😀 hi" → "hi 😀" reuses everything, space included', (
+      tester,
+    ) async {
       await tester.pumpWidget(host(TextMorph(value: '😀 hi')));
       final before = snapshotOf(tester).liveItems.map((i) => i.id).toSet();
       await tester.pumpWidget(host(TextMorph(value: 'hi 😀')));
       final now = snapshotOf(tester);
       expect(now.exitingItems, isEmpty);
-      expect(now.liveItems.map((i) => i.id).toSet(), before,
-          reason: 'the space sits at UTF-16 offset 2 in both values');
+      expect(
+        now.liveItems.map((i) => i.id).toSet(),
+        before,
+        reason: 'the space sits at UTF-16 offset 2 in both values',
+      );
     });
 
-    testWidgets('"one two three" → "three two one" replaces both separators',
-        (tester) async {
+    testWidgets('"one two three" → "three two one" replaces both separators', (
+      tester,
+    ) async {
       await tester.pumpWidget(host(TextMorph(value: 'one two three')));
       final before = snapshotOf(tester).liveItems.map((i) => i.id).toSet();
       await tester.pumpWidget(host(TextMorph(value: 'three two one')));
@@ -374,75 +466,95 @@ void main() {
 
   // ─── 10. two elements can carry the same id at once ───
 
-  testWidgets('10. a re-entering value duplicates ids beside their exiting copies',
-      (tester) async {
-    await tester.pumpWidget(host(TextMorph(value: 'hello')));
-    await tester.pumpWidget(host(TextMorph(value: '')));
-    await startClock(tester);
-    await tester.pump(const Duration(milliseconds: 4));
-    await tester.pumpWidget(host(TextMorph(value: 'hello')));
+  testWidgets(
+    '10. a re-entering value duplicates ids beside their exiting copies',
+    (tester) async {
+      await tester.pumpWidget(host(TextMorph(value: 'hello')));
+      await tester.pumpWidget(host(TextMorph(value: '')));
+      await startClock(tester);
+      await tester.pump(const Duration(milliseconds: 4));
+      await tester.pumpWidget(host(TextMorph(value: 'hello')));
 
-    final snapshot = snapshotOf(tester);
-    expect(snapshot.items.length, 10, reason: '5 exiting + 5 live');
-    final exitingIds = snapshot.exitingItems.map((i) => i.id).toSet();
-    final liveIds = snapshot.liveItems.map((i) => i.id).toSet();
-    expect(exitingIds.intersection(liveIds).length, 5,
-        reason: 'the fresh allocator mints the same ids again');
-    expect(snapshot.exitingItems.first.opacity, closeTo(0.96, 1e-9));
-    expect(snapshot.liveItems.first.opacity, 0);
-    // The `empty` stand-in went synchronously, never animated out.
-    expect(snapshot.items.any((i) => i.text == '\u200b'), isFalse);
+      final snapshot = snapshotOf(tester);
+      expect(snapshot.items.length, 10, reason: '5 exiting + 5 live');
+      final exitingIds = snapshot.exitingItems.map((i) => i.id).toSet();
+      final liveIds = snapshot.liveItems.map((i) => i.id).toSet();
+      expect(
+        exitingIds.intersection(liveIds).length,
+        5,
+        reason: 'the fresh allocator mints the same ids again',
+      );
+      expect(snapshot.exitingItems.first.opacity, closeTo(0.96, 1e-9));
+      expect(snapshot.liveItems.first.opacity, 0);
+      // The `empty` stand-in went synchronously, never animated out.
+      expect(snapshot.items.any((i) => i.text == '\u200b'), isFalse);
 
-    await tester.pump(const Duration(milliseconds: 100));
-    expect(snapshotOf(tester).items.length, 5);
-  });
+      await tester.pump(const Duration(milliseconds: 100));
+      expect(snapshotOf(tester).items.length, 5);
+    },
+  );
 
   // ─── the environment changing under a running morph ───
 
   group('mid-morph environment changes', () {
-    testWidgets('a text scaler of 2.0 rescales the scene and keeps the morph',
-        (tester) async {
+    testWidgets('a text scaler of 2.0 rescales the scene and keeps the morph', (
+      tester,
+    ) async {
       await tester.pumpWidget(host(TextMorph(value: 'hello')));
       await tester.pumpWidget(host(TextMorph(value: 'hello world')));
       await startClock(tester);
       await tester.pump(const Duration(milliseconds: 200));
       final before = snapshotOf(tester);
 
-      await tester.pumpWidget(host(TextMorph(value: 'hello world'),
-          textScaler: const TextScaler.linear(2)));
+      await tester.pumpWidget(
+        host(
+          TextMorph(value: 'hello world'),
+          textScaler: const TextScaler.linear(2),
+        ),
+      );
       final after = snapshotOf(tester);
-      expect(after.naturalSize.width, closeTo(2 * before.naturalSize.width, 1e-9),
-          reason: 'the natural size doubles');
+      expect(
+        after.naturalSize.width,
+        closeTo(2 * before.naturalSize.width, 1e-9),
+        reason: 'the natural size doubles',
+      );
       expect(after.item('world').width, closeTo(2 * 5 * fontSize, 1e-9));
       // The morph history survives: `world` is still mid-enter, not restarted.
       expect(after.item('world').opacity, before.item('world').opacity);
-      expect(after.item('world').transform.sx, before.item('world').transform.sx);
+      expect(
+        after.item('world').transform.sx,
+        before.item('world').transform.sx,
+      );
       // The container animation keeps its old target, as its keyframes are set.
       expect(after.size.width, closeTo(before.size.width, 1e-9));
 
       await tester.pump(const Duration(milliseconds: 400));
       final settled = snapshotOf(tester);
       expect(settled.animating, isFalse);
-      expect(settled.size, settled.naturalSize,
-          reason: 'the root ends at the rescaled natural size');
+      expect(
+        settled.size,
+        settled.naturalSize,
+        reason: 'the root ends at the rescaled natural size',
+      );
       expect(renderOf(tester).size, settled.naturalSize);
     });
 
-    testWidgets('a DefaultTextStyle change mid-morph re-measures in place',
-        (tester) async {
+    testWidgets('a DefaultTextStyle change mid-morph re-measures in place', (
+      tester,
+    ) async {
       Widget build(double size) => MediaQuery(
-            data: const MediaQueryData(),
-            child: Directionality(
-              textDirection: TextDirection.ltr,
-              child: DefaultTextStyle(
-                style: TextStyle(fontSize: size, color: const Color(0xFF000000)),
-                child: Align(
-                  alignment: Alignment.topLeft,
-                  child: TextMorph(value: 'hello world'),
-                ),
-              ),
+        data: const MediaQueryData(),
+        child: Directionality(
+          textDirection: TextDirection.ltr,
+          child: DefaultTextStyle(
+            style: TextStyle(fontSize: size, color: const Color(0xFF000000)),
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: TextMorph(value: 'hello world'),
             ),
-          );
+          ),
+        ),
+      );
 
       await tester.pumpWidget(build(20));
       await tester.pumpWidget(build(20));
@@ -455,35 +567,46 @@ void main() {
       expect(renderOf(tester).size, after.naturalSize);
     });
 
-    testWidgets('a Directionality flip mid-morph re-lays out from the other edge',
-        (tester) async {
-      await tester.pumpWidget(host(TextMorph(value: 'hello', bidi: false)));
-      await tester.pumpWidget(host(TextMorph(value: 'hello world', bidi: false)));
-      await startClock(tester);
-      await tester.pump(const Duration(milliseconds: 200));
-      final ltr = snapshotOf(tester).item('world').x;
+    testWidgets(
+      'a Directionality flip mid-morph re-lays out from the other edge',
+      (tester) async {
+        await tester.pumpWidget(host(TextMorph(value: 'hello', bidi: false)));
+        await tester.pumpWidget(
+          host(TextMorph(value: 'hello world', bidi: false)),
+        );
+        await startClock(tester);
+        await tester.pump(const Duration(milliseconds: 200));
+        final ltr = snapshotOf(tester).item('world').x;
 
-      await tester.pumpWidget(host(
-          TextMorph(value: 'hello world', bidi: false), direction: TextDirection.rtl));
-      final rtl = snapshotOf(tester);
-      // Logical order is kept (upstream rule, `bidi: false`), the flow starts at the right edge.
-      expect(rtl.item('world').x, lessThan(ltr));
-      expect(rtl.item('h').x, greaterThan(rtl.item('world').x));
-      expect(rtl.animating, isTrue, reason: 'the morph is not torn down');
-      await tester.pump(const Duration(milliseconds: 400));
-      expect(snapshotOf(tester).animating, isFalse);
-    });
+        await tester.pumpWidget(
+          host(
+            TextMorph(value: 'hello world', bidi: false),
+            direction: TextDirection.rtl,
+          ),
+        );
+        final rtl = snapshotOf(tester);
+        // Logical order is kept (upstream rule, `bidi: false`), the flow starts at the right edge.
+        expect(rtl.item('world').x, lessThan(ltr));
+        expect(rtl.item('h').x, greaterThan(rtl.item('world').x));
+        expect(rtl.animating, isTrue, reason: 'the morph is not torn down');
+        await tester.pump(const Duration(milliseconds: 400));
+        expect(snapshotOf(tester).animating, isFalse);
+      },
+    );
 
-    testWidgets('`disabled` mid-morph stops the ticker and draws plain text',
-        (tester) async {
+    testWidgets('`disabled` mid-morph stops the ticker and draws plain text', (
+      tester,
+    ) async {
       final log = <String>[];
-      Widget build(String value, {required bool disabled}) => host(TextMorph(
-            value: value,
-            disabled: disabled,
-            onAnimationStart: () => log.add('start'),
-            onAnimationComplete: () => log.add('complete'),
-            onAnimationCancel: () => log.add('cancel'),
-          ));
+      Widget build(String value, {required bool disabled}) => host(
+        TextMorph(
+          value: value,
+          disabled: disabled,
+          onAnimationStart: () => log.add('start'),
+          onAnimationComplete: () => log.add('complete'),
+          onAnimationCancel: () => log.add('cancel'),
+        ),
+      );
 
       await tester.pumpWidget(build('hello', disabled: false));
       await tester.pumpWidget(build('hello world', disabled: false));
@@ -512,11 +635,11 @@ void main() {
       expect(log, ['start', 'start'], reason: 'the next change morphs again');
     });
 
-    testWidgets('TickerMode off freezes the clock and on catches it up',
-        (tester) async {
-      Widget build(String value, {required bool ticking}) => host(
-            TickerMode(enabled: ticking, child: _Morph(value)),
-          );
+    testWidgets('TickerMode off freezes the clock and on catches it up', (
+      tester,
+    ) async {
+      Widget build(String value, {required bool ticking}) =>
+          host(TickerMode(enabled: ticking, child: _Morph(value)));
 
       await tester.pumpWidget(build('hello', ticking: true));
       await tester.pumpWidget(build('hello world', ticking: true));
@@ -526,7 +649,11 @@ void main() {
 
       await tester.pumpWidget(build('hello world', ticking: false));
       await tester.pump(const Duration(milliseconds: 200));
-      expect(snapshotOf(tester).now, frozen.now, reason: 'a muted ticker cannot tick');
+      expect(
+        snapshotOf(tester).now,
+        frozen.now,
+        reason: 'a muted ticker cannot tick',
+      );
       expect(snapshotOf(tester).animating, isTrue);
 
       await tester.pumpWidget(build('hello world', ticking: true));
@@ -539,15 +666,18 @@ void main() {
       expect(snapshotOf(tester).size.width, closeTo(11 * fontSize, 0.01));
     });
 
-    testWidgets('dispose mid-morph fires nothing and frees every painter',
-        (tester) async {
+    testWidgets('dispose mid-morph fires nothing and frees every painter', (
+      tester,
+    ) async {
       final log = <String>[];
-      Widget build(String value) => host(TextMorph(
-            value: value,
-            onAnimationStart: () => log.add('start'),
-            onAnimationComplete: () => log.add('complete'),
-            onAnimationCancel: () => log.add('cancel'),
-          ));
+      Widget build(String value) => host(
+        TextMorph(
+          value: value,
+          onAnimationStart: () => log.add('start'),
+          onAnimationComplete: () => log.add('complete'),
+          onAnimationCancel: () => log.add('cancel'),
+        ),
+      );
 
       await tester.pumpWidget(build('hello'));
       await tester.pumpWidget(build('hello world foo bar'));
@@ -559,7 +689,11 @@ void main() {
 
       await tester.pumpWidget(host(const SizedBox()));
       expect(log, ['start'], reason: 'destroy runs no callback');
-      expect(measurer.cachedPainterCount, 0, reason: 'every TextPainter was disposed');
+      expect(
+        measurer.cachedPainterCount,
+        0,
+        reason: 'every TextPainter was disposed',
+      );
 
       // Whatever the disposed engine had scheduled must not resurface.
       await tester.pump(const Duration(milliseconds: 500));
@@ -580,13 +714,20 @@ void main() {
       // `_container` and then re-measures only `if (pinned != null)`, so the
       // line keeps the alignment offset of the width it no longer has.
       await tester.pumpWidget(
-          host(TextMorph(value: 'hello world'), textAlign: TextAlign.center));
+        host(TextMorph(value: 'hello world'), textAlign: TextAlign.center),
+      );
       await tester.pumpWidget(
-          host(TextMorph(value: 'hello'), textAlign: TextAlign.center));
+        host(TextMorph(value: 'hello'), textAlign: TextAlign.center),
+      );
       await startClock(tester);
       await tester.pump(const Duration(milliseconds: 100));
-      await tester.pumpWidget(host(TextMorph(value: 'hello'),
-          textAlign: TextAlign.center, textScaler: const TextScaler.linear(0.5)));
+      await tester.pumpWidget(
+        host(
+          TextMorph(value: 'hello'),
+          textAlign: TextAlign.center,
+          textScaler: const TextScaler.linear(0.5),
+        ),
+      );
       for (var i = 0; i < 40; i++) {
         await tester.pump(const Duration(milliseconds: 16));
       }
@@ -601,19 +742,27 @@ void main() {
       // The browser's flow re-lays the span out the moment the inline width is
       // removed, so the only correct resting x for a 50 px line in a 50 px root
       // is 0. The port reports 25: half of the stale 100 px container.
-      expect(hello.x, 0,
-          reason: 'the line is centred in a container width the root no longer '
-              'has, so it hangs 25 px outside its own box');
+      expect(
+        hello.x,
+        0,
+        reason:
+            'the line is centred in a container width the root no longer '
+            'has, so it hangs 25 px outside its own box',
+      );
     });
 
-    testWidgets('a completed hold leaves the empty stand-in offset',
-        (tester) async {
+    testWidgets('a completed hold leaves the empty stand-in offset', (
+      tester,
+    ) async {
       // The `""` transition holds the old width for the duration and then
       // restores; the stand-in keeps the held width's alignment offset. Zero
       // wide, so nothing is painted — but it is the same defect.
       await tester.pumpWidget(
-          host(TextMorph(value: 'hello'), textAlign: TextAlign.center));
-      await tester.pumpWidget(host(TextMorph(value: ''), textAlign: TextAlign.center));
+        host(TextMorph(value: 'hello'), textAlign: TextAlign.center),
+      );
+      await tester.pumpWidget(
+        host(TextMorph(value: ''), textAlign: TextAlign.center),
+      );
       await startClock(tester);
       for (var i = 0; i < 40; i++) {
         await tester.pump(const Duration(milliseconds: 16));
@@ -621,17 +770,27 @@ void main() {
       final settled = snapshotOf(tester);
       expect(settled.animating, isFalse);
       expect(settled.size.width, 0);
-      expect(settled.liveItems.single.x, 0,
-          reason: 'the stand-in is still centred in the released 100 px hold');
+      expect(
+        settled.liveItems.single.x,
+        0,
+        reason: 'the stand-in is still centred in the released 100 px hold',
+      );
     });
   });
 
   // ─── cost ───
 
-  testWidgets('a 500-character, 100-word value morphs in a sane frame budget',
-      (tester) async {
-    final from = List.generate(100, (i) => 'word${i.toString().padLeft(2, '0')}').join(' ');
-    final to = List.generate(100, (i) => 'word${(i * 7 % 100).toString().padLeft(2, '0')}').join(' ');
+  testWidgets('a 500-character, 100-word value morphs in a sane frame budget', (
+    tester,
+  ) async {
+    final from = List.generate(
+      100,
+      (i) => 'word${i.toString().padLeft(2, '0')}',
+    ).join(' ');
+    final to = List.generate(
+      100,
+      (i) => 'word${(i * 7 % 100).toString().padLeft(2, '0')}',
+    ).join(' ');
     expect(from.length, greaterThan(500));
 
     await tester.pumpWidget(host(TextMorph(value: from)));
@@ -648,8 +807,10 @@ void main() {
       frames.add(frame.elapsedMicroseconds);
     }
     frames.sort();
-    printOnFailure('update ${update.elapsedMicroseconds} µs, '
-        'frame median ${frames[frames.length ~/ 2]} µs, worst ${frames.last} µs');
+    printOnFailure(
+      'update ${update.elapsedMicroseconds} µs, '
+      'frame median ${frames[frames.length ~/ 2]} µs, worst ${frames.last} µs',
+    );
     // Not a tight budget: a widget test carries the whole pipeline and the
     // machine is shared. This only catches a quadratic blow-up.
     expect(frames[frames.length ~/ 2], lessThan(100000));
